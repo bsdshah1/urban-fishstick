@@ -1,0 +1,67 @@
+{
+  "timestamp_utc": "20260324T142229Z",
+  "summary": {
+    "files_checked": 9,
+    "files_with_issues": 3,
+    "total_issues": 3
+  },
+  "results": [
+    {
+      "file": "context_docs_md/Addition_and_Subtraction_Calculation_Policy.md",
+      "issues": []
+    },
+    {
+      "file": "context_docs_md/EYFS_Calculation_Policy.md",
+      "issues": []
+    },
+    {
+      "file": "context_docs_md/Maths_Overview.md",
+      "issues": [
+        {
+          "check": "dangling_citation_artifact",
+          "file": "context_docs_md/Maths_Overview.md",
+          "line": 232,
+          "details": "Found unresolved contentReference citation artifact."
+        }
+      ]
+    },
+    {
+      "file": "context_docs_md/Maths_Policy.md",
+      "issues": []
+    },
+    {
+      "file": "context_docs_md/Maths_Progression.md",
+      "issues": [
+        {
+          "check": "duplicate_top_level_heading",
+          "file": "context_docs_md/Maths_Progression.md",
+          "line": 7,
+          "details": "Duplicate heading 'Progression Map in Mathematics' (first seen on line 1)."
+        }
+      ]
+    },
+    {
+      "file": "context_docs_md/Maths_Vocabulary_Progression.md",
+      "issues": [
+        {
+          "check": "truncated_code_fence",
+          "file": "context_docs_md/Maths_Vocabulary_Progression.md",
+          "line": 120,
+          "details": "Unclosed code fence starting with '```'."
+        }
+      ]
+    },
+    {
+      "file": "context_docs_md/Multiplication_and_Division_Calculation_Policy.md",
+      "issues": []
+    },
+    {
+      "file": "context_docs_md/Times_Table_Progression.md",
+      "issues": []
+    },
+    {
+      "file": "context_docs_md/White_Rose_SOW.md",
+      "issues": []
+    }
+  ]
+}
