@@ -25,9 +25,9 @@ export function Login({ setUser }: Props) {
       localStorage.setItem('bm_token', access_token)
       localStorage.setItem('bm_user', JSON.stringify(user))
       flushSync(() => setUser(user))
-      if (user.role === 'parent') navigate('/digest')
-      else if (user.role === 'admin') navigate('/admin')
-      else navigate('/teacher')
+      if (user.role === 'parent') navigate('/digest', { replace: true })
+      else if (user.role === 'admin') navigate('/admin', { replace: true })
+      else navigate('/teacher', { replace: true })
     } catch (err: unknown) {
       setError(err instanceof Error ? err.message : 'Could not sign in. Please try again.')
     } finally {

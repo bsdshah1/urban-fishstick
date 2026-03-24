@@ -229,4 +229,4 @@ It provides pupils with a deep understanding of the subject through a **concrete
 ## Notes
 
 - This markdown version is a clean textual conversion of the visual overview map.
-- The original PDF is laid out as a term-by-term curriculum grid across seven pages. The markdown above converts that grid into a readable document structure. Page 1 contains the vision statement and EYFS map; pages 2 to 7 contain Year 1 to Year 6 overviews. :contentReference[oaicite:2]{index=2}
+- The original PDF is laid out as a term-by-term curriculum grid across seven pages. The markdown above converts that grid into a readable document structure. Page 1 contains the vision statement and EYFS map; pages 2 to 7 contain Year 1 to Year 6 overviews.
