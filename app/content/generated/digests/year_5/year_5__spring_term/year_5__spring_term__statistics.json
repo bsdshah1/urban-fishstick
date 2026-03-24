@@ -1,0 +1,39 @@
+{
+  "year_group": "year_5",
+  "term": "spring",
+  "term_id": "year_5__spring_term",
+  "block_id": "year_5__spring_term__statistics",
+  "block_name": "Statistics",
+  "week_number": 1,
+  "unit_title": "Statistics",
+  "content": {
+    "plain_english": "This week in Year 5 maths, your child is working on Statistics. They are building on what they already know and developing new skills through hands-on activities and careful practice.",
+    "in_school": "In lessons, children start by using practical resources to explore the concept, then move to drawing pictures and diagrams, and finally work with numbers and written methods. This concrete-to-abstract approach helps ideas stick.",
+    "home_activity": "Spend 5 minutes exploring statistics together. Use everyday objects around the house — toys, fruit, or coins work well. Ask your child to show you what they did in school today. There are no right or wrong answers — just curious conversations.",
+    "dinner_table_questions": [
+      "What did you find tricky about statistics today?",
+      "Can you show me on your fingers or with something on the table?",
+      "What's one thing you learned today that surprised you?"
+    ],
+    "key_vocabulary": [
+      {
+        "term": "Statistics",
+        "definition": "The main topic your child is studying this week in Year 5 maths."
+      },
+      {
+        "term": "estimate",
+        "definition": "Make a sensible guess before working something out exactly."
+      },
+      {
+        "term": "explain",
+        "definition": "Use words to describe how you worked something out."
+      }
+    ],
+    "example_questions": [
+      "Can you explain statistics in your own words?",
+      "What strategy did you use?",
+      "How do you know your answer is correct?"
+    ],
+    "times_table_tip": "Practise your times tables for 2 minutes today — try saying them out loud while doing something else, like tidying up."
+  }
+}

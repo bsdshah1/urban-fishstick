@@ -134,11 +134,165 @@
       }
     },
     {
+      "id": "year_1__autumn_term__place_value_within_10",
+      "year_group_id": "year_1",
+      "term_id": "year_1__autumn_term",
+      "strand_id": "number",
+      "name": "Place value (within 10)",
+      "metadata": {
+        "source_file": "Maths_Overview.md",
+        "source_quality": "full_text"
+      }
+    },
+    {
+      "id": "year_1__autumn_term__addition_and_subtraction_within_10",
+      "year_group_id": "year_1",
+      "term_id": "year_1__autumn_term",
+      "strand_id": "number",
+      "name": "Addition and subtraction (within 10)",
+      "metadata": {
+        "source_file": "Maths_Overview.md",
+        "source_quality": "full_text"
+      }
+    },
+    {
+      "id": "year_1__autumn_term__shape",
+      "year_group_id": "year_1",
+      "term_id": "year_1__autumn_term",
+      "strand_id": "geometry",
+      "name": "Shape",
+      "metadata": {
+        "source_file": "Maths_Overview.md",
+        "source_quality": "full_text"
+      }
+    },
+    {
       "id": "year_1__autumn_term__consolidation",
       "year_group_id": "year_1",
       "term_id": "year_1__autumn_term",
       "strand_id": "integrated",
       "name": "Consolidation",
+      "metadata": {
+        "source_file": "Maths_Overview.md",
+        "source_quality": "full_text"
+      }
+    },
+    {
+      "id": "year_1__spring_term__place_value_within_20",
+      "year_group_id": "year_1",
+      "term_id": "year_1__spring_term",
+      "strand_id": "number",
+      "name": "Place value (within 20)",
+      "metadata": {
+        "source_file": "Maths_Overview.md",
+        "source_quality": "full_text"
+      }
+    },
+    {
+      "id": "year_1__spring_term__addition_and_subtraction_within_20",
+      "year_group_id": "year_1",
+      "term_id": "year_1__spring_term",
+      "strand_id": "number",
+      "name": "Addition and subtraction (within 20)",
+      "metadata": {
+        "source_file": "Maths_Overview.md",
+        "source_quality": "full_text"
+      }
+    },
+    {
+      "id": "year_1__spring_term__place_value_within_50",
+      "year_group_id": "year_1",
+      "term_id": "year_1__spring_term",
+      "strand_id": "number",
+      "name": "Place value (within 50)",
+      "metadata": {
+        "source_file": "Maths_Overview.md",
+        "source_quality": "full_text"
+      }
+    },
+    {
+      "id": "year_1__spring_term__length_and_height",
+      "year_group_id": "year_1",
+      "term_id": "year_1__spring_term",
+      "strand_id": "measurement",
+      "name": "Length and height",
+      "metadata": {
+        "source_file": "Maths_Overview.md",
+        "source_quality": "full_text"
+      }
+    },
+    {
+      "id": "year_1__spring_term__mass_and_volume",
+      "year_group_id": "year_1",
+      "term_id": "year_1__spring_term",
+      "strand_id": "measurement",
+      "name": "Mass and volume",
+      "metadata": {
+        "source_file": "Maths_Overview.md",
+        "source_quality": "full_text"
+      }
+    },
+    {
+      "id": "year_1__summer_term__multiplication_and_division",
+      "year_group_id": "year_1",
+      "term_id": "year_1__summer_term",
+      "strand_id": "number",
+      "name": "Multiplication and division",
+      "metadata": {
+        "source_file": "Maths_Overview.md",
+        "source_quality": "full_text"
+      }
+    },
+    {
+      "id": "year_1__summer_term__fractions",
+      "year_group_id": "year_1",
+      "term_id": "year_1__summer_term",
+      "strand_id": "number",
+      "name": "Fractions",
+      "metadata": {
+        "source_file": "Maths_Overview.md",
+        "source_quality": "full_text"
+      }
+    },
+    {
+      "id": "year_1__summer_term__position_and_direction",
+      "year_group_id": "year_1",
+      "term_id": "year_1__summer_term",
+      "strand_id": "geometry",
+      "name": "Position and direction",
+      "metadata": {
+        "source_file": "Maths_Overview.md",
+        "source_quality": "full_text"
+      }
+    },
+    {
+      "id": "year_1__summer_term__place_value_within_100",
+      "year_group_id": "year_1",
+      "term_id": "year_1__summer_term",
+      "strand_id": "number",
+      "name": "Place value (within 100)",
+      "metadata": {
+        "source_file": "Maths_Overview.md",
+        "source_quality": "full_text"
+      }
+    },
+    {
+      "id": "year_1__summer_term__money",
+      "year_group_id": "year_1",
+      "term_id": "year_1__summer_term",
+      "strand_id": "measurement",
+      "name": "Money",
+      "metadata": {
+        "source_file": "Maths_Overview.md",
+        "source_quality": "full_text"
+      }
+    },
+    {
+      "id": "year_1__summer_term__time",
+      "year_group_id": "year_1",
+      "term_id": "year_1__summer_term",
+      "strand_id": "measurement",
+      "name": "Time",
       "metadata": {
         "source_file": "Maths_Overview.md",
         "source_quality": "full_text"
@@ -156,6 +310,105 @@
       }
     },
     {
+      "id": "year_2__autumn_term__place_value",
+      "year_group_id": "year_2",
+      "term_id": "year_2__autumn_term",
+      "strand_id": "number",
+      "name": "Place value",
+      "metadata": {
+        "source_file": "Maths_Overview.md",
+        "source_quality": "full_text"
+      }
+    },
+    {
+      "id": "year_2__autumn_term__addition_and_subtraction",
+      "year_group_id": "year_2",
+      "term_id": "year_2__autumn_term",
+      "strand_id": "number",
+      "name": "Addition and subtraction",
+      "metadata": {
+        "source_file": "Maths_Overview.md",
+        "source_quality": "full_text"
+      }
+    },
+    {
+      "id": "year_2__autumn_term__shape",
+      "year_group_id": "year_2",
+      "term_id": "year_2__autumn_term",
+      "strand_id": "geometry",
+      "name": "Shape",
+      "metadata": {
+        "source_file": "Maths_Overview.md",
+        "source_quality": "full_text"
+      }
+    },
+    {
+      "id": "year_2__spring_term__money",
+      "year_group_id": "year_2",
+      "term_id": "year_2__spring_term",
+      "strand_id": "measurement",
+      "name": "Money",
+      "metadata": {
+        "source_file": "Maths_Overview.md",
+        "source_quality": "full_text"
+      }
+    },
+    {
+      "id": "year_2__spring_term__multiplication_and_division",
+      "year_group_id": "year_2",
+      "term_id": "year_2__spring_term",
+      "strand_id": "number",
+      "name": "Multiplication and division",
+      "metadata": {
+        "source_file": "Maths_Overview.md",
+        "source_quality": "full_text"
+      }
+    },
+    {
+      "id": "year_2__spring_term__length_and_height",
+      "year_group_id": "year_2",
+      "term_id": "year_2__spring_term",
+      "strand_id": "measurement",
+      "name": "Length and height",
+      "metadata": {
+        "source_file": "Maths_Overview.md",
+        "source_quality": "full_text"
+      }
+    },
+    {
+      "id": "year_2__spring_term__mass_capacity_and_temperature",
+      "year_group_id": "year_2",
+      "term_id": "year_2__spring_term",
+      "strand_id": "measurement",
+      "name": "Mass, capacity and temperature",
+      "metadata": {
+        "source_file": "Maths_Overview.md",
+        "source_quality": "full_text"
+      }
+    },
+    {
+      "id": "year_2__summer_term__fractions",
+      "year_group_id": "year_2",
+      "term_id": "year_2__summer_term",
+      "strand_id": "number",
+      "name": "Fractions",
+      "metadata": {
+        "source_file": "Maths_Overview.md",
+        "source_quality": "full_text"
+      }
+    },
+    {
+      "id": "year_2__summer_term__time",
+      "year_group_id": "year_2",
+      "term_id": "year_2__summer_term",
+      "strand_id": "measurement",
+      "name": "Time",
+      "metadata": {
+        "source_file": "Maths_Overview.md",
+        "source_quality": "full_text"
+      }
+    },
+    {
       "id": "year_2__summer_term__statistics",
       "year_group_id": "year_2",
       "term_id": "year_2__summer_term",
@@ -167,11 +420,143 @@
       }
     },
     {
+      "id": "year_2__summer_term__position_and_direction",
+      "year_group_id": "year_2",
+      "term_id": "year_2__summer_term",
+      "strand_id": "geometry",
+      "name": "Position and direction",
+      "metadata": {
+        "source_file": "Maths_Overview.md",
+        "source_quality": "full_text"
+      }
+    },
+    {
       "id": "year_2__summer_term__consolidation",
       "year_group_id": "year_2",
       "term_id": "year_2__summer_term",
       "strand_id": "integrated",
       "name": "Consolidation",
+      "metadata": {
+        "source_file": "Maths_Overview.md",
+        "source_quality": "full_text"
+      }
+    },
+    {
+      "id": "year_3__autumn_term__place_value",
+      "year_group_id": "year_3",
+      "term_id": "year_3__autumn_term",
+      "strand_id": "number",
+      "name": "Place value",
+      "metadata": {
+        "source_file": "Maths_Overview.md",
+        "source_quality": "full_text"
+      }
+    },
+    {
+      "id": "year_3__autumn_term__addition_and_subtraction",
+      "year_group_id": "year_3",
+      "term_id": "year_3__autumn_term",
+      "strand_id": "number",
+      "name": "Addition and subtraction",
+      "metadata": {
+        "source_file": "Maths_Overview.md",
+        "source_quality": "full_text"
+      }
+    },
+    {
+      "id": "year_3__autumn_term__multiplication_and_division_a",
+      "year_group_id": "year_3",
+      "term_id": "year_3__autumn_term",
+      "strand_id": "number",
+      "name": "Multiplication and division A",
+      "metadata": {
+        "source_file": "Maths_Overview.md",
+        "source_quality": "full_text"
+      }
+    },
+    {
+      "id": "year_3__spring_term__multiplication_and_division_b",
+      "year_group_id": "year_3",
+      "term_id": "year_3__spring_term",
+      "strand_id": "number",
+      "name": "Multiplication and division B",
+      "metadata": {
+        "source_file": "Maths_Overview.md",
+        "source_quality": "full_text"
+      }
+    },
+    {
+      "id": "year_3__spring_term__length_and_perimeter",
+      "year_group_id": "year_3",
+      "term_id": "year_3__spring_term",
+      "strand_id": "measurement",
+      "name": "Length and perimeter",
+      "metadata": {
+        "source_file": "Maths_Overview.md",
+        "source_quality": "full_text"
+      }
+    },
+    {
+      "id": "year_3__spring_term__fractions_a",
+      "year_group_id": "year_3",
+      "term_id": "year_3__spring_term",
+      "strand_id": "number",
+      "name": "Fractions A",
+      "metadata": {
+        "source_file": "Maths_Overview.md",
+        "source_quality": "full_text"
+      }
+    },
+    {
+      "id": "year_3__spring_term__mass_and_capacity",
+      "year_group_id": "year_3",
+      "term_id": "year_3__spring_term",
+      "strand_id": "measurement",
+      "name": "Mass and capacity",
+      "metadata": {
+        "source_file": "Maths_Overview.md",
+        "source_quality": "full_text"
+      }
+    },
+    {
+      "id": "year_3__summer_term__fractions_b",
+      "year_group_id": "year_3",
+      "term_id": "year_3__summer_term",
+      "strand_id": "number",
+      "name": "Fractions B",
+      "metadata": {
+        "source_file": "Maths_Overview.md",
+        "source_quality": "full_text"
+      }
+    },
+    {
+      "id": "year_3__summer_term__money",
+      "year_group_id": "year_3",
+      "term_id": "year_3__summer_term",
+      "strand_id": "measurement",
+      "name": "Money",
+      "metadata": {
+        "source_file": "Maths_Overview.md",
+        "source_quality": "full_text"
+      }
+    },
+    {
+      "id": "year_3__summer_term__time",
+      "year_group_id": "year_3",
+      "term_id": "year_3__summer_term",
+      "strand_id": "measurement",
+      "name": "Time",
+      "metadata": {
+        "source_file": "Maths_Overview.md",
+        "source_quality": "full_text"
+      }
+    },
+    {
+      "id": "year_3__summer_term__shape",
+      "year_group_id": "year_3",
+      "term_id": "year_3__summer_term",
+      "strand_id": "geometry",
+      "name": "Shape",
       "metadata": {
         "source_file": "Maths_Overview.md",
         "source_quality": "full_text"
@@ -200,11 +585,132 @@
       }
     },
     {
+      "id": "year_4__autumn_term__place_value",
+      "year_group_id": "year_4",
+      "term_id": "year_4__autumn_term",
+      "strand_id": "number",
+      "name": "Place value",
+      "metadata": {
+        "source_file": "Maths_Overview.md",
+        "source_quality": "full_text"
+      }
+    },
+    {
+      "id": "year_4__autumn_term__addition_and_subtraction",
+      "year_group_id": "year_4",
+      "term_id": "year_4__autumn_term",
+      "strand_id": "number",
+      "name": "Addition and subtraction",
+      "metadata": {
+        "source_file": "Maths_Overview.md",
+        "source_quality": "full_text"
+      }
+    },
+    {
+      "id": "year_4__autumn_term__area",
+      "year_group_id": "year_4",
+      "term_id": "year_4__autumn_term",
+      "strand_id": "measurement",
+      "name": "Area",
+      "metadata": {
+        "source_file": "Maths_Overview.md",
+        "source_quality": "full_text"
+      }
+    },
+    {
+      "id": "year_4__autumn_term__multiplication_and_division_a",
+      "year_group_id": "year_4",
+      "term_id": "year_4__autumn_term",
+      "strand_id": "number",
+      "name": "Multiplication and division A",
+      "metadata": {
+        "source_file": "Maths_Overview.md",
+        "source_quality": "full_text"
+      }
+    },
+    {
       "id": "year_4__autumn_term__consolidation",
       "year_group_id": "year_4",
       "term_id": "year_4__autumn_term",
       "strand_id": "integrated",
       "name": "Consolidation",
+      "metadata": {
+        "source_file": "Maths_Overview.md",
+        "source_quality": "full_text"
+      }
+    },
+    {
+      "id": "year_4__spring_term__multiplication_and_division_b",
+      "year_group_id": "year_4",
+      "term_id": "year_4__spring_term",
+      "strand_id": "number",
+      "name": "Multiplication and division B",
+      "metadata": {
+        "source_file": "Maths_Overview.md",
+        "source_quality": "full_text"
+      }
+    },
+    {
+      "id": "year_4__spring_term__length_and_perimeter",
+      "year_group_id": "year_4",
+      "term_id": "year_4__spring_term",
+      "strand_id": "measurement",
+      "name": "Length and perimeter",
+      "metadata": {
+        "source_file": "Maths_Overview.md",
+        "source_quality": "full_text"
+      }
+    },
+    {
+      "id": "year_4__spring_term__fractions",
+      "year_group_id": "year_4",
+      "term_id": "year_4__spring_term",
+      "strand_id": "number",
+      "name": "Fractions",
+      "metadata": {
+        "source_file": "Maths_Overview.md",
+        "source_quality": "full_text"
+      }
+    },
+    {
+      "id": "year_4__spring_term__decimals_a",
+      "year_group_id": "year_4",
+      "term_id": "year_4__spring_term",
+      "strand_id": "number",
+      "name": "Decimals A",
+      "metadata": {
+        "source_file": "Maths_Overview.md",
+        "source_quality": "full_text"
+      }
+    },
+    {
+      "id": "year_4__summer_term__decimals_b",
+      "year_group_id": "year_4",
+      "term_id": "year_4__summer_term",
+      "strand_id": "number",
+      "name": "Decimals B",
+      "metadata": {
+        "source_file": "Maths_Overview.md",
+        "source_quality": "full_text"
+      }
+    },
+    {
+      "id": "year_4__summer_term__money",
+      "year_group_id": "year_4",
+      "term_id": "year_4__summer_term",
+      "strand_id": "measurement",
+      "name": "Money",
+      "metadata": {
+        "source_file": "Maths_Overview.md",
+        "source_quality": "full_text"
+      }
+    },
+    {
+      "id": "year_4__summer_term__time",
+      "year_group_id": "year_4",
+      "term_id": "year_4__summer_term",
+      "strand_id": "measurement",
+      "name": "Time",
       "metadata": {
         "source_file": "Maths_Overview.md",
         "source_quality": "full_text"
@@ -222,11 +728,121 @@
       }
     },
     {
+      "id": "year_4__summer_term__shape",
+      "year_group_id": "year_4",
+      "term_id": "year_4__summer_term",
+      "strand_id": "geometry",
+      "name": "Shape",
+      "metadata": {
+        "source_file": "Maths_Overview.md",
+        "source_quality": "full_text"
+      }
+    },
+    {
       "id": "year_4__summer_term__statistics",
       "year_group_id": "year_4",
       "term_id": "year_4__summer_term",
       "strand_id": "integrated",
       "name": "Statistics",
+      "metadata": {
+        "source_file": "Maths_Overview.md",
+        "source_quality": "full_text"
+      }
+    },
+    {
+      "id": "year_4__summer_term__position_and_direction",
+      "year_group_id": "year_4",
+      "term_id": "year_4__summer_term",
+      "strand_id": "geometry",
+      "name": "Position and direction",
+      "metadata": {
+        "source_file": "Maths_Overview.md",
+        "source_quality": "full_text"
+      }
+    },
+    {
+      "id": "year_5__autumn_term__place_value",
+      "year_group_id": "year_5",
+      "term_id": "year_5__autumn_term",
+      "strand_id": "number",
+      "name": "Place value",
+      "metadata": {
+        "source_file": "Maths_Overview.md",
+        "source_quality": "full_text"
+      }
+    },
+    {
+      "id": "year_5__autumn_term__addition_and_subtraction",
+      "year_group_id": "year_5",
+      "term_id": "year_5__autumn_term",
+      "strand_id": "number",
+      "name": "Addition and subtraction",
+      "metadata": {
+        "source_file": "Maths_Overview.md",
+        "source_quality": "full_text"
+      }
+    },
+    {
+      "id": "year_5__autumn_term__multiplication_and_division_a",
+      "year_group_id": "year_5",
+      "term_id": "year_5__autumn_term",
+      "strand_id": "number",
+      "name": "Multiplication and division A",
+      "metadata": {
+        "source_file": "Maths_Overview.md",
+        "source_quality": "full_text"
+      }
+    },
+    {
+      "id": "year_5__autumn_term__fractions_a",
+      "year_group_id": "year_5",
+      "term_id": "year_5__autumn_term",
+      "strand_id": "number",
+      "name": "Fractions A",
+      "metadata": {
+        "source_file": "Maths_Overview.md",
+        "source_quality": "full_text"
+      }
+    },
+    {
+      "id": "year_5__spring_term__multiplication_and_division_b",
+      "year_group_id": "year_5",
+      "term_id": "year_5__spring_term",
+      "strand_id": "number",
+      "name": "Multiplication and division B",
+      "metadata": {
+        "source_file": "Maths_Overview.md",
+        "source_quality": "full_text"
+      }
+    },
+    {
+      "id": "year_5__spring_term__fractions_b",
+      "year_group_id": "year_5",
+      "term_id": "year_5__spring_term",
+      "strand_id": "number",
+      "name": "Fractions B",
+      "metadata": {
+        "source_file": "Maths_Overview.md",
+        "source_quality": "full_text"
+      }
+    },
+    {
+      "id": "year_5__spring_term__decimals_and_percentages",
+      "year_group_id": "year_5",
+      "term_id": "year_5__spring_term",
+      "strand_id": "number",
+      "name": "Decimals and percentages",
+      "metadata": {
+        "source_file": "Maths_Overview.md",
+        "source_quality": "full_text"
+      }
+    },
+    {
+      "id": "year_5__spring_term__perimeter_and_area",
+      "year_group_id": "year_5",
+      "term_id": "year_5__spring_term",
+      "strand_id": "measurement",
+      "name": "Perimeter and area",
       "metadata": {
         "source_file": "Maths_Overview.md",
         "source_quality": "full_text"
@@ -244,11 +860,209 @@
       }
     },
     {
+      "id": "year_5__summer_term__shape",
+      "year_group_id": "year_5",
+      "term_id": "year_5__summer_term",
+      "strand_id": "geometry",
+      "name": "Shape",
+      "metadata": {
+        "source_file": "Maths_Overview.md",
+        "source_quality": "full_text"
+      }
+    },
+    {
+      "id": "year_5__summer_term__position_and_direction",
+      "year_group_id": "year_5",
+      "term_id": "year_5__summer_term",
+      "strand_id": "geometry",
+      "name": "Position and direction",
+      "metadata": {
+        "source_file": "Maths_Overview.md",
+        "source_quality": "full_text"
+      }
+    },
+    {
+      "id": "year_5__summer_term__decimals",
+      "year_group_id": "year_5",
+      "term_id": "year_5__summer_term",
+      "strand_id": "number",
+      "name": "Decimals",
+      "metadata": {
+        "source_file": "Maths_Overview.md",
+        "source_quality": "full_text"
+      }
+    },
+    {
+      "id": "year_5__summer_term__negative_numbers",
+      "year_group_id": "year_5",
+      "term_id": "year_5__summer_term",
+      "strand_id": "number",
+      "name": "Negative numbers",
+      "metadata": {
+        "source_file": "Maths_Overview.md",
+        "source_quality": "full_text"
+      }
+    },
+    {
+      "id": "year_5__summer_term__converting_units",
+      "year_group_id": "year_5",
+      "term_id": "year_5__summer_term",
+      "strand_id": "measurement",
+      "name": "Converting units",
+      "metadata": {
+        "source_file": "Maths_Overview.md",
+        "source_quality": "full_text"
+      }
+    },
+    {
+      "id": "year_5__summer_term__volume",
+      "year_group_id": "year_5",
+      "term_id": "year_5__summer_term",
+      "strand_id": "measurement",
+      "name": "Volume",
+      "metadata": {
+        "source_file": "Maths_Overview.md",
+        "source_quality": "full_text"
+      }
+    },
+    {
+      "id": "year_6__autumn_term__place_value",
+      "year_group_id": "year_6",
+      "term_id": "year_6__autumn_term",
+      "strand_id": "number",
+      "name": "Place value",
+      "metadata": {
+        "source_file": "Maths_Overview.md",
+        "source_quality": "full_text"
+      }
+    },
+    {
+      "id": "year_6__autumn_term__addition_subtraction_multiplication_and_division",
+      "year_group_id": "year_6",
+      "term_id": "year_6__autumn_term",
+      "strand_id": "number",
+      "name": "Addition, subtraction, multiplication and division",
+      "metadata": {
+        "source_file": "Maths_Overview.md",
+        "source_quality": "full_text"
+      }
+    },
+    {
+      "id": "year_6__autumn_term__fractions_a",
+      "year_group_id": "year_6",
+      "term_id": "year_6__autumn_term",
+      "strand_id": "number",
+      "name": "Fractions A",
+      "metadata": {
+        "source_file": "Maths_Overview.md",
+        "source_quality": "full_text"
+      }
+    },
+    {
+      "id": "year_6__autumn_term__fractions_b",
+      "year_group_id": "year_6",
+      "term_id": "year_6__autumn_term",
+      "strand_id": "number",
+      "name": "Fractions B",
+      "metadata": {
+        "source_file": "Maths_Overview.md",
+        "source_quality": "full_text"
+      }
+    },
+    {
+      "id": "year_6__autumn_term__converting_units",
+      "year_group_id": "year_6",
+      "term_id": "year_6__autumn_term",
+      "strand_id": "measurement",
+      "name": "Converting units",
+      "metadata": {
+        "source_file": "Maths_Overview.md",
+        "source_quality": "full_text"
+      }
+    },
+    {
+      "id": "year_6__spring_term__ratio",
+      "year_group_id": "year_6",
+      "term_id": "year_6__spring_term",
+      "strand_id": "number",
+      "name": "Ratio",
+      "metadata": {
+        "source_file": "Maths_Overview.md",
+        "source_quality": "full_text"
+      }
+    },
+    {
+      "id": "year_6__spring_term__algebra",
+      "year_group_id": "year_6",
+      "term_id": "year_6__spring_term",
+      "strand_id": "number",
+      "name": "Algebra",
+      "metadata": {
+        "source_file": "Maths_Overview.md",
+        "source_quality": "full_text"
+      }
+    },
+    {
+      "id": "year_6__spring_term__decimals",
+      "year_group_id": "year_6",
+      "term_id": "year_6__spring_term",
+      "strand_id": "number",
+      "name": "Decimals",
+      "metadata": {
+        "source_file": "Maths_Overview.md",
+        "source_quality": "full_text"
+      }
+    },
+    {
+      "id": "year_6__spring_term__fractions_decimals_and_percentages",
+      "year_group_id": "year_6",
+      "term_id": "year_6__spring_term",
+      "strand_id": "number",
+      "name": "Fractions, decimals and percentages",
+      "metadata": {
+        "source_file": "Maths_Overview.md",
+        "source_quality": "full_text"
+      }
+    },
+    {
+      "id": "year_6__spring_term__area_perimeter_and_volume",
+      "year_group_id": "year_6",
+      "term_id": "year_6__spring_term",
+      "strand_id": "measurement",
+      "name": "Area, perimeter and volume",
+      "metadata": {
+        "source_file": "Maths_Overview.md",
+        "source_quality": "full_text"
+      }
+    },
+    {
       "id": "year_6__spring_term__statistics",
       "year_group_id": "year_6",
       "term_id": "year_6__spring_term",
       "strand_id": "integrated",
       "name": "Statistics",
+      "metadata": {
+        "source_file": "Maths_Overview.md",
+        "source_quality": "full_text"
+      }
+    },
+    {
+      "id": "year_6__summer_term__shape",
+      "year_group_id": "year_6",
+      "term_id": "year_6__summer_term",
+      "strand_id": "geometry",
+      "name": "Shape",
+      "metadata": {
+        "source_file": "Maths_Overview.md",
+        "source_quality": "full_text"
+      }
+    },
+    {
+      "id": "year_6__summer_term__position_and_direction",
+      "year_group_id": "year_6",
+      "term_id": "year_6__summer_term",
+      "strand_id": "geometry",
+      "name": "Position and direction",
       "metadata": {
         "source_file": "Maths_Overview.md",
         "source_quality": "full_text"

@@ -95,16 +95,25 @@ def parse_overview(content: str) -> tuple[list[dict[str, Any]], list[dict[str, A
             current_block = None
             continue
 
-        block_match = re.match(r"^-\s+\*\*(.+?)\*\*\s*$", line)
+        block_match = re.match(r"^-\s+\*\*(.+?)\*\*\s*(.*)", line)
         if block_match and current_term and current_year:
-            block_label = block_match.group(1)
+            block_label = block_match.group(1).strip()
+            remainder = block_match.group(2).strip()
             strand_name = "Integrated"
             name = block_label
 
-            if ":" in block_label:
+            if block_label.endswith(":"):
+                # Format: **Strand:** Block name *(qualifier)*
+                strand_name = block_label[:-1].strip()
+                name = remainder
+            elif ":" in block_label:
                 left, right = block_label.split(":", 1)
                 strand_name = left.strip()
-                name = right.strip()
+                name = right.strip() or remainder
+
+            # Convert italic qualifiers like *(within 10)* → (within 10)
+            # Keep the qualifier text so block names remain unique; just remove the * markers.
+            name = re.sub(r"\*\(([^)]+)\)\*", r"(\1)", name).strip()
 
             strand_id = slugify(strand_name)
             strands.setdefault(

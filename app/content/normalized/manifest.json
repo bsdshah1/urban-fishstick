@@ -1,6 +1,6 @@
 {
   "version": "v1",
-  "input_dir": "context_docs_md",
+  "input_dir": "/home/user/urban-fishstick/context_docs_md",
   "datasets": [
     "block",
     "method_stage",

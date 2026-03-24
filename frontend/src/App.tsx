@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import { BrowserRouter, Navigate, Route, Routes, useLocation } from 'react-router-dom'
+import { BrowserRouter, Navigate, Outlet, Route, Routes, useLocation } from 'react-router-dom'
 import type { User } from './api/types'
 import { AppShell } from './components/shared/AppShell'
 import { Login } from './pages/Login'
@@ -26,7 +26,16 @@ function RequireRole({
 function DefaultRedirect({ user }: { user: User | null }) {
   if (!user) return <Navigate to="/login" replace />
   if (user.role === 'parent') return <Navigate to="/digest" replace />
+  if (user.role === 'admin') return <Navigate to="/admin" replace />
   return <Navigate to="/teacher" replace />
+}
+
+function AppLayout({ user }: { user: User | null }) {
+  return (
+    <AppShell user={user}>
+      <Outlet />
+    </AppShell>
+  )
 }
 
 export default function App() {
@@ -43,54 +52,47 @@ export default function App() {
       <Routes>
         <Route path="/login" element={<Login setUser={setUser} />} />
 
-        <Route
-          path="/*"
-          element={
-            <AppShell user={user}>
-              <Routes>
-                <Route path="/" element={<DefaultRedirect user={user} />} />
+        <Route element={<AppLayout user={user} />}>
+          <Route index element={<DefaultRedirect user={user} />} />
 
-                <Route
-                  path="/digest"
-                  element={
-                    <RequireRole user={user} roles={['parent', 'teacher', 'admin']}>
-                      <ParentDigest user={user!} />
-                    </RequireRole>
-                  }
-                />
+          <Route
+            path="digest"
+            element={
+              <RequireRole user={user} roles={['parent', 'teacher', 'admin']}>
+                <ParentDigest user={user!} />
+              </RequireRole>
+            }
+          />
 
-                <Route
-                  path="/teacher"
-                  element={
-                    <RequireRole user={user} roles={['teacher', 'admin']}>
-                      <TeacherDashboard user={user!} />
-                    </RequireRole>
-                  }
-                />
+          <Route
+            path="teacher"
+            element={
+              <RequireRole user={user} roles={['teacher', 'admin']}>
+                <TeacherDashboard user={user!} />
+              </RequireRole>
+            }
+          />
 
-                <Route
-                  path="/history"
-                  element={
-                    <RequireRole user={user} roles={['teacher', 'admin']}>
-                      <ContentHistory />
-                    </RequireRole>
-                  }
-                />
+          <Route
+            path="history"
+            element={
+              <RequireRole user={user} roles={['teacher', 'admin']}>
+                <ContentHistory />
+              </RequireRole>
+            }
+          />
 
-                <Route
-                  path="/admin"
-                  element={
-                    <RequireRole user={user} roles={['admin']}>
-                      <AdminSettings />
-                    </RequireRole>
-                  }
-                />
+          <Route
+            path="admin"
+            element={
+              <RequireRole user={user} roles={['admin']}>
+                <AdminSettings />
+              </RequireRole>
+            }
+          />
 
-                <Route path="*" element={<Navigate to="/" replace />} />
-              </Routes>
-            </AppShell>
-          }
-        />
+          <Route path="*" element={<Navigate to="/" replace />} />
+        </Route>
       </Routes>
     </BrowserRouter>
   )

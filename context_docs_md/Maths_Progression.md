@@ -4,13 +4,7 @@
 
 > **Note:** This document is a visual progression map spanning EYFS to Year 6. The full content is contained within image-based pages in the original PDF. The text extracted here represents the document title and scope only.
 
-# Progression Map in Mathematics
-
-## EYFS through to Year 6
-
 This document reformats the progression map into readable markdown.
-
->
 
 # Number and Place Value
 
