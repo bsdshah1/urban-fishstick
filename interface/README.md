@@ -2,6 +2,20 @@
 
 Run from repository root:
 
+
+Required environment variables:
+
+- `JWT_SECRET_KEY` (required in all non-development environments): at least 32 characters and used to sign/verify auth tokens.
+- `ENV` (optional): only when set to `development` will the backend allow a local fallback JWT secret.
+
+Example:
+
+```bash
+export JWT_SECRET_KEY="replace-with-a-strong-32+-char-secret"
+# Optional local dev fallback gate:
+# export ENV=development
+```
+
 ```bash
 python3 -m venv .venv
 source .venv/bin/activate
