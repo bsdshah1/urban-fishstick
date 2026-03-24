@@ -89,3 +89,11 @@ def test_parent_only_sees_published_digests(client):
     assert res.status_code == 200
     for digest in res.json():
         assert digest["status"] == "published"
+
+
+def test_dev_landing_html_contains_required_content():
+    from interface.main import _dev_landing_html
+    html = _dev_landing_html()
+    assert "<!doctype html>" in html.lower()
+    assert "Beaumont Maths" in html
+    assert "/docs" in html
