@@ -5,12 +5,18 @@ from __future__ import annotations
 
 import argparse
 import json
+import logging
 import re
 from collections import OrderedDict
 from pathlib import Path
 from typing import Any
 
 VERSION = "v1"
+
+# Anchor default paths to the project root so the script works from any CWD.
+_PROJECT_ROOT = Path(__file__).resolve().parent.parent
+
+logging.basicConfig(level=logging.INFO, format="%(levelname)s %(message)s")
 
 SOURCE_QUALITY_BY_FILE = {
     "Maths_Overview.md": "full_text",
@@ -259,6 +265,7 @@ def parse_times_tables(content: str) -> list[dict[str, Any]]:
 
         parts = [p.strip() for p in line.strip("|").split("|")]
         if len(parts) != 2:
+            logging.warning("Skipping malformed times-table row (expected 2 columns): %r", line)
             continue
 
         year, focus = parts
@@ -281,8 +288,8 @@ def write_json(path: Path, payload: Any) -> None:
 
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--input-dir", default="context_docs_md", type=Path)
-    parser.add_argument("--output-dir", default="app/content/normalized", type=Path)
+    parser.add_argument("--input-dir", default=_PROJECT_ROOT / "context_docs_md", type=Path)
+    parser.add_argument("--output-dir", default=_PROJECT_ROOT / "app/content/normalized", type=Path)
     args = parser.parse_args()
 
     source_dir: Path = args.input_dir
@@ -334,6 +341,9 @@ def main() -> None:
 
     for name, records in datasets.items():
         write_json(version_dir / f"{name}.json", {"version": VERSION, "records": records})
+        logging.info("  %-30s %d records", name, len(records))
+
+    logging.info("Normalization complete. Output: %s", version_dir)
 
 
 if __name__ == "__main__":
