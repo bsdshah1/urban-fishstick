@@ -1,4 +1,4 @@
-from interface.main import build_demo_lesson_plan, render_home
+from interface.main import build_demo_lesson_plan, home
 
 
 def test_demo_lesson_plan_contains_expected_sections():
@@ -15,6 +15,6 @@ def test_demo_lesson_plan_contains_expected_sections():
 
 
 def test_home_page_mentions_demo_endpoint():
-    html = render_home()
+    html = home()
     assert "Urban Fishstick — Minimal Interface" in html
     assert "/api/lesson-plan" in html
