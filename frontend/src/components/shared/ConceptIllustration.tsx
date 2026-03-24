@@ -442,6 +442,321 @@ function ShapeIllustration() {
   )
 }
 
+function MoneyIllustration() {
+  return (
+    <svg viewBox="0 0 240 120" aria-hidden="true" style={{ width: '100%', height: '100%' }}>
+      <text x="4" y="13" fontSize="10" fill={C.textMuted} fontFamily="system-ui" fontWeight="600">MONEY</text>
+      {/* Coins */}
+      <circle cx="28" cy="50" r="20" fill={C.amberLight} stroke={C.amber} strokeWidth="2"/>
+      <text x="28" y="54" textAnchor="middle" fontSize="10" fill={C.amber} fontFamily="system-ui" fontWeight="700">1p</text>
+
+      <circle cx="78" cy="50" r="22" fill={C.amber} stroke={C.amber} strokeWidth="2"/>
+      <text x="78" y="54" textAnchor="middle" fontSize="11" fill={C.white} fontFamily="system-ui" fontWeight="700">2p</text>
+
+      <circle cx="130" cy="50" r="20" fill={C.amberLight} stroke={C.amber} strokeWidth="2"/>
+      <text x="130" y="54" textAnchor="middle" fontSize="10" fill={C.amber} fontFamily="system-ui" fontWeight="700">5p</text>
+
+      <circle cx="178" cy="50" r="22" fill={C.amber} stroke={C.amber} strokeWidth="2"/>
+      <text x="178" y="54" textAnchor="middle" fontSize="11" fill={C.white} fontFamily="system-ui" fontWeight="700">10p</text>
+
+      {/* Note */}
+      <rect x="4" y="80" width="60" height="32" rx="4" fill={C.greenLight} stroke={C.green} strokeWidth="2"/>
+      <text x="34" y="100" textAnchor="middle" fontSize="13" fill={C.green} fontFamily="system-ui" fontWeight="700">£1</text>
+
+      <rect x="74" y="80" width="60" height="32" rx="4" fill={C.blueLight} stroke={C.blue} strokeWidth="2"/>
+      <text x="104" y="100" textAnchor="middle" fontSize="13" fill={C.blue} fontFamily="system-ui" fontWeight="700">£5</text>
+
+      <text x="148" y="97" fontSize="10" fill={C.textMuted} fontFamily="system-ui" fontStyle="italic">coins + notes</text>
+      <text x="148" y="110" fontSize="10" fill={C.textMuted} fontFamily="system-ui" fontStyle="italic">make any amount</text>
+    </svg>
+  )
+}
+
+function DecimalsIllustration() {
+  // 10×10 grid showing 0.37 shaded
+  const cells: React.ReactElement[] = []
+  for (let row = 0; row < 5; row++) {
+    for (let col = 0; col < 10; col++) {
+      const idx = row * 10 + col
+      const shaded = idx < 37
+      cells.push(
+        <rect key={idx} x={4 + col * 11} y={18 + row * 11} width="10" height="10"
+          fill={shaded ? C.blue : C.blueLight} stroke={C.white} strokeWidth="0.5"/>
+      )
+    }
+  }
+  return (
+    <svg viewBox="0 0 240 120" aria-hidden="true" style={{ width: '100%', height: '100%' }}>
+      <text x="4" y="13" fontSize="10" fill={C.textMuted} fontFamily="system-ui" fontWeight="600">DECIMALS</text>
+      {cells}
+      <text x="4" y="84" fontSize="9" fill={C.textMuted} fontFamily="system-ui">5 rows of 10 = 50 squares</text>
+      <text x="4" y="95" fontSize="9" fill={C.blue} fontFamily="system-ui" fontWeight="600">37 shaded = 0.37</text>
+      {/* Number line */}
+      <line x1="120" y1="55" x2="235" y2="55" stroke={C.text} strokeWidth="1.5"/>
+      <circle cx="120" cy="55" r="3" fill={C.text}/>
+      <circle cx="235" cy="55" r="3" fill={C.text}/>
+      <circle cx="177" cy="55" r="4" fill={C.amber}/>
+      <text x="120" y="68" textAnchor="middle" fontSize="9" fill={C.textMuted} fontFamily="system-ui">0</text>
+      <text x="177" y="68" textAnchor="middle" fontSize="9" fill={C.amber} fontFamily="system-ui" fontWeight="700">0.5</text>
+      <text x="235" y="68" textAnchor="middle" fontSize="9" fill={C.textMuted} fontFamily="system-ui">1</text>
+      <text x="177" y="90" textAnchor="middle" fontSize="10" fill={C.amber} fontFamily="system-ui" fontWeight="700">½ = 0.5</text>
+      <text x="177" y="105" textAnchor="middle" fontSize="9" fill={C.textMuted} fontFamily="system-ui">between 0 and 1</text>
+    </svg>
+  )
+}
+
+function PercentagesIllustration() {
+  // 10×10 grid showing 25% shaded
+  const cells: React.ReactElement[] = []
+  for (let row = 0; row < 10; row++) {
+    for (let col = 0; col < 10; col++) {
+      const idx = row * 10 + col
+      const shaded = idx < 25
+      cells.push(
+        <rect key={idx} x={4 + col * 10} y={14 + row * 10} width="9" height="9"
+          fill={shaded ? C.purple : C.purpleLight} stroke={C.white} strokeWidth="0.5"/>
+      )
+    }
+  }
+  return (
+    <svg viewBox="0 0 240 120" aria-hidden="true" style={{ width: '100%', height: '100%' }}>
+      <text x="4" y="11" fontSize="10" fill={C.textMuted} fontFamily="system-ui" fontWeight="600">PERCENTAGES</text>
+      {cells}
+      <text x="120" y="30" fontSize="28" fill={C.purple} fontFamily="system-ui" fontWeight="700">25%</text>
+      <text x="120" y="52" fontSize="11" fill={C.textMuted} fontFamily="system-ui">= 25 out of 100</text>
+      <line x1="120" y1="62" x2="235" y2="62" stroke={C.border} strokeWidth="1"/>
+      <text x="120" y="78" fontSize="11" fill={C.purple} fontFamily="system-ui" fontWeight="600">25% = ¼ = 0.25</text>
+      <text x="120" y="93" fontSize="10" fill={C.textMuted} fontFamily="system-ui">per cent = per hundred</text>
+      <text x="120" y="108" fontSize="9" fill={C.textMuted} fontFamily="system-ui" fontStyle="italic">25 squares shaded ←</text>
+    </svg>
+  )
+}
+
+function PerimeterAreaIllustration() {
+  const rx = 20, ry = 28, rw = 140, rh = 65
+  return (
+    <svg viewBox="0 0 240 120" aria-hidden="true" style={{ width: '100%', height: '100%' }}>
+      <text x="4" y="13" fontSize="10" fill={C.textMuted} fontFamily="system-ui" fontWeight="600">PERIMETER &amp; AREA</text>
+      {/* Rectangle fill for area */}
+      <rect x={rx} y={ry} width={rw} height={rh} rx="3" fill={C.greenLight}/>
+      {/* Area label inside */}
+      <text x={rx + rw/2} y={ry + rh/2 - 6} textAnchor="middle" fontSize="10" fill={C.green} fontFamily="system-ui" fontWeight="700">Area = l × w</text>
+      <text x={rx + rw/2} y={ry + rh/2 + 8} textAnchor="middle" fontSize="11" fill={C.green} fontFamily="system-ui" fontWeight="700">= 7 × 3 = 21 cm²</text>
+      {/* Border for perimeter */}
+      <rect x={rx} y={ry} width={rw} height={rh} rx="3" fill="none" stroke={C.amber} strokeWidth="3" strokeDasharray="6 3"/>
+      {/* Width arrow */}
+      <line x1={rx} y1={ry + rh + 10} x2={rx + rw} y2={ry + rh + 10} stroke={C.text} strokeWidth="1.5" markerEnd="url(#arr)"/>
+      <text x={rx + rw/2} y={ry + rh + 22} textAnchor="middle" fontSize="10" fill={C.text} fontFamily="system-ui">7 cm</text>
+      {/* Height arrow */}
+      <line x1={rx + rw + 10} y1={ry} x2={rx + rw + 10} y2={ry + rh} stroke={C.text} strokeWidth="1.5"/>
+      <text x={rx + rw + 22} y={ry + rh/2 + 4} textAnchor="middle" fontSize="10" fill={C.text} fontFamily="system-ui">3 cm</text>
+      {/* Perimeter label */}
+      <text x="185" y="36" fontSize="9" fill={C.amber} fontFamily="system-ui" fontWeight="600">Perimeter</text>
+      <text x="185" y="48" fontSize="9" fill={C.amber} fontFamily="system-ui">= 2×(l+w)</text>
+      <text x="185" y="60" fontSize="9" fill={C.amber} fontFamily="system-ui">= 20 cm</text>
+    </svg>
+  )
+}
+
+function VolumeCapacityIllustration() {
+  return (
+    <svg viewBox="0 0 240 120" aria-hidden="true" style={{ width: '100%', height: '100%' }}>
+      <text x="4" y="13" fontSize="10" fill={C.textMuted} fontFamily="system-ui" fontWeight="600">VOLUME &amp; CAPACITY</text>
+      {/* Jug outline */}
+      <path d="M 30 20 L 30 100 L 90 100 L 90 20 Z" fill={C.blueLight} stroke={C.blue} strokeWidth="2"/>
+      {/* Spout */}
+      <path d="M 90 35 Q 108 35 108 48 Q 108 60 90 60" fill="none" stroke={C.blue} strokeWidth="2"/>
+      {/* Water fill 75% */}
+      <rect x="31" y="41" width="58" height="58" fill={C.blue} opacity="0.35"/>
+      {/* Scale marks */}
+      <line x1="25" y1="41" x2="30" y2="41" stroke={C.text} strokeWidth="1.5"/>
+      <text x="20" y="44" textAnchor="end" fontSize="9" fill={C.text} fontFamily="system-ui">750</text>
+      <line x1="25" y1="60" x2="30" y2="60" stroke={C.text} strokeWidth="1.5"/>
+      <text x="20" y="63" textAnchor="end" fontSize="9" fill={C.text} fontFamily="system-ui">500</text>
+      <line x1="25" y1="80" x2="30" y2="80" stroke={C.text} strokeWidth="1.5"/>
+      <text x="20" y="83" textAnchor="end" fontSize="9" fill={C.text} fontFamily="system-ui">250</text>
+      <text x="60" y="116" textAnchor="middle" fontSize="9" fill={C.textMuted} fontFamily="system-ui">ml / litres</text>
+      {/* Key facts */}
+      <text x="120" y="38" fontSize="11" fill={C.blue} fontFamily="system-ui" fontWeight="700">1 litre = 1000 ml</text>
+      <text x="120" y="56" fontSize="10" fill={C.textMuted} fontFamily="system-ui">Capacity = how much</text>
+      <text x="120" y="70" fontSize="10" fill={C.textMuted} fontFamily="system-ui">a container holds</text>
+      <text x="120" y="90" fontSize="10" fill={C.textMuted} fontFamily="system-ui">Volume = how much</text>
+      <text x="120" y="104" fontSize="10" fill={C.textMuted} fontFamily="system-ui">space an object takes</text>
+    </svg>
+  )
+}
+
+function MassWeightIllustration() {
+  return (
+    <svg viewBox="0 0 240 120" aria-hidden="true" style={{ width: '100%', height: '100%' }}>
+      <text x="4" y="13" fontSize="10" fill={C.textMuted} fontFamily="system-ui" fontWeight="600">MASS &amp; WEIGHT</text>
+      {/* Balance beam pivot */}
+      <line x1="90" y1="40" x2="90" y2="90" stroke={C.text} strokeWidth="2"/>
+      <polygon points="90,90 75,108 105,108" fill={C.text}/>
+      {/* Beam - tilted left (left side heavier) */}
+      <line x1="20" y1="52" x2="160" y2="28" stroke={C.text} strokeWidth="2.5" strokeLinecap="round"/>
+      {/* Left pan (heavy) */}
+      <line x1="24" y1="52" x2="24" y2="65" stroke={C.text} strokeWidth="1.5"/>
+      <line x1="14" y1="52" x2="34" y2="52" stroke={C.text} strokeWidth="1"/>
+      <rect x="12" y="65" width="24" height="8" rx="2" fill={C.amber} stroke={C.amber} strokeWidth="1.5"/>
+      <text x="24" y="73" textAnchor="middle" fontSize="8" fill={C.white} fontFamily="system-ui" fontWeight="700">500g</text>
+      {/* Right pan (light) */}
+      <line x1="156" y1="28" x2="156" y2="44" stroke={C.text} strokeWidth="1.5"/>
+      <line x1="146" y1="28" x2="166" y2="28" stroke={C.text} strokeWidth="1"/>
+      <rect x="144" y="44" width="24" height="8" rx="2" fill={C.greenLight} stroke={C.green} strokeWidth="1.5"/>
+      <text x="156" y="52" textAnchor="middle" fontSize="8" fill={C.green} fontFamily="system-ui" fontWeight="700">100g</text>
+      {/* Key facts */}
+      <text x="175" y="40" fontSize="10" fill={C.text} fontFamily="system-ui" fontWeight="700">1 kg = 1000 g</text>
+      <text x="175" y="56" fontSize="9" fill={C.textMuted} fontFamily="system-ui">heavier side</text>
+      <text x="175" y="68" fontSize="9" fill={C.textMuted} fontFamily="system-ui">goes down</text>
+    </svg>
+  )
+}
+
+function LengthHeightIllustration() {
+  return (
+    <svg viewBox="0 0 240 120" aria-hidden="true" style={{ width: '100%', height: '100%' }}>
+      <text x="4" y="13" fontSize="10" fill={C.textMuted} fontFamily="system-ui" fontWeight="600">LENGTH &amp; HEIGHT</text>
+      {/* Ruler */}
+      <rect x="10" y="22" width="150" height="24" rx="3" fill={C.amberLight} stroke={C.amber} strokeWidth="2"/>
+      {[0,1,2,3,4,5,6,7,8,9,10].map(i => (
+        <g key={i}>
+          <line x1={10 + i*15} y1="22" x2={10 + i*15} y2={i % 5 === 0 ? 34 : 30} stroke={C.amber} strokeWidth="1.5"/>
+          {i % 5 === 0 && <text x={10 + i*15} y="52" textAnchor="middle" fontSize="9" fill={C.amber} fontFamily="system-ui">{i}</text>}
+        </g>
+      ))}
+      <text x="85" y="59" textAnchor="middle" fontSize="9" fill={C.textMuted} fontFamily="system-ui">centimetres (cm)</text>
+      {/* Height measurement */}
+      <line x1="190" y1="18" x2="190" y2="105" stroke={C.blue} strokeWidth="2" strokeDasharray="4 2"/>
+      <line x1="183" y1="18" x2="197" y2="18" stroke={C.blue} strokeWidth="2"/>
+      <line x1="183" y1="105" x2="197" y2="105" stroke={C.blue} strokeWidth="2"/>
+      <text x="210" y="62" textAnchor="middle" fontSize="10" fill={C.blue} fontFamily="system-ui" fontWeight="700" transform="rotate(90,210,62)">height</text>
+      {/* Unit reminders */}
+      <text x="10" y="78" fontSize="9" fill={C.textMuted} fontFamily="system-ui">mm · cm · m · km</text>
+      <text x="10" y="92" fontSize="9" fill={C.green} fontFamily="system-ui" fontWeight="600">10 mm = 1 cm</text>
+      <text x="10" y="106" fontSize="9" fill={C.green} fontFamily="system-ui" fontWeight="600">100 cm = 1 m</text>
+    </svg>
+  )
+}
+
+function NegativeNumbersIllustration() {
+  const y = 55
+  const toX = (n: number) => 120 + n * 18
+  const marks = [-5,-4,-3,-2,-1,0,1,2,3,4,5]
+  return (
+    <svg viewBox="0 0 240 120" aria-hidden="true" style={{ width: '100%', height: '100%' }}>
+      <text x="4" y="13" fontSize="10" fill={C.textMuted} fontFamily="system-ui" fontWeight="600">NEGATIVE NUMBERS</text>
+      {/* Number line */}
+      <line x1={toX(-5) - 8} y1={y} x2={toX(5) + 8} y2={y} stroke={C.text} strokeWidth="2"/>
+      {marks.map(n => (
+        <g key={n}>
+          <line x1={toX(n)} y1={y-6} x2={toX(n)} y2={y+6} stroke={n === 0 ? C.text : C.textMuted} strokeWidth={n === 0 ? 2 : 1}/>
+          <text x={toX(n)} y={y+18} textAnchor="middle" fontSize="9"
+            fill={n < 0 ? C.blue : n === 0 ? C.text : C.green}
+            fontFamily="system-ui" fontWeight={n === 0 ? '700' : '400'}>{n}</text>
+        </g>
+      ))}
+      {/* Arrow from -3 to 2 */}
+      <path d={`M ${toX(-3)} ${y-14} Q ${toX(-0.5)} ${y-34} ${toX(2)} ${y-14}`}
+        fill="none" stroke={C.amber} strokeWidth="2" strokeLinecap="round"/>
+      <text x={toX(-0.5)} y={y-38} textAnchor="middle" fontSize="9" fill={C.amber} fontFamily="system-ui" fontWeight="600">+5</text>
+      {/* Temperature context */}
+      <text x="10" y="95" fontSize="9" fill={C.textMuted} fontFamily="system-ui">−3°C is colder than 2°C</text>
+      <text x="10" y="109" fontSize="9" fill={C.blue} fontFamily="system-ui" fontWeight="600">below zero → negative</text>
+    </svg>
+  )
+}
+
+function AlgebraIllustration() {
+  return (
+    <svg viewBox="0 0 240 120" aria-hidden="true" style={{ width: '100%', height: '100%' }}>
+      <text x="4" y="13" fontSize="10" fill={C.textMuted} fontFamily="system-ui" fontWeight="600">ALGEBRA</text>
+      {/* Bar model: n + 4 = 10 */}
+      <text x="120" y="30" textAnchor="middle" fontSize="13" fill={C.purple} fontFamily="system-ui" fontWeight="700">n + 4 = 10</text>
+      {/* Total bar */}
+      <rect x="20" y="38" width="110" height="20" rx="3" fill={C.purpleLight} stroke={C.purple} strokeWidth="2"/>
+      <text x="75" y="52" textAnchor="middle" fontSize="11" fill={C.purple} fontFamily="system-ui" fontWeight="700">10</text>
+      {/* Split bar */}
+      <rect x="20" y="66" width="66" height="20" rx="3" fill={C.purple} stroke={C.purple} strokeWidth="2"/>
+      <text x="53" y="80" textAnchor="middle" fontSize="11" fill={C.white} fontFamily="system-ui" fontWeight="700">n = ?</text>
+      <rect x="90" y="66" width="40" height="20" rx="3" fill={C.purpleLight} stroke={C.purple} strokeWidth="2"/>
+      <text x="110" y="80" textAnchor="middle" fontSize="11" fill={C.purple} fontFamily="system-ui" fontWeight="700">4</text>
+      {/* Arrow to answer */}
+      <text x="150" y="52" fontSize="11" fill={C.textMuted} fontFamily="system-ui">→</text>
+      <text x="165" y="52" fontSize="12" fill={C.green} fontFamily="system-ui" fontWeight="700">n = 6</text>
+      <text x="20" y="106" fontSize="9" fill={C.textMuted} fontFamily="system-ui" fontStyle="italic">a letter stands for an unknown number</text>
+    </svg>
+  )
+}
+
+function RatioIllustration() {
+  return (
+    <svg viewBox="0 0 240 120" aria-hidden="true" style={{ width: '100%', height: '100%' }}>
+      <text x="4" y="13" fontSize="10" fill={C.textMuted} fontFamily="system-ui" fontWeight="600">RATIO</text>
+      {/* Ratio 2:3 shown as coloured squares */}
+      <text x="120" y="28" textAnchor="middle" fontSize="16" fill={C.text} fontFamily="system-ui" fontWeight="700">2 : 3</text>
+      {/* One set */}
+      <rect x="16" y="36" width="20" height="20" rx="3" fill={C.blue}/>
+      <rect x="40" y="36" width="20" height="20" rx="3" fill={C.blue}/>
+      <rect x="64" y="36" width="20" height="20" rx="3" fill={C.amber}/>
+      <rect x="88" y="36" width="20" height="20" rx="3" fill={C.amber}/>
+      <rect x="112" y="36" width="20" height="20" rx="3" fill={C.amber}/>
+      {/* Two sets */}
+      <rect x="16" y="62" width="20" height="20" rx="3" fill={C.blue}/>
+      <rect x="40" y="62" width="20" height="20" rx="3" fill={C.blue}/>
+      <rect x="64" y="62" width="20" height="20" rx="3" fill={C.blue}/>
+      <rect x="88" y="62" width="20" height="20" rx="3" fill={C.blue}/>
+      <rect x="112" y="62" width="20" height="20" rx="3" fill={C.amber}/>
+      <rect x="136" y="62" width="20" height="20" rx="3" fill={C.amber}/>
+      <rect x="160" y="62" width="20" height="20" rx="3" fill={C.amber}/>
+      <rect x="184" y="62" width="20" height="20" rx="3" fill={C.amber}/>
+      <rect x="208" y="62" width="20" height="20" rx="3" fill={C.amber}/>
+      <text x="148" y="52" textAnchor="middle" fontSize="9" fill={C.textMuted} fontFamily="system-ui">1 part</text>
+      <text x="60" y="96" fontSize="9" fill={C.textMuted} fontFamily="system-ui">for every 2 blue, 3 amber</text>
+      <text x="60" y="110" fontSize="9" fill={C.textMuted} fontFamily="system-ui" fontStyle="italic">ratio stays the same when scaled</text>
+    </svg>
+  )
+}
+
+function ConvertingUnitsIllustration() {
+  return (
+    <svg viewBox="0 0 240 120" aria-hidden="true" style={{ width: '100%', height: '100%' }}>
+      <text x="4" y="13" fontSize="10" fill={C.textMuted} fontFamily="system-ui" fontWeight="600">CONVERTING UNITS</text>
+      {/* Length row */}
+      <rect x="10" y="22" width="44" height="22" rx="4" fill={C.blueLight} stroke={C.blue} strokeWidth="1.5"/>
+      <text x="32" y="37" textAnchor="middle" fontSize="10" fill={C.blue} fontFamily="system-ui" fontWeight="700">km</text>
+      <text x="68" y="30" textAnchor="middle" fontSize="9" fill={C.textMuted} fontFamily="system-ui">×1000</text>
+      <line x1="56" y1="33" x2="80" y2="33" stroke={C.text} strokeWidth="1.5" markerEnd="url(#a)"/>
+      <text x="68" y="43" textAnchor="middle" fontSize="9" fill={C.textMuted} fontFamily="system-ui">÷1000</text>
+      <rect x="82" y="22" width="44" height="22" rx="4" fill={C.blueLight} stroke={C.blue} strokeWidth="1.5"/>
+      <text x="104" y="37" textAnchor="middle" fontSize="10" fill={C.blue} fontFamily="system-ui" fontWeight="700">m</text>
+      <text x="140" y="30" textAnchor="middle" fontSize="9" fill={C.textMuted} fontFamily="system-ui">×100</text>
+      <line x1="128" y1="33" x2="152" y2="33" stroke={C.text} strokeWidth="1.5"/>
+      <text x="140" y="43" textAnchor="middle" fontSize="9" fill={C.textMuted} fontFamily="system-ui">÷100</text>
+      <rect x="154" y="22" width="44" height="22" rx="4" fill={C.blueLight} stroke={C.blue} strokeWidth="1.5"/>
+      <text x="176" y="37" textAnchor="middle" fontSize="10" fill={C.blue} fontFamily="system-ui" fontWeight="700">cm</text>
+
+      {/* Mass row */}
+      <rect x="10" y="58" width="44" height="22" rx="4" fill={C.amberLight} stroke={C.amber} strokeWidth="1.5"/>
+      <text x="32" y="73" textAnchor="middle" fontSize="10" fill={C.amber} fontFamily="system-ui" fontWeight="700">kg</text>
+      <text x="68" y="65" textAnchor="middle" fontSize="9" fill={C.textMuted} fontFamily="system-ui">×1000</text>
+      <line x1="56" y1="69" x2="80" y2="69" stroke={C.text} strokeWidth="1.5"/>
+      <text x="68" y="79" textAnchor="middle" fontSize="9" fill={C.textMuted} fontFamily="system-ui">÷1000</text>
+      <rect x="82" y="58" width="44" height="22" rx="4" fill={C.amberLight} stroke={C.amber} strokeWidth="1.5"/>
+      <text x="104" y="73" textAnchor="middle" fontSize="10" fill={C.amber} fontFamily="system-ui" fontWeight="700">g</text>
+
+      {/* Capacity row */}
+      <rect x="10" y="94" width="44" height="22" rx="4" fill={C.greenLight} stroke={C.green} strokeWidth="1.5"/>
+      <text x="32" y="109" textAnchor="middle" fontSize="10" fill={C.green} fontFamily="system-ui" fontWeight="700">l</text>
+      <text x="68" y="101" textAnchor="middle" fontSize="9" fill={C.textMuted} fontFamily="system-ui">×1000</text>
+      <line x1="56" y1="105" x2="80" y2="105" stroke={C.text} strokeWidth="1.5"/>
+      <text x="68" y="115" textAnchor="middle" fontSize="9" fill={C.textMuted} fontFamily="system-ui">÷1000</text>
+      <rect x="82" y="94" width="44" height="22" rx="4" fill={C.greenLight} stroke={C.green} strokeWidth="1.5"/>
+      <text x="104" y="109" textAnchor="middle" fontSize="10" fill={C.green} fontFamily="system-ui" fontWeight="700">ml</text>
+    </svg>
+  )
+}
+
 function DefaultIllustration() {
   return (
     <svg viewBox="0 0 240 120" aria-hidden="true" style={{ width: '100%', height: '100%' }}>
@@ -459,12 +774,24 @@ function DefaultIllustration() {
 
 function getTopicKey(unitTitle: string): string {
   const t = unitTitle.toLowerCase()
+  // Check more specific topics first to avoid false matches
+  if (t.includes('converting unit') || t.includes('convert')) return 'converting'
+  if (t.includes('percent') || (t.includes('fraction') && t.includes('decimal'))) return 'percentages'
+  if (t.includes('decimal')) return 'decimals'
+  if (t.includes('ratio')) return 'ratio'
+  if (t.includes('algebra')) return 'algebra'
+  if (t.includes('negative')) return 'negative'
+  if (t.includes('perimeter') || t.includes('area') || t.includes('volume')) return 'perimeter'
+  if (t.includes('mass') || t.includes('weight')) return 'mass'
+  if (t.includes('capacity') || (t.includes('volume') && !t.includes('area'))) return 'capacity'
+  if (t.includes('length') || t.includes('height')) return 'length'
+  if (t.includes('money') || t.includes('coin') || t.includes('pound') || t.includes('pence')) return 'money'
   if (t.includes('fraction') || t.includes('half') || t.includes('quarter') || t.includes('third')) return 'fractions'
-  if (t.includes('time') || t.includes('clock') || t.includes('o\'clock') || t.includes('past') || t.includes('quarter past')) return 'time'
+  if (t.includes('time') || t.includes('clock') || t.includes("o'clock") || t.includes('past')) return 'time'
   if (t.includes('statistic') || t.includes('tally') || t.includes('pictogram') || t.includes('chart') || t.includes('data')) return 'statistics'
-  if (t.includes('position') || t.includes('direction') || t.includes('turn') || t.includes('grid') || t.includes('compass')) return 'position'
+  if (t.includes('position') || t.includes('direction') || t.includes('turn') || t.includes('compass')) return 'position'
   if (t.includes('place value') || t.includes('tens') || t.includes('ones')) return 'placevalue'
-  if (t.includes('multiply') || t.includes('division') || t.includes('times table') || t.includes('multiplication')) return 'multiplication'
+  if (t.includes('multipl') || t.includes('division') || t.includes('times table')) return 'multiplication'
   if (t.includes('addition') || t.includes('subtraction') || t.includes('add') || t.includes('subtract')) return 'addition'
   if (t.includes('shape') || t.includes('geometry')) return 'shape'
   return 'default'
@@ -481,6 +808,17 @@ export function ConceptIllustration({ unitTitle }: { unitTitle: string }) {
     multiplication: <MultiplicationIllustration />,
     addition: <AdditionSubtractionIllustration />,
     shape: <ShapeIllustration />,
+    money: <MoneyIllustration />,
+    decimals: <DecimalsIllustration />,
+    percentages: <PercentagesIllustration />,
+    perimeter: <PerimeterAreaIllustration />,
+    capacity: <VolumeCapacityIllustration />,
+    mass: <MassWeightIllustration />,
+    length: <LengthHeightIllustration />,
+    negative: <NegativeNumbersIllustration />,
+    algebra: <AlgebraIllustration />,
+    ratio: <RatioIllustration />,
+    converting: <ConvertingUnitsIllustration />,
     default: <DefaultIllustration />,
   }
   return map[key] ?? <DefaultIllustration />
