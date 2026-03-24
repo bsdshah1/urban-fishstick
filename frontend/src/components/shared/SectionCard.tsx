@@ -2,19 +2,23 @@ import type { ReactNode } from 'react'
 import styles from './SectionCard.module.css'
 
 interface Props {
-  title: string
-  icon?: string
+  category: string
+  subtitle: string
+  icon: ReactNode
   accent?: boolean
   children: ReactNode
 }
 
-export function SectionCard({ title, icon, accent, children }: Props) {
+export function SectionCard({ category, subtitle, icon, accent, children }: Props) {
   return (
     <section className={`${styles.card} ${accent ? styles.accent : ''}`}>
-      <h2 className={styles.title}>
-        {icon && <span className={styles.icon} aria-hidden="true">{icon}</span>}
-        {title}
-      </h2>
+      <div className={styles.header}>
+        <div className={styles.iconBox} aria-hidden="true">{icon}</div>
+        <div className={styles.headerText}>
+          <span className={styles.category}>{category}</span>
+          <span className={styles.subtitle}>{subtitle}</span>
+        </div>
+      </div>
       <div className={styles.body}>{children}</div>
     </section>
   )
