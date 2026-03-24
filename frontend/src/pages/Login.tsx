@@ -1,4 +1,5 @@
 import { useState, type FormEvent } from 'react'
+import { flushSync } from 'react-dom'
 import { useNavigate } from 'react-router-dom'
 import { login } from '../api/auth'
 import type { User } from '../api/types'
@@ -23,8 +24,9 @@ export function Login({ setUser }: Props) {
       const { access_token, user } = await login(email, password)
       localStorage.setItem('bm_token', access_token)
       localStorage.setItem('bm_user', JSON.stringify(user))
-      setUser(user)
+      flushSync(() => setUser(user))
       if (user.role === 'parent') navigate('/digest')
+      else if (user.role === 'admin') navigate('/admin')
       else navigate('/teacher')
     } catch (err: unknown) {
       setError(err instanceof Error ? err.message : 'Could not sign in. Please try again.')

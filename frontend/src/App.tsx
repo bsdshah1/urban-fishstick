@@ -26,6 +26,7 @@ function RequireRole({
 function DefaultRedirect({ user }: { user: User | null }) {
   if (!user) return <Navigate to="/login" replace />
   if (user.role === 'parent') return <Navigate to="/digest" replace />
+  if (user.role === 'admin') return <Navigate to="/admin" replace />
   return <Navigate to="/teacher" replace />
 }
 
