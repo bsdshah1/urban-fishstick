@@ -4,13 +4,14 @@
   gap: var(--space-2);
   padding: var(--space-2) var(--space-5);
   border-radius: var(--radius-md);
-  font-family: var(--font-body);
+  font-family: var(--font-sans);
   font-size: var(--text-sm);
-  font-weight: 600;
+  font-weight: var(--font-weight-semi-bold);
   cursor: pointer;
   border: none;
   transition: background 0.15s ease, color 0.15s ease, opacity 0.15s ease;
   white-space: nowrap;
+  min-height: 36px;
 }
 
 .btn:disabled {
@@ -19,30 +20,30 @@
 }
 
 .primary {
-  background: var(--accent-primary);
-  color: var(--text-inverse);
+  background: var(--primary);
+  color: var(--primary-foreground);
 }
-.primary:hover:not(:disabled) { background: var(--accent-primary-hover); }
+.primary:hover:not(:disabled) { background: var(--primary-hover); }
 
 .secondary {
-  background: var(--bg-elevated);
-  color: var(--text-primary);
+  background: var(--card);
+  color: var(--foreground);
   border: 1px solid var(--border-strong);
 }
-.secondary:hover:not(:disabled) { background: var(--bg-subtle); }
+.secondary:hover:not(:disabled) { background: var(--secondary); }
 
 .danger {
   background: var(--danger);
-  color: var(--text-inverse);
+  color: var(--primary-foreground);
 }
 .danger:hover:not(:disabled) { background: #A93226; }
 
 .ghost {
   background: transparent;
-  color: var(--text-secondary);
+  color: var(--muted-foreground);
   border: 1px solid transparent;
 }
-.ghost:hover:not(:disabled) { background: var(--bg-subtle); }
+.ghost:hover:not(:disabled) { background: var(--secondary); }
 
 .spinner {
   display: inline-block;

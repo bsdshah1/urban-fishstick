@@ -1,5 +1,5 @@
 .page {
-  background: var(--bg-base);
+  background: var(--background);
   min-height: calc(100vh - 56px);
   padding: var(--space-8) var(--space-4) var(--space-16);
 }
@@ -7,18 +7,26 @@
 .container { max-width: var(--dashboard-max); margin: 0 auto; }
 
 .loading, .empty {
-  text-align: center; padding: var(--space-16); color: var(--text-muted);
+  text-align: center;
+  padding: var(--space-16);
+  color: var(--text-muted);
+  font-family: var(--font-sans);
 }
 
 .title {
-  font-family: var(--font-heading);
+  font-family: var(--font-serif);
   font-size: var(--text-2xl);
-  font-weight: 600;
-  color: var(--text-primary);
+  font-weight: var(--font-weight-semi-bold);
+  color: var(--foreground);
   margin-bottom: var(--space-1);
 }
 
-.subtitle { font-size: var(--text-sm); color: var(--text-muted); margin-bottom: var(--space-6); }
+.subtitle {
+  font-family: var(--font-sans);
+  font-size: var(--text-sm);
+  color: var(--text-muted);
+  margin-bottom: var(--space-6);
+}
 
 .toolbar {
   display: flex;
@@ -29,32 +37,32 @@
 .search {
   flex: 1;
   padding: var(--space-2) var(--space-4);
-  border: 1px solid var(--border-default);
+  border: 1px solid var(--border);
   border-radius: var(--radius-md);
-  font-family: var(--font-body);
+  font-family: var(--font-sans);
   font-size: var(--text-base);
-  color: var(--text-primary);
-  background: var(--bg-elevated);
+  color: var(--foreground);
+  background: var(--card);
 }
 
-.search:focus { outline: none; border-color: var(--accent-primary); }
+.search:focus { outline: none; border-color: var(--primary); }
 
 .filter {
   padding: var(--space-2) var(--space-4);
-  border: 1px solid var(--border-default);
+  border: 1px solid var(--border);
   border-radius: var(--radius-md);
-  font-family: var(--font-body);
+  font-family: var(--font-sans);
   font-size: var(--text-sm);
-  color: var(--text-primary);
-  background: var(--bg-elevated);
+  color: var(--foreground);
+  background: var(--card);
   cursor: pointer;
 }
 
 .list { display: flex; flex-direction: column; gap: var(--space-2); }
 
 .row {
-  background: var(--bg-elevated);
-  border: 1px solid var(--border-default);
+  background: var(--card);
+  border: 1px solid var(--border);
   border-radius: var(--radius-md);
   overflow: hidden;
 }
@@ -66,24 +74,27 @@
   padding: var(--space-4) var(--space-5);
   cursor: pointer;
   gap: var(--space-4);
+  transition: background 0.12s;
 }
 
-.rowHeader:hover { background: var(--bg-subtle); }
+.rowHeader:hover { background: var(--secondary); }
 
 .rowInfo { display: flex; flex-direction: column; gap: 2px; }
 
 .rowMeta {
+  font-family: var(--font-sans);
   font-size: var(--text-xs);
   color: var(--text-muted);
-  font-weight: 600;
+  font-weight: var(--font-weight-semi-bold);
   text-transform: uppercase;
   letter-spacing: 0.05em;
 }
 
 .rowTitle {
+  font-family: var(--font-sans);
   font-size: var(--text-base);
-  font-weight: 600;
-  color: var(--text-primary);
+  font-weight: var(--font-weight-semi-bold);
+  color: var(--foreground);
 }
 
 .rowRight {
@@ -94,19 +105,24 @@
   justify-content: flex-end;
 }
 
-.rowDate { font-size: var(--text-xs); color: var(--text-muted); }
+.rowDate {
+  font-family: var(--font-sans);
+  font-size: var(--text-xs);
+  color: var(--text-muted);
+}
 
 .republishBtn {
+  font-family: var(--font-sans);
   font-size: var(--text-xs);
   padding: 2px var(--space-3);
   border: 1px solid var(--border-strong);
   border-radius: var(--radius-sm);
   background: none;
   cursor: pointer;
-  color: var(--text-secondary);
-  font-family: var(--font-body);
+  color: var(--muted-foreground);
+  transition: background 0.12s, color 0.12s;
 }
-.republishBtn:hover { background: var(--bg-subtle); color: var(--text-primary); }
+.republishBtn:hover { background: var(--secondary); color: var(--foreground); }
 
 .preview {
   border-top: 1px solid var(--border-subtle);
@@ -114,18 +130,19 @@
   display: flex;
   flex-direction: column;
   gap: var(--space-3);
-  background: var(--bg-subtle);
+  background: var(--secondary);
 }
 
 .previewHeading {
-  font-family: var(--font-heading);
+  font-family: var(--font-serif);
   font-size: var(--text-sm);
-  font-weight: 600;
-  color: var(--text-secondary);
+  font-weight: var(--font-weight-semi-bold);
+  color: var(--muted-foreground);
   margin-bottom: var(--space-1);
 }
 
 .auditLine {
+  font-family: var(--font-sans);
   font-size: var(--text-xs);
   color: var(--text-muted);
 }
