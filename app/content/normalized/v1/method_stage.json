@@ -1,0 +1,86 @@
+{
+  "version": "v1",
+  "records": [
+    {
+      "id": "addition_and_subtraction_calculation_policy__concrete",
+      "stage": "concrete",
+      "description": "Children use physical objects and manipulatives.",
+      "metadata": {
+        "source_file": "Addition_and_Subtraction_Calculation_Policy.md",
+        "source_quality": "summary_from_visual"
+      }
+    },
+    {
+      "id": "addition_and_subtraction_calculation_policy__pictorial",
+      "stage": "pictorial",
+      "description": "Children use drawings and visual representations.",
+      "metadata": {
+        "source_file": "Addition_and_Subtraction_Calculation_Policy.md",
+        "source_quality": "summary_from_visual"
+      }
+    },
+    {
+      "id": "addition_and_subtraction_calculation_policy__abstract",
+      "stage": "abstract",
+      "description": "Children use numerals and formal written methods.",
+      "metadata": {
+        "source_file": "Addition_and_Subtraction_Calculation_Policy.md",
+        "source_quality": "summary_from_visual"
+      }
+    },
+    {
+      "id": "multiplication_and_division_calculation_policy__concrete",
+      "stage": "concrete",
+      "description": "Children use physical objects and manipulatives.",
+      "metadata": {
+        "source_file": "Multiplication_and_Division_Calculation_Policy.md",
+        "source_quality": "summary_from_visual"
+      }
+    },
+    {
+      "id": "multiplication_and_division_calculation_policy__pictorial",
+      "stage": "pictorial",
+      "description": "Children use drawings and visual representations.",
+      "metadata": {
+        "source_file": "Multiplication_and_Division_Calculation_Policy.md",
+        "source_quality": "summary_from_visual"
+      }
+    },
+    {
+      "id": "multiplication_and_division_calculation_policy__abstract",
+      "stage": "abstract",
+      "description": "Children use numerals and formal written methods.",
+      "metadata": {
+        "source_file": "Multiplication_and_Division_Calculation_Policy.md",
+        "source_quality": "summary_from_visual"
+      }
+    },
+    {
+      "id": "eyfs_calculation_policy__concrete",
+      "stage": "concrete",
+      "description": "Children use physical objects and manipulatives.",
+      "metadata": {
+        "source_file": "EYFS_Calculation_Policy.md",
+        "source_quality": "summary_from_visual"
+      }
+    },
+    {
+      "id": "eyfs_calculation_policy__pictorial",
+      "stage": "pictorial",
+      "description": "Children use drawings and visual representations.",
+      "metadata": {
+        "source_file": "EYFS_Calculation_Policy.md",
+        "source_quality": "summary_from_visual"
+      }
+    },
+    {
+      "id": "eyfs_calculation_policy__abstract",
+      "stage": "abstract",
+      "description": "Children use numerals and formal written methods.",
+      "metadata": {
+        "source_file": "EYFS_Calculation_Policy.md",
+        "source_quality": "summary_from_visual"
+      }
+    }
+  ]
+}

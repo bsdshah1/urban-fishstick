@@ -1,0 +1,3607 @@
+{
+  "version": "v1",
+  "records": [
+    {
+      "id": "eyfs__autumn_term__getting_to_know_you__take_this_time_to_play_and_get_to_know_the_child",
+      "year_group_id": "eyfs",
+      "block_id": "eyfs__autumn_term__getting_to_know_you",
+      "description": "Take this time to play and get to know the children",
+      "metadata": {
+        "source_file": "Maths_Overview.md",
+        "source_quality": "full_text"
+      }
+    },
+    {
+      "id": "eyfs__autumn_term__getting_to_know_you__contains_overviews_and_frequently_asked_question",
+      "year_group_id": "eyfs",
+      "block_id": "eyfs__autumn_term__getting_to_know_you",
+      "description": "Contains overviews and frequently asked questions",
+      "metadata": {
+        "source_file": "Maths_Overview.md",
+        "source_quality": "full_text"
+      }
+    },
+    {
+      "id": "eyfs__autumn_term__just_like_me__match_and_sort",
+      "year_group_id": "eyfs",
+      "block_id": "eyfs__autumn_term__just_like_me",
+      "description": "Match and sort",
+      "metadata": {
+        "source_file": "Maths_Overview.md",
+        "source_quality": "full_text"
+      }
+    },
+    {
+      "id": "eyfs__autumn_term__just_like_me__compare_amounts",
+      "year_group_id": "eyfs",
+      "block_id": "eyfs__autumn_term__just_like_me",
+      "description": "Compare amounts",
+      "metadata": {
+        "source_file": "Maths_Overview.md",
+        "source_quality": "full_text"
+      }
+    },
+    {
+      "id": "eyfs__autumn_term__just_like_me__compare_size_mass_and_capacity",
+      "year_group_id": "eyfs",
+      "block_id": "eyfs__autumn_term__just_like_me",
+      "description": "Compare size, mass and capacity",
+      "metadata": {
+        "source_file": "Maths_Overview.md",
+        "source_quality": "full_text"
+      }
+    },
+    {
+      "id": "eyfs__autumn_term__just_like_me__exploring_pattern",
+      "year_group_id": "eyfs",
+      "block_id": "eyfs__autumn_term__just_like_me",
+      "description": "Exploring pattern",
+      "metadata": {
+        "source_file": "Maths_Overview.md",
+        "source_quality": "full_text"
+      }
+    },
+    {
+      "id": "eyfs__autumn_term__it_s_me_1_2_3__representing_1_2_and_3",
+      "year_group_id": "eyfs",
+      "block_id": "eyfs__autumn_term__it_s_me_1_2_3",
+      "description": "Representing 1, 2 and 3",
+      "metadata": {
+        "source_file": "Maths_Overview.md",
+        "source_quality": "full_text"
+      }
+    },
+    {
+      "id": "eyfs__autumn_term__it_s_me_1_2_3__comparing_1_2_and_3",
+      "year_group_id": "eyfs",
+      "block_id": "eyfs__autumn_term__it_s_me_1_2_3",
+      "description": "Comparing 1, 2 and 3",
+      "metadata": {
+        "source_file": "Maths_Overview.md",
+        "source_quality": "full_text"
+      }
+    },
+    {
+      "id": "eyfs__autumn_term__it_s_me_1_2_3__composition_of_1_2_and_3",
+      "year_group_id": "eyfs",
+      "block_id": "eyfs__autumn_term__it_s_me_1_2_3",
+      "description": "Composition of 1, 2 and 3",
+      "metadata": {
+        "source_file": "Maths_Overview.md",
+        "source_quality": "full_text"
+      }
+    },
+    {
+      "id": "eyfs__autumn_term__it_s_me_1_2_3__circles_and_triangles",
+      "year_group_id": "eyfs",
+      "block_id": "eyfs__autumn_term__it_s_me_1_2_3",
+      "description": "Circles and triangles",
+      "metadata": {
+        "source_file": "Maths_Overview.md",
+        "source_quality": "full_text"
+      }
+    },
+    {
+      "id": "eyfs__autumn_term__it_s_me_1_2_3__positional_language",
+      "year_group_id": "eyfs",
+      "block_id": "eyfs__autumn_term__it_s_me_1_2_3",
+      "description": "Positional language",
+      "metadata": {
+        "source_file": "Maths_Overview.md",
+        "source_quality": "full_text"
+      }
+    },
+    {
+      "id": "eyfs__autumn_term__light_dark__representing_numbers_to_5",
+      "year_group_id": "eyfs",
+      "block_id": "eyfs__autumn_term__light_dark",
+      "description": "Representing numbers to 5",
+      "metadata": {
+        "source_file": "Maths_Overview.md",
+        "source_quality": "full_text"
+      }
+    },
+    {
+      "id": "eyfs__autumn_term__light_dark__one_more_or_less",
+      "year_group_id": "eyfs",
+      "block_id": "eyfs__autumn_term__light_dark",
+      "description": "One more or less",
+      "metadata": {
+        "source_file": "Maths_Overview.md",
+        "source_quality": "full_text"
+      }
+    },
+    {
+      "id": "eyfs__autumn_term__light_dark__shapes_with_4_sides",
+      "year_group_id": "eyfs",
+      "block_id": "eyfs__autumn_term__light_dark",
+      "description": "Shapes with 4 sides",
+      "metadata": {
+        "source_file": "Maths_Overview.md",
+        "source_quality": "full_text"
+      }
+    },
+    {
+      "id": "eyfs__autumn_term__light_dark__time",
+      "year_group_id": "eyfs",
+      "block_id": "eyfs__autumn_term__light_dark",
+      "description": "Time",
+      "metadata": {
+        "source_file": "Maths_Overview.md",
+        "source_quality": "full_text"
+      }
+    },
+    {
+      "id": "eyfs__spring_term__alive_in_5__introducing_zero",
+      "year_group_id": "eyfs",
+      "block_id": "eyfs__spring_term__alive_in_5",
+      "description": "Introducing zero",
+      "metadata": {
+        "source_file": "Maths_Overview.md",
+        "source_quality": "full_text"
+      }
+    },
+    {
+      "id": "eyfs__spring_term__alive_in_5__comparing_numbers_to_5",
+      "year_group_id": "eyfs",
+      "block_id": "eyfs__spring_term__alive_in_5",
+      "description": "Comparing numbers to 5",
+      "metadata": {
+        "source_file": "Maths_Overview.md",
+        "source_quality": "full_text"
+      }
+    },
+    {
+      "id": "eyfs__spring_term__alive_in_5__composition_of_4_and_5",
+      "year_group_id": "eyfs",
+      "block_id": "eyfs__spring_term__alive_in_5",
+      "description": "Composition of 4 and 5",
+      "metadata": {
+        "source_file": "Maths_Overview.md",
+        "source_quality": "full_text"
+      }
+    },
+    {
+      "id": "eyfs__spring_term__alive_in_5__compare_mass",
+      "year_group_id": "eyfs",
+      "block_id": "eyfs__spring_term__alive_in_5",
+      "description": "Compare mass",
+      "metadata": {
+        "source_file": "Maths_Overview.md",
+        "source_quality": "full_text"
+      }
+    },
+    {
+      "id": "eyfs__spring_term__alive_in_5__compare_capacity",
+      "year_group_id": "eyfs",
+      "block_id": "eyfs__spring_term__alive_in_5",
+      "description": "Compare capacity",
+      "metadata": {
+        "source_file": "Maths_Overview.md",
+        "source_quality": "full_text"
+      }
+    },
+    {
+      "id": "eyfs__spring_term__growing_6_7_8__6_7_and_8",
+      "year_group_id": "eyfs",
+      "block_id": "eyfs__spring_term__growing_6_7_8",
+      "description": "6, 7 and 8",
+      "metadata": {
+        "source_file": "Maths_Overview.md",
+        "source_quality": "full_text"
+      }
+    },
+    {
+      "id": "eyfs__spring_term__growing_6_7_8__combining_two_amounts",
+      "year_group_id": "eyfs",
+      "block_id": "eyfs__spring_term__growing_6_7_8",
+      "description": "Combining two amounts",
+      "metadata": {
+        "source_file": "Maths_Overview.md",
+        "source_quality": "full_text"
+      }
+    },
+    {
+      "id": "eyfs__spring_term__growing_6_7_8__making_pairs",
+      "year_group_id": "eyfs",
+      "block_id": "eyfs__spring_term__growing_6_7_8",
+      "description": "Making pairs",
+      "metadata": {
+        "source_file": "Maths_Overview.md",
+        "source_quality": "full_text"
+      }
+    },
+    {
+      "id": "eyfs__spring_term__growing_6_7_8__length_and_height",
+      "year_group_id": "eyfs",
+      "block_id": "eyfs__spring_term__growing_6_7_8",
+      "description": "Length and height",
+      "metadata": {
+        "source_file": "Maths_Overview.md",
+        "source_quality": "full_text"
+      }
+    },
+    {
+      "id": "eyfs__spring_term__growing_6_7_8__time",
+      "year_group_id": "eyfs",
+      "block_id": "eyfs__spring_term__growing_6_7_8",
+      "description": "Time",
+      "metadata": {
+        "source_file": "Maths_Overview.md",
+        "source_quality": "full_text"
+      }
+    },
+    {
+      "id": "eyfs__spring_term__building_9_10__counting_to_9_and_10",
+      "year_group_id": "eyfs",
+      "block_id": "eyfs__spring_term__building_9_10",
+      "description": "Counting to 9 and 10",
+      "metadata": {
+        "source_file": "Maths_Overview.md",
+        "source_quality": "full_text"
+      }
+    },
+    {
+      "id": "eyfs__spring_term__building_9_10__comparing_numbers_to_10",
+      "year_group_id": "eyfs",
+      "block_id": "eyfs__spring_term__building_9_10",
+      "description": "Comparing numbers to 10",
+      "metadata": {
+        "source_file": "Maths_Overview.md",
+        "source_quality": "full_text"
+      }
+    },
+    {
+      "id": "eyfs__spring_term__building_9_10__bonds_to_10",
+      "year_group_id": "eyfs",
+      "block_id": "eyfs__spring_term__building_9_10",
+      "description": "Bonds to 10",
+      "metadata": {
+        "source_file": "Maths_Overview.md",
+        "source_quality": "full_text"
+      }
+    },
+    {
+      "id": "eyfs__spring_term__building_9_10__3_d_shapes",
+      "year_group_id": "eyfs",
+      "block_id": "eyfs__spring_term__building_9_10",
+      "description": "3-D shapes",
+      "metadata": {
+        "source_file": "Maths_Overview.md",
+        "source_quality": "full_text"
+      }
+    },
+    {
+      "id": "eyfs__spring_term__building_9_10__spatial_awareness",
+      "year_group_id": "eyfs",
+      "block_id": "eyfs__spring_term__building_9_10",
+      "description": "Spatial awareness",
+      "metadata": {
+        "source_file": "Maths_Overview.md",
+        "source_quality": "full_text"
+      }
+    },
+    {
+      "id": "eyfs__spring_term__building_9_10__patterns",
+      "year_group_id": "eyfs",
+      "block_id": "eyfs__spring_term__building_9_10",
+      "description": "Patterns",
+      "metadata": {
+        "source_file": "Maths_Overview.md",
+        "source_quality": "full_text"
+      }
+    },
+    {
+      "id": "eyfs__summer_term__to_20_and_beyond__build_numbers_beyond_10",
+      "year_group_id": "eyfs",
+      "block_id": "eyfs__summer_term__to_20_and_beyond",
+      "description": "Build numbers beyond 10",
+      "metadata": {
+        "source_file": "Maths_Overview.md",
+        "source_quality": "full_text"
+      }
+    },
+    {
+      "id": "eyfs__summer_term__to_20_and_beyond__count_patterns_beyond_10",
+      "year_group_id": "eyfs",
+      "block_id": "eyfs__summer_term__to_20_and_beyond",
+      "description": "Count patterns beyond 10",
+      "metadata": {
+        "source_file": "Maths_Overview.md",
+        "source_quality": "full_text"
+      }
+    },
+    {
+      "id": "eyfs__summer_term__to_20_and_beyond__spatial_reasoning_1",
+      "year_group_id": "eyfs",
+      "block_id": "eyfs__summer_term__to_20_and_beyond",
+      "description": "Spatial reasoning 1",
+      "metadata": {
+        "source_file": "Maths_Overview.md",
+        "source_quality": "full_text"
+      }
+    },
+    {
+      "id": "eyfs__summer_term__to_20_and_beyond__match_rotate_manipulate",
+      "year_group_id": "eyfs",
+      "block_id": "eyfs__summer_term__to_20_and_beyond",
+      "description": "Match, rotate, manipulate",
+      "metadata": {
+        "source_file": "Maths_Overview.md",
+        "source_quality": "full_text"
+      }
+    },
+    {
+      "id": "eyfs__summer_term__first_then_now__adding_more",
+      "year_group_id": "eyfs",
+      "block_id": "eyfs__summer_term__first_then_now",
+      "description": "Adding more",
+      "metadata": {
+        "source_file": "Maths_Overview.md",
+        "source_quality": "full_text"
+      }
+    },
+    {
+      "id": "eyfs__summer_term__first_then_now__taking_away",
+      "year_group_id": "eyfs",
+      "block_id": "eyfs__summer_term__first_then_now",
+      "description": "Taking away",
+      "metadata": {
+        "source_file": "Maths_Overview.md",
+        "source_quality": "full_text"
+      }
+    },
+    {
+      "id": "eyfs__summer_term__first_then_now__spatial_reasoning_2",
+      "year_group_id": "eyfs",
+      "block_id": "eyfs__summer_term__first_then_now",
+      "description": "Spatial reasoning 2",
+      "metadata": {
+        "source_file": "Maths_Overview.md",
+        "source_quality": "full_text"
+      }
+    },
+    {
+      "id": "eyfs__summer_term__first_then_now__compose_and_decompose",
+      "year_group_id": "eyfs",
+      "block_id": "eyfs__summer_term__first_then_now",
+      "description": "Compose and decompose",
+      "metadata": {
+        "source_file": "Maths_Overview.md",
+        "source_quality": "full_text"
+      }
+    },
+    {
+      "id": "eyfs__summer_term__find_my_pattern__doubling",
+      "year_group_id": "eyfs",
+      "block_id": "eyfs__summer_term__find_my_pattern",
+      "description": "Doubling",
+      "metadata": {
+        "source_file": "Maths_Overview.md",
+        "source_quality": "full_text"
+      }
+    },
+    {
+      "id": "eyfs__summer_term__find_my_pattern__sharing_and_grouping",
+      "year_group_id": "eyfs",
+      "block_id": "eyfs__summer_term__find_my_pattern",
+      "description": "Sharing and grouping",
+      "metadata": {
+        "source_file": "Maths_Overview.md",
+        "source_quality": "full_text"
+      }
+    },
+    {
+      "id": "eyfs__summer_term__find_my_pattern__even_and_odd",
+      "year_group_id": "eyfs",
+      "block_id": "eyfs__summer_term__find_my_pattern",
+      "description": "Even and odd",
+      "metadata": {
+        "source_file": "Maths_Overview.md",
+        "source_quality": "full_text"
+      }
+    },
+    {
+      "id": "eyfs__summer_term__find_my_pattern__spatial_reasoning_3",
+      "year_group_id": "eyfs",
+      "block_id": "eyfs__summer_term__find_my_pattern",
+      "description": "Spatial reasoning 3",
+      "metadata": {
+        "source_file": "Maths_Overview.md",
+        "source_quality": "full_text"
+      }
+    },
+    {
+      "id": "eyfs__summer_term__find_my_pattern__visualise_and_build",
+      "year_group_id": "eyfs",
+      "block_id": "eyfs__summer_term__find_my_pattern",
+      "description": "Visualise and build",
+      "metadata": {
+        "source_file": "Maths_Overview.md",
+        "source_quality": "full_text"
+      }
+    },
+    {
+      "id": "eyfs__summer_term__on_the_move__deepening_understanding",
+      "year_group_id": "eyfs",
+      "block_id": "eyfs__summer_term__on_the_move",
+      "description": "Deepening understanding",
+      "metadata": {
+        "source_file": "Maths_Overview.md",
+        "source_quality": "full_text"
+      }
+    },
+    {
+      "id": "eyfs__summer_term__on_the_move__patterns_and_relationships",
+      "year_group_id": "eyfs",
+      "block_id": "eyfs__summer_term__on_the_move",
+      "description": "Patterns and relationships",
+      "metadata": {
+        "source_file": "Maths_Overview.md",
+        "source_quality": "full_text"
+      }
+    },
+    {
+      "id": "eyfs__summer_term__on_the_move__spatial_mapping",
+      "year_group_id": "eyfs",
+      "block_id": "eyfs__summer_term__on_the_move",
+      "description": "Spatial mapping",
+      "metadata": {
+        "source_file": "Maths_Overview.md",
+        "source_quality": "full_text"
+      }
+    },
+    {
+      "id": "eyfs__summer_term__on_the_move__mapping",
+      "year_group_id": "eyfs",
+      "block_id": "eyfs__summer_term__on_the_move",
+      "description": "Mapping",
+      "metadata": {
+        "source_file": "Maths_Overview.md",
+        "source_quality": "full_text"
+      }
+    },
+    {
+      "id": "year_6__summer_term__themed_projects_consolidation_and_problem_solving__this_markdown_version_is_a_clean_textual_convers",
+      "year_group_id": "year_6",
+      "block_id": "year_6__summer_term__themed_projects_consolidation_and_problem_solving",
+      "description": "This markdown version is a clean textual conversion of the visual overview map.",
+      "metadata": {
+        "source_file": "Maths_Overview.md",
+        "source_quality": "full_text"
+      }
+    },
+    {
+      "id": "year_6__summer_term__themed_projects_consolidation_and_problem_solving__the_original_pdf_is_laid_out_as_a_term_by_term_c",
+      "year_group_id": "year_6",
+      "block_id": "year_6__summer_term__themed_projects_consolidation_and_problem_solving",
+      "description": "The original PDF is laid out as a term-by-term curriculum grid across seven pages. The markdown above converts that grid into a readable document structure. Page 1 contains the vision statement and EYFS map; pages 2 to 7 contain Year 1 to Year 6 overviews. :contentReference[oaicite:2]{index=2}",
+      "metadata": {
+        "source_file": "Maths_Overview.md",
+        "source_quality": "full_text"
+      }
+    },
+    {
+      "id": "eyfs__number_and_place_value__counting__verbally_count_beyond_20_recogni",
+      "year_group_id": "eyfs",
+      "strand_id": "number_and_place_value",
+      "block_name": "Counting",
+      "description": "Verbally count beyond 20, recognising the pattern of the counting system.",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "eyfs__number_and_place_value__counting__have_a_deep_understanding_of_num",
+      "year_group_id": "eyfs",
+      "strand_id": "number_and_place_value",
+      "block_name": "Counting",
+      "description": "Have a deep understanding of number to 10, including the composition of each number.",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_1__number_and_place_value__counting__count_to_and_across_100_forwards",
+      "year_group_id": "year_1",
+      "strand_id": "number_and_place_value",
+      "block_name": "Counting",
+      "description": "Count to and across 100, forwards and backwards, beginning with 0 or 1, or from any given number.",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_1__number_and_place_value__counting__count_read_and_write_numbers_to_",
+      "year_group_id": "year_1",
+      "strand_id": "number_and_place_value",
+      "block_name": "Counting",
+      "description": "Count, read and write numbers to 100 in numerals.",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_1__number_and_place_value__counting__count_in_multiples_of_twos_fives",
+      "year_group_id": "year_1",
+      "strand_id": "number_and_place_value",
+      "block_name": "Counting",
+      "description": "Count in multiples of twos, fives and tens.",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_1__number_and_place_value__counting__given_a_number_identify_one_more",
+      "year_group_id": "year_1",
+      "strand_id": "number_and_place_value",
+      "block_name": "Counting",
+      "description": "Given a number, identify one more and one less.",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_2__number_and_place_value__counting__count_in_steps_of_2_3_and_5_from",
+      "year_group_id": "year_2",
+      "strand_id": "number_and_place_value",
+      "block_name": "Counting",
+      "description": "Count in steps of 2, 3 and 5 from 0.",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_2__number_and_place_value__counting__count_in_tens_from_any_number_fo",
+      "year_group_id": "year_2",
+      "strand_id": "number_and_place_value",
+      "block_name": "Counting",
+      "description": "Count in tens from any number, forwards and backwards.",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_3__number_and_place_value__counting__count_from_0_in_multiples_of_4_8",
+      "year_group_id": "year_3",
+      "strand_id": "number_and_place_value",
+      "block_name": "Counting",
+      "description": "Count from 0 in multiples of 4, 8, 50 and 100.",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_3__number_and_place_value__counting__find_10_or_100_more_or_less_than",
+      "year_group_id": "year_3",
+      "strand_id": "number_and_place_value",
+      "block_name": "Counting",
+      "description": "Find 10 or 100 more or less than a given number.",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_4__number_and_place_value__counting__count_backwards_through_zero_to_",
+      "year_group_id": "year_4",
+      "strand_id": "number_and_place_value",
+      "block_name": "Counting",
+      "description": "Count backwards through zero to include negative numbers.",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_4__number_and_place_value__counting__count_in_multiples_of_6_7_9_25_a",
+      "year_group_id": "year_4",
+      "strand_id": "number_and_place_value",
+      "block_name": "Counting",
+      "description": "Count in multiples of 6, 7, 9, 25 and 1000.",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_4__number_and_place_value__counting__find_1000_more_or_less_than_a_gi",
+      "year_group_id": "year_4",
+      "strand_id": "number_and_place_value",
+      "block_name": "Counting",
+      "description": "Find 1000 more or less than a given number.",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_5__number_and_place_value__counting__interpret_negative_numbers_in_co",
+      "year_group_id": "year_5",
+      "strand_id": "number_and_place_value",
+      "block_name": "Counting",
+      "description": "Interpret negative numbers in context.",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_5__number_and_place_value__counting__count_forwards_and_backwards_wit",
+      "year_group_id": "year_5",
+      "strand_id": "number_and_place_value",
+      "block_name": "Counting",
+      "description": "Count forwards and backwards with positive and negative whole numbers, including through zero.",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_5__number_and_place_value__counting__count_forwards_or_backwards_in_s",
+      "year_group_id": "year_5",
+      "strand_id": "number_and_place_value",
+      "block_name": "Counting",
+      "description": "Count forwards or backwards in steps of powers of 10 for any given number up to 1,000,000.",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_6__number_and_place_value__counting__use_negative_numbers_in_context",
+      "year_group_id": "year_6",
+      "strand_id": "number_and_place_value",
+      "block_name": "Counting",
+      "description": "Use negative numbers in context.",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_6__number_and_place_value__counting__calculate_intervals_across_zero",
+      "year_group_id": "year_6",
+      "strand_id": "number_and_place_value",
+      "block_name": "Counting",
+      "description": "Calculate intervals across zero.",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "eyfs__number_and_place_value__comparing_numbers__compare_quantities_up_to_10_in_d",
+      "year_group_id": "eyfs",
+      "strand_id": "number_and_place_value",
+      "block_name": "Comparing Numbers",
+      "description": "Compare quantities up to 10 in different contexts.",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "eyfs__number_and_place_value__comparing_numbers__recognise_when_one_quantity_is_g",
+      "year_group_id": "eyfs",
+      "strand_id": "number_and_place_value",
+      "block_name": "Comparing Numbers",
+      "description": "Recognise when one quantity is greater than, less than, or the same as another quantity.",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_1__number_and_place_value__comparing_numbers__use_the_language_of",
+      "year_group_id": "year_1",
+      "strand_id": "number_and_place_value",
+      "block_name": "Comparing Numbers",
+      "description": "Use the language of:",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_1__number_and_place_value__comparing_numbers__equal_to",
+      "year_group_id": "year_1",
+      "strand_id": "number_and_place_value",
+      "block_name": "Comparing Numbers",
+      "description": "equal to",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_1__number_and_place_value__comparing_numbers__more_than",
+      "year_group_id": "year_1",
+      "strand_id": "number_and_place_value",
+      "block_name": "Comparing Numbers",
+      "description": "more than",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_1__number_and_place_value__comparing_numbers__less_than_fewer",
+      "year_group_id": "year_1",
+      "strand_id": "number_and_place_value",
+      "block_name": "Comparing Numbers",
+      "description": "less than / fewer",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_1__number_and_place_value__comparing_numbers__most",
+      "year_group_id": "year_1",
+      "strand_id": "number_and_place_value",
+      "block_name": "Comparing Numbers",
+      "description": "most",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_1__number_and_place_value__comparing_numbers__least",
+      "year_group_id": "year_1",
+      "strand_id": "number_and_place_value",
+      "block_name": "Comparing Numbers",
+      "description": "least",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_2__number_and_place_value__comparing_numbers__compare_and_order_numbers_from_0",
+      "year_group_id": "year_2",
+      "strand_id": "number_and_place_value",
+      "block_name": "Comparing Numbers",
+      "description": "Compare and order numbers from 0 up to 100.",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_2__number_and_place_value__comparing_numbers__use_and_signs",
+      "year_group_id": "year_2",
+      "strand_id": "number_and_place_value",
+      "block_name": "Comparing Numbers",
+      "description": "Use `<`, `>` and `=` signs.",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_3__number_and_place_value__comparing_numbers__compare_and_order_numbers_up_to_",
+      "year_group_id": "year_3",
+      "strand_id": "number_and_place_value",
+      "block_name": "Comparing Numbers",
+      "description": "Compare and order numbers up to 1000.",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_4__number_and_place_value__comparing_numbers__order_and_compare_numbers_beyond",
+      "year_group_id": "year_4",
+      "strand_id": "number_and_place_value",
+      "block_name": "Comparing Numbers",
+      "description": "Order and compare numbers beyond 1000.",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_4__number_and_place_value__comparing_numbers__compare_numbers_with_the_same_nu",
+      "year_group_id": "year_4",
+      "strand_id": "number_and_place_value",
+      "block_name": "Comparing Numbers",
+      "description": "Compare numbers with the same number of decimal places up to two decimal places.",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_5__number_and_place_value__comparing_numbers__read_write_order_and_compare_num",
+      "year_group_id": "year_5",
+      "strand_id": "number_and_place_value",
+      "block_name": "Comparing Numbers",
+      "description": "Read, write, order and compare numbers to at least 1,000,000.",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_5__number_and_place_value__comparing_numbers__determine_the_value_of_each_digi",
+      "year_group_id": "year_5",
+      "strand_id": "number_and_place_value",
+      "block_name": "Comparing Numbers",
+      "description": "Determine the value of each digit.",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_6__number_and_place_value__comparing_numbers__read_write_order_and_compare_num",
+      "year_group_id": "year_6",
+      "strand_id": "number_and_place_value",
+      "block_name": "Comparing Numbers",
+      "description": "Read, write, order and compare numbers up to 10,000,000.",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_6__number_and_place_value__comparing_numbers__determine_the_value_of_each_digi",
+      "year_group_id": "year_6",
+      "strand_id": "number_and_place_value",
+      "block_name": "Comparing Numbers",
+      "description": "Determine the value of each digit.",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "eyfs__number_and_place_value__identifying_representing_and_estimating_numbers__explore_and_represent_patterns_w",
+      "year_group_id": "eyfs",
+      "strand_id": "number_and_place_value",
+      "block_name": "Identifying, Representing and Estimating Numbers",
+      "description": "Explore and represent patterns within numbers up to 10, including:",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "eyfs__number_and_place_value__identifying_representing_and_estimating_numbers__evens_and_odds",
+      "year_group_id": "eyfs",
+      "strand_id": "number_and_place_value",
+      "block_name": "Identifying, Representing and Estimating Numbers",
+      "description": "evens and odds",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "eyfs__number_and_place_value__identifying_representing_and_estimating_numbers__double_facts",
+      "year_group_id": "eyfs",
+      "strand_id": "number_and_place_value",
+      "block_name": "Identifying, Representing and Estimating Numbers",
+      "description": "double facts",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "eyfs__number_and_place_value__identifying_representing_and_estimating_numbers__how_quantities_can_be_distribute",
+      "year_group_id": "eyfs",
+      "strand_id": "number_and_place_value",
+      "block_name": "Identifying, Representing and Estimating Numbers",
+      "description": "how quantities can be distributed equally",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_1__number_and_place_value__identifying_representing_and_estimating_numbers__identify_and_represent_numbers_u",
+      "year_group_id": "year_1",
+      "strand_id": "number_and_place_value",
+      "block_name": "Identifying, Representing and Estimating Numbers",
+      "description": "Identify and represent numbers using objects and pictorial representations, including the number line.",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_2__number_and_place_value__identifying_representing_and_estimating_numbers__identify_represent_and_estimate_",
+      "year_group_id": "year_2",
+      "strand_id": "number_and_place_value",
+      "block_name": "Identifying, Representing and Estimating Numbers",
+      "description": "Identify, represent and estimate numbers using different representations, including the number line.",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_3__number_and_place_value__identifying_representing_and_estimating_numbers__identify_represent_and_estimate_",
+      "year_group_id": "year_3",
+      "strand_id": "number_and_place_value",
+      "block_name": "Identifying, Representing and Estimating Numbers",
+      "description": "Identify, represent and estimate numbers using different representations.",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_4__number_and_place_value__identifying_representing_and_estimating_numbers__identify_represent_and_estimate_",
+      "year_group_id": "year_4",
+      "strand_id": "number_and_place_value",
+      "block_name": "Identifying, Representing and Estimating Numbers",
+      "description": "Identify, represent and estimate numbers using different representations.",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_1__number_and_place_value__reading_and_writing_numbers__read_and_write_numbers_from_1_to",
+      "year_group_id": "year_1",
+      "strand_id": "number_and_place_value",
+      "block_name": "Reading and Writing Numbers",
+      "description": "Read and write numbers from 1 to 20 in numerals and words.",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_2__number_and_place_value__reading_and_writing_numbers__read_and_write_numbers_to_at_lea",
+      "year_group_id": "year_2",
+      "strand_id": "number_and_place_value",
+      "block_name": "Reading and Writing Numbers",
+      "description": "Read and write numbers to at least 100 in numerals and words.",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_3__number_and_place_value__reading_and_writing_numbers__read_and_write_numbers_up_to_100",
+      "year_group_id": "year_3",
+      "strand_id": "number_and_place_value",
+      "block_name": "Reading and Writing Numbers",
+      "description": "Read and write numbers up to 1000 in numerals and words.",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_3__number_and_place_value__reading_and_writing_numbers__tell_and_write_the_time_from_an_",
+      "year_group_id": "year_3",
+      "strand_id": "number_and_place_value",
+      "block_name": "Reading and Writing Numbers",
+      "description": "Tell and write the time from an analogue clock, including using Roman numerals from I to XII, and 12-hour and 24-hour clocks.",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_4__number_and_place_value__reading_and_writing_numbers__read_roman_numerals_to_100_i_to_",
+      "year_group_id": "year_4",
+      "strand_id": "number_and_place_value",
+      "block_name": "Reading and Writing Numbers",
+      "description": "Read Roman numerals to 100 (I to C).",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_4__number_and_place_value__reading_and_writing_numbers__know_that_over_time_the_numeral_",
+      "year_group_id": "year_4",
+      "strand_id": "number_and_place_value",
+      "block_name": "Reading and Writing Numbers",
+      "description": "Know that over time, the numeral system changed to include the concept of zero and place value.",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_5__number_and_place_value__reading_and_writing_numbers__read_write_order_and_compare_num",
+      "year_group_id": "year_5",
+      "strand_id": "number_and_place_value",
+      "block_name": "Reading and Writing Numbers",
+      "description": "Read, write, order and compare numbers to at least 1,000,000.",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_5__number_and_place_value__reading_and_writing_numbers__determine_the_value_of_each_digi",
+      "year_group_id": "year_5",
+      "strand_id": "number_and_place_value",
+      "block_name": "Reading and Writing Numbers",
+      "description": "Determine the value of each digit.",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_5__number_and_place_value__reading_and_writing_numbers__read_roman_numerals_to_1000_m",
+      "year_group_id": "year_5",
+      "strand_id": "number_and_place_value",
+      "block_name": "Reading and Writing Numbers",
+      "description": "Read Roman numerals to 1000 (M).",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_5__number_and_place_value__reading_and_writing_numbers__recognise_years_written_in_roman",
+      "year_group_id": "year_5",
+      "strand_id": "number_and_place_value",
+      "block_name": "Reading and Writing Numbers",
+      "description": "Recognise years written in Roman numerals.",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_6__number_and_place_value__reading_and_writing_numbers__read_write_order_and_compare_num",
+      "year_group_id": "year_6",
+      "strand_id": "number_and_place_value",
+      "block_name": "Reading and Writing Numbers",
+      "description": "Read, write, order and compare numbers up to 10,000,000.",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_6__number_and_place_value__reading_and_writing_numbers__determine_the_value_of_each_digi",
+      "year_group_id": "year_6",
+      "strand_id": "number_and_place_value",
+      "block_name": "Reading and Writing Numbers",
+      "description": "Determine the value of each digit.",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_2__number_and_place_value__understanding_place_value__recognise_the_place_value_of_eac",
+      "year_group_id": "year_2",
+      "strand_id": "number_and_place_value",
+      "block_name": "Understanding Place Value",
+      "description": "Recognise the place value of each digit in a two-digit number (tens, ones).",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_2__number_and_place_value__understanding_place_value__use_place_value_and_number_facts",
+      "year_group_id": "year_2",
+      "strand_id": "number_and_place_value",
+      "block_name": "Understanding Place Value",
+      "description": "Use place value and number facts to solve problems.",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_3__number_and_place_value__understanding_place_value__recognise_the_place_value_of_eac",
+      "year_group_id": "year_3",
+      "strand_id": "number_and_place_value",
+      "block_name": "Understanding Place Value",
+      "description": "Recognise the place value of each digit in a three-digit number (hundreds, tens, ones).",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_3__number_and_place_value__understanding_place_value__solve_number_problems_and_practi",
+      "year_group_id": "year_3",
+      "strand_id": "number_and_place_value",
+      "block_name": "Understanding Place Value",
+      "description": "Solve number problems and practical problems involving these ideas.",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_4__number_and_place_value__understanding_place_value__recognise_the_place_value_of_eac",
+      "year_group_id": "year_4",
+      "strand_id": "number_and_place_value",
+      "block_name": "Understanding Place Value",
+      "description": "Recognise the place value of each digit in a four-digit number (thousands, hundreds, tens and ones).",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_4__number_and_place_value__understanding_place_value__round_any_number_to_the_nearest_",
+      "year_group_id": "year_4",
+      "strand_id": "number_and_place_value",
+      "block_name": "Understanding Place Value",
+      "description": "Round any number to the nearest 10, 100 or 1000.",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_4__number_and_place_value__understanding_place_value__solve_number_and_practical_probl",
+      "year_group_id": "year_4",
+      "strand_id": "number_and_place_value",
+      "block_name": "Understanding Place Value",
+      "description": "Solve number and practical problems involving increasingly large positive numbers.",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_5__number_and_place_value__understanding_place_value__read_write_order_and_compare_num",
+      "year_group_id": "year_5",
+      "strand_id": "number_and_place_value",
+      "block_name": "Understanding Place Value",
+      "description": "Read, write, order and compare numbers to at least 1,000,000.",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_5__number_and_place_value__understanding_place_value__determine_the_value_of_each_digi",
+      "year_group_id": "year_5",
+      "strand_id": "number_and_place_value",
+      "block_name": "Understanding Place Value",
+      "description": "Determine the value of each digit.",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_5__number_and_place_value__understanding_place_value__recognise_and_use_thousandths_an",
+      "year_group_id": "year_5",
+      "strand_id": "number_and_place_value",
+      "block_name": "Understanding Place Value",
+      "description": "Recognise and use thousandths and relate them to tenths, hundredths and decimal equivalents.",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_5__number_and_place_value__understanding_place_value__round_any_number_up_to_1_000_000",
+      "year_group_id": "year_5",
+      "strand_id": "number_and_place_value",
+      "block_name": "Understanding Place Value",
+      "description": "Round any number up to 1,000,000 to the nearest 10, 100, 1000, 10,000 and 100,000.",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_5__number_and_place_value__understanding_place_value__solve_number_problems_and_practi",
+      "year_group_id": "year_5",
+      "strand_id": "number_and_place_value",
+      "block_name": "Understanding Place Value",
+      "description": "Solve number problems and practical problems involving all of the above.",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_6__number_and_place_value__understanding_place_value__read_write_order_and_compare_num",
+      "year_group_id": "year_6",
+      "strand_id": "number_and_place_value",
+      "block_name": "Understanding Place Value",
+      "description": "Read, write, order and compare numbers up to 10,000,000.",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_6__number_and_place_value__understanding_place_value__determine_the_value_of_each_digi",
+      "year_group_id": "year_6",
+      "strand_id": "number_and_place_value",
+      "block_name": "Understanding Place Value",
+      "description": "Determine the value of each digit.",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_6__number_and_place_value__understanding_place_value__identify_the_value_of_each_digit",
+      "year_group_id": "year_6",
+      "strand_id": "number_and_place_value",
+      "block_name": "Understanding Place Value",
+      "description": "Identify the value of each digit to three decimal places.",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_6__number_and_place_value__understanding_place_value__multiply_and_divide_numbers_by_1",
+      "year_group_id": "year_6",
+      "strand_id": "number_and_place_value",
+      "block_name": "Understanding Place Value",
+      "description": "Multiply and divide numbers by 10, 100 and 1000 where the answers are up to three decimal places.",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_6__number_and_place_value__understanding_place_value__round_any_whole_number_to_a_requ",
+      "year_group_id": "year_6",
+      "strand_id": "number_and_place_value",
+      "block_name": "Understanding Place Value",
+      "description": "Round any whole number to a required degree of accuracy.",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_6__number_and_place_value__understanding_place_value__solve_problems_which_require_ans",
+      "year_group_id": "year_6",
+      "strand_id": "number_and_place_value",
+      "block_name": "Understanding Place Value",
+      "description": "Solve problems which require answers to be rounded to specified degrees of accuracy.",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_6__number_and_place_value__understanding_place_value__solve_number_and_practical_probl",
+      "year_group_id": "year_6",
+      "strand_id": "number_and_place_value",
+      "block_name": "Understanding Place Value",
+      "description": "Solve number and practical problems involving all of the above.",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "eyfs__addition_and_subtraction__number_bonds__subitise_recognise_quantities_wi",
+      "year_group_id": "eyfs",
+      "strand_id": "addition_and_subtraction",
+      "block_name": "Number Bonds",
+      "description": "Subitise (recognise quantities without counting) up to 5.",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "eyfs__addition_and_subtraction__number_bonds__automatically_recall_number_bond",
+      "year_group_id": "eyfs",
+      "strand_id": "addition_and_subtraction",
+      "block_name": "Number Bonds",
+      "description": "Automatically recall number bonds up to 5, including subtraction facts.",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "eyfs__addition_and_subtraction__number_bonds__automatically_recall_some_number",
+      "year_group_id": "eyfs",
+      "strand_id": "addition_and_subtraction",
+      "block_name": "Number Bonds",
+      "description": "Automatically recall some number bonds to 10, including double facts.",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_1__addition_and_subtraction__number_bonds__represent_and_use_number_bonds_a",
+      "year_group_id": "year_1",
+      "strand_id": "addition_and_subtraction",
+      "block_name": "Number Bonds",
+      "description": "Represent and use number bonds and related subtraction facts within 20.",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_2__addition_and_subtraction__number_bonds__recall_and_use_addition_and_subt",
+      "year_group_id": "year_2",
+      "strand_id": "addition_and_subtraction",
+      "block_name": "Number Bonds",
+      "description": "Recall and use addition and subtraction facts to 20 fluently.",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_2__addition_and_subtraction__number_bonds__derive_and_use_related_facts_up_",
+      "year_group_id": "year_2",
+      "strand_id": "addition_and_subtraction",
+      "block_name": "Number Bonds",
+      "description": "Derive and use related facts up to 100.",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_1__addition_and_subtraction__mental_calculation__add_and_subtract_one_digit_and_t",
+      "year_group_id": "year_1",
+      "strand_id": "addition_and_subtraction",
+      "block_name": "Mental Calculation",
+      "description": "Add and subtract one-digit and two-digit numbers to 20, including zero.",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_1__addition_and_subtraction__mental_calculation__read_write_and_interpret_mathema",
+      "year_group_id": "year_1",
+      "strand_id": "addition_and_subtraction",
+      "block_name": "Mental Calculation",
+      "description": "Read, write and interpret mathematical statements involving addition (`+`), subtraction (`-`) and equals (`=`) signs.",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_2__addition_and_subtraction__mental_calculation__add_and_subtract_numbers_using_c",
+      "year_group_id": "year_2",
+      "strand_id": "addition_and_subtraction",
+      "block_name": "Mental Calculation",
+      "description": "Add and subtract numbers using concrete objects, pictorial representations and mentally, including:",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_2__addition_and_subtraction__mental_calculation__a_two_digit_number_and_ones",
+      "year_group_id": "year_2",
+      "strand_id": "addition_and_subtraction",
+      "block_name": "Mental Calculation",
+      "description": "a two-digit number and ones",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_2__addition_and_subtraction__mental_calculation__a_two_digit_number_and_tens",
+      "year_group_id": "year_2",
+      "strand_id": "addition_and_subtraction",
+      "block_name": "Mental Calculation",
+      "description": "a two-digit number and tens",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_2__addition_and_subtraction__mental_calculation__two_two_digit_numbers",
+      "year_group_id": "year_2",
+      "strand_id": "addition_and_subtraction",
+      "block_name": "Mental Calculation",
+      "description": "two two-digit numbers",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_2__addition_and_subtraction__mental_calculation__adding_three_one_digit_numbers",
+      "year_group_id": "year_2",
+      "strand_id": "addition_and_subtraction",
+      "block_name": "Mental Calculation",
+      "description": "adding three one-digit numbers",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_2__addition_and_subtraction__mental_calculation__show_that_addition_of_two_number",
+      "year_group_id": "year_2",
+      "strand_id": "addition_and_subtraction",
+      "block_name": "Mental Calculation",
+      "description": "Show that addition of two numbers can be done in any order (commutative) and subtraction of one number from another cannot.",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_3__addition_and_subtraction__mental_calculation__add_and_subtract_numbers_mentall",
+      "year_group_id": "year_3",
+      "strand_id": "addition_and_subtraction",
+      "block_name": "Mental Calculation",
+      "description": "Add and subtract numbers mentally, including:",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_3__addition_and_subtraction__mental_calculation__a_three_digit_number_and_ones",
+      "year_group_id": "year_3",
+      "strand_id": "addition_and_subtraction",
+      "block_name": "Mental Calculation",
+      "description": "a three-digit number and ones",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_3__addition_and_subtraction__mental_calculation__a_three_digit_number_and_tens",
+      "year_group_id": "year_3",
+      "strand_id": "addition_and_subtraction",
+      "block_name": "Mental Calculation",
+      "description": "a three-digit number and tens",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_3__addition_and_subtraction__mental_calculation__a_three_digit_number_and_hundred",
+      "year_group_id": "year_3",
+      "strand_id": "addition_and_subtraction",
+      "block_name": "Mental Calculation",
+      "description": "a three-digit number and hundreds",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_5__addition_and_subtraction__mental_calculation__add_and_subtract_numbers_mentall",
+      "year_group_id": "year_5",
+      "strand_id": "addition_and_subtraction",
+      "block_name": "Mental Calculation",
+      "description": "Add and subtract numbers mentally with increasingly large numbers.",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_6__addition_and_subtraction__mental_calculation__perform_mental_calculations_incl",
+      "year_group_id": "year_6",
+      "strand_id": "addition_and_subtraction",
+      "block_name": "Mental Calculation",
+      "description": "Perform mental calculations, including with mixed operations and large numbers.",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_6__addition_and_subtraction__mental_calculation__use_knowledge_of_the_order_of_op",
+      "year_group_id": "year_6",
+      "strand_id": "addition_and_subtraction",
+      "block_name": "Mental Calculation",
+      "description": "Use knowledge of the order of operations to carry out calculations involving the four operations.",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_1__addition_and_subtraction__written_methods__read_write_and_interpret_mathema",
+      "year_group_id": "year_1",
+      "strand_id": "addition_and_subtraction",
+      "block_name": "Written Methods",
+      "description": "Read, write and interpret mathematical statements involving addition (`+`), subtraction (`-`) and equals (`=`) signs.",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_2__addition_and_subtraction__written_methods__recognise_and_use_the_inverse_re",
+      "year_group_id": "year_2",
+      "strand_id": "addition_and_subtraction",
+      "block_name": "Written Methods",
+      "description": "Recognise and use the inverse relationship between addition and subtraction.",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_2__addition_and_subtraction__written_methods__use_this_to_check_calculations_a",
+      "year_group_id": "year_2",
+      "strand_id": "addition_and_subtraction",
+      "block_name": "Written Methods",
+      "description": "Use this to check calculations and solve missing number problems.",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_3__addition_and_subtraction__written_methods__add_and_subtract_numbers_with_up",
+      "year_group_id": "year_3",
+      "strand_id": "addition_and_subtraction",
+      "block_name": "Written Methods",
+      "description": "Add and subtract numbers with up to three digits, using formal written methods of columnar addition and subtraction.",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_4__addition_and_subtraction__written_methods__add_and_subtract_numbers_with_up",
+      "year_group_id": "year_4",
+      "strand_id": "addition_and_subtraction",
+      "block_name": "Written Methods",
+      "description": "Add and subtract numbers with up to four digits using the formal written methods of columnar addition and subtraction where appropriate.",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_5__addition_and_subtraction__written_methods__add_and_subtract_whole_numbers_w",
+      "year_group_id": "year_5",
+      "strand_id": "addition_and_subtraction",
+      "block_name": "Written Methods",
+      "description": "Add and subtract whole numbers with more than four digits, including using formal written methods.",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_3__addition_and_subtraction__estimating_and_checking_answers__estimate_the_answer_to_a_calcula",
+      "year_group_id": "year_3",
+      "strand_id": "addition_and_subtraction",
+      "block_name": "Estimating and Checking Answers",
+      "description": "Estimate the answer to a calculation.",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_3__addition_and_subtraction__estimating_and_checking_answers__use_inverse_operations_to_check_",
+      "year_group_id": "year_3",
+      "strand_id": "addition_and_subtraction",
+      "block_name": "Estimating and Checking Answers",
+      "description": "Use inverse operations to check answers.",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_4__addition_and_subtraction__estimating_and_checking_answers__estimate_and_use_inverse_operati",
+      "year_group_id": "year_4",
+      "strand_id": "addition_and_subtraction",
+      "block_name": "Estimating and Checking Answers",
+      "description": "Estimate and use inverse operations to check answers to a calculation.",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_5__addition_and_subtraction__estimating_and_checking_answers__use_rounding_to_check_answers_to",
+      "year_group_id": "year_5",
+      "strand_id": "addition_and_subtraction",
+      "block_name": "Estimating and Checking Answers",
+      "description": "Use rounding to check answers to calculations and determine, in the context of a problem, levels of accuracy.",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_6__addition_and_subtraction__estimating_and_checking_answers__use_estimation_to_check_answers_",
+      "year_group_id": "year_6",
+      "strand_id": "addition_and_subtraction",
+      "block_name": "Estimating and Checking Answers",
+      "description": "Use estimation to check answers to calculations and determine, in the context of a problem, levels of accuracy.",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_1__addition_and_subtraction__problem_solving__solve_one_step_problems_involvin",
+      "year_group_id": "year_1",
+      "strand_id": "addition_and_subtraction",
+      "block_name": "Problem Solving",
+      "description": "Solve one-step problems involving addition and subtraction using concrete objects and pictorial representations.",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_1__addition_and_subtraction__problem_solving__solve_missing_number_problems_su",
+      "year_group_id": "year_1",
+      "strand_id": "addition_and_subtraction",
+      "block_name": "Problem Solving",
+      "description": "Solve missing number problems such as `7 = □ - 9`.",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_2__addition_and_subtraction__problem_solving__solve_problems_with_addition_and",
+      "year_group_id": "year_2",
+      "strand_id": "addition_and_subtraction",
+      "block_name": "Problem Solving",
+      "description": "Solve problems with addition and subtraction:",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_2__addition_and_subtraction__problem_solving__using_concrete_objects_and_picto",
+      "year_group_id": "year_2",
+      "strand_id": "addition_and_subtraction",
+      "block_name": "Problem Solving",
+      "description": "using concrete objects and pictorial representations, including those involving numbers, quantities and measures",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_2__addition_and_subtraction__problem_solving__applying_increasing_knowledge_of",
+      "year_group_id": "year_2",
+      "strand_id": "addition_and_subtraction",
+      "block_name": "Problem Solving",
+      "description": "applying increasing knowledge of mental and written methods",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_2__addition_and_subtraction__problem_solving__solve_simple_problems_in_a_pract",
+      "year_group_id": "year_2",
+      "strand_id": "addition_and_subtraction",
+      "block_name": "Problem Solving",
+      "description": "Solve simple problems in a practical context involving addition and subtraction of money of the same unit, including giving change.",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_3__addition_and_subtraction__problem_solving__solve_problems_including_missing",
+      "year_group_id": "year_3",
+      "strand_id": "addition_and_subtraction",
+      "block_name": "Problem Solving",
+      "description": "Solve problems, including missing number problems, using number facts, place value, and more complex addition and subtraction.",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_4__addition_and_subtraction__problem_solving__solve_addition_and_subtraction_t",
+      "year_group_id": "year_4",
+      "strand_id": "addition_and_subtraction",
+      "block_name": "Problem Solving",
+      "description": "Solve addition and subtraction two-step problems in contexts, deciding which operations and methods to use and why.",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_5__addition_and_subtraction__problem_solving__solve_addition_and_subtraction_m",
+      "year_group_id": "year_5",
+      "strand_id": "addition_and_subtraction",
+      "block_name": "Problem Solving",
+      "description": "Solve addition and subtraction multi-step problems in contexts, deciding which operations and methods to use and why.",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_6__addition_and_subtraction__problem_solving__solve_addition_and_subtraction_m",
+      "year_group_id": "year_6",
+      "strand_id": "addition_and_subtraction",
+      "block_name": "Problem Solving",
+      "description": "Solve addition and subtraction multi-step problems in contexts, deciding which operations and methods to use and why.",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_6__addition_and_subtraction__problem_solving__solve_problems_involving_additio",
+      "year_group_id": "year_6",
+      "strand_id": "addition_and_subtraction",
+      "block_name": "Problem Solving",
+      "description": "Solve problems involving addition, subtraction, multiplication and division.",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "eyfs__geometry__identifying_shapes_and_their_properties__recognise_and_identify_common_2d",
+      "year_group_id": "eyfs",
+      "strand_id": "geometry",
+      "block_name": "Identifying Shapes and Their Properties",
+      "description": "Recognise and identify common 2D shapes and some 3D shapes.",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_1__geometry__identifying_shapes_and_their_properties__recognise_and_name_common_2d_and",
+      "year_group_id": "year_1",
+      "strand_id": "geometry",
+      "block_name": "Identifying Shapes and Their Properties",
+      "description": "Recognise and name common 2D and 3D shapes, including:",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_1__geometry__identifying_shapes_and_their_properties__2d_shapes_for_example_rectangles",
+      "year_group_id": "year_1",
+      "strand_id": "geometry",
+      "block_name": "Identifying Shapes and Their Properties",
+      "description": "2D shapes, for example rectangles (including squares), circles and triangles",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_1__geometry__identifying_shapes_and_their_properties__3d_shapes_for_example_cuboids_in",
+      "year_group_id": "year_1",
+      "strand_id": "geometry",
+      "block_name": "Identifying Shapes and Their Properties",
+      "description": "3D shapes, for example cuboids (including cubes), pyramids and spheres",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_2__geometry__identifying_shapes_and_their_properties__identify_and_describe_the_proper",
+      "year_group_id": "year_2",
+      "strand_id": "geometry",
+      "block_name": "Identifying Shapes and Their Properties",
+      "description": "Identify and describe the properties of 2D shapes, including the number of sides and line symmetry in a vertical line.",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_2__geometry__identifying_shapes_and_their_properties__identify_and_describe_the_proper",
+      "year_group_id": "year_2",
+      "strand_id": "geometry",
+      "block_name": "Identifying Shapes and Their Properties",
+      "description": "Identify and describe the properties of 3D shapes, including the number of edges, vertices and faces.",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_2__geometry__identifying_shapes_and_their_properties__identify_2d_shapes_on_the_surfac",
+      "year_group_id": "year_2",
+      "strand_id": "geometry",
+      "block_name": "Identifying Shapes and Their Properties",
+      "description": "Identify 2D shapes on the surface of 3D shapes.",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_3__geometry__identifying_shapes_and_their_properties__draw_2d_shapes",
+      "year_group_id": "year_3",
+      "strand_id": "geometry",
+      "block_name": "Identifying Shapes and Their Properties",
+      "description": "Draw 2D shapes.",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_3__geometry__identifying_shapes_and_their_properties__make_3d_shapes_using_modelling_m",
+      "year_group_id": "year_3",
+      "strand_id": "geometry",
+      "block_name": "Identifying Shapes and Their Properties",
+      "description": "Make 3D shapes using modelling materials.",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_3__geometry__identifying_shapes_and_their_properties__recognise_3d_shapes_in_different",
+      "year_group_id": "year_3",
+      "strand_id": "geometry",
+      "block_name": "Identifying Shapes and Their Properties",
+      "description": "Recognise 3D shapes in different orientations and describe them.",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_4__geometry__identifying_shapes_and_their_properties__identify_lines_of_symmetry_in_2d",
+      "year_group_id": "year_4",
+      "strand_id": "geometry",
+      "block_name": "Identifying Shapes and Their Properties",
+      "description": "Identify lines of symmetry in 2D shapes presented in different orientations.",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_4__geometry__identifying_shapes_and_their_properties__complete_a_simple_symmetric_figu",
+      "year_group_id": "year_4",
+      "strand_id": "geometry",
+      "block_name": "Identifying Shapes and Their Properties",
+      "description": "Complete a simple symmetric figure with respect to a specific line of symmetry.",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_5__geometry__identifying_shapes_and_their_properties__identify_3d_shapes_including_cub",
+      "year_group_id": "year_5",
+      "strand_id": "geometry",
+      "block_name": "Identifying Shapes and Their Properties",
+      "description": "Identify 3D shapes, including cubes and other cuboids, from 2D representations.",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_5__geometry__identifying_shapes_and_their_properties__draw_given_angles_and_measure_th",
+      "year_group_id": "year_5",
+      "strand_id": "geometry",
+      "block_name": "Identifying Shapes and Their Properties",
+      "description": "Draw given angles and measure them in degrees.",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_6__geometry__identifying_shapes_and_their_properties__recognise_describe_and_build_sim",
+      "year_group_id": "year_6",
+      "strand_id": "geometry",
+      "block_name": "Identifying Shapes and Their Properties",
+      "description": "Recognise, describe and build simple 3D shapes, including making nets.",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_6__geometry__identifying_shapes_and_their_properties__illustrate_and_name_parts_of_cir",
+      "year_group_id": "year_6",
+      "strand_id": "geometry",
+      "block_name": "Identifying Shapes and Their Properties",
+      "description": "Illustrate and name parts of circles, including radius, diameter and circumference.",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_6__geometry__identifying_shapes_and_their_properties__know_that_the_diameter_is_twice_",
+      "year_group_id": "year_6",
+      "strand_id": "geometry",
+      "block_name": "Identifying Shapes and Their Properties",
+      "description": "Know that the diameter is twice the radius.",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_6__geometry__identifying_shapes_and_their_properties__draw_2d_shapes_using_given_dimen",
+      "year_group_id": "year_6",
+      "strand_id": "geometry",
+      "block_name": "Identifying Shapes and Their Properties",
+      "description": "Draw 2D shapes using given dimensions and angles.",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_2__geometry__comparing_and_classifying_angles__compare_and_sort_common_2d_and_3",
+      "year_group_id": "year_2",
+      "strand_id": "geometry",
+      "block_name": "Comparing and Classifying / Angles",
+      "description": "Compare and sort common 2D and 3D shapes and everyday objects.",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_3__geometry__comparing_and_classifying_angles__recognise_angles_as_a_property_o",
+      "year_group_id": "year_3",
+      "strand_id": "geometry",
+      "block_name": "Comparing and Classifying / Angles",
+      "description": "Recognise angles as a property of shape or a description of a turn.",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_3__geometry__comparing_and_classifying_angles__identify_right_angles",
+      "year_group_id": "year_3",
+      "strand_id": "geometry",
+      "block_name": "Comparing and Classifying / Angles",
+      "description": "Identify right angles.",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_3__geometry__comparing_and_classifying_angles__recognise_that_two_right_angles_",
+      "year_group_id": "year_3",
+      "strand_id": "geometry",
+      "block_name": "Comparing and Classifying / Angles",
+      "description": "Recognise that two right angles make a half-turn, three make three quarters of a turn, and four make a complete turn.",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_3__geometry__comparing_and_classifying_angles__identify_whether_angles_are_grea",
+      "year_group_id": "year_3",
+      "strand_id": "geometry",
+      "block_name": "Comparing and Classifying / Angles",
+      "description": "Identify whether angles are greater than or less than a right angle.",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_3__geometry__comparing_and_classifying_angles__identify_horizontal_and_vertical",
+      "year_group_id": "year_3",
+      "strand_id": "geometry",
+      "block_name": "Comparing and Classifying / Angles",
+      "description": "Identify horizontal and vertical lines and pairs of perpendicular and parallel lines.",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_4__geometry__comparing_and_classifying_angles__compare_and_classify_geometric_s",
+      "year_group_id": "year_4",
+      "strand_id": "geometry",
+      "block_name": "Comparing and Classifying / Angles",
+      "description": "Compare and classify geometric shapes, including quadrilaterals and triangles, based on their properties and sizes.",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_4__geometry__comparing_and_classifying_angles__identify_acute_and_obtuse_angles",
+      "year_group_id": "year_4",
+      "strand_id": "geometry",
+      "block_name": "Comparing and Classifying / Angles",
+      "description": "Identify acute and obtuse angles.",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_4__geometry__comparing_and_classifying_angles__compare_and_order_angles_up_to_t",
+      "year_group_id": "year_4",
+      "strand_id": "geometry",
+      "block_name": "Comparing and Classifying / Angles",
+      "description": "Compare and order angles up to two right angles by size.",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_5__geometry__comparing_and_classifying_angles__use_the_properties_of_rectangles",
+      "year_group_id": "year_5",
+      "strand_id": "geometry",
+      "block_name": "Comparing and Classifying / Angles",
+      "description": "Use the properties of rectangles to deduce related facts and find missing lengths and angles.",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_5__geometry__comparing_and_classifying_angles__distinguish_between_regular_and_",
+      "year_group_id": "year_5",
+      "strand_id": "geometry",
+      "block_name": "Comparing and Classifying / Angles",
+      "description": "Distinguish between regular and irregular polygons based on reasoning about equal sides and angles.",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_5__geometry__comparing_and_classifying_angles__know_angles_are_measured_in_degr",
+      "year_group_id": "year_5",
+      "strand_id": "geometry",
+      "block_name": "Comparing and Classifying / Angles",
+      "description": "Know angles are measured in degrees.",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_5__geometry__comparing_and_classifying_angles__estimate_and_compare_acute_obtus",
+      "year_group_id": "year_5",
+      "strand_id": "geometry",
+      "block_name": "Comparing and Classifying / Angles",
+      "description": "Estimate and compare acute, obtuse and reflex angles.",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_5__geometry__comparing_and_classifying_angles__identify",
+      "year_group_id": "year_5",
+      "strand_id": "geometry",
+      "block_name": "Comparing and Classifying / Angles",
+      "description": "Identify:",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_5__geometry__comparing_and_classifying_angles__angles_at_a_point_and_one_whole_",
+      "year_group_id": "year_5",
+      "strand_id": "geometry",
+      "block_name": "Comparing and Classifying / Angles",
+      "description": "angles at a point and one whole turn (360°)",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_5__geometry__comparing_and_classifying_angles__angles_at_a_point_on_a_straight_",
+      "year_group_id": "year_5",
+      "strand_id": "geometry",
+      "block_name": "Comparing and Classifying / Angles",
+      "description": "angles at a point on a straight line and half a turn (180°)",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_5__geometry__comparing_and_classifying_angles__other_multiples_of_90",
+      "year_group_id": "year_5",
+      "strand_id": "geometry",
+      "block_name": "Comparing and Classifying / Angles",
+      "description": "other multiples of 90°",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_6__geometry__comparing_and_classifying_angles__compare_and_classify_geometric_s",
+      "year_group_id": "year_6",
+      "strand_id": "geometry",
+      "block_name": "Comparing and Classifying / Angles",
+      "description": "Compare and classify geometric shapes based on their properties and sizes.",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_6__geometry__comparing_and_classifying_angles__find_unknown_angles_in_triangles",
+      "year_group_id": "year_6",
+      "strand_id": "geometry",
+      "block_name": "Comparing and Classifying / Angles",
+      "description": "Find unknown angles in triangles, quadrilaterals and regular polygons.",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_6__geometry__comparing_and_classifying_angles__recognise_angles_where_they_meet",
+      "year_group_id": "year_6",
+      "strand_id": "geometry",
+      "block_name": "Comparing and Classifying / Angles",
+      "description": "Recognise angles where they meet at a point, are on a straight line, or are vertically opposite.",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_6__geometry__comparing_and_classifying_angles__find_missing_angles",
+      "year_group_id": "year_6",
+      "strand_id": "geometry",
+      "block_name": "Comparing and Classifying / Angles",
+      "description": "Find missing angles.",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_1__geometry__position_direction_and_movement__describe_position_direction_and_",
+      "year_group_id": "year_1",
+      "strand_id": "geometry",
+      "block_name": "Position, Direction and Movement",
+      "description": "Describe position, direction and movement, including whole, half, quarter and three-quarter turns.",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_2__geometry__position_direction_and_movement__use_mathematical_vocabulary_to_d",
+      "year_group_id": "year_2",
+      "strand_id": "geometry",
+      "block_name": "Position, Direction and Movement",
+      "description": "Use mathematical vocabulary to describe position, direction and movement, including:",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_2__geometry__position_direction_and_movement__movement_in_a_straight_line",
+      "year_group_id": "year_2",
+      "strand_id": "geometry",
+      "block_name": "Position, Direction and Movement",
+      "description": "movement in a straight line",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_2__geometry__position_direction_and_movement__rotation_as_a_turn",
+      "year_group_id": "year_2",
+      "strand_id": "geometry",
+      "block_name": "Position, Direction and Movement",
+      "description": "rotation as a turn",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_2__geometry__position_direction_and_movement__right_angles_for_quarter_half_an",
+      "year_group_id": "year_2",
+      "strand_id": "geometry",
+      "block_name": "Position, Direction and Movement",
+      "description": "right angles for quarter, half and three-quarter turns",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_2__geometry__position_direction_and_movement__clockwise_and_anti_clockwise",
+      "year_group_id": "year_2",
+      "strand_id": "geometry",
+      "block_name": "Position, Direction and Movement",
+      "description": "clockwise and anti-clockwise",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_2__geometry__position_direction_and_movement__order_and_arrange_combinations_o",
+      "year_group_id": "year_2",
+      "strand_id": "geometry",
+      "block_name": "Position, Direction and Movement",
+      "description": "Order and arrange combinations of mathematical objects in patterns and sequences.",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_4__geometry__position_direction_and_movement__describe_positions_on_a_2d_grid_",
+      "year_group_id": "year_4",
+      "strand_id": "geometry",
+      "block_name": "Position, Direction and Movement",
+      "description": "Describe positions on a 2D grid as coordinates in the first quadrant.",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_4__geometry__position_direction_and_movement__describe_movements_between_posit",
+      "year_group_id": "year_4",
+      "strand_id": "geometry",
+      "block_name": "Position, Direction and Movement",
+      "description": "Describe movements between positions as translations of a given unit to the left/right and up/down.",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_4__geometry__position_direction_and_movement__plot_specified_points_and_draw_s",
+      "year_group_id": "year_4",
+      "strand_id": "geometry",
+      "block_name": "Position, Direction and Movement",
+      "description": "Plot specified points and draw sides to complete a given polygon.",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_5__geometry__position_direction_and_movement__identify_describe_and_represent_",
+      "year_group_id": "year_5",
+      "strand_id": "geometry",
+      "block_name": "Position, Direction and Movement",
+      "description": "Identify, describe and represent the position of a shape following a reflection or translation, using appropriate language.",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_5__geometry__position_direction_and_movement__know_that_the_shape_has_not_chan",
+      "year_group_id": "year_5",
+      "strand_id": "geometry",
+      "block_name": "Position, Direction and Movement",
+      "description": "Know that the shape has not changed.",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_6__geometry__position_direction_and_movement__describe_positions_on_the_full_c",
+      "year_group_id": "year_6",
+      "strand_id": "geometry",
+      "block_name": "Position, Direction and Movement",
+      "description": "Describe positions on the full coordinate grid (all four quadrants).",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_6__geometry__position_direction_and_movement__draw_and_translate_simple_shapes",
+      "year_group_id": "year_6",
+      "strand_id": "geometry",
+      "block_name": "Position, Direction and Movement",
+      "description": "Draw and translate simple shapes on the coordinate plane.",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_6__geometry__position_direction_and_movement__reflect_them_in_the_axes",
+      "year_group_id": "year_6",
+      "strand_id": "geometry",
+      "block_name": "Position, Direction and Movement",
+      "description": "Reflect them in the axes.",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_1__measurement__comparing_and_estimating__compare_describe_and_solve_pract",
+      "year_group_id": "year_1",
+      "strand_id": "measurement",
+      "block_name": "Comparing and Estimating",
+      "description": "Compare, describe and solve practical problems for:",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_1__measurement__comparing_and_estimating__lengths_and_heights",
+      "year_group_id": "year_1",
+      "strand_id": "measurement",
+      "block_name": "Comparing and Estimating",
+      "description": "lengths and heights",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_1__measurement__comparing_and_estimating__mass_weight",
+      "year_group_id": "year_1",
+      "strand_id": "measurement",
+      "block_name": "Comparing and Estimating",
+      "description": "mass / weight",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_1__measurement__comparing_and_estimating__capacity_and_volume",
+      "year_group_id": "year_1",
+      "strand_id": "measurement",
+      "block_name": "Comparing and Estimating",
+      "description": "capacity and volume",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_1__measurement__comparing_and_estimating__time",
+      "year_group_id": "year_1",
+      "strand_id": "measurement",
+      "block_name": "Comparing and Estimating",
+      "description": "time",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_1__measurement__comparing_and_estimating__sequence_events_in_chronological",
+      "year_group_id": "year_1",
+      "strand_id": "measurement",
+      "block_name": "Comparing and Estimating",
+      "description": "Sequence events in chronological order using language such as:",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_1__measurement__comparing_and_estimating__before",
+      "year_group_id": "year_1",
+      "strand_id": "measurement",
+      "block_name": "Comparing and Estimating",
+      "description": "before",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_1__measurement__comparing_and_estimating__after",
+      "year_group_id": "year_1",
+      "strand_id": "measurement",
+      "block_name": "Comparing and Estimating",
+      "description": "after",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_1__measurement__comparing_and_estimating__next",
+      "year_group_id": "year_1",
+      "strand_id": "measurement",
+      "block_name": "Comparing and Estimating",
+      "description": "next",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_1__measurement__comparing_and_estimating__first",
+      "year_group_id": "year_1",
+      "strand_id": "measurement",
+      "block_name": "Comparing and Estimating",
+      "description": "first",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_1__measurement__comparing_and_estimating__today",
+      "year_group_id": "year_1",
+      "strand_id": "measurement",
+      "block_name": "Comparing and Estimating",
+      "description": "today",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_1__measurement__comparing_and_estimating__yesterday",
+      "year_group_id": "year_1",
+      "strand_id": "measurement",
+      "block_name": "Comparing and Estimating",
+      "description": "yesterday",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_1__measurement__comparing_and_estimating__tomorrow",
+      "year_group_id": "year_1",
+      "strand_id": "measurement",
+      "block_name": "Comparing and Estimating",
+      "description": "tomorrow",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_1__measurement__comparing_and_estimating__morning",
+      "year_group_id": "year_1",
+      "strand_id": "measurement",
+      "block_name": "Comparing and Estimating",
+      "description": "morning",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_1__measurement__comparing_and_estimating__afternoon",
+      "year_group_id": "year_1",
+      "strand_id": "measurement",
+      "block_name": "Comparing and Estimating",
+      "description": "afternoon",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_1__measurement__comparing_and_estimating__evening",
+      "year_group_id": "year_1",
+      "strand_id": "measurement",
+      "block_name": "Comparing and Estimating",
+      "description": "evening",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_2__measurement__comparing_and_estimating__compare_and_order_lengths_mass_v",
+      "year_group_id": "year_2",
+      "strand_id": "measurement",
+      "block_name": "Comparing and Estimating",
+      "description": "Compare and order lengths, mass, volume/capacity.",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_2__measurement__comparing_and_estimating__record_results_using_and",
+      "year_group_id": "year_2",
+      "strand_id": "measurement",
+      "block_name": "Comparing and Estimating",
+      "description": "Record results using `>`, `<` and `=`.",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_2__measurement__comparing_and_estimating__compare_and_sequence_intervals_o",
+      "year_group_id": "year_2",
+      "strand_id": "measurement",
+      "block_name": "Comparing and Estimating",
+      "description": "Compare and sequence intervals of time.",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_3__measurement__comparing_and_estimating__compare_durations_of_events",
+      "year_group_id": "year_3",
+      "strand_id": "measurement",
+      "block_name": "Comparing and Estimating",
+      "description": "Compare durations of events.",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_3__measurement__comparing_and_estimating__estimate_and_read_time_with_incr",
+      "year_group_id": "year_3",
+      "strand_id": "measurement",
+      "block_name": "Comparing and Estimating",
+      "description": "Estimate and read time with increasing accuracy to the nearest minute.",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_3__measurement__comparing_and_estimating__record_and_compare_time_in_terms",
+      "year_group_id": "year_3",
+      "strand_id": "measurement",
+      "block_name": "Comparing and Estimating",
+      "description": "Record and compare time in terms of seconds, minutes and hours.",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_3__measurement__comparing_and_estimating__use_vocabulary_such_as",
+      "year_group_id": "year_3",
+      "strand_id": "measurement",
+      "block_name": "Comparing and Estimating",
+      "description": "Use vocabulary such as:",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_3__measurement__comparing_and_estimating__a_m_p_m",
+      "year_group_id": "year_3",
+      "strand_id": "measurement",
+      "block_name": "Comparing and Estimating",
+      "description": "a.m. / p.m.",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_3__measurement__comparing_and_estimating__morning",
+      "year_group_id": "year_3",
+      "strand_id": "measurement",
+      "block_name": "Comparing and Estimating",
+      "description": "morning",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_3__measurement__comparing_and_estimating__afternoon",
+      "year_group_id": "year_3",
+      "strand_id": "measurement",
+      "block_name": "Comparing and Estimating",
+      "description": "afternoon",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_3__measurement__comparing_and_estimating__noon",
+      "year_group_id": "year_3",
+      "strand_id": "measurement",
+      "block_name": "Comparing and Estimating",
+      "description": "noon",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_3__measurement__comparing_and_estimating__midnight",
+      "year_group_id": "year_3",
+      "strand_id": "measurement",
+      "block_name": "Comparing and Estimating",
+      "description": "midnight",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_4__measurement__comparing_and_estimating__estimate_compare_and_calculate_d",
+      "year_group_id": "year_4",
+      "strand_id": "measurement",
+      "block_name": "Comparing and Estimating",
+      "description": "Estimate, compare and calculate different measures, including money in pounds and pence.",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_5__measurement__comparing_and_estimating__calculate_and_compare_the_area_o",
+      "year_group_id": "year_5",
+      "strand_id": "measurement",
+      "block_name": "Comparing and Estimating",
+      "description": "Calculate and compare the area of squares and rectangles using standard units, including square centimetres (`cm²`) and square metres (`m²`).",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_5__measurement__comparing_and_estimating__estimate_the_area_of_irregular_s",
+      "year_group_id": "year_5",
+      "strand_id": "measurement",
+      "block_name": "Comparing and Estimating",
+      "description": "Estimate the area of irregular shapes.",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_5__measurement__comparing_and_estimating__estimate_volume_for_example_usin",
+      "year_group_id": "year_5",
+      "strand_id": "measurement",
+      "block_name": "Comparing and Estimating",
+      "description": "Estimate volume, for example using 1 cm³ blocks to build cubes and cuboids.",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_5__measurement__comparing_and_estimating__estimate_capacity_for_example_us",
+      "year_group_id": "year_5",
+      "strand_id": "measurement",
+      "block_name": "Comparing and Estimating",
+      "description": "Estimate capacity, for example using water.",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_6__measurement__comparing_and_estimating__calculate_estimate_and_compare_v",
+      "year_group_id": "year_6",
+      "strand_id": "measurement",
+      "block_name": "Comparing and Estimating",
+      "description": "Calculate, estimate and compare volume of cubes and cuboids using standard units, including:",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_6__measurement__comparing_and_estimating__cubic_centimetres_cm",
+      "year_group_id": "year_6",
+      "strand_id": "measurement",
+      "block_name": "Comparing and Estimating",
+      "description": "cubic centimetres (`cm³`)",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_6__measurement__comparing_and_estimating__cubic_metres_m",
+      "year_group_id": "year_6",
+      "strand_id": "measurement",
+      "block_name": "Comparing and Estimating",
+      "description": "cubic metres (`m³`)",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_6__measurement__comparing_and_estimating__extend_to_other_units_such_as_mm",
+      "year_group_id": "year_6",
+      "strand_id": "measurement",
+      "block_name": "Comparing and Estimating",
+      "description": "Extend to other units such as `mm³` and `km³`.",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_1__measurement__measuring_and_calculating__measure_and_begin_to_record",
+      "year_group_id": "year_1",
+      "strand_id": "measurement",
+      "block_name": "Measuring and Calculating",
+      "description": "Measure and begin to record:",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_1__measurement__measuring_and_calculating__lengths_and_heights",
+      "year_group_id": "year_1",
+      "strand_id": "measurement",
+      "block_name": "Measuring and Calculating",
+      "description": "lengths and heights",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_1__measurement__measuring_and_calculating__mass_weight",
+      "year_group_id": "year_1",
+      "strand_id": "measurement",
+      "block_name": "Measuring and Calculating",
+      "description": "mass / weight",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_1__measurement__measuring_and_calculating__capacity_and_volume",
+      "year_group_id": "year_1",
+      "strand_id": "measurement",
+      "block_name": "Measuring and Calculating",
+      "description": "capacity and volume",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_1__measurement__measuring_and_calculating__time_hours_minutes_seconds",
+      "year_group_id": "year_1",
+      "strand_id": "measurement",
+      "block_name": "Measuring and Calculating",
+      "description": "time (hours, minutes, seconds)",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_1__measurement__measuring_and_calculating__recognise_and_know_the_value_of_",
+      "year_group_id": "year_1",
+      "strand_id": "measurement",
+      "block_name": "Measuring and Calculating",
+      "description": "Recognise and know the value of different denominations of coins and notes.",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_2__measurement__measuring_and_calculating__choose_and_use_appropriate_stand",
+      "year_group_id": "year_2",
+      "strand_id": "measurement",
+      "block_name": "Measuring and Calculating",
+      "description": "Choose and use appropriate standard units to estimate and measure:",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_2__measurement__measuring_and_calculating__length_height_in_m_and_cm",
+      "year_group_id": "year_2",
+      "strand_id": "measurement",
+      "block_name": "Measuring and Calculating",
+      "description": "length / height in m and cm",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_2__measurement__measuring_and_calculating__mass_in_kg_and_g",
+      "year_group_id": "year_2",
+      "strand_id": "measurement",
+      "block_name": "Measuring and Calculating",
+      "description": "mass in kg and g",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_2__measurement__measuring_and_calculating__temperature_in_c",
+      "year_group_id": "year_2",
+      "strand_id": "measurement",
+      "block_name": "Measuring and Calculating",
+      "description": "temperature in °C",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_2__measurement__measuring_and_calculating__capacity_in_litres_and_ml",
+      "year_group_id": "year_2",
+      "strand_id": "measurement",
+      "block_name": "Measuring and Calculating",
+      "description": "capacity in litres and ml",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_2__measurement__measuring_and_calculating__use_rulers_scales_thermometers_a",
+      "year_group_id": "year_2",
+      "strand_id": "measurement",
+      "block_name": "Measuring and Calculating",
+      "description": "Use rulers, scales, thermometers and measuring vessels.",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_2__measurement__measuring_and_calculating__recognise_and_use_symbols_for_po",
+      "year_group_id": "year_2",
+      "strand_id": "measurement",
+      "block_name": "Measuring and Calculating",
+      "description": "Recognise and use symbols for pounds (`£`) and pence (`p`).",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_2__measurement__measuring_and_calculating__combine_amounts_to_make_a_partic",
+      "year_group_id": "year_2",
+      "strand_id": "measurement",
+      "block_name": "Measuring and Calculating",
+      "description": "Combine amounts to make a particular value.",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_2__measurement__measuring_and_calculating__find_different_combinations_of_c",
+      "year_group_id": "year_2",
+      "strand_id": "measurement",
+      "block_name": "Measuring and Calculating",
+      "description": "Find different combinations of coins that equal the same amounts of money.",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_2__measurement__measuring_and_calculating__solve_simple_problems_involving_",
+      "year_group_id": "year_2",
+      "strand_id": "measurement",
+      "block_name": "Measuring and Calculating",
+      "description": "Solve simple problems involving addition and subtraction of money, including giving change.",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_3__measurement__measuring_and_calculating__measure_compare_add_and_subtract",
+      "year_group_id": "year_3",
+      "strand_id": "measurement",
+      "block_name": "Measuring and Calculating",
+      "description": "Measure, compare, add and subtract:",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_3__measurement__measuring_and_calculating__lengths_m_cm_mm",
+      "year_group_id": "year_3",
+      "strand_id": "measurement",
+      "block_name": "Measuring and Calculating",
+      "description": "lengths (`m/cm/mm`)",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_3__measurement__measuring_and_calculating__mass_kg_g",
+      "year_group_id": "year_3",
+      "strand_id": "measurement",
+      "block_name": "Measuring and Calculating",
+      "description": "mass (`kg/g`)",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_3__measurement__measuring_and_calculating__volume_capacity_l_ml",
+      "year_group_id": "year_3",
+      "strand_id": "measurement",
+      "block_name": "Measuring and Calculating",
+      "description": "volume/capacity (`l/ml`)",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_3__measurement__measuring_and_calculating__measure_the_perimeter_of_simple_",
+      "year_group_id": "year_3",
+      "strand_id": "measurement",
+      "block_name": "Measuring and Calculating",
+      "description": "Measure the perimeter of simple 2D shapes.",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_3__measurement__measuring_and_calculating__add_and_subtract_amounts_of_mone",
+      "year_group_id": "year_3",
+      "strand_id": "measurement",
+      "block_name": "Measuring and Calculating",
+      "description": "Add and subtract amounts of money to give change, using both `£` and `p` in practical contexts.",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_4__measurement__measuring_and_calculating__estimate_compare_and_calculate_d",
+      "year_group_id": "year_4",
+      "strand_id": "measurement",
+      "block_name": "Measuring and Calculating",
+      "description": "Estimate, compare and calculate different measures, including money in pounds and pence.",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_4__measurement__measuring_and_calculating__measure_and_calculate_the_perime",
+      "year_group_id": "year_4",
+      "strand_id": "measurement",
+      "block_name": "Measuring and Calculating",
+      "description": "Measure and calculate the perimeter of a rectilinear figure (including squares) in centimetres and metres.",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_4__measurement__measuring_and_calculating__find_the_area_of_rectilinear_sha",
+      "year_group_id": "year_4",
+      "strand_id": "measurement",
+      "block_name": "Measuring and Calculating",
+      "description": "Find the area of rectilinear shapes by counting squares.",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_5__measurement__measuring_and_calculating__use_all_four_operations_to_solve",
+      "year_group_id": "year_5",
+      "strand_id": "measurement",
+      "block_name": "Measuring and Calculating",
+      "description": "Use all four operations to solve problems involving measure, for example length, mass, volume and money, using decimal notation including scaling.",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_5__measurement__measuring_and_calculating__measure_and_calculate_the_perime",
+      "year_group_id": "year_5",
+      "strand_id": "measurement",
+      "block_name": "Measuring and Calculating",
+      "description": "Measure and calculate the perimeter of composite rectilinear shapes in centimetres and metres.",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_5__measurement__measuring_and_calculating__calculate_and_compare_the_area_o",
+      "year_group_id": "year_5",
+      "strand_id": "measurement",
+      "block_name": "Measuring and Calculating",
+      "description": "Calculate and compare the area of squares and rectangles.",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_5__measurement__measuring_and_calculating__recognise_and_use_square_numbers",
+      "year_group_id": "year_5",
+      "strand_id": "measurement",
+      "block_name": "Measuring and Calculating",
+      "description": "Recognise and use square numbers and cube numbers, and the notation for squared (`²`) and cubed (`³`).",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_6__measurement__measuring_and_calculating__solve_problems_involving_the_cal",
+      "year_group_id": "year_6",
+      "strand_id": "measurement",
+      "block_name": "Measuring and Calculating",
+      "description": "Solve problems involving the calculation and conversion of units of measure, using decimal notation up to three decimal places where appropriate.",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_6__measurement__measuring_and_calculating__recognise_that_shapes_with_the_s",
+      "year_group_id": "year_6",
+      "strand_id": "measurement",
+      "block_name": "Measuring and Calculating",
+      "description": "Recognise that shapes with the same areas can have different perimeters and vice versa.",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_6__measurement__measuring_and_calculating__calculate_the_area_of_parallelog",
+      "year_group_id": "year_6",
+      "strand_id": "measurement",
+      "block_name": "Measuring and Calculating",
+      "description": "Calculate the area of parallelograms and triangles.",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_6__measurement__measuring_and_calculating__calculate_estimate_and_compare_v",
+      "year_group_id": "year_6",
+      "strand_id": "measurement",
+      "block_name": "Measuring and Calculating",
+      "description": "Calculate, estimate and compare volume of cubes and cuboids.",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_6__measurement__measuring_and_calculating__recognise_when_it_is_possible_to",
+      "year_group_id": "year_6",
+      "strand_id": "measurement",
+      "block_name": "Measuring and Calculating",
+      "description": "Recognise when it is possible to use formulae for area and volume of shapes.",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_1__measurement__telling_the_time__tell_the_time_to_the_hour_and_ha",
+      "year_group_id": "year_1",
+      "strand_id": "measurement",
+      "block_name": "Telling the Time",
+      "description": "Tell the time to the hour and half past the hour.",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_1__measurement__telling_the_time__draw_the_hands_on_a_clock_face_t",
+      "year_group_id": "year_1",
+      "strand_id": "measurement",
+      "block_name": "Telling the Time",
+      "description": "Draw the hands on a clock face to show these times.",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_1__measurement__telling_the_time__recognise_and_use_language_relat",
+      "year_group_id": "year_1",
+      "strand_id": "measurement",
+      "block_name": "Telling the Time",
+      "description": "Recognise and use language relating to dates, including:",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_1__measurement__telling_the_time__days_of_the_week",
+      "year_group_id": "year_1",
+      "strand_id": "measurement",
+      "block_name": "Telling the Time",
+      "description": "days of the week",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_1__measurement__telling_the_time__weeks",
+      "year_group_id": "year_1",
+      "strand_id": "measurement",
+      "block_name": "Telling the Time",
+      "description": "weeks",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_1__measurement__telling_the_time__months",
+      "year_group_id": "year_1",
+      "strand_id": "measurement",
+      "block_name": "Telling the Time",
+      "description": "months",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_1__measurement__telling_the_time__years",
+      "year_group_id": "year_1",
+      "strand_id": "measurement",
+      "block_name": "Telling the Time",
+      "description": "years",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_2__measurement__telling_the_time__tell_and_write_the_time_to_five_",
+      "year_group_id": "year_2",
+      "strand_id": "measurement",
+      "block_name": "Telling the Time",
+      "description": "Tell and write the time to five minutes, including quarter past / to the hour.",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_2__measurement__telling_the_time__draw_the_hands_on_a_clock_face_t",
+      "year_group_id": "year_2",
+      "strand_id": "measurement",
+      "block_name": "Telling the Time",
+      "description": "Draw the hands on a clock face to show these times.",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_2__measurement__telling_the_time__know_the_number_of_minutes_in_an",
+      "year_group_id": "year_2",
+      "strand_id": "measurement",
+      "block_name": "Telling the Time",
+      "description": "Know the number of minutes in an hour and the number of hours in a day.",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_3__measurement__telling_the_time__tell_and_write_the_time_from_an_",
+      "year_group_id": "year_3",
+      "strand_id": "measurement",
+      "block_name": "Telling the Time",
+      "description": "Tell and write the time from an analogue clock, including Roman numerals from I to XII, and 12-hour and 24-hour clocks.",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_3__measurement__telling_the_time__estimate_and_read_time_with_incr",
+      "year_group_id": "year_3",
+      "strand_id": "measurement",
+      "block_name": "Telling the Time",
+      "description": "Estimate and read time with increasing accuracy to the nearest minute.",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_3__measurement__telling_the_time__record_and_compare_time_in_secon",
+      "year_group_id": "year_3",
+      "strand_id": "measurement",
+      "block_name": "Telling the Time",
+      "description": "Record and compare time in seconds, minutes and hours.",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_3__measurement__telling_the_time__use_vocabulary_such_as_a_m_p_m_m",
+      "year_group_id": "year_3",
+      "strand_id": "measurement",
+      "block_name": "Telling the Time",
+      "description": "Use vocabulary such as a.m. / p.m., morning, afternoon, noon and midnight.",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_4__measurement__telling_the_time__read_write_and_convert_time_betw",
+      "year_group_id": "year_4",
+      "strand_id": "measurement",
+      "block_name": "Telling the Time",
+      "description": "Read, write and convert time between analogue and digital 12-hour and 24-hour clocks.",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_4__measurement__telling_the_time__solve_problems_involving_convert",
+      "year_group_id": "year_4",
+      "strand_id": "measurement",
+      "block_name": "Telling the Time",
+      "description": "Solve problems involving converting from:",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_4__measurement__telling_the_time__hours_to_minutes",
+      "year_group_id": "year_4",
+      "strand_id": "measurement",
+      "block_name": "Telling the Time",
+      "description": "hours to minutes",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_4__measurement__telling_the_time__minutes_to_seconds",
+      "year_group_id": "year_4",
+      "strand_id": "measurement",
+      "block_name": "Telling the Time",
+      "description": "minutes to seconds",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_4__measurement__telling_the_time__years_to_months",
+      "year_group_id": "year_4",
+      "strand_id": "measurement",
+      "block_name": "Telling the Time",
+      "description": "years to months",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_4__measurement__telling_the_time__weeks_to_days",
+      "year_group_id": "year_4",
+      "strand_id": "measurement",
+      "block_name": "Telling the Time",
+      "description": "weeks to days",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_5__measurement__telling_the_time__solve_problems_involving_convert",
+      "year_group_id": "year_5",
+      "strand_id": "measurement",
+      "block_name": "Telling the Time",
+      "description": "Solve problems involving converting between units of time.",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_2__measurement__converting__know_the_number_of_minutes_in_an",
+      "year_group_id": "year_2",
+      "strand_id": "measurement",
+      "block_name": "Converting",
+      "description": "Know the number of minutes in an hour and the number of hours in a day.",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_3__measurement__converting__know_the_number_of_seconds_in_a_",
+      "year_group_id": "year_3",
+      "strand_id": "measurement",
+      "block_name": "Converting",
+      "description": "Know the number of seconds in a minute.",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_3__measurement__converting__know_the_number_of_days_in_each_",
+      "year_group_id": "year_3",
+      "strand_id": "measurement",
+      "block_name": "Converting",
+      "description": "Know the number of days in each month, year and leap year.",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_4__measurement__converting__convert_between_different_units_",
+      "year_group_id": "year_4",
+      "strand_id": "measurement",
+      "block_name": "Converting",
+      "description": "Convert between different units of measure, for example kilometre to metre and hour to minute.",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_4__measurement__converting__read_write_and_convert_time_betw",
+      "year_group_id": "year_4",
+      "strand_id": "measurement",
+      "block_name": "Converting",
+      "description": "Read, write and convert time between analogue and digital 12-hour and 24-hour clocks.",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_4__measurement__converting__solve_problems_involving_convert",
+      "year_group_id": "year_4",
+      "strand_id": "measurement",
+      "block_name": "Converting",
+      "description": "Solve problems involving converting from hours to minutes, minutes to seconds, years to months, and weeks to days.",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_5__measurement__converting__convert_between_different_units_",
+      "year_group_id": "year_5",
+      "strand_id": "measurement",
+      "block_name": "Converting",
+      "description": "Convert between different units of metric measure, for example:",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_5__measurement__converting__kilometre_and_metre",
+      "year_group_id": "year_5",
+      "strand_id": "measurement",
+      "block_name": "Converting",
+      "description": "kilometre and metre",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_5__measurement__converting__centimetre_and_metre",
+      "year_group_id": "year_5",
+      "strand_id": "measurement",
+      "block_name": "Converting",
+      "description": "centimetre and metre",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_5__measurement__converting__centimetre_and_millimetre",
+      "year_group_id": "year_5",
+      "strand_id": "measurement",
+      "block_name": "Converting",
+      "description": "centimetre and millimetre",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_5__measurement__converting__gram_and_kilogram",
+      "year_group_id": "year_5",
+      "strand_id": "measurement",
+      "block_name": "Converting",
+      "description": "gram and kilogram",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_5__measurement__converting__litre_and_millilitre",
+      "year_group_id": "year_5",
+      "strand_id": "measurement",
+      "block_name": "Converting",
+      "description": "litre and millilitre",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_5__measurement__converting__solve_problems_involving_convert",
+      "year_group_id": "year_5",
+      "strand_id": "measurement",
+      "block_name": "Converting",
+      "description": "Solve problems involving converting between units of time.",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_5__measurement__converting__understand_and_use_equivalences_",
+      "year_group_id": "year_5",
+      "strand_id": "measurement",
+      "block_name": "Converting",
+      "description": "Understand and use equivalences between metric units and common imperial units such as inches, pounds and pints.",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_6__measurement__converting__use_read_write_and_convert_betwe",
+      "year_group_id": "year_6",
+      "strand_id": "measurement",
+      "block_name": "Converting",
+      "description": "Use, read, write and convert between standard units.",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_6__measurement__converting__convert_measurements_of_length_m",
+      "year_group_id": "year_6",
+      "strand_id": "measurement",
+      "block_name": "Converting",
+      "description": "Convert measurements of length, mass, volume and time from a smaller unit of measure to a larger unit and vice versa.",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_6__measurement__converting__use_decimal_notation_to_up_to_th",
+      "year_group_id": "year_6",
+      "strand_id": "measurement",
+      "block_name": "Converting",
+      "description": "Use decimal notation to up to three decimal places.",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_6__measurement__converting__solve_problems_involving_the_cal",
+      "year_group_id": "year_6",
+      "strand_id": "measurement",
+      "block_name": "Converting",
+      "description": "Solve problems involving the calculation and conversion of units of measure.",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "year_6__measurement__converting__convert_between_miles_and_kilome",
+      "year_group_id": "year_6",
+      "strand_id": "measurement",
+      "block_name": "Converting",
+      "description": "Convert between miles and kilometres.",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    }
+  ]
+}

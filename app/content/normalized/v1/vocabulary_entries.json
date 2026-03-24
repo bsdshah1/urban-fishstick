@@ -1,0 +1,465 @@
+{
+  "version": "v1",
+  "records": [
+    {
+      "id": "eyfs__number",
+      "year_group_id": "eyfs",
+      "strand": "number",
+      "vocabulary_terms": [],
+      "metadata": {
+        "source_file": "Maths_Vocabulary_Progression.md",
+        "source_quality": "summary_from_visual"
+      }
+    },
+    {
+      "id": "eyfs__comparison",
+      "year_group_id": "eyfs",
+      "strand": "comparison",
+      "vocabulary_terms": [],
+      "metadata": {
+        "source_file": "Maths_Vocabulary_Progression.md",
+        "source_quality": "summary_from_visual"
+      }
+    },
+    {
+      "id": "eyfs__addition_and_subtraction",
+      "year_group_id": "eyfs",
+      "strand": "addition and subtraction",
+      "vocabulary_terms": [],
+      "metadata": {
+        "source_file": "Maths_Vocabulary_Progression.md",
+        "source_quality": "summary_from_visual"
+      }
+    },
+    {
+      "id": "eyfs__shape",
+      "year_group_id": "eyfs",
+      "strand": "shape",
+      "vocabulary_terms": [],
+      "metadata": {
+        "source_file": "Maths_Vocabulary_Progression.md",
+        "source_quality": "summary_from_visual"
+      }
+    },
+    {
+      "id": "eyfs__measure",
+      "year_group_id": "eyfs",
+      "strand": "measure",
+      "vocabulary_terms": [],
+      "metadata": {
+        "source_file": "Maths_Vocabulary_Progression.md",
+        "source_quality": "summary_from_visual"
+      }
+    },
+    {
+      "id": "eyfs__position_and_direction",
+      "year_group_id": "eyfs",
+      "strand": "position and direction",
+      "vocabulary_terms": [],
+      "metadata": {
+        "source_file": "Maths_Vocabulary_Progression.md",
+        "source_quality": "summary_from_visual"
+      }
+    },
+    {
+      "id": "year_1__number_and_place_value",
+      "year_group_id": "year_1",
+      "strand": "number and place value",
+      "vocabulary_terms": [],
+      "metadata": {
+        "source_file": "Maths_Vocabulary_Progression.md",
+        "source_quality": "summary_from_visual"
+      }
+    },
+    {
+      "id": "year_1__addition_and_subtraction",
+      "year_group_id": "year_1",
+      "strand": "addition and subtraction",
+      "vocabulary_terms": [],
+      "metadata": {
+        "source_file": "Maths_Vocabulary_Progression.md",
+        "source_quality": "summary_from_visual"
+      }
+    },
+    {
+      "id": "year_1__multiplication_and_division",
+      "year_group_id": "year_1",
+      "strand": "multiplication and division",
+      "vocabulary_terms": [],
+      "metadata": {
+        "source_file": "Maths_Vocabulary_Progression.md",
+        "source_quality": "summary_from_visual"
+      }
+    },
+    {
+      "id": "year_1__fractions",
+      "year_group_id": "year_1",
+      "strand": "fractions",
+      "vocabulary_terms": [],
+      "metadata": {
+        "source_file": "Maths_Vocabulary_Progression.md",
+        "source_quality": "summary_from_visual"
+      }
+    },
+    {
+      "id": "year_1__measurement",
+      "year_group_id": "year_1",
+      "strand": "measurement",
+      "vocabulary_terms": [],
+      "metadata": {
+        "source_file": "Maths_Vocabulary_Progression.md",
+        "source_quality": "summary_from_visual"
+      }
+    },
+    {
+      "id": "year_1__geometry",
+      "year_group_id": "year_1",
+      "strand": "geometry",
+      "vocabulary_terms": [],
+      "metadata": {
+        "source_file": "Maths_Vocabulary_Progression.md",
+        "source_quality": "summary_from_visual"
+      }
+    },
+    {
+      "id": "year_2__number_and_place_value",
+      "year_group_id": "year_2",
+      "strand": "number and place value",
+      "vocabulary_terms": [],
+      "metadata": {
+        "source_file": "Maths_Vocabulary_Progression.md",
+        "source_quality": "summary_from_visual"
+      }
+    },
+    {
+      "id": "year_2__addition_and_subtraction",
+      "year_group_id": "year_2",
+      "strand": "addition and subtraction",
+      "vocabulary_terms": [],
+      "metadata": {
+        "source_file": "Maths_Vocabulary_Progression.md",
+        "source_quality": "summary_from_visual"
+      }
+    },
+    {
+      "id": "year_2__multiplication_and_division",
+      "year_group_id": "year_2",
+      "strand": "multiplication and division",
+      "vocabulary_terms": [],
+      "metadata": {
+        "source_file": "Maths_Vocabulary_Progression.md",
+        "source_quality": "summary_from_visual"
+      }
+    },
+    {
+      "id": "year_2__fractions",
+      "year_group_id": "year_2",
+      "strand": "fractions",
+      "vocabulary_terms": [],
+      "metadata": {
+        "source_file": "Maths_Vocabulary_Progression.md",
+        "source_quality": "summary_from_visual"
+      }
+    },
+    {
+      "id": "year_2__measurement",
+      "year_group_id": "year_2",
+      "strand": "measurement",
+      "vocabulary_terms": [],
+      "metadata": {
+        "source_file": "Maths_Vocabulary_Progression.md",
+        "source_quality": "summary_from_visual"
+      }
+    },
+    {
+      "id": "year_2__statistics",
+      "year_group_id": "year_2",
+      "strand": "statistics",
+      "vocabulary_terms": [],
+      "metadata": {
+        "source_file": "Maths_Vocabulary_Progression.md",
+        "source_quality": "summary_from_visual"
+      }
+    },
+    {
+      "id": "year_2__geometry",
+      "year_group_id": "year_2",
+      "strand": "geometry",
+      "vocabulary_terms": [],
+      "metadata": {
+        "source_file": "Maths_Vocabulary_Progression.md",
+        "source_quality": "summary_from_visual"
+      }
+    },
+    {
+      "id": "year_3__number_and_place_value",
+      "year_group_id": "year_3",
+      "strand": "number and place value",
+      "vocabulary_terms": [],
+      "metadata": {
+        "source_file": "Maths_Vocabulary_Progression.md",
+        "source_quality": "summary_from_visual"
+      }
+    },
+    {
+      "id": "year_3__calculation",
+      "year_group_id": "year_3",
+      "strand": "calculation",
+      "vocabulary_terms": [],
+      "metadata": {
+        "source_file": "Maths_Vocabulary_Progression.md",
+        "source_quality": "summary_from_visual"
+      }
+    },
+    {
+      "id": "year_3__fractions",
+      "year_group_id": "year_3",
+      "strand": "fractions",
+      "vocabulary_terms": [],
+      "metadata": {
+        "source_file": "Maths_Vocabulary_Progression.md",
+        "source_quality": "summary_from_visual"
+      }
+    },
+    {
+      "id": "year_3__measurement",
+      "year_group_id": "year_3",
+      "strand": "measurement",
+      "vocabulary_terms": [],
+      "metadata": {
+        "source_file": "Maths_Vocabulary_Progression.md",
+        "source_quality": "summary_from_visual"
+      }
+    },
+    {
+      "id": "year_3__geometry",
+      "year_group_id": "year_3",
+      "strand": "geometry",
+      "vocabulary_terms": [],
+      "metadata": {
+        "source_file": "Maths_Vocabulary_Progression.md",
+        "source_quality": "summary_from_visual"
+      }
+    },
+    {
+      "id": "year_3__statistics",
+      "year_group_id": "year_3",
+      "strand": "statistics",
+      "vocabulary_terms": [],
+      "metadata": {
+        "source_file": "Maths_Vocabulary_Progression.md",
+        "source_quality": "summary_from_visual"
+      }
+    },
+    {
+      "id": "year_4__number_and_place_value",
+      "year_group_id": "year_4",
+      "strand": "number and place value",
+      "vocabulary_terms": [],
+      "metadata": {
+        "source_file": "Maths_Vocabulary_Progression.md",
+        "source_quality": "summary_from_visual"
+      }
+    },
+    {
+      "id": "year_4__addition_and_subtraction",
+      "year_group_id": "year_4",
+      "strand": "addition and subtraction",
+      "vocabulary_terms": [],
+      "metadata": {
+        "source_file": "Maths_Vocabulary_Progression.md",
+        "source_quality": "summary_from_visual"
+      }
+    },
+    {
+      "id": "year_4__multiplication_and_division",
+      "year_group_id": "year_4",
+      "strand": "multiplication and division",
+      "vocabulary_terms": [],
+      "metadata": {
+        "source_file": "Maths_Vocabulary_Progression.md",
+        "source_quality": "summary_from_visual"
+      }
+    },
+    {
+      "id": "year_4__fractions_and_decimals",
+      "year_group_id": "year_4",
+      "strand": "fractions and decimals",
+      "vocabulary_terms": [],
+      "metadata": {
+        "source_file": "Maths_Vocabulary_Progression.md",
+        "source_quality": "summary_from_visual"
+      }
+    },
+    {
+      "id": "year_4__measurement",
+      "year_group_id": "year_4",
+      "strand": "measurement",
+      "vocabulary_terms": [],
+      "metadata": {
+        "source_file": "Maths_Vocabulary_Progression.md",
+        "source_quality": "summary_from_visual"
+      }
+    },
+    {
+      "id": "year_4__geometry",
+      "year_group_id": "year_4",
+      "strand": "geometry",
+      "vocabulary_terms": [],
+      "metadata": {
+        "source_file": "Maths_Vocabulary_Progression.md",
+        "source_quality": "summary_from_visual"
+      }
+    },
+    {
+      "id": "year_4__statistics",
+      "year_group_id": "year_4",
+      "strand": "statistics",
+      "vocabulary_terms": [],
+      "metadata": {
+        "source_file": "Maths_Vocabulary_Progression.md",
+        "source_quality": "summary_from_visual"
+      }
+    },
+    {
+      "id": "year_5__number_and_place_value",
+      "year_group_id": "year_5",
+      "strand": "number and place value",
+      "vocabulary_terms": [],
+      "metadata": {
+        "source_file": "Maths_Vocabulary_Progression.md",
+        "source_quality": "summary_from_visual"
+      }
+    },
+    {
+      "id": "year_5__calculation",
+      "year_group_id": "year_5",
+      "strand": "calculation",
+      "vocabulary_terms": [],
+      "metadata": {
+        "source_file": "Maths_Vocabulary_Progression.md",
+        "source_quality": "summary_from_visual"
+      }
+    },
+    {
+      "id": "year_5__fractions_decimals_and_percentages",
+      "year_group_id": "year_5",
+      "strand": "fractions, decimals, and percentages",
+      "vocabulary_terms": [],
+      "metadata": {
+        "source_file": "Maths_Vocabulary_Progression.md",
+        "source_quality": "summary_from_visual"
+      }
+    },
+    {
+      "id": "year_5__measurement",
+      "year_group_id": "year_5",
+      "strand": "measurement",
+      "vocabulary_terms": [],
+      "metadata": {
+        "source_file": "Maths_Vocabulary_Progression.md",
+        "source_quality": "summary_from_visual"
+      }
+    },
+    {
+      "id": "year_5__geometry",
+      "year_group_id": "year_5",
+      "strand": "geometry",
+      "vocabulary_terms": [],
+      "metadata": {
+        "source_file": "Maths_Vocabulary_Progression.md",
+        "source_quality": "summary_from_visual"
+      }
+    },
+    {
+      "id": "year_5__statistics",
+      "year_group_id": "year_5",
+      "strand": "statistics",
+      "vocabulary_terms": [],
+      "metadata": {
+        "source_file": "Maths_Vocabulary_Progression.md",
+        "source_quality": "summary_from_visual"
+      }
+    },
+    {
+      "id": "year_6__number_and_place_value",
+      "year_group_id": "year_6",
+      "strand": "number and place value",
+      "vocabulary_terms": [],
+      "metadata": {
+        "source_file": "Maths_Vocabulary_Progression.md",
+        "source_quality": "summary_from_visual"
+      }
+    },
+    {
+      "id": "year_6__calculation",
+      "year_group_id": "year_6",
+      "strand": "calculation",
+      "vocabulary_terms": [],
+      "metadata": {
+        "source_file": "Maths_Vocabulary_Progression.md",
+        "source_quality": "summary_from_visual"
+      }
+    },
+    {
+      "id": "year_6__fractions_decimals_and_percentages",
+      "year_group_id": "year_6",
+      "strand": "fractions, decimals, and percentages",
+      "vocabulary_terms": [],
+      "metadata": {
+        "source_file": "Maths_Vocabulary_Progression.md",
+        "source_quality": "summary_from_visual"
+      }
+    },
+    {
+      "id": "year_6__ratio",
+      "year_group_id": "year_6",
+      "strand": "ratio",
+      "vocabulary_terms": [],
+      "metadata": {
+        "source_file": "Maths_Vocabulary_Progression.md",
+        "source_quality": "summary_from_visual"
+      }
+    },
+    {
+      "id": "year_6__algebra",
+      "year_group_id": "year_6",
+      "strand": "algebra",
+      "vocabulary_terms": [],
+      "metadata": {
+        "source_file": "Maths_Vocabulary_Progression.md",
+        "source_quality": "summary_from_visual"
+      }
+    },
+    {
+      "id": "year_6__measurement",
+      "year_group_id": "year_6",
+      "strand": "measurement",
+      "vocabulary_terms": [],
+      "metadata": {
+        "source_file": "Maths_Vocabulary_Progression.md",
+        "source_quality": "summary_from_visual"
+      }
+    },
+    {
+      "id": "year_6__geometry",
+      "year_group_id": "year_6",
+      "strand": "geometry",
+      "vocabulary_terms": [],
+      "metadata": {
+        "source_file": "Maths_Vocabulary_Progression.md",
+        "source_quality": "summary_from_visual"
+      }
+    },
+    {
+      "id": "year_6__statistics",
+      "year_group_id": "year_6",
+      "strand": "statistics",
+      "vocabulary_terms": [],
+      "metadata": {
+        "source_file": "Maths_Vocabulary_Progression.md",
+        "source_quality": "summary_from_visual"
+      }
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Method stage (CPA)",
+  "type": "object",
+  "required": ["id", "stage", "description", "metadata"],
+  "properties": {
+    "id": { "type": "string" },
+    "stage": { "type": "string", "enum": ["concrete", "pictorial", "abstract"] },
+    "description": { "type": "string" },
+    "metadata": { "$ref": "common.schema.json#/properties/metadata" }
+  },
+  "additionalProperties": false
+}

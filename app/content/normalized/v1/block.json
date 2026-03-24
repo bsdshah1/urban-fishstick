@@ -1,0 +1,269 @@
+{
+  "version": "v1",
+  "records": [
+    {
+      "id": "eyfs__autumn_term__getting_to_know_you",
+      "year_group_id": "eyfs",
+      "term_id": "eyfs__autumn_term",
+      "strand_id": "integrated",
+      "name": "Getting to know you",
+      "metadata": {
+        "source_file": "Maths_Overview.md",
+        "source_quality": "full_text"
+      }
+    },
+    {
+      "id": "eyfs__autumn_term__just_like_me",
+      "year_group_id": "eyfs",
+      "term_id": "eyfs__autumn_term",
+      "strand_id": "integrated",
+      "name": "Just like me!",
+      "metadata": {
+        "source_file": "Maths_Overview.md",
+        "source_quality": "full_text"
+      }
+    },
+    {
+      "id": "eyfs__autumn_term__it_s_me_1_2_3",
+      "year_group_id": "eyfs",
+      "term_id": "eyfs__autumn_term",
+      "strand_id": "integrated",
+      "name": "It's me 1, 2, 3!",
+      "metadata": {
+        "source_file": "Maths_Overview.md",
+        "source_quality": "full_text"
+      }
+    },
+    {
+      "id": "eyfs__autumn_term__light_dark",
+      "year_group_id": "eyfs",
+      "term_id": "eyfs__autumn_term",
+      "strand_id": "integrated",
+      "name": "Light & dark",
+      "metadata": {
+        "source_file": "Maths_Overview.md",
+        "source_quality": "full_text"
+      }
+    },
+    {
+      "id": "eyfs__spring_term__alive_in_5",
+      "year_group_id": "eyfs",
+      "term_id": "eyfs__spring_term",
+      "strand_id": "integrated",
+      "name": "Alive in 5!",
+      "metadata": {
+        "source_file": "Maths_Overview.md",
+        "source_quality": "full_text"
+      }
+    },
+    {
+      "id": "eyfs__spring_term__growing_6_7_8",
+      "year_group_id": "eyfs",
+      "term_id": "eyfs__spring_term",
+      "strand_id": "integrated",
+      "name": "Growing 6, 7, 8",
+      "metadata": {
+        "source_file": "Maths_Overview.md",
+        "source_quality": "full_text"
+      }
+    },
+    {
+      "id": "eyfs__spring_term__building_9_10",
+      "year_group_id": "eyfs",
+      "term_id": "eyfs__spring_term",
+      "strand_id": "integrated",
+      "name": "Building 9 & 10",
+      "metadata": {
+        "source_file": "Maths_Overview.md",
+        "source_quality": "full_text"
+      }
+    },
+    {
+      "id": "eyfs__spring_term__consolidation",
+      "year_group_id": "eyfs",
+      "term_id": "eyfs__spring_term",
+      "strand_id": "integrated",
+      "name": "Consolidation",
+      "metadata": {
+        "source_file": "Maths_Overview.md",
+        "source_quality": "full_text"
+      }
+    },
+    {
+      "id": "eyfs__summer_term__to_20_and_beyond",
+      "year_group_id": "eyfs",
+      "term_id": "eyfs__summer_term",
+      "strand_id": "integrated",
+      "name": "To 20 and beyond",
+      "metadata": {
+        "source_file": "Maths_Overview.md",
+        "source_quality": "full_text"
+      }
+    },
+    {
+      "id": "eyfs__summer_term__first_then_now",
+      "year_group_id": "eyfs",
+      "term_id": "eyfs__summer_term",
+      "strand_id": "integrated",
+      "name": "First, then, now",
+      "metadata": {
+        "source_file": "Maths_Overview.md",
+        "source_quality": "full_text"
+      }
+    },
+    {
+      "id": "eyfs__summer_term__find_my_pattern",
+      "year_group_id": "eyfs",
+      "term_id": "eyfs__summer_term",
+      "strand_id": "integrated",
+      "name": "Find my pattern",
+      "metadata": {
+        "source_file": "Maths_Overview.md",
+        "source_quality": "full_text"
+      }
+    },
+    {
+      "id": "eyfs__summer_term__on_the_move",
+      "year_group_id": "eyfs",
+      "term_id": "eyfs__summer_term",
+      "strand_id": "integrated",
+      "name": "On the move",
+      "metadata": {
+        "source_file": "Maths_Overview.md",
+        "source_quality": "full_text"
+      }
+    },
+    {
+      "id": "year_1__autumn_term__consolidation",
+      "year_group_id": "year_1",
+      "term_id": "year_1__autumn_term",
+      "strand_id": "integrated",
+      "name": "Consolidation",
+      "metadata": {
+        "source_file": "Maths_Overview.md",
+        "source_quality": "full_text"
+      }
+    },
+    {
+      "id": "year_1__summer_term__consolidation",
+      "year_group_id": "year_1",
+      "term_id": "year_1__summer_term",
+      "strand_id": "integrated",
+      "name": "Consolidation",
+      "metadata": {
+        "source_file": "Maths_Overview.md",
+        "source_quality": "full_text"
+      }
+    },
+    {
+      "id": "year_2__summer_term__statistics",
+      "year_group_id": "year_2",
+      "term_id": "year_2__summer_term",
+      "strand_id": "integrated",
+      "name": "Statistics",
+      "metadata": {
+        "source_file": "Maths_Overview.md",
+        "source_quality": "full_text"
+      }
+    },
+    {
+      "id": "year_2__summer_term__consolidation",
+      "year_group_id": "year_2",
+      "term_id": "year_2__summer_term",
+      "strand_id": "integrated",
+      "name": "Consolidation",
+      "metadata": {
+        "source_file": "Maths_Overview.md",
+        "source_quality": "full_text"
+      }
+    },
+    {
+      "id": "year_3__summer_term__statistics",
+      "year_group_id": "year_3",
+      "term_id": "year_3__summer_term",
+      "strand_id": "integrated",
+      "name": "Statistics",
+      "metadata": {
+        "source_file": "Maths_Overview.md",
+        "source_quality": "full_text"
+      }
+    },
+    {
+      "id": "year_3__summer_term__consolidation",
+      "year_group_id": "year_3",
+      "term_id": "year_3__summer_term",
+      "strand_id": "integrated",
+      "name": "Consolidation",
+      "metadata": {
+        "source_file": "Maths_Overview.md",
+        "source_quality": "full_text"
+      }
+    },
+    {
+      "id": "year_4__autumn_term__consolidation",
+      "year_group_id": "year_4",
+      "term_id": "year_4__autumn_term",
+      "strand_id": "integrated",
+      "name": "Consolidation",
+      "metadata": {
+        "source_file": "Maths_Overview.md",
+        "source_quality": "full_text"
+      }
+    },
+    {
+      "id": "year_4__summer_term__consolidation",
+      "year_group_id": "year_4",
+      "term_id": "year_4__summer_term",
+      "strand_id": "integrated",
+      "name": "Consolidation",
+      "metadata": {
+        "source_file": "Maths_Overview.md",
+        "source_quality": "full_text"
+      }
+    },
+    {
+      "id": "year_4__summer_term__statistics",
+      "year_group_id": "year_4",
+      "term_id": "year_4__summer_term",
+      "strand_id": "integrated",
+      "name": "Statistics",
+      "metadata": {
+        "source_file": "Maths_Overview.md",
+        "source_quality": "full_text"
+      }
+    },
+    {
+      "id": "year_5__spring_term__statistics",
+      "year_group_id": "year_5",
+      "term_id": "year_5__spring_term",
+      "strand_id": "integrated",
+      "name": "Statistics",
+      "metadata": {
+        "source_file": "Maths_Overview.md",
+        "source_quality": "full_text"
+      }
+    },
+    {
+      "id": "year_6__spring_term__statistics",
+      "year_group_id": "year_6",
+      "term_id": "year_6__spring_term",
+      "strand_id": "integrated",
+      "name": "Statistics",
+      "metadata": {
+        "source_file": "Maths_Overview.md",
+        "source_quality": "full_text"
+      }
+    },
+    {
+      "id": "year_6__summer_term__themed_projects_consolidation_and_problem_solving",
+      "year_group_id": "year_6",
+      "term_id": "year_6__summer_term",
+      "strand_id": "integrated",
+      "name": "Themed projects, consolidation and problem solving",
+      "metadata": {
+        "source_file": "Maths_Overview.md",
+        "source_quality": "full_text"
+      }
+    }
+  ]
+}

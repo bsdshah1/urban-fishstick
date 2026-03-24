@@ -1,0 +1,68 @@
+{
+  "version": "v1",
+  "records": [
+    {
+      "id": "eyfs__times_tables",
+      "year_group_id": "eyfs",
+      "expectation": "Practical groupings",
+      "metadata": {
+        "source_file": "Times_Table_Progression.md",
+        "source_quality": "full_text"
+      }
+    },
+    {
+      "id": "year_1__times_tables",
+      "year_group_id": "year_1",
+      "expectation": "2, 5 and 10",
+      "metadata": {
+        "source_file": "Times_Table_Progression.md",
+        "source_quality": "full_text"
+      }
+    },
+    {
+      "id": "year_2__times_tables",
+      "year_group_id": "year_2",
+      "expectation": "2, 5, 10 and 3",
+      "metadata": {
+        "source_file": "Times_Table_Progression.md",
+        "source_quality": "full_text"
+      }
+    },
+    {
+      "id": "year_3__times_tables",
+      "year_group_id": "year_3",
+      "expectation": "3, 4, 8 and 6",
+      "metadata": {
+        "source_file": "Times_Table_Progression.md",
+        "source_quality": "full_text"
+      }
+    },
+    {
+      "id": "year_4__times_tables",
+      "year_group_id": "year_4",
+      "expectation": "7, 9, 11, 12 and All",
+      "metadata": {
+        "source_file": "Times_Table_Progression.md",
+        "source_quality": "full_text"
+      }
+    },
+    {
+      "id": "year_5__times_tables",
+      "year_group_id": "year_5",
+      "expectation": "All times tables",
+      "metadata": {
+        "source_file": "Times_Table_Progression.md",
+        "source_quality": "full_text"
+      }
+    },
+    {
+      "id": "year_6__times_tables",
+      "year_group_id": "year_6",
+      "expectation": "All times tables",
+      "metadata": {
+        "source_file": "Times_Table_Progression.md",
+        "source_quality": "full_text"
+      }
+    }
+  ]
+}

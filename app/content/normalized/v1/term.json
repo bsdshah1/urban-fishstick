@@ -1,0 +1,194 @@
+{
+  "version": "v1",
+  "records": [
+    {
+      "id": "eyfs__autumn_term",
+      "year_group_id": "eyfs",
+      "name": "Autumn Term",
+      "metadata": {
+        "source_file": "Maths_Overview.md",
+        "source_quality": "full_text"
+      }
+    },
+    {
+      "id": "eyfs__spring_term",
+      "year_group_id": "eyfs",
+      "name": "Spring Term",
+      "metadata": {
+        "source_file": "Maths_Overview.md",
+        "source_quality": "full_text"
+      }
+    },
+    {
+      "id": "eyfs__summer_term",
+      "year_group_id": "eyfs",
+      "name": "Summer Term",
+      "metadata": {
+        "source_file": "Maths_Overview.md",
+        "source_quality": "full_text"
+      }
+    },
+    {
+      "id": "year_1__autumn_term",
+      "year_group_id": "year_1",
+      "name": "Autumn Term",
+      "metadata": {
+        "source_file": "Maths_Overview.md",
+        "source_quality": "full_text"
+      }
+    },
+    {
+      "id": "year_1__spring_term",
+      "year_group_id": "year_1",
+      "name": "Spring Term",
+      "metadata": {
+        "source_file": "Maths_Overview.md",
+        "source_quality": "full_text"
+      }
+    },
+    {
+      "id": "year_1__summer_term",
+      "year_group_id": "year_1",
+      "name": "Summer Term",
+      "metadata": {
+        "source_file": "Maths_Overview.md",
+        "source_quality": "full_text"
+      }
+    },
+    {
+      "id": "year_2__autumn_term",
+      "year_group_id": "year_2",
+      "name": "Autumn Term",
+      "metadata": {
+        "source_file": "Maths_Overview.md",
+        "source_quality": "full_text"
+      }
+    },
+    {
+      "id": "year_2__spring_term",
+      "year_group_id": "year_2",
+      "name": "Spring Term",
+      "metadata": {
+        "source_file": "Maths_Overview.md",
+        "source_quality": "full_text"
+      }
+    },
+    {
+      "id": "year_2__summer_term",
+      "year_group_id": "year_2",
+      "name": "Summer Term",
+      "metadata": {
+        "source_file": "Maths_Overview.md",
+        "source_quality": "full_text"
+      }
+    },
+    {
+      "id": "year_3__autumn_term",
+      "year_group_id": "year_3",
+      "name": "Autumn Term",
+      "metadata": {
+        "source_file": "Maths_Overview.md",
+        "source_quality": "full_text"
+      }
+    },
+    {
+      "id": "year_3__spring_term",
+      "year_group_id": "year_3",
+      "name": "Spring Term",
+      "metadata": {
+        "source_file": "Maths_Overview.md",
+        "source_quality": "full_text"
+      }
+    },
+    {
+      "id": "year_3__summer_term",
+      "year_group_id": "year_3",
+      "name": "Summer Term",
+      "metadata": {
+        "source_file": "Maths_Overview.md",
+        "source_quality": "full_text"
+      }
+    },
+    {
+      "id": "year_4__autumn_term",
+      "year_group_id": "year_4",
+      "name": "Autumn Term",
+      "metadata": {
+        "source_file": "Maths_Overview.md",
+        "source_quality": "full_text"
+      }
+    },
+    {
+      "id": "year_4__spring_term",
+      "year_group_id": "year_4",
+      "name": "Spring Term",
+      "metadata": {
+        "source_file": "Maths_Overview.md",
+        "source_quality": "full_text"
+      }
+    },
+    {
+      "id": "year_4__summer_term",
+      "year_group_id": "year_4",
+      "name": "Summer Term",
+      "metadata": {
+        "source_file": "Maths_Overview.md",
+        "source_quality": "full_text"
+      }
+    },
+    {
+      "id": "year_5__autumn_term",
+      "year_group_id": "year_5",
+      "name": "Autumn Term",
+      "metadata": {
+        "source_file": "Maths_Overview.md",
+        "source_quality": "full_text"
+      }
+    },
+    {
+      "id": "year_5__spring_term",
+      "year_group_id": "year_5",
+      "name": "Spring Term",
+      "metadata": {
+        "source_file": "Maths_Overview.md",
+        "source_quality": "full_text"
+      }
+    },
+    {
+      "id": "year_5__summer_term",
+      "year_group_id": "year_5",
+      "name": "Summer Term",
+      "metadata": {
+        "source_file": "Maths_Overview.md",
+        "source_quality": "full_text"
+      }
+    },
+    {
+      "id": "year_6__autumn_term",
+      "year_group_id": "year_6",
+      "name": "Autumn Term",
+      "metadata": {
+        "source_file": "Maths_Overview.md",
+        "source_quality": "full_text"
+      }
+    },
+    {
+      "id": "year_6__spring_term",
+      "year_group_id": "year_6",
+      "name": "Spring Term",
+      "metadata": {
+        "source_file": "Maths_Overview.md",
+        "source_quality": "full_text"
+      }
+    },
+    {
+      "id": "year_6__summer_term",
+      "year_group_id": "year_6",
+      "name": "Summer Term",
+      "metadata": {
+        "source_file": "Maths_Overview.md",
+        "source_quality": "full_text"
+      }
+    }
+  ]
+}

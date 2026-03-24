@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Small step",
+  "type": "object",
+  "required": ["id", "year_group_id", "description", "metadata"],
+  "properties": {
+    "id": { "type": "string" },
+    "year_group_id": { "type": "string" },
+    "block_id": { "type": "string" },
+    "strand_id": { "type": "string" },
+    "block_name": { "type": "string" },
+    "description": { "type": "string" },
+    "metadata": { "$ref": "common.schema.json#/properties/metadata" }
+  },
+  "additionalProperties": false
+}

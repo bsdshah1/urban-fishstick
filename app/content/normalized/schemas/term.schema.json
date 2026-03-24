@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Term",
+  "type": "object",
+  "required": ["id", "year_group_id", "name", "metadata"],
+  "properties": {
+    "id": { "type": "string" },
+    "year_group_id": { "type": "string" },
+    "name": { "type": "string" },
+    "metadata": { "$ref": "common.schema.json#/properties/metadata" }
+  },
+  "additionalProperties": false
+}
