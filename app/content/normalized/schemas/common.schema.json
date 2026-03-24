@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "common.schema.json",
+  "title": "Common curriculum metadata",
+  "type": "object",
+  "properties": {
+    "metadata": {
+      "type": "object",
+      "properties": {
+        "source_file": { "type": "string" },
+        "source_quality": {
+          "type": "string",
+          "enum": ["full_text", "summary_from_visual", "partial_extract"]
+        }
+      },
+      "required": ["source_file", "source_quality"],
+      "additionalProperties": false
+    }
+  },
+  "required": ["metadata"],
+  "additionalProperties": true
+}

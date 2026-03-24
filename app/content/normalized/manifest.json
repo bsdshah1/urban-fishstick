@@ -1,0 +1,19 @@
+{
+  "version": "v1",
+  "input_dir": "context_docs_md",
+  "datasets": [
+    "block",
+    "method_stage",
+    "small_step",
+    "strand",
+    "term",
+    "times_table_expectations",
+    "vocabulary_entries",
+    "year_group"
+  ],
+  "source_quality_levels": [
+    "full_text",
+    "summary_from_visual",
+    "partial_extract"
+  ]
+}

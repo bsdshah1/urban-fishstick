@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Vocabulary entries",
+  "type": "object",
+  "required": ["id", "year_group_id", "strand", "vocabulary_terms", "metadata"],
+  "properties": {
+    "id": { "type": "string" },
+    "year_group_id": { "type": "string" },
+    "strand": { "type": "string" },
+    "vocabulary_terms": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "metadata": { "$ref": "common.schema.json#/properties/metadata" }
+  },
+  "additionalProperties": false
+}

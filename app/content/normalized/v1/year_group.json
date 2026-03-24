@@ -1,0 +1,68 @@
+{
+  "version": "v1",
+  "records": [
+    {
+      "id": "eyfs",
+      "name": "EYFS",
+      "key_stage": "EYFS",
+      "metadata": {
+        "source_file": "Maths_Overview.md",
+        "source_quality": "full_text"
+      }
+    },
+    {
+      "id": "year_1",
+      "name": "Year 1",
+      "key_stage": "KS1",
+      "metadata": {
+        "source_file": "Maths_Overview.md",
+        "source_quality": "full_text"
+      }
+    },
+    {
+      "id": "year_2",
+      "name": "Year 2",
+      "key_stage": "KS1",
+      "metadata": {
+        "source_file": "Maths_Overview.md",
+        "source_quality": "full_text"
+      }
+    },
+    {
+      "id": "year_3",
+      "name": "Year 3",
+      "key_stage": "KS2",
+      "metadata": {
+        "source_file": "Maths_Overview.md",
+        "source_quality": "full_text"
+      }
+    },
+    {
+      "id": "year_4",
+      "name": "Year 4",
+      "key_stage": "KS2",
+      "metadata": {
+        "source_file": "Maths_Overview.md",
+        "source_quality": "full_text"
+      }
+    },
+    {
+      "id": "year_5",
+      "name": "Year 5",
+      "key_stage": "KS2",
+      "metadata": {
+        "source_file": "Maths_Overview.md",
+        "source_quality": "full_text"
+      }
+    },
+    {
+      "id": "year_6",
+      "name": "Year 6",
+      "key_stage": "KS2",
+      "metadata": {
+        "source_file": "Maths_Overview.md",
+        "source_quality": "full_text"
+      }
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "version": "v1",
+  "records": [
+    {
+      "id": "integrated",
+      "name": "Integrated",
+      "metadata": {
+        "source_file": "Maths_Overview.md",
+        "source_quality": "full_text"
+      }
+    },
+    {
+      "id": "number_and_place_value",
+      "name": "Number and Place Value",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "addition_and_subtraction",
+      "name": "Addition and Subtraction",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "geometry",
+      "name": "Geometry",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    },
+    {
+      "id": "measurement",
+      "name": "Measurement",
+      "metadata": {
+        "source_file": "Maths_Progression.md",
+        "source_quality": "partial_extract"
+      }
+    }
+  ]
+}
