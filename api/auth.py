@@ -10,6 +10,7 @@ import base64
 import hashlib
 import hmac
 import json
+import os
 import time
 from typing import Optional
 
@@ -21,8 +22,10 @@ from sqlmodel import Session
 from api.models.database import get_session
 from api.models.user import User, UserRole
 
-# In production this must come from an environment variable.
-SECRET_KEY = "beaumont-maths-secret-key-change-in-production"
+JWT_SECRET_ENV_VAR = "JWT_SECRET_KEY"
+MIN_SECRET_KEY_LENGTH = 32
+# Safe local development fallback, only enabled when ENV=development.
+DEV_FALLBACK_SECRET_KEY = "development-only-jwt-secret-change-me-12345"
 ACCESS_TOKEN_EXPIRE_SECONDS = 30 * 24 * 3600  # 30 days
 
 _bearer = HTTPBearer(auto_error=False)
@@ -49,7 +52,26 @@ def _b64url_decode(s: str) -> bytes:
     return base64.urlsafe_b64decode(s + "=" * pad)
 
 
+def _get_secret_key() -> str:
+    secret = os.getenv(JWT_SECRET_ENV_VAR)
+    if secret:
+        if len(secret) < MIN_SECRET_KEY_LENGTH:
+            raise RuntimeError(
+                f"{JWT_SECRET_ENV_VAR} must be at least {MIN_SECRET_KEY_LENGTH} characters long"
+            )
+        return secret
+
+    if os.getenv("ENV") == "development":
+        return DEV_FALLBACK_SECRET_KEY
+
+    raise RuntimeError(
+        f"Missing required environment variable: {JWT_SECRET_ENV_VAR}. "
+        "Set a strong secret key before starting the application."
+    )
+
+
 def create_access_token(user_id: int, role: UserRole) -> str:
+    secret_key = _get_secret_key()
     header = _b64url_encode(json.dumps({"alg": "HS256", "typ": "JWT"}).encode())
     payload = {
         "sub": str(user_id),
@@ -58,17 +80,18 @@ def create_access_token(user_id: int, role: UserRole) -> str:
     }
     body = _b64url_encode(json.dumps(payload).encode())
     signing_input = f"{header}.{body}"
-    sig = hmac.new(SECRET_KEY.encode(), signing_input.encode(), hashlib.sha256).digest()
+    sig = hmac.new(secret_key.encode(), signing_input.encode(), hashlib.sha256).digest()
     return f"{signing_input}.{_b64url_encode(sig)}"
 
 
 def _decode_token(token: str) -> dict:
+    secret_key = _get_secret_key()
     parts = token.split(".")
     if len(parts) != 3:
         raise HTTPException(status_code=status.HTTP_401_UNAUTHORIZED, detail="Invalid token")
     signing_input = f"{parts[0]}.{parts[1]}"
     expected_sig = _b64url_encode(
-        hmac.new(SECRET_KEY.encode(), signing_input.encode(), hashlib.sha256).digest()
+        hmac.new(secret_key.encode(), signing_input.encode(), hashlib.sha256).digest()
     )
     if not hmac.compare_digest(expected_sig, parts[2]):
         raise HTTPException(status_code=status.HTTP_401_UNAUTHORIZED, detail="Invalid token signature")
@@ -103,6 +126,7 @@ def get_current_user(
 
 def require_role(*roles: UserRole):
     """Dependency factory: ensures the current user has one of the given roles."""
+
     def _check(current_user: User = Depends(get_current_user)) -> User:
         if current_user.role not in roles:
             raise HTTPException(
@@ -110,4 +134,5 @@ def require_role(*roles: UserRole):
                 detail=f"Role '{current_user.role}' cannot perform this action",
             )
         return current_user
+
     return _check
