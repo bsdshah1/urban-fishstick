@@ -1,9 +1,14 @@
 import { useState, type FormEvent } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { login } from '../api/auth'
+import type { User } from '../api/types'
 import styles from './Login.module.css'
 
-export function Login() {
+interface Props {
+  setUser: (user: User | null) => void
+}
+
+export function Login({ setUser }: Props) {
   const navigate = useNavigate()
   const [email, setEmail] = useState('')
   const [password, setPassword] = useState('')
@@ -18,6 +23,7 @@ export function Login() {
       const { access_token, user } = await login(email, password)
       localStorage.setItem('bm_token', access_token)
       localStorage.setItem('bm_user', JSON.stringify(user))
+      setUser(user)
       if (user.role === 'parent') navigate('/digest')
       else navigate('/teacher')
     } catch (err: unknown) {
