@@ -25,7 +25,7 @@ const C = {
 
 function FractionsIllustration() {
   return (
-    <svg viewBox="0 0 240 120" aria-hidden="true" style={{ width: '100%', height: '100%' }}>
+    <svg viewBox="0 0 240 120" aria-hidden="true" style={{ width: '100%', height: 'auto', display: 'block' }}>
       {/* Whole label */}
       <text x="22" y="16" fontSize="10" fill={C.textMuted} fontFamily="system-ui" fontWeight="600">WHOLE</text>
       <rect x="4" y="22" width="46" height="28" rx="4" fill={C.greenLight} stroke={C.green} strokeWidth="1.5"/>
@@ -91,7 +91,7 @@ function TimeIllustration() {
   const hy = cy + 22 * Math.sin(hourAngle)
 
   return (
-    <svg viewBox="0 0 240 120" aria-hidden="true" style={{ width: '100%', height: '100%' }}>
+    <svg viewBox="0 0 240 120" aria-hidden="true" style={{ width: '100%', height: 'auto', display: 'block' }}>
       {/* Analogue clock */}
       <circle cx={cx} cy={cy} r={r} fill={C.white} stroke={C.text} strokeWidth="2"/>
       <circle cx={cx} cy={cy} r={r - 2} fill="none" stroke={C.greenLight} strokeWidth="6"/>
@@ -143,7 +143,7 @@ function StatisticsIllustration() {
   const barW = 28, gap = 12, startX = 28, baseY = 88
 
   return (
-    <svg viewBox="0 0 240 120" aria-hidden="true" style={{ width: '100%', height: '100%' }}>
+    <svg viewBox="0 0 240 120" aria-hidden="true" style={{ width: '100%', height: 'auto', display: 'block' }}>
       {/* Title */}
       <text x="4" y="13" fontSize="10" fill={C.textMuted} fontFamily="system-ui" fontWeight="600">OUR PETS — CLASS SURVEY</text>
 
@@ -199,7 +199,7 @@ function PositionDirectionIllustration() {
   const ox = 20, oy = 20
 
   return (
-    <svg viewBox="0 0 240 120" aria-hidden="true" style={{ width: '100%', height: '100%' }}>
+    <svg viewBox="0 0 240 120" aria-hidden="true" style={{ width: '100%', height: 'auto', display: 'block' }}>
       {/* Grid */}
       {Array.from({ length: cols + 1 }, (_, i) => (
         <line key={`v${i}`} x1={ox + i * gridSize} y1={oy} x2={ox + i * gridSize} y2={oy + rows * gridSize}
@@ -285,7 +285,7 @@ function PositionDirectionIllustration() {
 
 function PlaceValueIllustration() {
   return (
-    <svg viewBox="0 0 240 120" aria-hidden="true" style={{ width: '100%', height: '100%' }}>
+    <svg viewBox="0 0 240 120" aria-hidden="true" style={{ width: '100%', height: 'auto', display: 'block' }}>
       {/* Number: 34 */}
       <text x="20" y="24" fontSize="42" fill={C.text} fontFamily="system-ui" fontWeight="700">34</text>
 
@@ -328,7 +328,7 @@ function PlaceValueIllustration() {
 function MultiplicationIllustration() {
   // 3 × 4 array
   return (
-    <svg viewBox="0 0 240 120" aria-hidden="true" style={{ width: '100%', height: '100%' }}>
+    <svg viewBox="0 0 240 120" aria-hidden="true" style={{ width: '100%', height: 'auto', display: 'block' }}>
       <text x="4" y="14" fontSize="10" fill={C.textMuted} fontFamily="system-ui" fontWeight="600">ARRAYS — 3 × 4</text>
 
       {/* 3 rows of 4 dots */}
@@ -367,7 +367,7 @@ function AdditionSubtractionIllustration() {
   const toX = (n: number) => start + (n - 30) * scale
 
   return (
-    <svg viewBox="0 0 240 120" aria-hidden="true" style={{ width: '100%', height: '100%' }}>
+    <svg viewBox="0 0 240 120" aria-hidden="true" style={{ width: '100%', height: 'auto', display: 'block' }}>
       <text x="4" y="14" fontSize="10" fill={C.textMuted} fontFamily="system-ui" fontWeight="600">NUMBER LINE — 34 + 25</text>
 
       {/* Number line */}
@@ -413,7 +413,7 @@ function AdditionSubtractionIllustration() {
 
 function ShapeIllustration() {
   return (
-    <svg viewBox="0 0 240 120" aria-hidden="true" style={{ width: '100%', height: '100%' }}>
+    <svg viewBox="0 0 240 120" aria-hidden="true" style={{ width: '100%', height: 'auto', display: 'block' }}>
       <text x="4" y="13" fontSize="10" fill={C.textMuted} fontFamily="system-ui" fontWeight="600">2D SHAPES</text>
       {/* Square */}
       <rect x="10" y="20" width="44" height="44" rx="2" fill={C.greenLight} stroke={C.green} strokeWidth="2"/>
@@ -444,7 +444,7 @@ function ShapeIllustration() {
 
 function MoneyIllustration() {
   return (
-    <svg viewBox="0 0 240 120" aria-hidden="true" style={{ width: '100%', height: '100%' }}>
+    <svg viewBox="0 0 240 120" aria-hidden="true" style={{ width: '100%', height: 'auto', display: 'block' }}>
       <text x="4" y="13" fontSize="10" fill={C.textMuted} fontFamily="system-ui" fontWeight="600">MONEY</text>
       {/* Coins */}
       <circle cx="28" cy="50" r="20" fill={C.amberLight} stroke={C.amber} strokeWidth="2"/>
@@ -486,7 +486,7 @@ function DecimalsIllustration() {
     }
   }
   return (
-    <svg viewBox="0 0 240 120" aria-hidden="true" style={{ width: '100%', height: '100%' }}>
+    <svg viewBox="0 0 240 120" aria-hidden="true" style={{ width: '100%', height: 'auto', display: 'block' }}>
       <text x="4" y="13" fontSize="10" fill={C.textMuted} fontFamily="system-ui" fontWeight="600">DECIMALS</text>
       {cells}
       <text x="4" y="84" fontSize="9" fill={C.textMuted} fontFamily="system-ui">5 rows of 10 = 50 squares</text>
@@ -519,7 +519,7 @@ function PercentagesIllustration() {
     }
   }
   return (
-    <svg viewBox="0 0 240 120" aria-hidden="true" style={{ width: '100%', height: '100%' }}>
+    <svg viewBox="0 0 240 120" aria-hidden="true" style={{ width: '100%', height: 'auto', display: 'block' }}>
       <text x="4" y="11" fontSize="10" fill={C.textMuted} fontFamily="system-ui" fontWeight="600">PERCENTAGES</text>
       {cells}
       <text x="120" y="30" fontSize="28" fill={C.purple} fontFamily="system-ui" fontWeight="700">25%</text>
@@ -535,7 +535,7 @@ function PercentagesIllustration() {
 function PerimeterAreaIllustration() {
   const rx = 20, ry = 28, rw = 140, rh = 65
   return (
-    <svg viewBox="0 0 240 120" aria-hidden="true" style={{ width: '100%', height: '100%' }}>
+    <svg viewBox="0 0 240 120" aria-hidden="true" style={{ width: '100%', height: 'auto', display: 'block' }}>
       <text x="4" y="13" fontSize="10" fill={C.textMuted} fontFamily="system-ui" fontWeight="600">PERIMETER &amp; AREA</text>
       {/* Rectangle fill for area */}
       <rect x={rx} y={ry} width={rw} height={rh} rx="3" fill={C.greenLight}/>
@@ -560,7 +560,7 @@ function PerimeterAreaIllustration() {
 
 function VolumeCapacityIllustration() {
   return (
-    <svg viewBox="0 0 240 120" aria-hidden="true" style={{ width: '100%', height: '100%' }}>
+    <svg viewBox="0 0 240 120" aria-hidden="true" style={{ width: '100%', height: 'auto', display: 'block' }}>
       <text x="4" y="13" fontSize="10" fill={C.textMuted} fontFamily="system-ui" fontWeight="600">VOLUME &amp; CAPACITY</text>
       {/* Jug outline */}
       <path d="M 30 20 L 30 100 L 90 100 L 90 20 Z" fill={C.blueLight} stroke={C.blue} strokeWidth="2"/>
@@ -588,7 +588,7 @@ function VolumeCapacityIllustration() {
 
 function MassWeightIllustration() {
   return (
-    <svg viewBox="0 0 240 120" aria-hidden="true" style={{ width: '100%', height: '100%' }}>
+    <svg viewBox="0 0 240 120" aria-hidden="true" style={{ width: '100%', height: 'auto', display: 'block' }}>
       <text x="4" y="13" fontSize="10" fill={C.textMuted} fontFamily="system-ui" fontWeight="600">MASS &amp; WEIGHT</text>
       {/* Balance beam pivot */}
       <line x1="90" y1="40" x2="90" y2="90" stroke={C.text} strokeWidth="2"/>
@@ -615,7 +615,7 @@ function MassWeightIllustration() {
 
 function LengthHeightIllustration() {
   return (
-    <svg viewBox="0 0 240 120" aria-hidden="true" style={{ width: '100%', height: '100%' }}>
+    <svg viewBox="0 0 240 120" aria-hidden="true" style={{ width: '100%', height: 'auto', display: 'block' }}>
       <text x="4" y="13" fontSize="10" fill={C.textMuted} fontFamily="system-ui" fontWeight="600">LENGTH &amp; HEIGHT</text>
       {/* Ruler */}
       <rect x="10" y="22" width="150" height="24" rx="3" fill={C.amberLight} stroke={C.amber} strokeWidth="2"/>
@@ -644,7 +644,7 @@ function NegativeNumbersIllustration() {
   const toX = (n: number) => 120 + n * 18
   const marks = [-5,-4,-3,-2,-1,0,1,2,3,4,5]
   return (
-    <svg viewBox="0 0 240 120" aria-hidden="true" style={{ width: '100%', height: '100%' }}>
+    <svg viewBox="0 0 240 120" aria-hidden="true" style={{ width: '100%', height: 'auto', display: 'block' }}>
       <text x="4" y="13" fontSize="10" fill={C.textMuted} fontFamily="system-ui" fontWeight="600">NEGATIVE NUMBERS</text>
       {/* Number line */}
       <line x1={toX(-5) - 8} y1={y} x2={toX(5) + 8} y2={y} stroke={C.text} strokeWidth="2"/>
@@ -669,7 +669,7 @@ function NegativeNumbersIllustration() {
 
 function AlgebraIllustration() {
   return (
-    <svg viewBox="0 0 240 120" aria-hidden="true" style={{ width: '100%', height: '100%' }}>
+    <svg viewBox="0 0 240 120" aria-hidden="true" style={{ width: '100%', height: 'auto', display: 'block' }}>
       <text x="4" y="13" fontSize="10" fill={C.textMuted} fontFamily="system-ui" fontWeight="600">ALGEBRA</text>
       {/* Bar model: n + 4 = 10 */}
       <text x="120" y="30" textAnchor="middle" fontSize="13" fill={C.purple} fontFamily="system-ui" fontWeight="700">n + 4 = 10</text>
@@ -691,7 +691,7 @@ function AlgebraIllustration() {
 
 function RatioIllustration() {
   return (
-    <svg viewBox="0 0 240 120" aria-hidden="true" style={{ width: '100%', height: '100%' }}>
+    <svg viewBox="0 0 240 120" aria-hidden="true" style={{ width: '100%', height: 'auto', display: 'block' }}>
       <text x="4" y="13" fontSize="10" fill={C.textMuted} fontFamily="system-ui" fontWeight="600">RATIO</text>
       {/* Ratio 2:3 shown as coloured squares */}
       <text x="120" y="28" textAnchor="middle" fontSize="16" fill={C.text} fontFamily="system-ui" fontWeight="700">2 : 3</text>
@@ -720,7 +720,7 @@ function RatioIllustration() {
 
 function ConvertingUnitsIllustration() {
   return (
-    <svg viewBox="0 0 240 120" aria-hidden="true" style={{ width: '100%', height: '100%' }}>
+    <svg viewBox="0 0 240 120" aria-hidden="true" style={{ width: '100%', height: 'auto', display: 'block' }}>
       <text x="4" y="13" fontSize="10" fill={C.textMuted} fontFamily="system-ui" fontWeight="600">CONVERTING UNITS</text>
       {/* Length row */}
       <rect x="10" y="22" width="44" height="22" rx="4" fill={C.blueLight} stroke={C.blue} strokeWidth="1.5"/>
@@ -758,16 +758,42 @@ function ConvertingUnitsIllustration() {
 }
 
 function DefaultIllustration() {
+  // Number bonds to 10 — arched pairs on a number line
+  const bonds = [[1,9],[2,8],[3,7],[4,6],[5,5]] as const
+  const lineY = 88, x0 = 20, step = 20
+  const numX = (n: number) => x0 + n * step
+
   return (
-    <svg viewBox="0 0 240 120" aria-hidden="true" style={{ width: '100%', height: '100%' }}>
-      {/* Decorative maths symbols */}
-      <text x="20" y="70" fontSize="48" fill={C.greenLight} fontFamily="system-ui" fontWeight="700">+</text>
-      <text x="70" y="55" fontSize="36" fill={C.amberLight} fontFamily="system-ui" fontWeight="700">×</text>
-      <text x="115" y="72" fontSize="50" fill={C.blueLight} fontFamily="system-ui" fontWeight="700">÷</text>
-      <text x="165" y="58" fontSize="38" fill={C.purpleLight} fontFamily="system-ui" fontWeight="700">−</text>
-      <text x="55" y="108" fontSize="13" fill={C.textMuted} fontFamily="system-ui" fontStyle="italic">
-        concrete → pictorial → abstract
-      </text>
+    <svg viewBox="0 0 240 120" aria-hidden="true" style={{ width: '100%', height: 'auto', display: 'block' }}>
+      <text x="4" y="13" fontSize="10" fill={C.textMuted} fontFamily="system-ui" fontWeight="600">NUMBER BONDS TO 10</text>
+
+      {/* Arches */}
+      {bonds.map(([a, b], i) => {
+        const x1 = numX(a), x2 = numX(b)
+        const mx = (x1 + x2) / 2
+        const h = 14 + i * 8
+        return (
+          <path key={i}
+            d={`M ${x1} ${lineY} Q ${mx} ${lineY - h} ${x2} ${lineY}`}
+            fill="none"
+            stroke={[C.green, C.blue, C.amber, C.purple, C.red][i]}
+            strokeWidth="2"
+            strokeLinecap="round"
+          />
+        )
+      })}
+
+      {/* Number line 0–10 */}
+      <line x1={numX(0)} y1={lineY} x2={numX(10)} y2={lineY} stroke={C.border} strokeWidth="1.5"/>
+      {Array.from({ length: 11 }, (_, n) => (
+        <g key={n}>
+          <circle cx={numX(n)} cy={lineY} r="10" fill={n === 10 ? C.green : C.greenLight} stroke={C.green} strokeWidth="1.5"/>
+          <text x={numX(n)} y={lineY + 4} textAnchor="middle" fontSize="9" fill={n === 10 ? C.white : C.green} fontFamily="system-ui" fontWeight="700">{n}</text>
+        </g>
+      ))}
+
+      {/* Labels */}
+      <text x="120" y="112" textAnchor="middle" fontSize="9" fill={C.textMuted} fontFamily="system-ui" fontStyle="italic">every pair of numbers adds up to 10</text>
     </svg>
   )
 }
@@ -794,6 +820,10 @@ function getTopicKey(unitTitle: string): string {
   if (t.includes('multipl') || t.includes('division') || t.includes('times table')) return 'multiplication'
   if (t.includes('addition') || t.includes('subtraction') || t.includes('add') || t.includes('subtract')) return 'addition'
   if (t.includes('shape') || t.includes('geometry')) return 'shape'
+  // EYFS / counting topics
+  if (t.includes('count') || t.includes('number') || t.includes('1, 2, 3') || t.includes('1,2,3')) return 'placevalue'
+  // Consolidation / review weeks — show number bonds as a universally relevant visual
+  if (t.includes('consolidat') || t.includes('review') || t.includes('project') || t.includes('problem')) return 'default'
   return 'default'
 }
 

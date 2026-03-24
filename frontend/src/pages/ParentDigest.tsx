@@ -96,18 +96,48 @@ const TERM_LABELS: Record<string, string> = {
 
 const TERM_ORDER: Record<string, number> = { autumn: 0, spring: 1, summer: 2 }
 
-// Approximate term start dates (Monday of first week) for 2026/2027
-const TERM_STARTS: Record<string, Record<string, Date>> = {
-  autumn: { eyfs: new Date('2026-09-07'), year_1: new Date('2026-09-07'), year_2: new Date('2026-09-07'), year_3: new Date('2026-09-07'), year_4: new Date('2026-09-07'), year_5: new Date('2026-09-07'), year_6: new Date('2026-09-07') },
-  spring: { eyfs: new Date('2027-01-04'), year_1: new Date('2027-01-04'), year_2: new Date('2027-01-04'), year_3: new Date('2027-01-04'), year_4: new Date('2027-01-04'), year_5: new Date('2027-01-04'), year_6: new Date('2027-01-04') },
-  summer: { eyfs: new Date('2027-04-19'), year_1: new Date('2027-04-19'), year_2: new Date('2027-04-19'), year_3: new Date('2027-04-19'), year_4: new Date('2027-04-19'), year_5: new Date('2027-04-19'), year_6: new Date('2027-04-19') },
+// UK academic term definitions relative to an academic start year
+// (academic year that starts in September)
+function getTermDates(academicStartYear: number) {
+  return [
+    { name: 'autumn', start: new Date(academicStartYear, 8, 1),      end: new Date(academicStartYear, 11, 20),    totalWeeks: 13 },
+    { name: 'spring', start: new Date(academicStartYear + 1, 0, 5),  end: new Date(academicStartYear + 1, 3, 3),  totalWeeks: 13 },
+    { name: 'summer', start: new Date(academicStartYear + 1, 3, 20), end: new Date(academicStartYear + 1, 6, 18), totalWeeks: 13 },
+  ]
 }
 
-function getWeekDate(term: string, _yearGroup: string, weekNumber: number): string {
-  const starts = TERM_STARTS[term]
-  const base = starts ? (starts[_yearGroup] ?? starts['year_1']) : null
-  if (!base) return ''
-  const d = new Date(base)
+// Work out which academic term today falls in and how many weeks in we are
+function getCurrentAcademicInfo(today: Date): { term: string; weekInTerm: number; totalWeeks: number } | null {
+  const m = today.getMonth() + 1 // 1-based
+  const y = today.getFullYear()
+  const academicStartYear = m >= 9 ? y : y - 1
+  const MS_PER_WEEK = 7 * 24 * 60 * 60 * 1000
+  for (const t of getTermDates(academicStartYear)) {
+    if (today >= t.start && today <= t.end) {
+      const weekInTerm = Math.max(1, Math.floor((today.getTime() - t.start.getTime()) / MS_PER_WEEK) + 1)
+      return { term: t.name, weekInTerm, totalWeeks: t.totalWeeks }
+    }
+  }
+  return null // school holiday
+}
+
+// Map a calendar-week position to the nearest available digest week index
+function mapToAvailableWeek(weekInTerm: number, totalTermWeeks: number, sortedWeeks: number[]): number {
+  if (sortedWeeks.length === 0) return 1
+  if (sortedWeeks.length === 1) return sortedWeeks[0]
+  const progress = Math.min((weekInTerm - 1) / Math.max(1, totalTermWeeks - 1), 1)
+  const idx = Math.min(Math.round(progress * (sortedWeeks.length - 1)), sortedWeeks.length - 1)
+  return sortedWeeks[idx]
+}
+
+// Date to display for a given week number within a term (uses current academic year's dates)
+function getWeekDate(term: string, weekNumber: number): string {
+  const today = new Date()
+  const m = today.getMonth() + 1
+  const academicStartYear = m >= 9 ? today.getFullYear() : today.getFullYear() - 1
+  const termDef = getTermDates(academicStartYear).find(t => t.name === term)
+  if (!termDef) return ''
+  const d = new Date(termDef.start)
   d.setDate(d.getDate() + (weekNumber - 1) * 7)
   return d.toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' })
 }
@@ -129,8 +159,6 @@ const DIFFICULTY_STYLES: Record<string, string> = {
   EXCEEDING: styles.badgeExceeding,
 }
 
-const WEEKS_PER_TERM = 12
-
 interface Props { user: User }
 
 export function ParentDigest({ user: _user }: Props) {
@@ -148,16 +176,34 @@ export function ParentDigest({ user: _user }: Props) {
     getDigests()
       .then(list => {
         setAllDigests(list)
-        if (list.length > 0) {
-          const latest = [...list].sort((a, b) => {
-            const termDiff = (TERM_ORDER[b.term] ?? 0) - (TERM_ORDER[a.term] ?? 0)
-            if (termDiff !== 0) return termDiff
-            return b.week_number - a.week_number
-          })[0]
-          setSelectedYearGroup(latest.year_group)
-          setSelectedTerm(latest.term)
-          setSelectedWeek(latest.week_number)
+        if (list.length === 0) return
+
+        // Try to land on the term/week that matches today's calendar position
+        const termInfo = getCurrentAcademicInfo(new Date())
+        if (termInfo) {
+          const yearGroups = [...new Set(list.map(d => d.year_group))].sort()
+          const firstYg = yearGroups[0]
+          const availWeeks = list
+            .filter(d => d.year_group === firstYg && d.term === termInfo.term)
+            .map(d => d.week_number)
+            .sort((a, b) => a - b)
+          if (availWeeks.length > 0) {
+            const week = mapToAvailableWeek(termInfo.weekInTerm, termInfo.totalWeeks, availWeeks)
+            setSelectedYearGroup(firstYg)
+            setSelectedTerm(termInfo.term)
+            setSelectedWeek(week)
+            return
+          }
         }
+
+        // Fallback: most recent digest by term order
+        const latest = [...list].sort((a, b) => {
+          const td = (TERM_ORDER[b.term] ?? 0) - (TERM_ORDER[a.term] ?? 0)
+          return td !== 0 ? td : b.week_number - a.week_number
+        })[0]
+        setSelectedYearGroup(latest.year_group)
+        setSelectedTerm(latest.term)
+        setSelectedWeek(latest.week_number)
       })
       .catch(e => setError(e.message))
       .finally(() => setLoading(false))
@@ -193,25 +239,27 @@ export function ParentDigest({ user: _user }: Props) {
     ) ?? null
   }, [allDigests, selectedYearGroup, selectedTerm, selectedWeek])
 
-  const latestDigest = useMemo(() => {
-    if (allDigests.length === 0) return null
-    return [...allDigests].sort((a, b) => {
-      const termDiff = (TERM_ORDER[b.term] ?? 0) - (TERM_ORDER[a.term] ?? 0)
-      if (termDiff !== 0) return termDiff
-      return b.week_number - a.week_number
-    })[0]
-  }, [allDigests])
+  // The "current" week is determined from today's calendar date
+  const currentCalendarTarget = useMemo(() => {
+    const termInfo = getCurrentAcademicInfo(new Date())
+    if (!termInfo || !selectedYearGroup) return null
+    const available = allDigests
+      .filter(d => d.year_group === selectedYearGroup && d.term === termInfo.term)
+      .map(d => d.week_number)
+      .sort((a, b) => a - b)
+    if (available.length === 0) return null
+    return { term: termInfo.term, week: mapToAvailableWeek(termInfo.weekInTerm, termInfo.totalWeeks, available) }
+  }, [allDigests, selectedYearGroup])
 
-  const isCurrentWeek = latestDigest
-    && selectedYearGroup === latestDigest.year_group
-    && selectedTerm === latestDigest.term
-    && selectedWeek === latestDigest.week_number
+  const isCurrentWeek = currentCalendarTarget
+    && selectedTerm === currentCalendarTarget.term
+    && selectedWeek === currentCalendarTarget.week
 
   const goToCurrentWeek = () => {
-    if (!latestDigest) return
-    setSelectedYearGroup(latestDigest.year_group)
-    setSelectedTerm(latestDigest.term)
-    setSelectedWeek(latestDigest.week_number)
+    if (currentCalendarTarget) {
+      setSelectedTerm(currentCalendarTarget.term)
+      setSelectedWeek(currentCalendarTarget.week)
+    }
   }
 
   const handleYearGroupChange = (yg: string) => {
@@ -263,7 +311,8 @@ export function ParentDigest({ user: _user }: Props) {
   )
 
   const termColour = digest ? ({ autumn: '#C97B2E', spring: '#2A6049', summer: '#2D6A9F' }[digest.term] ?? '#2A6049') : '#2A6049'
-  const weekDate = digest ? getWeekDate(digest.term, digest.year_group, digest.week_number) : ''
+  const weekDate = digest ? getWeekDate(digest.term, digest.week_number) : ''
+  const totalWeeksInTerm = weeksForTermAndYear.length > 0 ? Math.max(...weeksForTermAndYear) : 12
   const ttNum = digest?.times_table_tip ? parseTimesTableNumber(digest.times_table_tip) : null
   const ttMultiples = ttNum ? Array.from({ length: 10 }, (_, i) => ttNum * (i + 1)) : []
 
@@ -351,9 +400,9 @@ export function ParentDigest({ user: _user }: Props) {
             <div className={styles.progressBar}>
               <span className={styles.progressLabel}>Term progress</span>
               <div className={styles.progressTrack}>
-                <div className={styles.progressFill} style={{ width: `${Math.min(100, (digest.week_number / WEEKS_PER_TERM) * 100)}%`, backgroundColor: termColour }} />
+                <div className={styles.progressFill} style={{ width: `${Math.min(100, (digest.week_number / totalWeeksInTerm) * 100)}%`, backgroundColor: termColour }} />
               </div>
-              <span className={styles.progressText}>Week {digest.week_number} of {WEEKS_PER_TERM}</span>
+              <span className={styles.progressText}>Week {digest.week_number} of {totalWeeksInTerm}</span>
             </div>
 
             <div className={styles.sections}>
