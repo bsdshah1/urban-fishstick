@@ -13,6 +13,7 @@ Falls back to placeholder digests gracefully when ANTHROPIC_API_KEY is unset.
 
 from __future__ import annotations
 
+import argparse
 import json
 import logging
 import sys
@@ -44,6 +45,14 @@ def _term_label(term_id: str) -> str:
 
 
 def main() -> None:
+    parser = argparse.ArgumentParser(description="Generate parent digest content for all blocks.")
+    parser.add_argument(
+        "--force",
+        action="store_true",
+        help="Regenerate all files, overwriting any that already exist.",
+    )
+    args = parser.parse_args()
+
     blocks = _load("block.json")
     logger.info("Loaded %d blocks", len(blocks))
 
@@ -60,7 +69,7 @@ def main() -> None:
 
         output_path = _OUTPUT_ROOT / year_group_id / term_id / f"{block_id}.json"
 
-        if output_path.exists():
+        if output_path.exists() and not args.force:
             logger.info("  SKIP  %s (already exists)", block_id)
             skipped += 1
             continue
