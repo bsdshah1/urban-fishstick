@@ -5,7 +5,7 @@
       "id": "eyfs__number",
       "year_group_id": "eyfs",
       "strand": "number",
-      "vocabulary_terms": [],
+      "vocabulary_terms": ["count", "number", "one", "two", "three", "four", "five", "more", "fewer", "same", "zero", "none", "how many", "altogether"],
       "metadata": {
         "source_file": "Maths_Vocabulary_Progression.md",
         "source_quality": "summary_from_visual"
@@ -15,7 +15,7 @@
       "id": "eyfs__comparison",
       "year_group_id": "eyfs",
       "strand": "comparison",
-      "vocabulary_terms": [],
+      "vocabulary_terms": ["more", "fewer", "same", "equal", "compare", "bigger", "smaller", "heavier", "lighter", "taller", "shorter", "most", "least"],
       "metadata": {
         "source_file": "Maths_Vocabulary_Progression.md",
         "source_quality": "summary_from_visual"
@@ -25,7 +25,7 @@
       "id": "eyfs__addition_and_subtraction",
       "year_group_id": "eyfs",
       "strand": "addition and subtraction",
-      "vocabulary_terms": [],
+      "vocabulary_terms": ["add", "more", "plus", "total", "take away", "subtract", "fewer", "less", "equals", "how many left?", "how many altogether?"],
       "metadata": {
         "source_file": "Maths_Vocabulary_Progression.md",
         "source_quality": "summary_from_visual"
@@ -35,7 +35,7 @@
       "id": "eyfs__shape",
       "year_group_id": "eyfs",
       "strand": "shape",
-      "vocabulary_terms": [],
+      "vocabulary_terms": ["circle", "triangle", "square", "rectangle", "cube", "sphere", "cone", "cylinder", "sides", "corners", "flat", "solid", "round", "straight"],
       "metadata": {
         "source_file": "Maths_Vocabulary_Progression.md",
         "source_quality": "summary_from_visual"
@@ -45,7 +45,7 @@
       "id": "eyfs__measure",
       "year_group_id": "eyfs",
       "strand": "measure",
-      "vocabulary_terms": [],
+      "vocabulary_terms": ["long", "short", "tall", "heavy", "light", "full", "empty", "holds more", "holds less", "bigger", "smaller", "length", "capacity", "mass"],
       "metadata": {
         "source_file": "Maths_Vocabulary_Progression.md",
         "source_quality": "summary_from_visual"
@@ -55,7 +55,7 @@
       "id": "eyfs__position_and_direction",
       "year_group_id": "eyfs",
       "strand": "position and direction",
-      "vocabulary_terms": [],
+      "vocabulary_terms": ["on", "under", "next to", "between", "above", "below", "in front", "behind", "inside", "outside", "left", "right", "forwards", "backwards"],
       "metadata": {
         "source_file": "Maths_Vocabulary_Progression.md",
         "source_quality": "summary_from_visual"
@@ -65,7 +65,7 @@
       "id": "year_1__number_and_place_value",
       "year_group_id": "year_1",
       "strand": "number and place value",
-      "vocabulary_terms": [],
+      "vocabulary_terms": ["ones", "tens", "digit", "partition", "place value", "number line", "greater than", "less than", "equal to", "order", "compare", "value", "numeral"],
       "metadata": {
         "source_file": "Maths_Vocabulary_Progression.md",
         "source_quality": "summary_from_visual"
@@ -75,7 +75,7 @@
       "id": "year_1__addition_and_subtraction",
       "year_group_id": "year_1",
       "strand": "addition and subtraction",
-      "vocabulary_terms": [],
+      "vocabulary_terms": ["add", "plus", "sum", "total", "subtract", "minus", "difference", "equals", "number bond", "part-whole model", "fact family", "inverse", "bridging ten"],
       "metadata": {
         "source_file": "Maths_Vocabulary_Progression.md",
         "source_quality": "summary_from_visual"
@@ -85,7 +85,7 @@
       "id": "year_1__multiplication_and_division",
       "year_group_id": "year_1",
       "strand": "multiplication and division",
-      "vocabulary_terms": [],
+      "vocabulary_terms": ["groups of", "lots of", "equal groups", "double", "halve", "array", "share equally", "times", "divide", "repeated addition"],
       "metadata": {
         "source_file": "Maths_Vocabulary_Progression.md",
         "source_quality": "summary_from_visual"
@@ -95,7 +95,7 @@
       "id": "year_1__fractions",
       "year_group_id": "year_1",
       "strand": "fractions",
-      "vocabulary_terms": [],
+      "vocabulary_terms": ["half", "quarter", "whole", "equal parts", "fair share", "numerator", "denominator", "unit fraction"],
       "metadata": {
         "source_file": "Maths_Vocabulary_Progression.md",
         "source_quality": "summary_from_visual"
@@ -105,7 +105,7 @@
       "id": "year_1__measurement",
       "year_group_id": "year_1",
       "strand": "measurement",
-      "vocabulary_terms": [],
+      "vocabulary_terms": ["centimetre", "metre", "kilogram", "gram", "litre", "half-litre", "hour", "minute", "second", "o'clock", "half past", "quarter past", "quarter to"],
       "metadata": {
         "source_file": "Maths_Vocabulary_Progression.md",
         "source_quality": "summary_from_visual"
@@ -115,7 +115,7 @@
       "id": "year_1__geometry",
       "year_group_id": "year_1",
       "strand": "geometry",
-      "vocabulary_terms": [],
+      "vocabulary_terms": ["vertex", "vertices", "edge", "face", "2-D shape", "3-D shape", "circle", "triangle", "square", "rectangle", "cube", "cuboid", "cone", "sphere", "cylinder", "pyramid"],
       "metadata": {
         "source_file": "Maths_Vocabulary_Progression.md",
         "source_quality": "summary_from_visual"
@@ -125,7 +125,7 @@
       "id": "year_2__number_and_place_value",
       "year_group_id": "year_2",
       "strand": "number and place value",
-      "vocabulary_terms": [],
+      "vocabulary_terms": ["tens", "ones", "hundreds", "digit", "partition", "place value", "represent", "order", "compare", "round to nearest 10", "estimate", "number line"],
       "metadata": {
         "source_file": "Maths_Vocabulary_Progression.md",
         "source_quality": "summary_from_visual"
@@ -135,7 +135,7 @@
       "id": "year_2__addition_and_subtraction",
       "year_group_id": "year_2",
       "strand": "addition and subtraction",
-      "vocabulary_terms": [],
+      "vocabulary_terms": ["column addition", "column subtraction", "regrouping", "exchange", "carry", "inverse", "number bond", "fact family", "bridging ten", "sum", "difference"],
       "metadata": {
         "source_file": "Maths_Vocabulary_Progression.md",
         "source_quality": "summary_from_visual"
@@ -145,7 +145,7 @@
       "id": "year_2__multiplication_and_division",
       "year_group_id": "year_2",
       "strand": "multiplication and division",
-      "vocabulary_terms": [],
+      "vocabulary_terms": ["multiply", "times", "product", "divide", "sharing", "grouping", "array", "equal groups", "repeated addition", "multiplication table", "quotient", "remainder"],
       "metadata": {
         "source_file": "Maths_Vocabulary_Progression.md",
         "source_quality": "summary_from_visual"
@@ -155,7 +155,7 @@
       "id": "year_2__fractions",
       "year_group_id": "year_2",
       "strand": "fractions",
-      "vocabulary_terms": [],
+      "vocabulary_terms": ["numerator", "denominator", "fraction", "thirds", "quarters", "halves", "unit fraction", "non-unit fraction", "equivalent fraction"],
       "metadata": {
         "source_file": "Maths_Vocabulary_Progression.md",
         "source_quality": "summary_from_visual"
@@ -165,7 +165,7 @@
       "id": "year_2__measurement",
       "year_group_id": "year_2",
       "strand": "measurement",
-      "vocabulary_terms": [],
+      "vocabulary_terms": ["perimeter", "temperature", "mass", "capacity", "volume", "area", "gram", "kilogram", "litre", "millilitre", "centimetre", "metre", "half past", "quarter past", "quarter to"],
       "metadata": {
         "source_file": "Maths_Vocabulary_Progression.md",
         "source_quality": "summary_from_visual"
@@ -175,7 +175,7 @@
       "id": "year_2__statistics",
       "year_group_id": "year_2",
       "strand": "statistics",
-      "vocabulary_terms": [],
+      "vocabulary_terms": ["pictogram", "tally chart", "block diagram", "data", "total", "most popular", "axis", "frequency"],
       "metadata": {
         "source_file": "Maths_Vocabulary_Progression.md",
         "source_quality": "summary_from_visual"
@@ -185,7 +185,7 @@
       "id": "year_2__geometry",
       "year_group_id": "year_2",
       "strand": "geometry",
-      "vocabulary_terms": [],
+      "vocabulary_terms": ["right angle", "symmetry", "line of symmetry", "polygon", "sides", "vertices", "2-D shapes", "3-D shapes", "horizontal", "vertical", "acute", "obtuse"],
       "metadata": {
         "source_file": "Maths_Vocabulary_Progression.md",
         "source_quality": "summary_from_visual"
@@ -195,7 +195,7 @@
       "id": "year_3__number_and_place_value",
       "year_group_id": "year_3",
       "strand": "number and place value",
-      "vocabulary_terms": [],
+      "vocabulary_terms": ["thousands", "hundreds", "tens", "ones", "partition", "round to nearest 10", "round to nearest 100", "estimate", "negative number", "Roman numeral", "place value chart"],
       "metadata": {
         "source_file": "Maths_Vocabulary_Progression.md",
         "source_quality": "summary_from_visual"
@@ -205,7 +205,7 @@
       "id": "year_3__calculation",
       "year_group_id": "year_3",
       "strand": "calculation",
-      "vocabulary_terms": [],
+      "vocabulary_terms": ["column addition", "column subtraction", "formal method", "exchange", "carry", "sum", "difference", "product", "quotient", "mental method", "inverse", "formal written method"],
       "metadata": {
         "source_file": "Maths_Vocabulary_Progression.md",
         "source_quality": "summary_from_visual"
@@ -215,7 +215,7 @@
       "id": "year_3__fractions",
       "year_group_id": "year_3",
       "strand": "fractions",
-      "vocabulary_terms": [],
+      "vocabulary_terms": ["unit fraction", "non-unit fraction", "equivalent fraction", "numerator", "denominator", "compare", "order", "tenths", "proper fraction", "simplify"],
       "metadata": {
         "source_file": "Maths_Vocabulary_Progression.md",
         "source_quality": "summary_from_visual"
@@ -225,7 +225,7 @@
       "id": "year_3__measurement",
       "year_group_id": "year_3",
       "strand": "measurement",
-      "vocabulary_terms": [],
+      "vocabulary_terms": ["perimeter", "millimetre", "centimetre", "metre", "kilometre", "gram", "kilogram", "millilitre", "litre", "seconds", "minutes", "hours", "months", "years", "duration", "convert"],
       "metadata": {
         "source_file": "Maths_Vocabulary_Progression.md",
         "source_quality": "summary_from_visual"
@@ -235,7 +235,7 @@
       "id": "year_3__geometry",
       "year_group_id": "year_3",
       "strand": "geometry",
-      "vocabulary_terms": [],
+      "vocabulary_terms": ["right angle", "acute angle", "obtuse angle", "parallel", "perpendicular", "horizontal", "vertical", "quadrilateral", "polygon", "symmetry", "regular", "irregular"],
       "metadata": {
         "source_file": "Maths_Vocabulary_Progression.md",
         "source_quality": "summary_from_visual"
@@ -245,7 +245,7 @@
       "id": "year_3__statistics",
       "year_group_id": "year_3",
       "strand": "statistics",
-      "vocabulary_terms": [],
+      "vocabulary_terms": ["pictogram", "bar chart", "table", "data", "frequency", "axis", "scale", "tally", "interpret"],
       "metadata": {
         "source_file": "Maths_Vocabulary_Progression.md",
         "source_quality": "summary_from_visual"
@@ -255,7 +255,7 @@
       "id": "year_4__number_and_place_value",
       "year_group_id": "year_4",
       "strand": "number and place value",
-      "vocabulary_terms": [],
+      "vocabulary_terms": ["ten thousands", "hundred thousands", "place value", "negative numbers", "Roman numerals", "rounding", "decimal", "tenths", "hundredths", "compare", "order"],
       "metadata": {
         "source_file": "Maths_Vocabulary_Progression.md",
         "source_quality": "summary_from_visual"
@@ -265,7 +265,7 @@
       "id": "year_4__addition_and_subtraction",
       "year_group_id": "year_4",
       "strand": "addition and subtraction",
-      "vocabulary_terms": [],
+      "vocabulary_terms": ["formal written method", "column addition", "column subtraction", "estimate", "inverse", "sum", "difference", "exchange", "mental strategies"],
       "metadata": {
         "source_file": "Maths_Vocabulary_Progression.md",
         "source_quality": "summary_from_visual"
@@ -275,7 +275,7 @@
       "id": "year_4__multiplication_and_division",
       "year_group_id": "year_4",
       "strand": "multiplication and division",
-      "vocabulary_terms": [],
+      "vocabulary_terms": ["long multiplication", "short division", "factor", "factor pair", "multiple", "prime number", "composite", "product", "array", "formal written method", "quotient", "remainder"],
       "metadata": {
         "source_file": "Maths_Vocabulary_Progression.md",
         "source_quality": "summary_from_visual"
@@ -285,7 +285,7 @@
       "id": "year_4__fractions_and_decimals",
       "year_group_id": "year_4",
       "strand": "fractions and decimals",
-      "vocabulary_terms": [],
+      "vocabulary_terms": ["tenths", "hundredths", "equivalent fraction", "decimal fraction", "mixed number", "improper fraction", "numerator", "denominator", "simplify", "convert"],
       "metadata": {
         "source_file": "Maths_Vocabulary_Progression.md",
         "source_quality": "summary_from_visual"
@@ -295,7 +295,7 @@
       "id": "year_4__measurement",
       "year_group_id": "year_4",
       "strand": "measurement",
-      "vocabulary_terms": [],
+      "vocabulary_terms": ["convert", "area", "perimeter", "square centimetres", "square metres", "time", "analogue", "24-hour clock", "12-hour clock", "minutes", "seconds", "duration", "calculate"],
       "metadata": {
         "source_file": "Maths_Vocabulary_Progression.md",
         "source_quality": "summary_from_visual"
@@ -305,7 +305,7 @@
       "id": "year_4__geometry",
       "year_group_id": "year_4",
       "strand": "geometry",
-      "vocabulary_terms": [],
+      "vocabulary_terms": ["right angle", "acute", "obtuse", "reflex", "coordinates", "translation", "reflection", "quadrant", "polygon", "regular", "irregular", "symmetric", "parallel", "perpendicular", "degrees"],
       "metadata": {
         "source_file": "Maths_Vocabulary_Progression.md",
         "source_quality": "summary_from_visual"
@@ -315,7 +315,7 @@
       "id": "year_4__statistics",
       "year_group_id": "year_4",
       "strand": "statistics",
-      "vocabulary_terms": [],
+      "vocabulary_terms": ["bar chart", "pie chart", "line graph", "data", "axis", "scale", "continuous data", "frequency", "interpret", "table"],
       "metadata": {
         "source_file": "Maths_Vocabulary_Progression.md",
         "source_quality": "summary_from_visual"
@@ -325,7 +325,7 @@
       "id": "year_5__number_and_place_value",
       "year_group_id": "year_5",
       "strand": "number and place value",
-      "vocabulary_terms": [],
+      "vocabulary_terms": ["millions", "powers of ten", "round", "estimate", "negative numbers", "prime numbers", "square numbers", "cube numbers", "factors", "multiples", "common factor", "common multiple"],
       "metadata": {
         "source_file": "Maths_Vocabulary_Progression.md",
         "source_quality": "summary_from_visual"
@@ -335,7 +335,7 @@
       "id": "year_5__calculation",
       "year_group_id": "year_5",
       "strand": "calculation",
-      "vocabulary_terms": [],
+      "vocabulary_terms": ["long multiplication", "long division", "BODMAS", "order of operations", "formal written method", "mental strategies", "prime factor", "inverse", "estimate"],
       "metadata": {
         "source_file": "Maths_Vocabulary_Progression.md",
         "source_quality": "summary_from_visual"
@@ -345,7 +345,7 @@
       "id": "year_5__fractions_decimals_and_percentages",
       "year_group_id": "year_5",
       "strand": "fractions, decimals, and percentages",
-      "vocabulary_terms": [],
+      "vocabulary_terms": ["equivalent fraction", "simplify", "mixed number", "improper fraction", "percentage", "decimal", "convert", "hundredths", "thousandths", "proportion", "percentage of amount"],
       "metadata": {
         "source_file": "Maths_Vocabulary_Progression.md",
         "source_quality": "summary_from_visual"
@@ -355,7 +355,7 @@
       "id": "year_5__measurement",
       "year_group_id": "year_5",
       "strand": "measurement",
-      "vocabulary_terms": [],
+      "vocabulary_terms": ["volume", "capacity", "area", "perimeter", "convert", "imperial", "metric", "cubic centimetres", "cubic metres", "composite shapes", "formula"],
       "metadata": {
         "source_file": "Maths_Vocabulary_Progression.md",
         "source_quality": "summary_from_visual"
@@ -365,7 +365,7 @@
       "id": "year_5__geometry",
       "year_group_id": "year_5",
       "strand": "geometry",
-      "vocabulary_terms": [],
+      "vocabulary_terms": ["angles", "protractor", "degrees", "triangles", "quadrilaterals", "reflection", "translation", "coordinates", "radius", "diameter", "circumference", "polygon", "regular", "irregular"],
       "metadata": {
         "source_file": "Maths_Vocabulary_Progression.md",
         "source_quality": "summary_from_visual"
@@ -375,7 +375,7 @@
       "id": "year_5__statistics",
       "year_group_id": "year_5",
       "strand": "statistics",
-      "vocabulary_terms": [],
+      "vocabulary_terms": ["line graph", "pie chart", "mean average", "interpret", "data set", "table", "axis", "continuous data", "discrete data"],
       "metadata": {
         "source_file": "Maths_Vocabulary_Progression.md",
         "source_quality": "summary_from_visual"
@@ -385,7 +385,7 @@
       "id": "year_6__number_and_place_value",
       "year_group_id": "year_6",
       "strand": "number and place value",
-      "vocabulary_terms": [],
+      "vocabulary_terms": ["order of operations", "negative numbers", "BIDMAS", "prime numbers", "squares", "cubes", "powers", "factor", "multiple", "common factor", "common multiple"],
       "metadata": {
         "source_file": "Maths_Vocabulary_Progression.md",
         "source_quality": "summary_from_visual"
@@ -395,7 +395,7 @@
       "id": "year_6__calculation",
       "year_group_id": "year_6",
       "strand": "calculation",
-      "vocabulary_terms": [],
+      "vocabulary_terms": ["long multiplication", "long division", "formal written method", "BIDMAS", "order of operations", "mental calculation", "estimation", "inverse"],
       "metadata": {
         "source_file": "Maths_Vocabulary_Progression.md",
         "source_quality": "summary_from_visual"
@@ -405,7 +405,7 @@
       "id": "year_6__fractions_decimals_and_percentages",
       "year_group_id": "year_6",
       "strand": "fractions, decimals, and percentages",
-      "vocabulary_terms": [],
+      "vocabulary_terms": ["percentage", "proportion", "fraction", "decimal", "equivalent", "simplify", "ratio", "recurring decimal", "percentage increase", "percentage decrease"],
       "metadata": {
         "source_file": "Maths_Vocabulary_Progression.md",
         "source_quality": "summary_from_visual"
@@ -415,7 +415,7 @@
       "id": "year_6__ratio",
       "year_group_id": "year_6",
       "strand": "ratio",
-      "vocabulary_terms": [],
+      "vocabulary_terms": ["ratio", "proportion", "scale factor", "unequal sharing", "relative size", "equivalent ratios", "part-to-part", "part-to-whole", "simplify", "percentage"],
       "metadata": {
         "source_file": "Maths_Vocabulary_Progression.md",
         "source_quality": "summary_from_visual"
@@ -425,7 +425,7 @@
       "id": "year_6__algebra",
       "year_group_id": "year_6",
       "strand": "algebra",
-      "vocabulary_terms": [],
+      "vocabulary_terms": ["variable", "equation", "formula", "expression", "substitute", "linear sequence", "rule", "input", "output", "term", "solve", "unknown"],
       "metadata": {
         "source_file": "Maths_Vocabulary_Progression.md",
         "source_quality": "summary_from_visual"
@@ -435,7 +435,7 @@
       "id": "year_6__measurement",
       "year_group_id": "year_6",
       "strand": "measurement",
-      "vocabulary_terms": [],
+      "vocabulary_terms": ["area", "volume", "perimeter", "convert", "imperial", "metric", "compound shapes", "composite area", "formula", "trapezium", "parallelogram", "circle"],
       "metadata": {
         "source_file": "Maths_Vocabulary_Progression.md",
         "source_quality": "summary_from_visual"
@@ -445,7 +445,7 @@
       "id": "year_6__geometry",
       "year_group_id": "year_6",
       "strand": "geometry",
-      "vocabulary_terms": [],
+      "vocabulary_terms": ["angles in polygons", "circles", "radius", "diameter", "coordinates", "transformation", "reflection", "translation", "rotation", "net", "properties of shapes"],
       "metadata": {
         "source_file": "Maths_Vocabulary_Progression.md",
         "source_quality": "summary_from_visual"
@@ -455,7 +455,7 @@
       "id": "year_6__statistics",
       "year_group_id": "year_6",
       "strand": "statistics",
-      "vocabulary_terms": [],
+      "vocabulary_terms": ["mean", "median", "mode", "range", "pie chart", "line graph", "interpret data", "average", "frequency", "compare distributions"],
       "metadata": {
         "source_file": "Maths_Vocabulary_Progression.md",
         "source_quality": "summary_from_visual"
