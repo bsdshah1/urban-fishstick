@@ -7,33 +7,41 @@
   "week_number": 1,
   "unit_title": "Area, perimeter and volume",
   "content": {
-    "plain_english": "This week in Year 6 maths, your child is working on Area, perimeter and volume. They are building on what they already know and developing new skills through hands-on activities and careful practice.",
-    "in_school": "In lessons, children start by using practical resources to explore the concept, then move to drawing pictures and diagrams, and finally work with numbers and written methods. This concrete-to-abstract approach helps ideas stick.",
-    "home_activity": "Spend 5 minutes exploring area, perimeter and volume together. Use everyday objects around the house — toys, fruit, or coins work well. Ask your child to show you what they did in school today. There are no right or wrong answers — just curious conversations.",
+    "plain_english": "This week in Year 6 maths, your child is working on Area, perimeter and volume. The learning focuses on: solve problems involving the calculation and conversion of units of measure, using decimal notation up to three decimal places where appropriate; recognise that shapes with the same areas can have different perimeters and vice versa; and calculate the area of parallelograms and triangles. These skills build directly on what they have already mastered and prepare them for the next steps in the programme of study.",
+    "in_school": "Children use practical measuring equipment — rulers, scales, measuring cylinders, and clocks — to explore measurement in real contexts. They record findings using diagrams and number lines before progressing to written calculations. Problem-solving tasks show how these skills are used every day.",
+    "home_activity": "Use a piece of string to measure things around the house — is the sofa longer or shorter than the table? Estimate in centimetres first, then measure to check. For perimeter, measure all four sides of a book or tile and add them up.",
     "dinner_table_questions": [
-      "What did you find tricky about area, perimeter and volume today?",
-      "Can you show me on your fingers or with something on the table?",
-      "What's one thing you learned today that surprised you?"
+      "Can you show me how to solve problems involving the calculation and conversion of units of measure, using decimal notation up to three decimal places where appropriate?",
+      "Was it easy or tricky to recognise that shapes with the same areas can have different perimeters and vice versa? Why?",
+      "How would you explain today's maths to someone who has never seen it before?"
     ],
     "key_vocabulary": [
       {
-        "term": "Area, perimeter and volume",
-        "definition": "The main topic your child is studying this week in Year 6 maths."
+        "term": "area",
+        "definition": "The amount of space inside a 2-D shape, measured in square units."
       },
       {
-        "term": "estimate",
-        "definition": "Make a sensible guess before working something out exactly."
+        "term": "square centimetre (cm²)",
+        "definition": "A unit for measuring area — the space of a 1 cm × 1 cm square."
       },
       {
-        "term": "explain",
-        "definition": "Use words to describe how you worked something out."
+        "term": "length",
+        "definition": "How long a side of the shape is."
+      },
+      {
+        "term": "perimeter",
+        "definition": "The total distance around the outside edge of a shape."
+      },
+      {
+        "term": "length",
+        "definition": "How long something is from one end to the other."
       }
     ],
     "example_questions": [
-      "Can you explain area, perimeter and volume in your own words?",
-      "What strategy did you use?",
-      "How do you know your answer is correct?"
+      "Find the area of a parallelogram with base 10 cm and height 6 cm.",
+      "A cuboid is 5 cm × 4 cm × 3 cm. Find its volume.",
+      "Find the area of a trapezium with parallel sides 8 cm and 5 cm, height 4 cm."
     ],
-    "times_table_tip": "Practise your times tables for 2 minutes today — try saying them out loud while doing something else, like tidying up."
+    "times_table_tip": "Year 6 children use all their times tables to tackle complex problems including long multiplication, division, and fractions. Challenge them: 'What is 7 × 12?' or 'How many 8s in 72?' Rapid recall frees up thinking space for harder work."
   }
 }
