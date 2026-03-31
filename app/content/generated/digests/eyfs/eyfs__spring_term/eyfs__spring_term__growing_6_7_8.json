@@ -7,33 +7,41 @@
   "week_number": 1,
   "unit_title": "Growing 6, 7, 8",
   "content": {
-    "plain_english": "This week in Eyfs maths, your child is working on Growing 6, 7, 8. They are building on what they already know and developing new skills through hands-on activities and careful practice.",
-    "in_school": "In lessons, children start by using practical resources to explore the concept, then move to drawing pictures and diagrams, and finally work with numbers and written methods. This concrete-to-abstract approach helps ideas stick.",
-    "home_activity": "Spend 5 minutes exploring growing 6, 7, 8 together. Use everyday objects around the house — toys, fruit, or coins work well. Ask your child to show you what they did in school today. There are no right or wrong answers — just curious conversations.",
+    "plain_english": "This week in EYFS, your child is exploring Growing 6, 7, 8. They will focus on: combining two amounts; making pairs; length and height. All of this happens through play, stories, and practical activities that build early mathematical curiosity and confidence.",
+    "in_school": "In sessions, children explore Growing 6, 7, 8 through play, stories, and practical activities using real objects. Their teacher guides them through careful conversation, helping them notice patterns and relationships without formal recording.",
+    "home_activity": "Spend a few minutes exploring growing 6, 7, 8 together at home. Use whatever is around — pasta shapes to sort, buttons to count, or water to pour into different containers. Ask your child to show you what they have been doing in school. There are no wrong answers — just curious conversations and playful exploration.",
     "dinner_table_questions": [
-      "What did you find tricky about growing 6, 7, 8 today?",
-      "Can you show me on your fingers or with something on the table?",
-      "What's one thing you learned today that surprised you?"
+      "Can you show me something at home that is about growing 6, 7, 8?",
+      "What was your favourite thing you did in maths today?",
+      "Can you teach me one thing you learned this week?"
     ],
     "key_vocabulary": [
       {
-        "term": "Growing 6, 7, 8",
-        "definition": "The main topic your child is studying this week in Eyfs maths."
+        "term": "more",
+        "definition": "A larger amount — e.g. 5 is more than 3."
       },
       {
-        "term": "estimate",
-        "definition": "Make a sensible guess before working something out exactly."
+        "term": "fewer",
+        "definition": "A smaller number of something — e.g. 2 is fewer than 5."
       },
       {
-        "term": "explain",
-        "definition": "Use words to describe how you worked something out."
+        "term": "count",
+        "definition": "Say numbers in order to find out how many there are."
+      },
+      {
+        "term": "sort",
+        "definition": "Put objects into groups based on a shared property."
+      },
+      {
+        "term": "compare",
+        "definition": "Look at two things to see how they are the same or different."
       }
     ],
     "example_questions": [
-      "Can you explain growing 6, 7, 8 in your own words?",
-      "What strategy did you use?",
-      "How do you know your answer is correct?"
+      "Can you count out 5 objects?",
+      "Which group has more — 4 or 5?",
+      "Show me one more than 3."
     ],
-    "times_table_tip": "Practise your times tables for 2 minutes today — try saying them out loud while doing something else, like tidying up."
+    "times_table_tip": "At this stage children are not learning times tables formally. Instead they explore equal groups through play — sharing objects fairly or making equal piles — which builds the foundation for multiplication later on."
   }
 }
