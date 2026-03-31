@@ -7,33 +7,41 @@
   "week_number": 1,
   "unit_title": "Addition and subtraction (within 20)",
   "content": {
-    "plain_english": "This week in Year 1 maths, your child is working on Addition and subtraction (within 20). They are building on what they already know and developing new skills through hands-on activities and careful practice.",
-    "in_school": "In lessons, children start by using practical resources to explore the concept, then move to drawing pictures and diagrams, and finally work with numbers and written methods. This concrete-to-abstract approach helps ideas stick.",
-    "home_activity": "Spend 5 minutes exploring addition and subtraction (within 20) together. Use everyday objects around the house — toys, fruit, or coins work well. Ask your child to show you what they did in school today. There are no right or wrong answers — just curious conversations.",
+    "plain_english": "This week in Year 1 maths, your child is working on Addition and subtraction (within 20). The learning focuses on: represent and use number bonds and related subtraction facts within 20; add and subtract one-digit and two-digit numbers to 20, including zero; and read, write and interpret mathematical statements involving addition (`+`), subtraction (`-`) and equals (`=`) signs. These skills build directly on what they have already mastered and prepare them for the next steps in the programme of study.",
+    "in_school": "In lessons, children start with concrete resources — base ten blocks, counters, or number lines — to model calculations physically. They then represent what they have done using drawings and diagrams before practising the formal written method independently. This concrete → pictorial → abstract approach helps the method become secure before moving on.",
+    "home_activity": "Roll two dice twice and use the numbers to make two 2-digit (or 3-digit) numbers. Add them together, then find the difference. Keep a running total over five rounds — who gets the highest? No calculators — the working-out is the fun part.",
     "dinner_table_questions": [
-      "What did you find tricky about addition and subtraction (within 20) today?",
-      "Can you show me on your fingers or with something on the table?",
-      "What's one thing you learned today that surprised you?"
+      "Can you show me how to represent and use number bonds and related subtraction facts within 20?",
+      "Was it easy or tricky to add and subtract one-digit and two-digit numbers to 20, including zero? Why?",
+      "How would you explain today's maths to someone who has never seen it before?"
     ],
     "key_vocabulary": [
       {
-        "term": "Addition and subtraction (within 20)",
-        "definition": "The main topic your child is studying this week in Year 1 maths."
+        "term": "sum",
+        "definition": "The result of adding two or more numbers together."
       },
       {
-        "term": "estimate",
-        "definition": "Make a sensible guess before working something out exactly."
+        "term": "column addition",
+        "definition": "A written method where numbers are lined up in columns to add."
       },
       {
-        "term": "explain",
-        "definition": "Use words to describe how you worked something out."
+        "term": "difference",
+        "definition": "The result of subtracting one number from another."
+      },
+      {
+        "term": "column subtraction",
+        "definition": "A written method where numbers are lined up in columns to subtract."
+      },
+      {
+        "term": "inverse",
+        "definition": "The opposite operation — addition and subtraction are inverses of each other."
       }
     ],
     "example_questions": [
-      "Can you explain addition and subtraction (within 20) in your own words?",
-      "What strategy did you use?",
-      "How do you know your answer is correct?"
+      "What is 8 + 5?",
+      "I have 13 apples and eat 6. How many are left?",
+      "Find the missing number: 6 + ? = 14"
     ],
-    "times_table_tip": "Practise your times tables for 2 minutes today — try saying them out loud while doing something else, like tidying up."
+    "times_table_tip": "Year 1 focuses on the 2, 5, and 10 times tables. Try counting in 2s together on the stairs, or in 10s while counting out coins. Even 2–3 minutes a day builds the familiarity that pays off in Year 2."
   }
 }

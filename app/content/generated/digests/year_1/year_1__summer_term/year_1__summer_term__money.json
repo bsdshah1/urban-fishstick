@@ -7,33 +7,41 @@
   "week_number": 1,
   "unit_title": "Money",
   "content": {
-    "plain_english": "This week in Year 1 maths, your child is working on Money. They are building on what they already know and developing new skills through hands-on activities and careful practice.",
-    "in_school": "In lessons, children start by using practical resources to explore the concept, then move to drawing pictures and diagrams, and finally work with numbers and written methods. This concrete-to-abstract approach helps ideas stick.",
-    "home_activity": "Spend 5 minutes exploring money together. Use everyday objects around the house — toys, fruit, or coins work well. Ask your child to show you what they did in school today. There are no right or wrong answers — just curious conversations.",
+    "plain_english": "This week in Year 1 maths, your child is working on Money. The learning focuses on: solve one-step problems involving addition and subtraction using concrete objects and pictorial representations; solve missing number problems such as `7 = □ - 9`; and measure and begin to record:. These skills build directly on what they have already mastered and prepare them for the next steps in the programme of study.",
+    "in_school": "Children use practical measuring equipment — rulers, scales, measuring cylinders, and clocks — to explore measurement in real contexts. They record findings using diagrams and number lines before progressing to written calculations. Problem-solving tasks show how these skills are used every day.",
+    "home_activity": "Give your child a small collection of coins and ask them to make different amounts — can they make 37p in two different ways? At the shops (or in a pretend shop at home), let them work out change from £1 or £2. Handling real money builds confidence quickly.",
     "dinner_table_questions": [
-      "What did you find tricky about money today?",
-      "Can you show me on your fingers or with something on the table?",
-      "What's one thing you learned today that surprised you?"
+      "Can you show me how to solve one-step problems involving addition and subtraction using concrete objects and pictorial representations?",
+      "Was it easy or tricky to solve missing number problems such as `7 = □ - 9`? Why?",
+      "How would you explain today's maths to someone who has never seen it before?"
     ],
     "key_vocabulary": [
       {
-        "term": "Money",
-        "definition": "The main topic your child is studying this week in Year 1 maths."
+        "term": "pence (p)",
+        "definition": "The smaller unit of British money — 100p = £1."
       },
       {
-        "term": "estimate",
-        "definition": "Make a sensible guess before working something out exactly."
+        "term": "pound (£)",
+        "definition": "The main unit of British money."
       },
       {
-        "term": "explain",
-        "definition": "Use words to describe how you worked something out."
+        "term": "change",
+        "definition": "The money you get back when you pay more than something costs."
+      },
+      {
+        "term": "total",
+        "definition": "The overall amount when prices are added together."
+      },
+      {
+        "term": "decimal point",
+        "definition": "The dot in a money amount separating pounds from pence — e.g. £2.50."
       }
     ],
     "example_questions": [
-      "Can you explain money in your own words?",
-      "What strategy did you use?",
-      "How do you know your answer is correct?"
+      "Count on from 47 to 52.",
+      "What number is 10 more than 35?",
+      "Put these in order: 26, 62, 16, 61."
     ],
-    "times_table_tip": "Practise your times tables for 2 minutes today — try saying them out loud while doing something else, like tidying up."
+    "times_table_tip": "Year 1 focuses on the 2, 5, and 10 times tables. Try counting in 2s together on the stairs, or in 10s while counting out coins. Even 2–3 minutes a day builds the familiarity that pays off in Year 2."
   }
 }
