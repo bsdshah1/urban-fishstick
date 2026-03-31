@@ -7,33 +7,41 @@
   "week_number": 1,
   "unit_title": "Position and direction",
   "content": {
-    "plain_english": "This week in Year 4 maths, your child is working on Position and direction. They are building on what they already know and developing new skills through hands-on activities and careful practice.",
-    "in_school": "In lessons, children start by using practical resources to explore the concept, then move to drawing pictures and diagrams, and finally work with numbers and written methods. This concrete-to-abstract approach helps ideas stick.",
-    "home_activity": "Spend 5 minutes exploring position and direction together. Use everyday objects around the house — toys, fruit, or coins work well. Ask your child to show you what they did in school today. There are no right or wrong answers — just curious conversations.",
+    "plain_english": "This week in Year 4 maths, your child is working on Position and direction. The learning focuses on: describe positions on a 2d grid as coordinates in the first quadrant; describe movements between positions as translations of a given unit to the left/right and up/down; and plot specified points and draw sides to complete a given polygon. These skills build directly on what they have already mastered and prepare them for the next steps in the programme of study.",
+    "in_school": "Children handle, sort, and classify 2-D and 3-D shapes, drawing and describing their properties. They use protractors, mirrors, and squared paper to explore angles, symmetry, and position. Explaining what they notice in precise mathematical language is a key part of every lesson.",
+    "home_activity": "Look for real-life examples around the house — a map showing distances, a measuring jug with ml and pints, a food label in grams and kg. Ask your child to read the measurements and convert between them. Road signs in miles are another good context.",
     "dinner_table_questions": [
-      "What did you find tricky about position and direction today?",
-      "Can you show me on your fingers or with something on the table?",
-      "What's one thing you learned today that surprised you?"
+      "Can you show me how to describe positions on a 2d grid as coordinates in the first quadrant?",
+      "Was it easy or tricky to describe movements between positions as translations of a given unit to the left/right and up/down? Why?",
+      "How would you explain today's maths to someone who has never seen it before?"
     ],
     "key_vocabulary": [
       {
-        "term": "Position and direction",
-        "definition": "The main topic your child is studying this week in Year 4 maths."
+        "term": "coordinates",
+        "definition": "A pair of numbers giving the exact position of a point on a grid — e.g. (3, 4)."
       },
       {
-        "term": "estimate",
-        "definition": "Make a sensible guess before working something out exactly."
+        "term": "x-axis",
+        "definition": "The horizontal line on a coordinate grid."
       },
       {
-        "term": "explain",
-        "definition": "Use words to describe how you worked something out."
+        "term": "y-axis",
+        "definition": "The vertical line on a coordinate grid."
+      },
+      {
+        "term": "translation",
+        "definition": "Sliding a shape to a new position without rotating or flipping it."
+      },
+      {
+        "term": "reflection",
+        "definition": "Flipping a shape over a mirror line."
       }
     ],
     "example_questions": [
-      "Can you explain position and direction in your own words?",
-      "What strategy did you use?",
-      "How do you know your answer is correct?"
+      "Work out 345 × 12.",
+      "Convert 3.7 km to metres.",
+      "Find a common factor of 24 and 36."
     ],
-    "times_table_tip": "Practise your times tables for 2 minutes today — try saying them out loud while doing something else, like tidying up."
+    "times_table_tip": "Year 4 children should know all their times tables to 12 × 12 by the end of the year — the national Multiplication Tables Check happens in Year 4. Daily 3-minute practice mixing tables in random order is the best preparation."
   }
 }
