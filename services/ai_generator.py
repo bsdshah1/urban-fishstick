@@ -289,7 +289,7 @@ def _clean_steps(steps: list[str]) -> list[str]:
 
 
 def _plain_english(unit_title: str, year_group: str, steps: list[str]) -> str:
-    yg = year_group.replace("_", " ").title()
+    yg = "EYFS" if year_group == "eyfs" else year_group.replace("_", " ").title()
     clean = _clean_steps(steps)
     if year_group == "eyfs":
         if clean:
@@ -712,13 +712,13 @@ def generate_weekly_digest(
     try:
         import anthropic
     except ImportError:
-        logger.warning("anthropic package not installed; returning placeholder digest")
-        return _placeholder_digest(year_group, unit_title)
+        logger.warning("anthropic package not installed; returning curriculum-based digest")
+        return _placeholder_digest(year_group, unit_title, curriculum_context)
 
     api_key = os.environ.get("ANTHROPIC_API_KEY")
     if not api_key:
-        logger.warning("ANTHROPIC_API_KEY not set; returning placeholder digest")
-        return _placeholder_digest(year_group, unit_title)
+        logger.warning("ANTHROPIC_API_KEY not set; returning curriculum-based digest")
+        return _placeholder_digest(year_group, unit_title, curriculum_context)
 
     client = anthropic.Anthropic(api_key=api_key)
 
@@ -761,46 +761,24 @@ Generate the weekly parent digest now."""
         return data
     except Exception as exc:
         logger.error("AI generation failed: %s", exc)
-        return _placeholder_digest(year_group, unit_title)
+        return _placeholder_digest(year_group, unit_title, curriculum_context)
 
 
-def _placeholder_digest(year_group: str, unit_title: str) -> dict[str, Any]:
-    """Fallback digest used when the Claude API is unavailable."""
-    yg = year_group.replace("_", " ").title()
+def _placeholder_digest(
+    year_group: str,
+    unit_title: str,
+    curriculum_context: dict[str, Any] | None = None,
+) -> dict[str, Any]:
+    """Curriculum-based digest used when the Claude API is unavailable."""
+    ctx = curriculum_context or {}
+    steps = ctx.get("small_steps", [])
+    tt = ctx.get("times_table_expectation", "")
     return {
-        "plain_english": (
-            f"This week in {yg} maths, your child is working on {unit_title}. "
-            "They are building on what they already know and developing new skills "
-            "through hands-on activities and careful practice."
-        ),
-        "in_school": (
-            "In lessons, children start by using practical resources to explore the concept, "
-            "then move to drawing pictures and diagrams, and finally work with numbers and written methods. "
-            "This concrete-to-abstract approach helps ideas stick."
-        ),
-        "home_activity": (
-            f"Spend 5 minutes exploring {unit_title.lower()} together. "
-            "Use everyday objects around the house — toys, fruit, or coins work well. "
-            "Ask your child to show you what they did in school today. "
-            "There are no right or wrong answers — just curious conversations."
-        ),
-        "dinner_table_questions": [
-            f"What did you find tricky about {unit_title.lower()} today?",
-            "Can you show me on your fingers or with something on the table?",
-            "What's one thing you learned today that surprised you?",
-        ],
-        "key_vocabulary": [
-            {"term": unit_title, "definition": f"The main topic your child is studying this week in {yg} maths."},
-            {"term": "estimate", "definition": "Make a sensible guess before working something out exactly."},
-            {"term": "explain", "definition": "Use words to describe how you worked something out."},
-        ],
-        "example_questions": [
-            f"Can you explain {unit_title.lower()} in your own words?",
-            "What strategy did you use?",
-            "How do you know your answer is correct?",
-        ],
-        "times_table_tip": (
-            "Practise your times tables for 2 minutes today — "
-            "try saying them out loud while doing something else, like tidying up."
-        ),
+        "plain_english": _plain_english(unit_title, year_group, steps),
+        "in_school": _in_school_text(unit_title, year_group),
+        "home_activity": _home_activity(unit_title, year_group),
+        "dinner_table_questions": _dinner_questions(unit_title, year_group, steps),
+        "key_vocabulary": _pick_vocabulary(unit_title, year_group),
+        "example_questions": _example_questions(unit_title, year_group),
+        "times_table_tip": _times_table_tip(tt, year_group),
     }
