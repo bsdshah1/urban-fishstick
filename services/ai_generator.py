@@ -523,6 +523,153 @@ def _home_activity(unit_title: str, year_group: str) -> str:
     )
 
 
+def _dinner_questions(unit_title: str, year_group: str, steps: list[str]) -> list[str]:
+    """Return 3 dinner-table questions, using clean small steps where available."""
+    clean = _clean_steps(steps)
+    if year_group == "eyfs":
+        return [
+            f"Can you show me something at home that is about {unit_title.lower()}?",
+            "What was your favourite thing you did in maths today?",
+            "Can you teach me one thing you learned this week?",
+        ]
+    q1 = (
+        f"Can you show me how to {clean[0].lower().rstrip('.')}?"
+        if clean else f"What does {unit_title.lower()} mean in your own words?"
+    )
+    q2 = (
+        f"Was it easy or tricky to {clean[1].lower().rstrip('.')}? Why?"
+        if len(clean) >= 2 else f"What was the trickiest part of {unit_title.lower()} today?"
+    )
+    return [q1, q2, "How would you explain today's maths to someone who has never seen it before?"]
+
+
+def _example_questions(unit_title: str, year_group: str) -> list[str]:
+    """Return 3 age- and topic-appropriate example questions."""
+    tl = unit_title.lower()
+    yg = year_group.replace("year_", "")
+
+    if year_group == "eyfs":
+        if any(k in tl for k in ("1, 2, 3", "count", "alive", "building", "growing", "20")):
+            return ["Can you count out 5 objects?", "Which group has more — 4 or 5?", "Show me one more than 3."]
+        if "pattern" in tl or "find my" in tl:
+            return ["Can you copy this pattern: red, blue, red, blue?", "What comes next?", "Can you make your own pattern?"]
+        if any(k in tl for k in ("shape", "circle", "triangle")):
+            return ["Can you find something shaped like a circle?", "How many sides does a triangle have?", "Can you sort these into flat and solid shapes?"]
+        if any(k in tl for k in ("move", "position", "direction")):
+            return ["Can you put the teddy on top of the box?", "Can you walk forwards 3 steps then backwards 2?", "Where is the ball — in front or behind the chair?"]
+        return ["Can you count to 10 and back to 0?", "Show me something heavier than this book.", "Can you find two things that are the same shape?"]
+
+    if yg == "1":
+        if "place value" in tl:
+            return ["What is the tens digit in 47?", "Write the number forty-three.", "Which is greater — 58 or 85?"]
+        if "addition" in tl or "subtraction" in tl:
+            return ["What is 8 + 5?", "I have 13 apples and eat 6. How many are left?", "Find the missing number: 6 + ? = 14"]
+        if "multiplication" in tl or "division" in tl:
+            return ["How many altogether in 3 groups of 2?", "Share 10 equally between 2. How many each?", "Count in 5s to 20."]
+        if "shape" in tl or "geometry" in tl:
+            return ["Name a 3-D shape with 6 faces.", "How many sides does a pentagon have?", "Draw a shape with 4 equal sides."]
+        return ["Count on from 47 to 52.", "What number is 10 more than 35?", "Put these in order: 26, 62, 16, 61."]
+
+    if yg == "2":
+        if "place value" in tl:
+            return ["What is the value of 7 in 73?", "Write 56 as tens and ones.", "Order: 84, 48, 80, 40."]
+        if "addition" in tl or "subtraction" in tl:
+            return ["Work out 67 + 28.", "Find 95 − 38.", "I have £1.20 and spend 47p. How much is left?"]
+        if "multiplication" in tl or "division" in tl:
+            return ["What is 5 × 4?", "Share 18 equally between 3. How many in each group?", "Complete: 3 × ? = 21"]
+        if "fraction" in tl:
+            return ["Shade ¼ of a shape split into 4 equal parts.", "What fraction of 12 is 3?", "Write two fractions equal to ½."]
+        if "shape" in tl or "geometry" in tl:
+            return ["Name a quadrilateral with all sides equal.", "Draw a shape with exactly 1 line of symmetry.", "How many right angles does a rectangle have?"]
+        if "statistic" in tl or "data" in tl:
+            return ["How do you record data using a tally chart?", "Read the bar chart — which category has the most?", "How many more chose cats than dogs?"]
+        return ["What is 38 + 45?", "Round 67 to the nearest 10.", "Write three hundred and twelve in numerals."]
+
+    if yg == "3":
+        if "place value" in tl:
+            return ["What is 100 more than 2,870?", "Round 3,468 to the nearest 100.", "Write 4,305 in words."]
+        if "addition" in tl or "subtraction" in tl:
+            return ["Work out 456 + 278 using column addition.", "Calculate 703 − 348.", "What is the difference between 650 and 423?"]
+        if "multiplication" in tl or "division" in tl:
+            return ["Work out 34 × 3.", "48 ÷ 4 = ?", "56 children in 8 equal groups. How many in each?"]
+        if "fraction" in tl:
+            return ["Which is greater — ⅔ or ¾?", "What is ½ of 48?", "Write ⅗ as a diagram."]
+        if "length" in tl or "perimeter" in tl:
+            return ["Find the perimeter of a rectangle 7 cm × 4 cm.", "Convert 250 cm into metres and centimetres.", "Which is longer — 2.5 m or 280 cm?"]
+        if "time" in tl:
+            return ["A film starts at 2:45 pm and lasts 1 hour 20 min. When does it end?", "How many minutes in 2½ hours?", "Write 09:30 in 12-hour time."]
+        if "mass" in tl or "capacity" in tl:
+            return ["Order: 1.2 kg, 850 g, 1,100 g.", "Convert 2.5 litres to millilitres.", "Which is heavier — 3.4 kg or 3,450 g?"]
+        if "fraction" in tl:
+            return ["Shade ¾ of a shape.", "Write an equivalent fraction for ½.", "Order ¼, ½, ¾ from smallest to largest."]
+        if "money" in tl:
+            return ["What is the change from £5.00 if you spend £3.47?", "Write £4.06 in words.", "Add £2.35 and £1.79."]
+        if "shape" in tl or "geometry" in tl:
+            return ["Name an angle less than 90°.", "Draw a shape with exactly 1 pair of parallel sides.", "How many right angles in a rectangle?"]
+        if "statistic" in tl:
+            return ["Read the bar chart — how many more chose option A than B?", "Draw a pictogram where each symbol = 2 people.", "What is the total frequency?"]
+        return ["Work out 238 × 4.", "What is ⅔ of 24?", "Find the perimeter of a square with side 6 cm."]
+
+    if yg == "4":
+        if "place value" in tl:
+            return ["Write 45,302 in words.", "What is the value of 8 in 38,450?", "Round 67,840 to the nearest 1,000."]
+        if "multiplication" in tl or "division" in tl:
+            return ["Work out 46 × 23.", "Calculate 196 ÷ 7.", "A box holds 24 crayons. How many in 15 boxes?"]
+        if "fraction" in tl or "decimal" in tl:
+            return ["Convert ⅗ to a decimal.", "Order: 0.4, 0.04, 0.44.", "What is ¾ of 60?"]
+        if "area" in tl or "perimeter" in tl:
+            return ["Find the area of a rectangle 8 cm × 6 cm.", "Find the perimeter of a square with side 9 cm.", "A rectangle has perimeter 28 cm and width 5 cm. Find its length."]
+        if "time" in tl:
+            return ["A train leaves at 11:48 and arrives at 13:07. How long is the journey?", "Convert 3.5 hours to hours and minutes.", "What time is 2 h 45 min before midnight?"]
+        if "shape" in tl or "geometry" in tl:
+            return ["Plot the point (3, 5) on a coordinate grid.", "Translate the shape 2 right and 3 up.", "Name a quadrilateral with exactly one pair of parallel sides."]
+        if "statistic" in tl:
+            return ["Read the line graph — what happened between 10 am and 12 noon?", "Draw a bar chart for: red 8, blue 5, green 11.", "What was the modal colour?"]
+        return ["Work out 345 × 12.", "Convert 3.7 km to metres.", "Find a common factor of 24 and 36."]
+
+    if yg == "5":
+        if "place value" in tl:
+            return ["Write 2,045,307 in words.", "Round 4,378,201 to the nearest million.", "What is the value of 3 in 7,300,000?"]
+        if "fraction" in tl or "decimal" in tl or "percentage" in tl:
+            return ["Convert 0.35 to a fraction in its simplest form.", "Find 15% of 240.", "Write ⅜ as a decimal and as a percentage."]
+        if "multiplication" in tl or "division" in tl:
+            return ["Work out 324 × 46.", "Calculate 1,248 ÷ 16.", "Find all factor pairs of 36."]
+        if "area" in tl or "perimeter" in tl or "volume" in tl:
+            return ["Find the area of a triangle with base 8 cm and height 5 cm.", "A cuboid is 4 cm × 3 cm × 5 cm. Find its volume.", "Find the perimeter of the compound shape."]
+        if "statistic" in tl:
+            return ["Find the mean of: 4, 7, 9, 6, 4.", "Describe the trend shown in the line graph.", "In a survey of 60 people, 25% chose red. How many is that?"]
+        if "shape" in tl or "geometry" in tl or "angle" in tl:
+            return ["Find the missing angle in the triangle (angles: 65°, 48°, ?).", "Name a quadrilateral with diagonals that bisect at right angles.", "Measure this angle with a protractor."]
+        if "convert" in tl:
+            return ["Convert 2.4 kg to grams.", "How many cm in 3.5 m?", "A recipe uses 750 ml. How many litres is that?"]
+        return ["Work out 472 × 35.", "Write 0.375 as a fraction in its simplest form.", "Find 30% of 840."]
+
+    if yg == "6":
+        if "ratio" in tl:
+            return ["Write 15:25 in its simplest form.", "Divide £72 in the ratio 3:5.", "A recipe uses flour and butter in ratio 4:1. If you use 200 g flour, how much butter?"]
+        if "algebra" in tl:
+            return ["Solve: 3n + 5 = 20.", "Find the value of 2a + b when a = 4 and b = 3.", "Write the first five terms of the sequence with rule 2n + 1."]
+        if "fraction" in tl or "decimal" in tl or "percentage" in tl:
+            return ["Calculate ³⁄₇ of 84.", "Increase 450 by 12%.", "Write 0.245 as a fraction in its simplest form."]
+        if "area" in tl or "volume" in tl or "perimeter" in tl:
+            return ["Find the area of a parallelogram with base 10 cm and height 6 cm.", "A cuboid is 5 cm × 4 cm × 3 cm. Find its volume.", "Find the area of a trapezium with parallel sides 8 cm and 5 cm, height 4 cm."]
+        if "statistic" in tl:
+            return ["Find the mean, median, and range of: 5, 8, 3, 9, 5.", "A pie chart shows 25% red. What angle does that sector have?", "A survey of 120 people found 35% preferred cinema. How many is that?"]
+        if "place value" in tl:
+            return ["Write 4,098,302 in words.", "Arrange in order: −5, −1, 0, −3, 2.", "Round 4.3578 to two decimal places."]
+        if "shape" in tl or "geometry" in tl:
+            return ["Find the sum of interior angles in a pentagon.", "Reflect the shape in the y-axis.", "Name the 3-D shape with 2 circular faces."]
+        if "convert" in tl:
+            return ["Convert 3.4 km to metres.", "Change 2.6 kg to grams.", "How many ml in 1.75 litres?"]
+        return ["Work out 846 × 73.", "Solve: 4n − 7 = 21.", "Find 65% of 320."]
+
+    return [
+        f"Can you explain {unit_title.lower()} in your own words?",
+        "Show me one example using numbers you choose yourself.",
+        "How do you know your answer is correct?",
+    ]
+
+
 _SYSTEM_PROMPT = """You are generating a weekly maths digest for parents at Beaumont Primary School in Croydon.
 
 Your job is to translate curriculum learning into something a parent can read in 2 minutes and actually use.
