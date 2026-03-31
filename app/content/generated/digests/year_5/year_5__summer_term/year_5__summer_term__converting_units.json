@@ -7,33 +7,41 @@
   "week_number": 1,
   "unit_title": "Converting units",
   "content": {
-    "plain_english": "This week in Year 5 maths, your child is working on Converting units. They are building on what they already know and developing new skills through hands-on activities and careful practice.",
-    "in_school": "In lessons, children start by using practical resources to explore the concept, then move to drawing pictures and diagrams, and finally work with numbers and written methods. This concrete-to-abstract approach helps ideas stick.",
-    "home_activity": "Spend 5 minutes exploring converting units together. Use everyday objects around the house — toys, fruit, or coins work well. Ask your child to show you what they did in school today. There are no right or wrong answers — just curious conversations.",
+    "plain_english": "This week in Year 5 maths, your child is working on Converting units. The learning focuses on: use all four operations to solve problems involving measure, for example length, mass, volume and money, using decimal notation including scaling; measure and calculate the perimeter of composite rectilinear shapes in centimetres and metres; and calculate and compare the area of squares and rectangles. These skills build directly on what they have already mastered and prepare them for the next steps in the programme of study.",
+    "in_school": "Children use practical measuring equipment — rulers, scales, measuring cylinders, and clocks — to explore measurement in real contexts. They record findings using diagrams and number lines before progressing to written calculations. Problem-solving tasks show how these skills are used every day.",
+    "home_activity": "Look for real-life examples around the house — a map showing distances, a measuring jug with ml and pints, a food label in grams and kg. Ask your child to read the measurements and convert between them. Road signs in miles are another good context.",
     "dinner_table_questions": [
-      "What did you find tricky about converting units today?",
-      "Can you show me on your fingers or with something on the table?",
-      "What's one thing you learned today that surprised you?"
+      "Can you show me how to use all four operations to solve problems involving measure, for example length, mass, volume and money, using decimal notation including scaling?",
+      "Was it easy or tricky to measure and calculate the perimeter of composite rectilinear shapes in centimetres and metres? Why?",
+      "How would you explain today's maths to someone who has never seen it before?"
     ],
     "key_vocabulary": [
       {
-        "term": "Converting units",
-        "definition": "The main topic your child is studying this week in Year 5 maths."
+        "term": "convert",
+        "definition": "Change a measurement from one unit to another — e.g. 150 cm = 1.5 m."
       },
       {
-        "term": "estimate",
-        "definition": "Make a sensible guess before working something out exactly."
+        "term": "metric",
+        "definition": "The modern measurement system using metres, kilograms, litres, etc."
       },
       {
-        "term": "explain",
-        "definition": "Use words to describe how you worked something out."
+        "term": "imperial",
+        "definition": "An older system using miles, pounds, pints, etc."
+      },
+      {
+        "term": "equivalence",
+        "definition": "When two measurements have the same value but use different units."
+      },
+      {
+        "term": "proportion",
+        "definition": "A way of comparing quantities — e.g. 1 kg ≈ 2.2 pounds."
       }
     ],
     "example_questions": [
-      "Can you explain converting units in your own words?",
-      "What strategy did you use?",
-      "How do you know your answer is correct?"
+      "Convert 2.4 kg to grams.",
+      "How many cm in 3.5 m?",
+      "A recipe uses 750 ml. How many litres is that?"
     ],
-    "times_table_tip": "Practise your times tables for 2 minutes today — try saying them out loud while doing something else, like tidying up."
+    "times_table_tip": "By Year 5 children should know all their times tables with speed and confidence. Ask quick-fire questions at dinner — mixing tables so they recall facts rather than just reciting sequences. Can they answer in under 3 seconds?"
   }
 }

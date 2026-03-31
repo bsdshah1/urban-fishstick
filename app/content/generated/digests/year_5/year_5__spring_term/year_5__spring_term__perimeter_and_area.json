@@ -7,33 +7,41 @@
   "week_number": 1,
   "unit_title": "Perimeter and area",
   "content": {
-    "plain_english": "This week in Year 5 maths, your child is working on Perimeter and area. They are building on what they already know and developing new skills through hands-on activities and careful practice.",
-    "in_school": "In lessons, children start by using practical resources to explore the concept, then move to drawing pictures and diagrams, and finally work with numbers and written methods. This concrete-to-abstract approach helps ideas stick.",
-    "home_activity": "Spend 5 minutes exploring perimeter and area together. Use everyday objects around the house — toys, fruit, or coins work well. Ask your child to show you what they did in school today. There are no right or wrong answers — just curious conversations.",
+    "plain_english": "This week in Year 5 maths, your child is working on Perimeter and area. The learning focuses on: use all four operations to solve problems involving measure, for example length, mass, volume and money, using decimal notation including scaling; measure and calculate the perimeter of composite rectilinear shapes in centimetres and metres; and calculate and compare the area of squares and rectangles. These skills build directly on what they have already mastered and prepare them for the next steps in the programme of study.",
+    "in_school": "Children use practical measuring equipment — rulers, scales, measuring cylinders, and clocks — to explore measurement in real contexts. They record findings using diagrams and number lines before progressing to written calculations. Problem-solving tasks show how these skills are used every day.",
+    "home_activity": "Use a piece of string to measure things around the house — is the sofa longer or shorter than the table? Estimate in centimetres first, then measure to check. For perimeter, measure all four sides of a book or tile and add them up.",
     "dinner_table_questions": [
-      "What did you find tricky about perimeter and area today?",
-      "Can you show me on your fingers or with something on the table?",
-      "What's one thing you learned today that surprised you?"
+      "Can you show me how to use all four operations to solve problems involving measure, for example length, mass, volume and money, using decimal notation including scaling?",
+      "Was it easy or tricky to measure and calculate the perimeter of composite rectilinear shapes in centimetres and metres? Why?",
+      "How would you explain today's maths to someone who has never seen it before?"
     ],
     "key_vocabulary": [
       {
-        "term": "Perimeter and area",
-        "definition": "The main topic your child is studying this week in Year 5 maths."
+        "term": "area",
+        "definition": "The amount of space inside a 2-D shape, measured in square units."
       },
       {
-        "term": "estimate",
-        "definition": "Make a sensible guess before working something out exactly."
+        "term": "square centimetre (cm²)",
+        "definition": "A unit for measuring area — the space of a 1 cm × 1 cm square."
       },
       {
-        "term": "explain",
-        "definition": "Use words to describe how you worked something out."
+        "term": "length",
+        "definition": "How long a side of the shape is."
+      },
+      {
+        "term": "perimeter",
+        "definition": "The total distance around the outside edge of a shape."
+      },
+      {
+        "term": "length",
+        "definition": "How long something is from one end to the other."
       }
     ],
     "example_questions": [
-      "Can you explain perimeter and area in your own words?",
-      "What strategy did you use?",
-      "How do you know your answer is correct?"
+      "Find the area of a triangle with base 8 cm and height 5 cm.",
+      "A cuboid is 4 cm × 3 cm × 5 cm. Find its volume.",
+      "Find the perimeter of the compound shape."
     ],
-    "times_table_tip": "Practise your times tables for 2 minutes today — try saying them out loud while doing something else, like tidying up."
+    "times_table_tip": "By Year 5 children should know all their times tables with speed and confidence. Ask quick-fire questions at dinner — mixing tables so they recall facts rather than just reciting sequences. Can they answer in under 3 seconds?"
   }
 }

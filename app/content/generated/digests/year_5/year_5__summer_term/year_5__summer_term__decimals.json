@@ -7,33 +7,41 @@
   "week_number": 1,
   "unit_title": "Decimals",
   "content": {
-    "plain_english": "This week in Year 5 maths, your child is working on Decimals. They are building on what they already know and developing new skills through hands-on activities and careful practice.",
-    "in_school": "In lessons, children start by using practical resources to explore the concept, then move to drawing pictures and diagrams, and finally work with numbers and written methods. This concrete-to-abstract approach helps ideas stick.",
-    "home_activity": "Spend 5 minutes exploring decimals together. Use everyday objects around the house — toys, fruit, or coins work well. Ask your child to show you what they did in school today. There are no right or wrong answers — just curious conversations.",
+    "plain_english": "This week in Year 5 maths, your child is working on Decimals. The learning focuses on: solve addition and subtraction multi-step problems in contexts, deciding which operations and methods to use and why; use all four operations to solve problems involving measure, for example length, mass, volume and money, using decimal notation including scaling; and measure and calculate the perimeter of composite rectilinear shapes in centimetres and metres. These skills build directly on what they have already mastered and prepare them for the next steps in the programme of study.",
+    "in_school": "Children begin by folding paper, using fraction bars, and drawing bar models to see the concept visually before working with numbers and symbols. Discussion in pairs and small groups helps them explain and justify their reasoning using precise mathematical vocabulary.",
+    "home_activity": "Look at price labels in the kitchen — tins, packets, or bottles. Practise reading decimal amounts aloud and round prices to the nearest pound. Estimate the total cost of a few items — this puts decimals in a real, meaningful context.",
     "dinner_table_questions": [
-      "What did you find tricky about decimals today?",
-      "Can you show me on your fingers or with something on the table?",
-      "What's one thing you learned today that surprised you?"
+      "Can you show me how to solve addition and subtraction multi-step problems in contexts, deciding which operations and methods to use and why?",
+      "Was it easy or tricky to use all four operations to solve problems involving measure, for example length, mass, volume and money, using decimal notation including scaling? Why?",
+      "How would you explain today's maths to someone who has never seen it before?"
     ],
     "key_vocabulary": [
       {
-        "term": "Decimals",
-        "definition": "The main topic your child is studying this week in Year 5 maths."
+        "term": "decimal point",
+        "definition": "The dot separating the whole number part from the fractional part — e.g. 3.7."
       },
       {
-        "term": "estimate",
-        "definition": "Make a sensible guess before working something out exactly."
+        "term": "tenths",
+        "definition": "The first digit after the decimal point — each tenth is one part out of ten."
       },
       {
-        "term": "explain",
-        "definition": "Use words to describe how you worked something out."
+        "term": "hundredths",
+        "definition": "The second digit after the decimal point — one part out of a hundred."
+      },
+      {
+        "term": "equivalent",
+        "definition": "Having the same value — e.g. 0.5 = ½ = 50%."
+      },
+      {
+        "term": "round",
+        "definition": "Give a decimal to a certain number of decimal places."
       }
     ],
     "example_questions": [
-      "Can you explain decimals in your own words?",
-      "What strategy did you use?",
-      "How do you know your answer is correct?"
+      "Convert 0.35 to a fraction in its simplest form.",
+      "Find 15% of 240.",
+      "Write ⅜ as a decimal and as a percentage."
     ],
-    "times_table_tip": "Practise your times tables for 2 minutes today — try saying them out loud while doing something else, like tidying up."
+    "times_table_tip": "By Year 5 children should know all their times tables with speed and confidence. Ask quick-fire questions at dinner — mixing tables so they recall facts rather than just reciting sequences. Can they answer in under 3 seconds?"
   }
 }
