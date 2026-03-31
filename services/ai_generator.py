@@ -190,6 +190,94 @@ _VOCAB_BANK: dict[str, list[dict]] = {
     ],
 }
 
+def _pick_vocabulary(unit_title: str, year_group: str) -> list[dict]:
+    """Return 4-5 vocabulary entries from _VOCAB_BANK matching the topic."""
+    tl = unit_title.lower()
+    # Combined topics first (more specific)
+    if "addition" in tl and "subtraction" in tl:
+        return _VOCAB_BANK["addition"][:2] + _VOCAB_BANK["subtraction"][:2] + _VOCAB_BANK["addition"][4:5]
+    if "multiplication" in tl and "division" in tl:
+        return _VOCAB_BANK["multiplication"][:2] + _VOCAB_BANK["division"][:2] + _VOCAB_BANK["multiplication"][4:5]
+    if "fractions" in tl and ("decimals" in tl or "percentage" in tl):
+        return _VOCAB_BANK["fractions"][:2] + _VOCAB_BANK["decimals"][:2] + _VOCAB_BANK["percentage"][:1]
+    if "area" in tl and "perimeter" in tl:
+        return _VOCAB_BANK["area"][:3] + _VOCAB_BANK["perimeter"][:2]
+    if "area" in tl and "volume" in tl:
+        return _VOCAB_BANK["area"][:2] + _VOCAB_BANK["volume"][:3]
+    # Single-topic match (longest keyword wins)
+    for key in sorted(_VOCAB_BANK, key=len, reverse=True):
+        if key in tl:
+            return _VOCAB_BANK[key][:5]
+    # EYFS fallback
+    if year_group == "eyfs":
+        return [
+            {"term": "more", "definition": "A larger amount — e.g. 5 is more than 3."},
+            {"term": "fewer", "definition": "A smaller number of something — e.g. 2 is fewer than 5."},
+            {"term": "count", "definition": "Say numbers in order to find out how many there are."},
+            {"term": "sort", "definition": "Put objects into groups based on a shared property."},
+            {"term": "compare", "definition": "Look at two things to see how they are the same or different."},
+        ]
+    return _VOCAB_BANK["consolidation"][:4]
+
+
+def _times_table_tip(tt_expectation: str, year_group: str) -> str:
+    """Return a year-group-appropriate times table tip."""
+    if year_group == "eyfs":
+        return (
+            "At this stage children are not learning times tables formally. "
+            "Instead they explore equal groups through play — sharing objects fairly "
+            "or making equal piles — which builds the foundation for multiplication later on."
+        )
+    tte = tt_expectation.lower()
+    if year_group == "year_1" or "2, 5 and 10" in tte:
+        return (
+            "Year 1 focuses on the 2, 5, and 10 times tables. Try counting in 2s "
+            "together on the stairs, or in 10s while counting out coins. "
+            "Even 2–3 minutes a day builds the familiarity that pays off in Year 2."
+        )
+    if year_group == "year_2" or ("3" in tte and "4" not in tte):
+        return (
+            "Year 2 children learn their 2, 5, 10, and 3 times tables. The 3 times "
+            "table is the new one this year. Try chanting together: 3, 6, 9, 12, 15 … "
+            "Clapping a beat as you say the numbers helps the rhythm stick."
+        )
+    if year_group == "year_3" or "3, 4, 8" in tte:
+        return (
+            "Year 3 focuses on the 3, 4, 8, and 6 times tables. Try one table a week — "
+            "write it out, then see how fast your child can say it forwards and backwards. "
+            "The 8 times table is double the 4 times table, which is a handy shortcut!"
+        )
+    if year_group == "year_4" or "7, 9, 11" in tte:
+        return (
+            "Year 4 children should know all their times tables to 12 × 12 by the end "
+            "of the year — the national Multiplication Tables Check happens in Year 4. "
+            "Daily 3-minute practice mixing tables in random order is the best preparation."
+        )
+    if year_group == "year_5":
+        return (
+            "By Year 5 children should know all their times tables with speed and confidence. "
+            "Ask quick-fire questions at dinner — mixing tables so they recall facts "
+            "rather than just reciting sequences. Can they answer in under 3 seconds?"
+        )
+    if year_group == "year_6":
+        return (
+            "Year 6 children use all their times tables to tackle complex problems including "
+            "long multiplication, division, and fractions. Challenge them: 'What is 7 × 12?' "
+            "or 'How many 8s in 72?' Rapid recall frees up thinking space for harder work."
+        )
+    if tt_expectation.strip():
+        return (
+            f"The times table focus for this year group is: {tt_expectation}. "
+            "Regular short practice — even 2–3 minutes a day — makes a big difference. "
+            "Try mixing up the order so your child is recalling facts, not just counting up."
+        )
+    return (
+        "Regular times table practice — just 2–3 minutes a day — helps your child recall "
+        "facts quickly, freeing up thinking space for more complex problems. "
+        "Mix different tables in random order rather than always going in sequence."
+    )
+
+
 _SYSTEM_PROMPT = """You are generating a weekly maths digest for parents at Beaumont Primary School in Croydon.
 
 Your job is to translate curriculum learning into something a parent can read in 2 minutes and actually use.
