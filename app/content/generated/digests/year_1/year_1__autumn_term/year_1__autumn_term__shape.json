@@ -7,33 +7,41 @@
   "week_number": 1,
   "unit_title": "Shape",
   "content": {
-    "plain_english": "This week in Year 1 maths, your child is working on Shape. They are building on what they already know and developing new skills through hands-on activities and careful practice.",
-    "in_school": "In lessons, children start by using practical resources to explore the concept, then move to drawing pictures and diagrams, and finally work with numbers and written methods. This concrete-to-abstract approach helps ideas stick.",
-    "home_activity": "Spend 5 minutes exploring shape together. Use everyday objects around the house — toys, fruit, or coins work well. Ask your child to show you what they did in school today. There are no right or wrong answers — just curious conversations.",
+    "plain_english": "This week in Year 1 maths, your child is working on Shape. The learning focuses on: recognise and name common 2d and 3d shapes, including:; 2d shapes, for example rectangles (including squares), circles and triangles; and 3d shapes, for example cuboids (including cubes), pyramids and spheres. These skills build directly on what they have already mastered and prepare them for the next steps in the programme of study.",
+    "in_school": "Children handle, sort, and classify 2-D and 3-D shapes, drawing and describing their properties. They use protractors, mirrors, and squared paper to explore angles, symmetry, and position. Explaining what they notice in precise mathematical language is a key part of every lesson.",
+    "home_activity": "Go on a shape hunt around the house. How many rectangles can you spot? Any cylinders in the kitchen? Count vertices and edges on a cereal box or tin. For angles, look for right angles (corners of doors) and ask whether other angles are acute or obtuse.",
     "dinner_table_questions": [
-      "What did you find tricky about shape today?",
-      "Can you show me on your fingers or with something on the table?",
-      "What's one thing you learned today that surprised you?"
+      "Can you show me how to recognise and name common 2d and 3d shapes, including:?",
+      "Was it easy or tricky to 2d shapes, for example rectangles (including squares), circles and triangles? Why?",
+      "How would you explain today's maths to someone who has never seen it before?"
     ],
     "key_vocabulary": [
       {
-        "term": "Shape",
-        "definition": "The main topic your child is studying this week in Year 1 maths."
+        "term": "2-D shape",
+        "definition": "A flat shape with length and width but no thickness — e.g. triangle, circle."
       },
       {
-        "term": "estimate",
-        "definition": "Make a sensible guess before working something out exactly."
+        "term": "3-D shape",
+        "definition": "A solid shape with length, width, and height — e.g. cube, sphere, cone."
       },
       {
-        "term": "explain",
-        "definition": "Use words to describe how you worked something out."
+        "term": "symmetry",
+        "definition": "When one half of a shape is a mirror image of the other."
+      },
+      {
+        "term": "right angle",
+        "definition": "An angle of exactly 90° — the same as the corner of a square."
+      },
+      {
+        "term": "perpendicular",
+        "definition": "Lines that meet at a right angle (90°)."
       }
     ],
     "example_questions": [
-      "Can you explain shape in your own words?",
-      "What strategy did you use?",
-      "How do you know your answer is correct?"
+      "Name a 3-D shape with 6 faces.",
+      "How many sides does a pentagon have?",
+      "Draw a shape with 4 equal sides."
     ],
-    "times_table_tip": "Practise your times tables for 2 minutes today — try saying them out loud while doing something else, like tidying up."
+    "times_table_tip": "Year 1 focuses on the 2, 5, and 10 times tables. Try counting in 2s together on the stairs, or in 10s while counting out coins. Even 2–3 minutes a day builds the familiarity that pays off in Year 2."
   }
 }

@@ -7,33 +7,41 @@
   "week_number": 1,
   "unit_title": "Length and perimeter",
   "content": {
-    "plain_english": "This week in Year 3 maths, your child is working on Length and perimeter. They are building on what they already know and developing new skills through hands-on activities and careful practice.",
-    "in_school": "In lessons, children start by using practical resources to explore the concept, then move to drawing pictures and diagrams, and finally work with numbers and written methods. This concrete-to-abstract approach helps ideas stick.",
-    "home_activity": "Spend 5 minutes exploring length and perimeter together. Use everyday objects around the house — toys, fruit, or coins work well. Ask your child to show you what they did in school today. There are no right or wrong answers — just curious conversations.",
+    "plain_english": "This week in Year 3 maths, your child is working on Length and perimeter. The learning focuses on: compare durations of events; estimate and read time with increasing accuracy to the nearest minute; and record and compare time in terms of seconds, minutes and hours. These skills build directly on what they have already mastered and prepare them for the next steps in the programme of study.",
+    "in_school": "Children use practical measuring equipment — rulers, scales, measuring cylinders, and clocks — to explore measurement in real contexts. They record findings using diagrams and number lines before progressing to written calculations. Problem-solving tasks show how these skills are used every day.",
+    "home_activity": "Use a piece of string to measure things around the house — is the sofa longer or shorter than the table? Estimate in centimetres first, then measure to check. For perimeter, measure all four sides of a book or tile and add them up.",
     "dinner_table_questions": [
-      "What did you find tricky about length and perimeter today?",
-      "Can you show me on your fingers or with something on the table?",
-      "What's one thing you learned today that surprised you?"
+      "Can you show me how to compare durations of events?",
+      "Was it easy or tricky to estimate and read time with increasing accuracy to the nearest minute? Why?",
+      "How would you explain today's maths to someone who has never seen it before?"
     ],
     "key_vocabulary": [
       {
-        "term": "Length and perimeter",
-        "definition": "The main topic your child is studying this week in Year 3 maths."
+        "term": "perimeter",
+        "definition": "The total distance around the outside edge of a shape."
       },
       {
-        "term": "estimate",
-        "definition": "Make a sensible guess before working something out exactly."
+        "term": "length",
+        "definition": "How long something is from one end to the other."
       },
       {
-        "term": "explain",
-        "definition": "Use words to describe how you worked something out."
+        "term": "width",
+        "definition": "How wide something is from side to side."
+      },
+      {
+        "term": "centimetre (cm)",
+        "definition": "A unit of length — 100 cm = 1 metre."
+      },
+      {
+        "term": "metre (m)",
+        "definition": "A unit of length — 1000 m = 1 kilometre."
       }
     ],
     "example_questions": [
-      "Can you explain length and perimeter in your own words?",
-      "What strategy did you use?",
-      "How do you know your answer is correct?"
+      "Find the perimeter of a rectangle 7 cm × 4 cm.",
+      "Convert 250 cm into metres and centimetres.",
+      "Which is longer — 2.5 m or 280 cm?"
     ],
-    "times_table_tip": "Practise your times tables for 2 minutes today — try saying them out loud while doing something else, like tidying up."
+    "times_table_tip": "Year 3 focuses on the 3, 4, 8, and 6 times tables. Try one table a week — write it out, then see how fast your child can say it forwards and backwards. The 8 times table is double the 4 times table, which is a handy shortcut!"
   }
 }

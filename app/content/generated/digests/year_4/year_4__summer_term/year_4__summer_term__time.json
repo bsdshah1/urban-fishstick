@@ -7,33 +7,41 @@
   "week_number": 1,
   "unit_title": "Time",
   "content": {
-    "plain_english": "This week in Year 4 maths, your child is working on Time. They are building on what they already know and developing new skills through hands-on activities and careful practice.",
-    "in_school": "In lessons, children start by using practical resources to explore the concept, then move to drawing pictures and diagrams, and finally work with numbers and written methods. This concrete-to-abstract approach helps ideas stick.",
-    "home_activity": "Spend 5 minutes exploring time together. Use everyday objects around the house — toys, fruit, or coins work well. Ask your child to show you what they did in school today. There are no right or wrong answers — just curious conversations.",
+    "plain_english": "This week in Year 4 maths, your child is working on Time. The learning focuses on: read, write and convert time between analogue and digital 12-hour and 24-hour clocks; solve problems involving converting from:; and hours to minutes. These skills build directly on what they have already mastered and prepare them for the next steps in the programme of study.",
+    "in_school": "Children use practical measuring equipment — rulers, scales, measuring cylinders, and clocks — to explore measurement in real contexts. They record findings using diagrams and number lines before progressing to written calculations. Problem-solving tasks show how these skills are used every day.",
+    "home_activity": "Talk through the family routine using time language: 'We leave at quarter to 9', 'lunch is at half past 12'. Ask your child to read the time on an analogue clock whenever they pass one. Time simple activities — how long does it take to brush your teeth?",
     "dinner_table_questions": [
-      "What did you find tricky about time today?",
-      "Can you show me on your fingers or with something on the table?",
-      "What's one thing you learned today that surprised you?"
+      "Can you show me how to read, write and convert time between analogue and digital 12-hour and 24-hour clocks?",
+      "Was it easy or tricky to solve problems involving converting from:? Why?",
+      "How would you explain today's maths to someone who has never seen it before?"
     ],
     "key_vocabulary": [
       {
-        "term": "Time",
-        "definition": "The main topic your child is studying this week in Year 4 maths."
+        "term": "second",
+        "definition": "A small unit of time — 60 seconds = 1 minute."
       },
       {
-        "term": "estimate",
-        "definition": "Make a sensible guess before working something out exactly."
+        "term": "minute",
+        "definition": "A unit of time — 60 minutes = 1 hour."
       },
       {
-        "term": "explain",
-        "definition": "Use words to describe how you worked something out."
+        "term": "hour",
+        "definition": "A unit of time — 24 hours = 1 day."
+      },
+      {
+        "term": "analogue",
+        "definition": "A clock with hands that show the time on a circular face."
+      },
+      {
+        "term": "duration",
+        "definition": "How long something takes from start to finish."
       }
     ],
     "example_questions": [
-      "Can you explain time in your own words?",
-      "What strategy did you use?",
-      "How do you know your answer is correct?"
+      "A train leaves at 11:48 and arrives at 13:07. How long is the journey?",
+      "Convert 3.5 hours to hours and minutes.",
+      "What time is 2 h 45 min before midnight?"
     ],
-    "times_table_tip": "Practise your times tables for 2 minutes today — try saying them out loud while doing something else, like tidying up."
+    "times_table_tip": "Year 4 children should know all their times tables to 12 × 12 by the end of the year — the national Multiplication Tables Check happens in Year 4. Daily 3-minute practice mixing tables in random order is the best preparation."
   }
 }

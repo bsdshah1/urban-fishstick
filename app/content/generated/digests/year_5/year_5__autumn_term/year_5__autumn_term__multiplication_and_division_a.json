@@ -7,33 +7,41 @@
   "week_number": 1,
   "unit_title": "Multiplication and division A",
   "content": {
-    "plain_english": "This week in Year 5 maths, your child is working on Multiplication and division A. They are building on what they already know and developing new skills through hands-on activities and careful practice.",
-    "in_school": "In lessons, children start by using practical resources to explore the concept, then move to drawing pictures and diagrams, and finally work with numbers and written methods. This concrete-to-abstract approach helps ideas stick.",
-    "home_activity": "Spend 5 minutes exploring multiplication and division a together. Use everyday objects around the house — toys, fruit, or coins work well. Ask your child to show you what they did in school today. There are no right or wrong answers — just curious conversations.",
+    "plain_english": "This week in Year 5 maths, your child is working on Multiplication and division A. The learning focuses on: add and subtract numbers mentally with increasingly large numbers; add and subtract whole numbers with more than four digits, including using formal written methods; and solve addition and subtraction multi-step problems in contexts, deciding which operations and methods to use and why. These skills build directly on what they have already mastered and prepare them for the next steps in the programme of study.",
+    "in_school": "In lessons, children start with concrete resources — base ten blocks, counters, or number lines — to model calculations physically. They then represent what they have done using drawings and diagrams before practising the formal written method independently. This concrete → pictorial → abstract approach helps the method become secure before moving on.",
+    "home_activity": "Quiz each other on the times tables your child is focusing on this week. You say a question, they answer, then swap. Try it as a speed challenge: how many can they answer correctly in one minute? Mix up the order so it does not become just a chant — recall is the goal.",
     "dinner_table_questions": [
-      "What did you find tricky about multiplication and division a today?",
-      "Can you show me on your fingers or with something on the table?",
-      "What's one thing you learned today that surprised you?"
+      "Can you show me how to add and subtract numbers mentally with increasingly large numbers?",
+      "Was it easy or tricky to add and subtract whole numbers with more than four digits, including using formal written methods? Why?",
+      "How would you explain today's maths to someone who has never seen it before?"
     ],
     "key_vocabulary": [
       {
-        "term": "Multiplication and division A",
-        "definition": "The main topic your child is studying this week in Year 5 maths."
+        "term": "product",
+        "definition": "The result of multiplying two numbers together."
       },
       {
-        "term": "estimate",
-        "definition": "Make a sensible guess before working something out exactly."
+        "term": "factor",
+        "definition": "A number that divides exactly into another number."
       },
       {
-        "term": "explain",
-        "definition": "Use words to describe how you worked something out."
+        "term": "quotient",
+        "definition": "The result when one number is divided by another."
+      },
+      {
+        "term": "divisor",
+        "definition": "The number you are dividing by."
+      },
+      {
+        "term": "formal method",
+        "definition": "A written, columnar way of setting out a calculation."
       }
     ],
     "example_questions": [
-      "Can you explain multiplication and division a in your own words?",
-      "What strategy did you use?",
-      "How do you know your answer is correct?"
+      "Work out 324 × 46.",
+      "Calculate 1,248 ÷ 16.",
+      "Find all factor pairs of 36."
     ],
-    "times_table_tip": "Practise your times tables for 2 minutes today — try saying them out loud while doing something else, like tidying up."
+    "times_table_tip": "By Year 5 children should know all their times tables with speed and confidence. Ask quick-fire questions at dinner — mixing tables so they recall facts rather than just reciting sequences. Can they answer in under 3 seconds?"
   }
 }

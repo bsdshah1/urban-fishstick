@@ -7,33 +7,41 @@
   "week_number": 1,
   "unit_title": "Place value (within 50)",
   "content": {
-    "plain_english": "This week in Year 1 maths, your child is working on Place value (within 50). They are building on what they already know and developing new skills through hands-on activities and careful practice.",
-    "in_school": "In lessons, children start by using practical resources to explore the concept, then move to drawing pictures and diagrams, and finally work with numbers and written methods. This concrete-to-abstract approach helps ideas stick.",
-    "home_activity": "Spend 5 minutes exploring place value (within 50) together. Use everyday objects around the house — toys, fruit, or coins work well. Ask your child to show you what they did in school today. There are no right or wrong answers — just curious conversations.",
+    "plain_english": "This week in Year 1 maths, your child is working on Place value (within 50). The learning focuses on: count to and across 100, forwards and backwards, beginning with 0 or 1, or from any given number; count, read and write numbers to 100 in numerals; and count in multiples of twos, fives and tens. These skills build directly on what they have already mastered and prepare them for the next steps in the programme of study.",
+    "in_school": "In lessons, children use base ten blocks, place value charts, and number lines to explore how numbers are built from hundreds, tens, and ones. They represent the same number in different ways before working abstractly. Understanding place value is the foundation for all other maths, so lessons move carefully and thoroughly.",
+    "home_activity": "Take a pack of playing cards (remove picture cards). Draw three or four cards and make as many different numbers as you can with those digits. Which is the biggest? The smallest? Try rounding each number to the nearest 100. No special equipment — just cards and conversation.",
     "dinner_table_questions": [
-      "What did you find tricky about place value (within 50) today?",
-      "Can you show me on your fingers or with something on the table?",
-      "What's one thing you learned today that surprised you?"
+      "Can you show me how to count to and across 100, forwards and backwards, beginning with 0 or 1, or from any given number?",
+      "Was it easy or tricky to count, read and write numbers to 100 in numerals? Why?",
+      "How would you explain today's maths to someone who has never seen it before?"
     ],
     "key_vocabulary": [
       {
-        "term": "Place value (within 50)",
-        "definition": "The main topic your child is studying this week in Year 1 maths."
+        "term": "digit",
+        "definition": "One of the symbols 0–9 used to write a number."
+      },
+      {
+        "term": "place value",
+        "definition": "The value of a digit based on its position — units, tens, hundreds, and so on."
+      },
+      {
+        "term": "partition",
+        "definition": "Split a number into its parts — e.g. 347 = 300 + 40 + 7."
+      },
+      {
+        "term": "round",
+        "definition": "Give an approximate value to the nearest 10, 100, etc."
       },
       {
         "term": "estimate",
-        "definition": "Make a sensible guess before working something out exactly."
-      },
-      {
-        "term": "explain",
-        "definition": "Use words to describe how you worked something out."
+        "definition": "Make a sensible guess at an answer before you calculate."
       }
     ],
     "example_questions": [
-      "Can you explain place value (within 50) in your own words?",
-      "What strategy did you use?",
-      "How do you know your answer is correct?"
+      "What is the tens digit in 47?",
+      "Write the number forty-three.",
+      "Which is greater — 58 or 85?"
     ],
-    "times_table_tip": "Practise your times tables for 2 minutes today — try saying them out loud while doing something else, like tidying up."
+    "times_table_tip": "Year 1 focuses on the 2, 5, and 10 times tables. Try counting in 2s together on the stairs, or in 10s while counting out coins. Even 2–3 minutes a day builds the familiarity that pays off in Year 2."
   }
 }

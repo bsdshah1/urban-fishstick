@@ -7,33 +7,41 @@
   "week_number": 1,
   "unit_title": "Consolidation",
   "content": {
-    "plain_english": "This week in Year 2 maths, your child is working on Consolidation. They are building on what they already know and developing new skills through hands-on activities and careful practice.",
-    "in_school": "In lessons, children start by using practical resources to explore the concept, then move to drawing pictures and diagrams, and finally work with numbers and written methods. This concrete-to-abstract approach helps ideas stick.",
-    "home_activity": "Spend 5 minutes exploring consolidation together. Use everyday objects around the house — toys, fruit, or coins work well. Ask your child to show you what they did in school today. There are no right or wrong answers — just curious conversations.",
+    "plain_english": "This week in Year 2 maths, your child is working on Consolidation. The learning focuses on: solve problems with addition and subtraction:; using concrete objects and pictorial representations, including those involving numbers, quantities and measures; and applying increasing knowledge of mental and written methods. These skills build directly on what they have already mastered and prepare them for the next steps in the programme of study.",
+    "in_school": "In lessons, children use practical resources and visual representations to explore consolidation. They work from hands-on activities through to diagrams and then written methods, with class discussion and partner work helping every child understand and apply what they have learned.",
+    "home_activity": "Spend 5 minutes exploring consolidation together. Ask your child to explain what they have been learning in school — teaching someone else is one of the best ways to understand something deeply. Use everyday objects if that helps, and follow your child's lead.",
     "dinner_table_questions": [
-      "What did you find tricky about consolidation today?",
-      "Can you show me on your fingers or with something on the table?",
-      "What's one thing you learned today that surprised you?"
+      "Can you show me how to solve problems with addition and subtraction:?",
+      "Was it easy or tricky to using concrete objects and pictorial representations, including those involving numbers, quantities and measures? Why?",
+      "How would you explain today's maths to someone who has never seen it before?"
     ],
     "key_vocabulary": [
       {
-        "term": "Consolidation",
-        "definition": "The main topic your child is studying this week in Year 2 maths."
+        "term": "review",
+        "definition": "Look back over what you have learned to check and strengthen understanding."
       },
       {
-        "term": "estimate",
-        "definition": "Make a sensible guess before working something out exactly."
+        "term": "apply",
+        "definition": "Use your knowledge in a new or different situation."
       },
       {
-        "term": "explain",
-        "definition": "Use words to describe how you worked something out."
+        "term": "reason",
+        "definition": "Explain why an answer is correct using mathematical language."
+      },
+      {
+        "term": "problem solving",
+        "definition": "Working through a challenge by choosing and using the right maths skills."
+      },
+      {
+        "term": "strategy",
+        "definition": "A planned method used to approach and solve a problem."
       }
     ],
     "example_questions": [
-      "Can you explain consolidation in your own words?",
-      "What strategy did you use?",
-      "How do you know your answer is correct?"
+      "What is 38 + 45?",
+      "Round 67 to the nearest 10.",
+      "Write three hundred and twelve in numerals."
     ],
-    "times_table_tip": "Practise your times tables for 2 minutes today — try saying them out loud while doing something else, like tidying up."
+    "times_table_tip": "Year 2 children learn their 2, 5, 10, and 3 times tables. The 3 times table is the new one this year. Try chanting together: 3, 6, 9, 12, 15 … Clapping a beat as you say the numbers helps the rhythm stick."
   }
 }

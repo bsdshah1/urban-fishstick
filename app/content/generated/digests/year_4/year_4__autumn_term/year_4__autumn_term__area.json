@@ -7,33 +7,41 @@
   "week_number": 1,
   "unit_title": "Area",
   "content": {
-    "plain_english": "This week in Year 4 maths, your child is working on Area. They are building on what they already know and developing new skills through hands-on activities and careful practice.",
-    "in_school": "In lessons, children start by using practical resources to explore the concept, then move to drawing pictures and diagrams, and finally work with numbers and written methods. This concrete-to-abstract approach helps ideas stick.",
-    "home_activity": "Spend 5 minutes exploring area together. Use everyday objects around the house — toys, fruit, or coins work well. Ask your child to show you what they did in school today. There are no right or wrong answers — just curious conversations.",
+    "plain_english": "This week in Year 4 maths, your child is working on Area. The learning focuses on: estimate, compare and calculate different measures, including money in pounds and pence; measure and calculate the perimeter of a rectilinear figure (including squares) in centimetres and metres; and find the area of rectilinear shapes by counting squares. These skills build directly on what they have already mastered and prepare them for the next steps in the programme of study.",
+    "in_school": "Children use practical measuring equipment — rulers, scales, measuring cylinders, and clocks — to explore measurement in real contexts. They record findings using diagrams and number lines before progressing to written calculations. Problem-solving tasks show how these skills are used every day.",
+    "home_activity": "Draw a 1 cm grid on paper and ask your child to draw rectangles with an area of exactly 12 squares — how many different ones can they find? Then measure a book cover by counting grid squares to estimate its area.",
     "dinner_table_questions": [
-      "What did you find tricky about area today?",
-      "Can you show me on your fingers or with something on the table?",
-      "What's one thing you learned today that surprised you?"
+      "Can you show me how to estimate, compare and calculate different measures, including money in pounds and pence?",
+      "Was it easy or tricky to measure and calculate the perimeter of a rectilinear figure (including squares) in centimetres and metres? Why?",
+      "How would you explain today's maths to someone who has never seen it before?"
     ],
     "key_vocabulary": [
       {
-        "term": "Area",
-        "definition": "The main topic your child is studying this week in Year 4 maths."
+        "term": "area",
+        "definition": "The amount of space inside a 2-D shape, measured in square units."
       },
       {
-        "term": "estimate",
-        "definition": "Make a sensible guess before working something out exactly."
+        "term": "square centimetre (cm²)",
+        "definition": "A unit for measuring area — the space of a 1 cm × 1 cm square."
       },
       {
-        "term": "explain",
-        "definition": "Use words to describe how you worked something out."
+        "term": "length",
+        "definition": "How long a side of the shape is."
+      },
+      {
+        "term": "width",
+        "definition": "How wide the shape is."
+      },
+      {
+        "term": "formula",
+        "definition": "A rule — for a rectangle, area = length × width."
       }
     ],
     "example_questions": [
-      "Can you explain area in your own words?",
-      "What strategy did you use?",
-      "How do you know your answer is correct?"
+      "Find the area of a rectangle 8 cm × 6 cm.",
+      "Find the perimeter of a square with side 9 cm.",
+      "A rectangle has perimeter 28 cm and width 5 cm. Find its length."
     ],
-    "times_table_tip": "Practise your times tables for 2 minutes today — try saying them out loud while doing something else, like tidying up."
+    "times_table_tip": "Year 4 children should know all their times tables to 12 × 12 by the end of the year — the national Multiplication Tables Check happens in Year 4. Daily 3-minute practice mixing tables in random order is the best preparation."
   }
 }

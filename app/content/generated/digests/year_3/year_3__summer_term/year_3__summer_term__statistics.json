@@ -7,33 +7,41 @@
   "week_number": 1,
   "unit_title": "Statistics",
   "content": {
-    "plain_english": "This week in Year 3 maths, your child is working on Statistics. They are building on what they already know and developing new skills through hands-on activities and careful practice.",
-    "in_school": "In lessons, children start by using practical resources to explore the concept, then move to drawing pictures and diagrams, and finally work with numbers and written methods. This concrete-to-abstract approach helps ideas stick.",
-    "home_activity": "Spend 5 minutes exploring statistics together. Use everyday objects around the house — toys, fruit, or coins work well. Ask your child to show you what they did in school today. There are no right or wrong answers — just curious conversations.",
+    "plain_english": "This week in Year 3 maths, your child is working on Statistics. The learning focuses on: solve problems, including missing number problems, using number facts, place value, and more complex addition and subtraction; measure, compare, add and subtract:; and lengths (`m/cm/mm`). These skills build directly on what they have already mastered and prepare them for the next steps in the programme of study.",
+    "in_school": "Children collect, organise, and interpret data using tallies, tables, and a variety of charts and graphs. They practise reading scales accurately, comparing data sets, and answering questions from the information they gather.",
+    "home_activity": "Create a simple survey together — ask family members their favourite fruit, colour, or TV show. Record answers as a tally chart, then draw a bar chart. Ask: 'Which was most popular? How many more people chose X than Y?' This is exactly what they are doing in class.",
     "dinner_table_questions": [
-      "What did you find tricky about statistics today?",
-      "Can you show me on your fingers or with something on the table?",
-      "What's one thing you learned today that surprised you?"
+      "Can you show me how to solve problems, including missing number problems, using number facts, place value, and more complex addition and subtraction?",
+      "Was it easy or tricky to measure, compare, add and subtract:? Why?",
+      "How would you explain today's maths to someone who has never seen it before?"
     ],
     "key_vocabulary": [
       {
-        "term": "Statistics",
-        "definition": "The main topic your child is studying this week in Year 3 maths."
+        "term": "data",
+        "definition": "Information collected through counting, measuring, or surveying."
       },
       {
-        "term": "estimate",
-        "definition": "Make a sensible guess before working something out exactly."
+        "term": "tally",
+        "definition": "A way of counting using marks in groups of five."
       },
       {
-        "term": "explain",
-        "definition": "Use words to describe how you worked something out."
+        "term": "frequency",
+        "definition": "How often something occurs in a set of data."
+      },
+      {
+        "term": "bar chart",
+        "definition": "A graph that uses bars to show and compare amounts."
+      },
+      {
+        "term": "axis",
+        "definition": "The horizontal or vertical line on a graph (plural: axes)."
       }
     ],
     "example_questions": [
-      "Can you explain statistics in your own words?",
-      "What strategy did you use?",
-      "How do you know your answer is correct?"
+      "Read the bar chart — how many more chose option A than B?",
+      "Draw a pictogram where each symbol = 2 people.",
+      "What is the total frequency?"
     ],
-    "times_table_tip": "Practise your times tables for 2 minutes today — try saying them out loud while doing something else, like tidying up."
+    "times_table_tip": "Year 3 focuses on the 3, 4, 8, and 6 times tables. Try one table a week — write it out, then see how fast your child can say it forwards and backwards. The 8 times table is double the 4 times table, which is a handy shortcut!"
   }
 }

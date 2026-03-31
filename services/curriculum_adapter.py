@@ -7,6 +7,7 @@ using the pre-built normalized JSON datasets in app/content/normalized/v1/.
 from __future__ import annotations
 
 import json
+import re
 from functools import lru_cache
 from pathlib import Path
 from typing import Any
@@ -44,20 +45,93 @@ def _all_blocks() -> list[dict]:
     return _load("block.json")
 
 
+def _unit_slug(unit_title: str) -> str:
+    """Convert a unit title to the slug format used in block_id, e.g. "Just like me!" → "just_like_me"."""
+    return re.sub(r"[^a-z0-9]+", "_", unit_title.lower()).strip("_")
+
+
+# Maps White Rose block topic keywords to Maths_Progression.md block_name categories
+_TOPIC_TO_STEP_BLOCKS: dict[str, list[str]] = {
+    "addition": ["mental calculation", "written methods", "number bonds"],
+    "subtraction": ["mental calculation", "written methods", "number bonds"],
+    "multiplication": ["mental calculation", "written methods", "problem solving"],
+    "division": ["mental calculation", "written methods", "problem solving"],
+    "place value": ["understanding place value", "reading and writing numbers",
+                    "comparing numbers", "identifying, representing and estimating",
+                    "counting"],
+    "fractions": ["measuring and calculating", "problem solving"],
+    "decimals": ["measuring and calculating", "problem solving"],
+    "percentage": ["measuring and calculating", "problem solving"],
+    "geometry": ["identifying shapes and their properties",
+                 "comparing and classifying"],
+    "shape": ["identifying shapes and their properties",
+              "comparing and classifying"],
+    "angles": ["comparing and classifying / angles",
+               "identifying shapes and their properties"],
+    "measurement": ["measuring and calculating", "telling the time", "converting",
+                    "comparing and estimating"],
+    "length": ["measuring and calculating", "comparing and estimating"],
+    "mass": ["measuring and calculating", "comparing and estimating"],
+    "capacity": ["measuring and calculating", "comparing and estimating"],
+    "time": ["telling the time", "measuring and calculating"],
+    "money": ["measuring and calculating", "problem solving"],
+    "area": ["measuring and calculating"],
+    "perimeter": ["measuring and calculating"],
+    "volume": ["measuring and calculating"],
+    "converting": ["converting", "measuring and calculating"],
+    "statistics": ["problem solving", "measuring and calculating"],
+    "position": ["position, direction and movement"],
+    "direction": ["position, direction and movement"],
+    "ratio": ["problem solving", "mental calculation"],
+    "algebra": ["problem solving", "mental calculation"],
+    "consolidation": ["problem solving", "estimating and checking answers"],
+}
+
+
 def get_small_steps(year_group: str, unit_title: str) -> list[str]:
-    """Return step descriptions for the given year group and unit (fuzzy block name match)."""
+    """Return step descriptions for the given year group and unit (fuzzy block name/id match)."""
     unit_lower = unit_title.lower()
+    slug = _unit_slug(unit_title)
+
     results = [
         step["description"]
         for step in _all_small_steps()
         if step.get("year_group_id") == year_group
         and (
-            unit_lower in step.get("block_id", "").lower()
+            # Slug match against block_id (handles spaces/apostrophes/punctuation)
+            slug in step.get("block_id", "").lower()
+            # Exact substring match against block_id or block_name
+            or unit_lower in step.get("block_id", "").lower()
             or unit_lower in step.get("block_name", "").lower()
         )
     ]
     if not results:
-        # Fallback: all steps for the year group (up to 6)
+        # Topic-to-step-block mapping for White Rose blocks vs national curriculum categories
+        step_block_keywords: list[str] = []
+        for topic_kw, step_block_names in _TOPIC_TO_STEP_BLOCKS.items():
+            if topic_kw in unit_lower:
+                step_block_keywords.extend(step_block_names)
+        if step_block_keywords:
+            results = [
+                step["description"]
+                for step in _all_small_steps()
+                if step.get("year_group_id") == year_group
+                and any(
+                    sbk in step.get("block_name", "").lower()
+                    for sbk in step_block_keywords
+                )
+            ]
+    if not results:
+        # Keyword fallback: individual words from unit_title against block_name
+        keywords = [w for w in re.split(r"[^a-z]+", unit_lower) if len(w) > 3]
+        results = [
+            step["description"]
+            for step in _all_small_steps()
+            if step.get("year_group_id") == year_group
+            and any(kw in step.get("block_name", "").lower() for kw in keywords)
+        ]
+    if not results:
+        # Final fallback: all steps for the year group (up to 6)
         results = [
             step["description"]
             for step in _all_small_steps()

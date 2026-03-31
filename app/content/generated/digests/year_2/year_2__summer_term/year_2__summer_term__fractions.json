@@ -7,33 +7,41 @@
   "week_number": 1,
   "unit_title": "Fractions",
   "content": {
-    "plain_english": "This week in Year 2 maths, your child is working on Fractions. They are building on what they already know and developing new skills through hands-on activities and careful practice.",
-    "in_school": "In lessons, children start by using practical resources to explore the concept, then move to drawing pictures and diagrams, and finally work with numbers and written methods. This concrete-to-abstract approach helps ideas stick.",
-    "home_activity": "Spend 5 minutes exploring fractions together. Use everyday objects around the house — toys, fruit, or coins work well. Ask your child to show you what they did in school today. There are no right or wrong answers — just curious conversations.",
+    "plain_english": "This week in Year 2 maths, your child is working on Fractions. The learning focuses on: solve problems with addition and subtraction:; using concrete objects and pictorial representations, including those involving numbers, quantities and measures; and applying increasing knowledge of mental and written methods. These skills build directly on what they have already mastered and prepare them for the next steps in the programme of study.",
+    "in_school": "Children begin by folding paper, using fraction bars, and drawing bar models to see the concept visually before working with numbers and symbols. Discussion in pairs and small groups helps them explain and justify their reasoning using precise mathematical vocabulary.",
+    "home_activity": "Take a piece of paper and fold it into equal parts — halves, then quarters, then eighths. Shade some sections and ask: 'What fraction is shaded? What fraction is not?' A pizza or sandwich works just as well. Keep it visual and practical.",
     "dinner_table_questions": [
-      "What did you find tricky about fractions today?",
-      "Can you show me on your fingers or with something on the table?",
-      "What's one thing you learned today that surprised you?"
+      "Can you show me how to solve problems with addition and subtraction:?",
+      "Was it easy or tricky to using concrete objects and pictorial representations, including those involving numbers, quantities and measures? Why?",
+      "How would you explain today's maths to someone who has never seen it before?"
     ],
     "key_vocabulary": [
       {
-        "term": "Fractions",
-        "definition": "The main topic your child is studying this week in Year 2 maths."
+        "term": "numerator",
+        "definition": "The top number in a fraction — shows how many equal parts we have."
       },
       {
-        "term": "estimate",
-        "definition": "Make a sensible guess before working something out exactly."
+        "term": "denominator",
+        "definition": "The bottom number in a fraction — shows how many equal parts the whole is split into."
       },
       {
-        "term": "explain",
-        "definition": "Use words to describe how you worked something out."
+        "term": "equivalent fraction",
+        "definition": "Fractions that look different but have the same value — e.g. ½ = 2/4."
+      },
+      {
+        "term": "unit fraction",
+        "definition": "A fraction with 1 as the numerator — such as ½, ⅓, ¼."
+      },
+      {
+        "term": "mixed number",
+        "definition": "A number with a whole number part and a fraction part — e.g. 2½."
       }
     ],
     "example_questions": [
-      "Can you explain fractions in your own words?",
-      "What strategy did you use?",
-      "How do you know your answer is correct?"
+      "Shade ¼ of a shape split into 4 equal parts.",
+      "What fraction of 12 is 3?",
+      "Write two fractions equal to ½."
     ],
-    "times_table_tip": "Practise your times tables for 2 minutes today — try saying them out loud while doing something else, like tidying up."
+    "times_table_tip": "Year 2 children learn their 2, 5, 10, and 3 times tables. The 3 times table is the new one this year. Try chanting together: 3, 6, 9, 12, 15 … Clapping a beat as you say the numbers helps the rhythm stick."
   }
 }
