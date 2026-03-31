@@ -278,6 +278,251 @@ def _times_table_tip(tt_expectation: str, year_group: str) -> str:
     )
 
 
+_STEP_NOISE = (
+    "this markdown", "oaicite", "contains overviews",
+    "take this time to play", ".pdf", "originally",
+)
+
+
+def _clean_steps(steps: list[str]) -> list[str]:
+    return [s for s in steps if len(s) > 10 and not any(n in s.lower() for n in _STEP_NOISE)]
+
+
+def _plain_english(unit_title: str, year_group: str, steps: list[str]) -> str:
+    yg = year_group.replace("_", " ").title()
+    clean = _clean_steps(steps)
+    if year_group == "eyfs":
+        if clean:
+            joined = "; ".join(s.lower().rstrip(".") for s in clean[:3])
+            return (
+                f"This week in {yg}, your child is exploring {unit_title}. "
+                f"They will focus on: {joined}. "
+                "All of this happens through play, stories, and practical activities that "
+                "build early mathematical curiosity and confidence."
+            )
+        return (
+            f"This week in {yg}, your child is exploring {unit_title} through play, "
+            "stories, and hands-on activities. This is a crucial stage for developing "
+            "mathematical curiosity — every game, song, and conversation counts."
+        )
+    if clean:
+        if len(clean) >= 3:
+            step_text = (
+                f"{clean[0].lower().rstrip('.')}; "
+                f"{clean[1].lower().rstrip('.')}; "
+                f"and {clean[2].lower().rstrip('.')}."
+            )
+        elif len(clean) == 2:
+            step_text = f"{clean[0].lower().rstrip('.')} and {clean[1].lower().rstrip('.')}."
+        else:
+            step_text = clean[0].lower().rstrip('.') + "."
+        return (
+            f"This week in {yg} maths, your child is working on {unit_title}. "
+            f"The learning focuses on: {step_text} "
+            "These skills build directly on what they have already mastered and "
+            "prepare them for the next steps in the programme of study."
+        )
+    return (
+        f"This week in {yg} maths, your child is working on {unit_title}. "
+        "They are deepening skills that connect to earlier learning and lay the "
+        "groundwork for what comes next. Ask them to tell you one thing they "
+        "learned today — it is the best way to start a maths conversation."
+    )
+
+
+def _in_school_text(unit_title: str, year_group: str) -> str:
+    tl = unit_title.lower()
+    if year_group == "eyfs":
+        return (
+            f"In sessions, children explore {unit_title} through play, stories, "
+            "and practical activities using real objects. Their teacher guides them "
+            "through careful conversation, helping them notice patterns and relationships "
+            "without formal recording."
+        )
+    if any(k in tl for k in ("addition", "subtraction", "multiplication", "division", "calculation")):
+        return (
+            "In lessons, children start with concrete resources — base ten blocks, "
+            "counters, or number lines — to model calculations physically. They then "
+            "represent what they have done using drawings and diagrams before practising "
+            "the formal written method independently. This concrete → pictorial → abstract "
+            "approach helps the method become secure before moving on."
+        )
+    if any(k in tl for k in ("fraction", "decimal", "percentage", "ratio")):
+        return (
+            "Children begin by folding paper, using fraction bars, and drawing bar models "
+            "to see the concept visually before working with numbers and symbols. "
+            "Discussion in pairs and small groups helps them explain and justify their "
+            "reasoning using precise mathematical vocabulary."
+        )
+    if any(k in tl for k in ("shape", "geometry", "angle", "position", "direction")):
+        return (
+            "Children handle, sort, and classify 2-D and 3-D shapes, drawing and describing "
+            "their properties. They use protractors, mirrors, and squared paper to explore "
+            "angles, symmetry, and position. Explaining what they notice in precise "
+            "mathematical language is a key part of every lesson."
+        )
+    if any(k in tl for k in ("measure", "length", "mass", "capacity", "time", "money",
+                              "area", "perimeter", "volume", "convert")):
+        return (
+            "Children use practical measuring equipment — rulers, scales, measuring "
+            "cylinders, and clocks — to explore measurement in real contexts. They record "
+            "findings using diagrams and number lines before progressing to written "
+            "calculations. Problem-solving tasks show how these skills are used every day."
+        )
+    if "statistic" in tl or "data" in tl:
+        return (
+            "Children collect, organise, and interpret data using tallies, tables, and a "
+            "variety of charts and graphs. They practise reading scales accurately, "
+            "comparing data sets, and answering questions from the information they gather."
+        )
+    if "place value" in tl:
+        return (
+            "In lessons, children use base ten blocks, place value charts, and number "
+            "lines to explore how numbers are built from hundreds, tens, and ones. "
+            "They represent the same number in different ways before working abstractly. "
+            "Understanding place value is the foundation for all other maths, so lessons "
+            "move carefully and thoroughly."
+        )
+    if "algebra" in tl:
+        return (
+            "Children are introduced to using letters as symbols for unknown numbers. "
+            "Balance puzzles and practical activities make the abstract ideas concrete "
+            "before pupils move to formal algebraic working with equations and formulas."
+        )
+    return (
+        f"In lessons, children use practical resources and visual representations to "
+        f"explore {unit_title.lower()}. They work from hands-on activities through to "
+        "diagrams and then written methods, with class discussion and partner work "
+        "helping every child understand and apply what they have learned."
+    )
+
+
+def _home_activity(unit_title: str, year_group: str) -> str:
+    tl = unit_title.lower()
+    if year_group == "eyfs":
+        return (
+            f"Spend a few minutes exploring {unit_title.lower()} together at home. "
+            "Use whatever is around — pasta shapes to sort, buttons to count, or water "
+            "to pour into different containers. Ask your child to show you what they have "
+            "been doing in school. There are no wrong answers — just curious conversations "
+            "and playful exploration."
+        )
+    if "place value" in tl:
+        return (
+            "Take a pack of playing cards (remove picture cards). Draw three or four cards "
+            "and make as many different numbers as you can with those digits. Which is the "
+            "biggest? The smallest? Try rounding each number to the nearest 100. "
+            "No special equipment — just cards and conversation."
+        )
+    if "addition" in tl or "subtraction" in tl:
+        return (
+            "Roll two dice twice and use the numbers to make two 2-digit (or 3-digit) numbers. "
+            "Add them together, then find the difference. Keep a running total over five "
+            "rounds — who gets the highest? No calculators — the working-out is the fun part."
+        )
+    if "multiplication" in tl or "division" in tl:
+        return (
+            "Quiz each other on the times tables your child is focusing on this week. "
+            "You say a question, they answer, then swap. Try it as a speed challenge: "
+            "how many can they answer correctly in one minute? Mix up the order so it "
+            "does not become just a chant — recall is the goal."
+        )
+    if "fraction" in tl:
+        return (
+            "Take a piece of paper and fold it into equal parts — halves, then quarters, "
+            "then eighths. Shade some sections and ask: 'What fraction is shaded? "
+            "What fraction is not?' A pizza or sandwich works just as well. "
+            "Keep it visual and practical."
+        )
+    if "decimal" in tl or "percentage" in tl:
+        return (
+            "Look at price labels in the kitchen — tins, packets, or bottles. Practise "
+            "reading decimal amounts aloud and round prices to the nearest pound. "
+            "Estimate the total cost of a few items — this puts decimals in a real, "
+            "meaningful context."
+        )
+    if "ratio" in tl:
+        return (
+            "Make a simple recipe together — squash and water (1 part squash to 4 parts "
+            "water), or a salt-dough mix. Talk through the ratio as you measure: "
+            "'For every 1 cup of squash we need 4 cups of water. If we double the recipe, "
+            "what changes?' Seeing ratio in action makes it memorable."
+        )
+    if "algebra" in tl:
+        return (
+            "Try balance puzzles together: '? + 5 = 12. What is ?'. Start easy and make "
+            "it gradually trickier. You can also look for patterns in times tables — "
+            "in the 4 times table, what happens to the ones digit each time? "
+            "Noticing patterns is the heart of algebra thinking."
+        )
+    if any(k in tl for k in ("shape", "geometry", "angle")):
+        return (
+            "Go on a shape hunt around the house. How many rectangles can you spot? "
+            "Any cylinders in the kitchen? Count vertices and edges on a cereal box or tin. "
+            "For angles, look for right angles (corners of doors) and ask whether other "
+            "angles are acute or obtuse."
+        )
+    if any(k in tl for k in ("length", "perimeter")):
+        return (
+            "Use a piece of string to measure things around the house — is the sofa "
+            "longer or shorter than the table? Estimate in centimetres first, then measure "
+            "to check. For perimeter, measure all four sides of a book or tile and add them up."
+        )
+    if "area" in tl:
+        return (
+            "Draw a 1 cm grid on paper and ask your child to draw rectangles with an area "
+            "of exactly 12 squares — how many different ones can they find? Then measure a "
+            "book cover by counting grid squares to estimate its area."
+        )
+    if "mass" in tl:
+        return (
+            "Collect kitchen items and estimate which is heavier before checking on a "
+            "kitchen scale. Order them lightest to heaviest. For older children, find the "
+            "combined mass of two items and work out the difference between them."
+        )
+    if "capacity" in tl or "volume" in tl:
+        return (
+            "At bathtime or washing up, experiment with filling containers of different "
+            "sizes. Which holds more? For older children, use a measuring jug: pour "
+            "300 ml then 150 ml. How much is in the jug altogether? How much if you pour "
+            "200 ml away?"
+        )
+    if "time" in tl:
+        return (
+            "Talk through the family routine using time language: 'We leave at quarter to 9', "
+            "'lunch is at half past 12'. Ask your child to read the time on an analogue clock "
+            "whenever they pass one. Time simple activities — how long does it take to "
+            "brush your teeth?"
+        )
+    if "money" in tl:
+        return (
+            "Give your child a small collection of coins and ask them to make different "
+            "amounts — can they make 37p in two different ways? At the shops (or in a "
+            "pretend shop at home), let them work out change from £1 or £2. "
+            "Handling real money builds confidence quickly."
+        )
+    if "statistic" in tl or "data" in tl:
+        return (
+            "Create a simple survey together — ask family members their favourite fruit, "
+            "colour, or TV show. Record answers as a tally chart, then draw a bar chart. "
+            "Ask: 'Which was most popular? How many more people chose X than Y?' "
+            "This is exactly what they are doing in class."
+        )
+    if "position" in tl or "direction" in tl or "convert" in tl:
+        return (
+            "Look for real-life examples around the house — a map showing distances, a "
+            "measuring jug with ml and pints, a food label in grams and kg. Ask your child "
+            "to read the measurements and convert between them. Road signs in miles are "
+            "another good context."
+        )
+    return (
+        f"Spend 5 minutes exploring {unit_title.lower()} together. Ask your child to "
+        "explain what they have been learning in school — teaching someone else is one "
+        "of the best ways to understand something deeply. Use everyday objects if that "
+        "helps, and follow your child's lead."
+    )
+
+
 _SYSTEM_PROMPT = """You are generating a weekly maths digest for parents at Beaumont Primary School in Croydon.
 
 Your job is to translate curriculum learning into something a parent can read in 2 minutes and actually use.
