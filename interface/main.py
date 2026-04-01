@@ -14,7 +14,7 @@ from fastapi import FastAPI
 from fastapi.responses import FileResponse
 from fastapi.staticfiles import StaticFiles
 
-from api.models.database import create_db_and_tables
+from api.models.database import create_db_and_tables, engine
 from api.routers import admin, auth, digests, generate, lesson_planner, parent_explainer, times_table
 
 _FRONTEND_DIST = Path(__file__).resolve().parent.parent / "frontend" / "dist"
@@ -60,10 +60,35 @@ def _warn_on_content_quality() -> None:
         )
 
 
+def _seed_default_users() -> None:
+    """Create the three default accounts if they don't already exist."""
+    from sqlmodel import Session, select
+    from api.auth import hash_password
+    from api.models.user import User, UserRole
+
+    defaults = [
+        ("teacher@beaumont.sch.uk", "Ms Clarke", UserRole.teacher),
+        ("parent@beaumont.sch.uk", "Sample Parent", UserRole.parent),
+        ("admin@beaumont.sch.uk", "School Admin", UserRole.admin),
+    ]
+    with Session(engine) as session:
+        for email, name, role in defaults:
+            exists = session.exec(select(User).where(User.email == email)).first()
+            if not exists:
+                session.add(User(
+                    email=email,
+                    hashed_password=hash_password("beaumont2024"),
+                    name=name,
+                    role=role,
+                ))
+        session.commit()
+
+
 @asynccontextmanager
 async def lifespan(app: FastAPI):  # noqa: ARG001
     _warn_on_content_quality()
     create_db_and_tables()
+    _seed_default_users()
     yield
 
 
