@@ -159,7 +159,7 @@ const DIFFICULTY_STYLES: Record<string, string> = {
   EXCEEDING: styles.badgeExceeding,
 }
 
-interface Props { user: User }
+interface Props { user: User | null }
 
 export function ParentDigest({ user: _user }: Props) {
   const [allDigests, setAllDigests] = useState<Digest[]>([])

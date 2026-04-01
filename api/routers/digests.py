@@ -35,12 +35,10 @@ def _record_audit(
 
 @router.get("", response_model=list[DigestRead])
 def list_digests(
-    current_user: User = Depends(get_current_user),
     session: Session = Depends(get_session),
 ) -> list[DigestRead]:
-    stmt = select(WeeklyDigest)
-    if current_user.role == UserRole.parent:
-        stmt = stmt.where(WeeklyDigest.status == DigestStatus.published)
+    """Public endpoint — returns only published digests."""
+    stmt = select(WeeklyDigest).where(WeeklyDigest.status == DigestStatus.published)
     results = session.exec(stmt.order_by(WeeklyDigest.week_number.desc())).all()
     return [_to_read(d) for d in results]
 
@@ -48,14 +46,14 @@ def list_digests(
 @router.get("/{digest_id}", response_model=DigestRead)
 def get_digest(
     digest_id: int,
-    current_user: User = Depends(get_current_user),
     session: Session = Depends(get_session),
 ) -> DigestRead:
+    """Public endpoint — only published digests are visible."""
     digest = session.get(WeeklyDigest, digest_id)
     if digest is None:
         raise HTTPException(status_code=404, detail="Digest not found")
-    if current_user.role == UserRole.parent and digest.status != DigestStatus.published:
-        raise HTTPException(status_code=403, detail="Not published")
+    if digest.status != DigestStatus.published:
+        raise HTTPException(status_code=404, detail="Digest not found")
     return _to_read(digest)
 
 
