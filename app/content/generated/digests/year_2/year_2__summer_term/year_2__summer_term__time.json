@@ -7,41 +7,26 @@
   "week_number": 1,
   "unit_title": "Time",
   "content": {
-    "plain_english": "This week in Year 2 maths, your child is working on Time. The learning focuses on: tell and write the time to five minutes, including quarter past / to the hour; draw the hands on a clock face to show these times; and know the number of minutes in an hour and the number of hours in a day. These skills build directly on what they have already mastered and prepare them for the next steps in the programme of study.",
-    "in_school": "Children use practical measuring equipment — rulers, scales, measuring cylinders, and clocks — to explore measurement in real contexts. They record findings using diagrams and number lines before progressing to written calculations. Problem-solving tasks show how these skills are used every day.",
-    "home_activity": "Talk through the family routine using time language: 'We leave at quarter to 9', 'lunch is at half past 12'. Ask your child to read the time on an analogue clock whenever they pass one. Time simple activities — how long does it take to brush your teeth?",
+    "plain_english": "This week your child is reading the time on an analogue clock to the nearest five minutes — including o'clock, half past, quarter past and quarter to. They are also learning that there are 60 minutes in an hour and 24 hours in a day.",
+    "in_school": "Children use small clocks with movable hands to make times the teacher calls out. They draw the hour and minute hands onto blank clock faces, and compare two times to work out which event happens first or how long something takes.",
+    "home_activity": "Over the next few days, point to a kitchen clock or your watch and ask 'what time is it?' four times — once at quarter past something, once at half past, once at quarter to, and once on the hour. The variety matters more than the accuracy. End with: how long until tea time?",
     "dinner_table_questions": [
-      "Can you show me how to tell and write the time to five minutes, including quarter past / to the hour?",
-      "Was it easy or tricky to draw the hands on a clock face to show these times? Why?",
-      "How would you explain today's maths to someone who has never seen it before?"
+      "What time do you usually go to bed? Show me on your fingers as a quarter to or half past.",
+      "How many minutes from quarter past 6 until half past 6?",
+      "If a film starts at 4 o'clock and ends at quarter past 5, how long is it?"
     ],
     "key_vocabulary": [
-      {
-        "term": "second",
-        "definition": "A small unit of time — 60 seconds = 1 minute."
-      },
-      {
-        "term": "minute",
-        "definition": "A unit of time — 60 minutes = 1 hour."
-      },
-      {
-        "term": "hour",
-        "definition": "A unit of time — 24 hours = 1 day."
-      },
-      {
-        "term": "analogue",
-        "definition": "A clock with hands that show the time on a circular face."
-      },
-      {
-        "term": "duration",
-        "definition": "How long something takes from start to finish."
-      }
+      {"term": "hour", "definition": "A unit of time. There are 24 hours in one day and 60 minutes in one hour."},
+      {"term": "minute", "definition": "A smaller unit of time. There are 60 minutes in one hour."},
+      {"term": "o'clock", "definition": "An exact hour, when the minute hand points to 12. For example, 3 o'clock."},
+      {"term": "half past", "definition": "Thirty minutes after the hour. The minute hand points to 6. For example, half past 4."},
+      {"term": "quarter past / quarter to", "definition": "Quarter past is 15 minutes after the hour (minute hand on 3). Quarter to is 15 minutes before the next hour (minute hand on 9)."}
     ],
     "example_questions": [
-      "What is 38 + 45?",
-      "Round 67 to the nearest 10.",
-      "Write three hundred and twelve in numerals."
+      "Draw the hands on a clock face to show quarter past 7.",
+      "What is the time 30 minutes after half past 2?",
+      "How many minutes are there in 2 hours?"
     ],
-    "times_table_tip": "Year 2 children learn their 2, 5, 10, and 3 times tables. The 3 times table is the new one this year. Try chanting together: 3, 6, 9, 12, 15 … Clapping a beat as you say the numbers helps the rhythm stick."
+    "times_table_tip": "Reading minutes past the hour on an analogue clock means counting in 5s around the face — each number on the clock is 5 minutes further on. The 5 times table is the secret weapon."
   }
 }

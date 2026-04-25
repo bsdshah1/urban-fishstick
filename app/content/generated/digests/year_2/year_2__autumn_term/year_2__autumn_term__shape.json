@@ -7,41 +7,26 @@
   "week_number": 1,
   "unit_title": "Shape",
   "content": {
-    "plain_english": "This week in Year 2 maths, your child is working on Shape. The learning focuses on: identify and describe the properties of 2d shapes, including the number of sides and line symmetry in a vertical line; identify and describe the properties of 3d shapes, including the number of edges, vertices and faces; and identify 2d shapes on the surface of 3d shapes. These skills build directly on what they have already mastered and prepare them for the next steps in the programme of study.",
-    "in_school": "Children handle, sort, and classify 2-D and 3-D shapes, drawing and describing their properties. They use protractors, mirrors, and squared paper to explore angles, symmetry, and position. Explaining what they notice in precise mathematical language is a key part of every lesson.",
-    "home_activity": "Go on a shape hunt around the house. How many rectangles can you spot? Any cylinders in the kitchen? Count vertices and edges on a cereal box or tin. For angles, look for right angles (corners of doors) and ask whether other angles are acute or obtuse.",
+    "plain_english": "This week your child is naming and describing 2D shapes (flat shapes like squares and triangles) and 3D shapes (solid shapes like cubes and cylinders). They are learning to count sides, edges, vertices and faces, and to spot lines of symmetry.",
+    "in_school": "Children handle real 3D shapes — boxes, balls, tubes — counting faces, edges and vertices by touch. They press faces against paper to print 2D outlines, talk about which 2D shape lives on each face, and fold paper to find lines of symmetry.",
+    "home_activity": "On the next supermarket trip, give your child a one-minute scavenger hunt: find one cuboid (a cereal box), one cylinder (a tin), one sphere (an orange), one cube (a stock cube). At home, ask them to count the faces of each. End by asking which shape rolls and which does not, and why.",
     "dinner_table_questions": [
-      "Can you show me how to identify and describe the properties of 2d shapes, including the number of sides and line symmetry in a vertical line?",
-      "Was it easy or tricky to identify and describe the properties of 3d shapes, including the number of edges, vertices and faces? Why?",
-      "How would you explain today's maths to someone who has never seen it before?"
+      "How many faces does a cereal box have? How many edges?",
+      "Can you find something on the table that has a line of symmetry?",
+      "What is the difference between a cube and a cuboid?"
     ],
     "key_vocabulary": [
-      {
-        "term": "2-D shape",
-        "definition": "A flat shape with length and width but no thickness — e.g. triangle, circle."
-      },
-      {
-        "term": "3-D shape",
-        "definition": "A solid shape with length, width, and height — e.g. cube, sphere, cone."
-      },
-      {
-        "term": "symmetry",
-        "definition": "When one half of a shape is a mirror image of the other."
-      },
-      {
-        "term": "right angle",
-        "definition": "An angle of exactly 90° — the same as the corner of a square."
-      },
-      {
-        "term": "perpendicular",
-        "definition": "Lines that meet at a right angle (90°)."
-      }
+      {"term": "3D shape", "definition": "A solid shape with length, width and depth. A football is 3D, while a square drawn on paper is 2D (flat)."},
+      {"term": "face", "definition": "A flat side of a 3D shape. A cube has 6 faces."},
+      {"term": "edge", "definition": "Where two faces of a 3D shape meet. A cube has 12 edges."},
+      {"term": "vertex", "definition": "A corner of a shape, where edges meet. A cube has 8 vertices. The plural is vertices."},
+      {"term": "line of symmetry", "definition": "A line that splits a shape into two halves that are mirror images of each other."}
     ],
     "example_questions": [
-      "Name a quadrilateral with all sides equal.",
-      "Draw a shape with exactly 1 line of symmetry.",
-      "How many right angles does a rectangle have?"
+      "How many sides does a pentagon have?",
+      "Name a 3D shape that has only curved surfaces and no edges.",
+      "Draw a line of symmetry on a square. How many lines of symmetry does it have?"
     ],
-    "times_table_tip": "Year 2 children learn their 2, 5, 10, and 3 times tables. The 3 times table is the new one this year. Try chanting together: 3, 6, 9, 12, 15 … Clapping a beat as you say the numbers helps the rhythm stick."
+    "times_table_tip": "A square has 4 sides, a hexagon has 6, an octagon has 8. Counting up in 4s and 8s while looking at shapes helps the times tables stick."
   }
 }

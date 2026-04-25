@@ -7,41 +7,26 @@
   "week_number": 1,
   "unit_title": "Addition and subtraction",
   "content": {
-    "plain_english": "This week in Year 2 maths, your child is working on Addition and subtraction. The learning focuses on: recall and use addition and subtraction facts to 20 fluently; derive and use related facts up to 100; and add and subtract numbers using concrete objects, pictorial representations and mentally, including:. These skills build directly on what they have already mastered and prepare them for the next steps in the programme of study.",
-    "in_school": "In lessons, children start with concrete resources — base ten blocks, counters, or number lines — to model calculations physically. They then represent what they have done using drawings and diagrams before practising the formal written method independently. This concrete → pictorial → abstract approach helps the method become secure before moving on.",
-    "home_activity": "Roll two dice twice and use the numbers to make two 2-digit (or 3-digit) numbers. Add them together, then find the difference. Keep a running total over five rounds — who gets the highest? No calculators — the working-out is the fun part.",
+    "plain_english": "This week your child is building speed and confidence with addition and subtraction up to 20, and starting to use that knowledge for numbers up to 100. They are also learning that addition can be done in any order, but subtraction cannot.",
+    "in_school": "Children begin with concrete objects: counters, cubes or coins arranged into groups. They draw bar models or part-whole diagrams to picture the same calculation, then move to written number sentences. Lessons mix mental recall with checking using the inverse operation.",
+    "home_activity": "While you set the table for dinner, ask your child to count out the right number of forks for everyone, then take some away — how many are left? Vary it: add a guest, then take two forks back to the drawer. Let them write the matching number sentence on a scrap of paper. Three or four rounds is enough.",
     "dinner_table_questions": [
-      "Can you show me how to recall and use addition and subtraction facts to 20 fluently?",
-      "Was it easy or tricky to derive and use related facts up to 100? Why?",
-      "How would you explain today's maths to someone who has never seen it before?"
+      "If 8 + 7 is 15, what do you think 18 + 7 is?",
+      "I started with 14 grapes and ate some. Now I have 9. How many did I eat?",
+      "Is 6 + 3 the same as 3 + 6? How do you know?"
     ],
     "key_vocabulary": [
-      {
-        "term": "sum",
-        "definition": "The result of adding two or more numbers together."
-      },
-      {
-        "term": "column addition",
-        "definition": "A written method where numbers are lined up in columns to add."
-      },
-      {
-        "term": "difference",
-        "definition": "The result of subtracting one number from another."
-      },
-      {
-        "term": "column subtraction",
-        "definition": "A written method where numbers are lined up in columns to subtract."
-      },
-      {
-        "term": "inverse",
-        "definition": "The opposite operation — addition and subtraction are inverses of each other."
-      }
+      {"term": "add", "definition": "To put two or more numbers together to find the total. The symbol is +."},
+      {"term": "subtract", "definition": "To take one number away from another. The symbol is −."},
+      {"term": "sum", "definition": "The answer when you add numbers together. The sum of 4 and 5 is 9."},
+      {"term": "difference", "definition": "How far apart two numbers are. The difference between 14 and 9 is 5."},
+      {"term": "inverse", "definition": "The opposite operation. Subtraction is the inverse of addition — you can use one to check the other."}
     ],
     "example_questions": [
-      "Work out 67 + 28.",
-      "Find 95 − 38.",
-      "I have £1.20 and spend 47p. How much is left?"
+      "What is 36 + 7?",
+      "Find the missing number: 12 + ___ = 20.",
+      "Holly has 25 stickers. She gives 8 to her brother. How many does she have left?"
     ],
-    "times_table_tip": "Year 2 children learn their 2, 5, 10, and 3 times tables. The 3 times table is the new one this year. Try chanting together: 3, 6, 9, 12, 15 … Clapping a beat as you say the numbers helps the rhythm stick."
+    "times_table_tip": "Spotting doubles inside the 2 times table speeds up addition. 6 + 6 is the same as 6 × 2 — try saying both versions out loud."
   }
 }

@@ -7,41 +7,26 @@
   "week_number": 1,
   "unit_title": "Multiplication and division",
   "content": {
-    "plain_english": "This week in Year 2 maths, your child is working on Multiplication and division. The learning focuses on: add and subtract numbers using concrete objects, pictorial representations and mentally, including:; a two-digit number and ones; and a two-digit number and tens. These skills build directly on what they have already mastered and prepare them for the next steps in the programme of study.",
-    "in_school": "In lessons, children start with concrete resources — base ten blocks, counters, or number lines — to model calculations physically. They then represent what they have done using drawings and diagrams before practising the formal written method independently. This concrete → pictorial → abstract approach helps the method become secure before moving on.",
-    "home_activity": "Quiz each other on the times tables your child is focusing on this week. You say a question, they answer, then swap. Try it as a speed challenge: how many can they answer correctly in one minute? Mix up the order so it does not become just a chant — recall is the goal.",
+    "plain_english": "This week your child is meeting multiplication as repeated addition (4 + 4 + 4 is the same as 3 × 4) and division as either sharing fairly between groups or grouping into equal sets. They are also building instant recall of the 2, 5 and 10 times tables.",
+    "in_school": "Children make equal groups with counters or cubes, then arrange them in arrays — rows and columns — to see the same total in two ways. They learn the × and ÷ symbols, write number sentences, and connect division back to multiplication using the inverse relationship.",
+    "home_activity": "While loading or unloading the dishwasher, point to the cutlery basket. There are 4 forks, 4 knives, 4 spoons — how many pieces of cutlery is that altogether? Then split a packet of biscuits between the family fairly: how many each? Slip the words 'groups of' and 'shared between' into the conversation.",
     "dinner_table_questions": [
-      "Can you show me how to add and subtract numbers using concrete objects, pictorial representations and mentally, including:?",
-      "Was it easy or tricky to a two-digit number and ones? Why?",
-      "How would you explain today's maths to someone who has never seen it before?"
+      "If three friends share 12 grapes equally, how many do they each get?",
+      "How many wheels are there on 5 cars?",
+      "Is 2 × 5 the same as 5 × 2? How do you know?"
     ],
     "key_vocabulary": [
-      {
-        "term": "product",
-        "definition": "The result of multiplying two numbers together."
-      },
-      {
-        "term": "factor",
-        "definition": "A number that divides exactly into another number."
-      },
-      {
-        "term": "quotient",
-        "definition": "The result when one number is divided by another."
-      },
-      {
-        "term": "divisor",
-        "definition": "The number you are dividing by."
-      },
-      {
-        "term": "formal method",
-        "definition": "A written, columnar way of setting out a calculation."
-      }
+      {"term": "multiply", "definition": "To put equal groups together. 3 × 4 means three groups of four. The symbol is ×."},
+      {"term": "divide", "definition": "To split a number into equal groups, or share it equally. The symbol is ÷."},
+      {"term": "array", "definition": "A picture of objects arranged in rows and columns. An array of 2 rows of 5 shows that 2 × 5 = 10."},
+      {"term": "share", "definition": "To split a quantity into equal groups. 12 shared between 3 is 4 each."},
+      {"term": "times tables", "definition": "Lists of multiplication facts learned by heart. The 5 times table goes 5, 10, 15, 20, 25, 30, 35, 40, 45, 50."}
     ],
     "example_questions": [
-      "What is 5 × 4?",
-      "Share 18 equally between 3. How many in each group?",
-      "Complete: 3 × ? = 21"
+      "What is 3 × 5?",
+      "There are 20 sweets shared equally between 4 children. How many does each child get?",
+      "Draw an array to show 2 × 6 = 12."
     ],
-    "times_table_tip": "Year 2 children learn their 2, 5, 10, and 3 times tables. The 3 times table is the new one this year. Try chanting together: 3, 6, 9, 12, 15 … Clapping a beat as you say the numbers helps the rhythm stick."
+    "times_table_tip": "Year 2 is the year for nailing the 2, 5 and 10 times tables. Pick one and practise the trickiest fact for that table — say, 7 × 5 — three times this week, no more."
   }
 }

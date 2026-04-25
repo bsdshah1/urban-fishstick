@@ -7,41 +7,26 @@
   "week_number": 1,
   "unit_title": "Money",
   "content": {
-    "plain_english": "This week in Year 2 maths, your child is working on Money. The learning focuses on: solve problems with addition and subtraction:; using concrete objects and pictorial representations, including those involving numbers, quantities and measures; and applying increasing knowledge of mental and written methods. These skills build directly on what they have already mastered and prepare them for the next steps in the programme of study.",
-    "in_school": "Children use practical measuring equipment — rulers, scales, measuring cylinders, and clocks — to explore measurement in real contexts. They record findings using diagrams and number lines before progressing to written calculations. Problem-solving tasks show how these skills are used every day.",
-    "home_activity": "Give your child a small collection of coins and ask them to make different amounts — can they make 37p in two different ways? At the shops (or in a pretend shop at home), let them work out change from £1 or £2. Handling real money builds confidence quickly.",
+    "plain_english": "This week your child is recognising coins and notes, counting amounts in pounds and pence, and finding different combinations of coins that make the same total. They are also solving small change problems.",
+    "in_school": "Children handle real or plastic coins, sorting them and counting the totals. They make the same amount in different ways — for example, 50 p as one coin, or as two 20 p plus a 10 p. They then move on to written addition and subtraction with money, including giving change.",
+    "home_activity": "Empty a small handful of coins onto the table. Ask your child to find three different ways to make 50 p. Then pretend they are buying something for 35 p with a 50 p coin — how much change do they get? Five minutes, no preparation needed.",
     "dinner_table_questions": [
-      "Can you show me how to solve problems with addition and subtraction:?",
-      "Was it easy or tricky to using concrete objects and pictorial representations, including those involving numbers, quantities and measures? Why?",
-      "How would you explain today's maths to someone who has never seen it before?"
+      "If a chocolate bar costs 65 p and you pay with a £1 coin, how much change should you get?",
+      "What two coins together make 30 p?",
+      "Can you make £1 using only silver coins? Using only copper coins?"
     ],
     "key_vocabulary": [
-      {
-        "term": "pence (p)",
-        "definition": "The smaller unit of British money — 100p = £1."
-      },
-      {
-        "term": "pound (£)",
-        "definition": "The main unit of British money."
-      },
-      {
-        "term": "change",
-        "definition": "The money you get back when you pay more than something costs."
-      },
-      {
-        "term": "total",
-        "definition": "The overall amount when prices are added together."
-      },
-      {
-        "term": "decimal point",
-        "definition": "The dot in a money amount separating pounds from pence — e.g. £2.50."
-      }
+      {"term": "pence (p)", "definition": "The smaller unit of UK money. 100 p makes £1."},
+      {"term": "pound (£)", "definition": "The larger unit of UK money. £1 is the same as 100 p."},
+      {"term": "total", "definition": "The full amount when you add the value of coins or notes together."},
+      {"term": "change", "definition": "The money you get back when you pay more than the price of an item."},
+      {"term": "coin", "definition": "A round piece of metal money. UK coins are 1 p, 2 p, 5 p, 10 p, 20 p, 50 p, £1 and £2."}
     ],
     "example_questions": [
-      "What is 38 + 45?",
-      "Round 67 to the nearest 10.",
-      "Write three hundred and twelve in numerals."
+      "Find two different ways to make 60 p using coins.",
+      "Sam has a 20 p, a 10 p and a 5 p coin. How much does he have in total?",
+      "A book costs 80 p. Mia pays with £1. How much change does she get?"
     ],
-    "times_table_tip": "Year 2 children learn their 2, 5, 10, and 3 times tables. The 3 times table is the new one this year. Try chanting together: 3, 6, 9, 12, 15 … Clapping a beat as you say the numbers helps the rhythm stick."
+    "times_table_tip": "Money is a great way to practise the 5 and 10 times tables. Counting up in 5 p coins or 10 p coins is the same as reciting those tables — try it with the coins from your wallet."
   }
 }
