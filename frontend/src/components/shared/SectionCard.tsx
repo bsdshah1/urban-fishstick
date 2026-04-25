@@ -2,7 +2,7 @@ import type { ReactNode } from 'react'
 import styles from './SectionCard.module.css'
 
 interface Props {
-  category: string
+  category?: string
   subtitle: string
   icon: ReactNode
   accent?: boolean
@@ -15,7 +15,7 @@ export function SectionCard({ category, subtitle, icon, accent, children }: Prop
       <div className={styles.header}>
         <div className={styles.iconBox} aria-hidden="true">{icon}</div>
         <div className={styles.headerText}>
-          <span className={styles.category}>{category}</span>
+          {category && <span className={styles.category}>{category}</span>}
           <span className={styles.subtitle}>{subtitle}</span>
         </div>
       </div>

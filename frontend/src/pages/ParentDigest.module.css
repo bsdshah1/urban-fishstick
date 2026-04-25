@@ -115,22 +115,28 @@
 .currentWeekBtn {
   display: inline-flex;
   align-items: center;
-  gap: 5px;
   font-family: var(--font-sans);
   font-size: var(--text-sm);
-  font-weight: 500;
-  color: var(--muted-foreground);
-  background: none;
-  border: none;
-  padding: 6px var(--space-2);
+  font-weight: 600;
+  color: var(--primary-foreground);
+  background: var(--primary);
+  border: 1.5px solid var(--primary);
+  padding: 6px 14px;
   cursor: pointer;
   white-space: nowrap;
-  border-radius: var(--radius-md);
-  transition: color 0.15s;
+  border-radius: 999px;
+  transition: background 0.15s, border-color 0.15s;
+  min-height: 36px;
 }
 
 .currentWeekBtn:hover {
-  color: var(--foreground);
+  background: var(--primary-hover);
+  border-color: var(--primary-hover);
+}
+
+.currentWeekBtn:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(42, 96, 73, 0.25);
 }
 
 /* ── Header ── */
@@ -181,7 +187,7 @@
 
 .progressTrack {
   flex: 1;
-  height: 5px;
+  height: 8px;
   background: var(--border);
   border-radius: var(--radius-full);
   overflow: hidden;
@@ -213,10 +219,7 @@
 
 .illustrationWrap {
   margin-top: var(--space-4);
-  background: var(--secondary);
-  border: 1px solid var(--border-subtle);
-  border-radius: var(--radius-md);
-  padding: var(--space-4) var(--space-3);
+  padding: var(--space-2) 0 0;
   width: 100%;
   box-sizing: border-box;
   overflow: hidden;
@@ -240,19 +243,13 @@
   padding: var(--space-4) var(--space-4);
 }
 
-.activityHeader {
-  display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
-  gap: var(--space-3);
-  margin-bottom: var(--space-2);
-}
-
 .activityTitle {
+  display: block;
   font-family: var(--font-sans);
   font-size: var(--text-base);
   font-weight: 700;
   color: var(--foreground);
+  margin-bottom: var(--space-2);
 }
 
 .activityBody {
@@ -387,35 +384,34 @@
   justify-content: center;
 }
 
-/* ── Footer ── */
+/* ── Footer (meta + feedback merged) ── */
 
 .footer {
   margin-top: var(--space-10);
   padding-top: var(--space-6);
   border-top: 1px solid var(--border);
-  text-align: center;
-  font-family: var(--font-sans);
-  font-size: var(--text-sm);
-  color: var(--text-muted);
-  line-height: 1.6;
-}
-
-/* ── Flag area ── */
-
-.flagArea {
-  margin-top: var(--space-6);
   display: flex;
+  flex-direction: column;
   align-items: center;
-  gap: var(--space-4);
+  gap: var(--space-5);
+  text-align: center;
 }
 
-.flagText {
+.footerFlag {
+  display: inline-flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: var(--space-3);
+}
+
+.footerFlagLabel {
   font-family: var(--font-sans);
   font-size: var(--text-sm);
   color: var(--text-muted);
 }
 
-.flagBtn {
+.footerFlagBtn {
   font-family: var(--font-sans);
   font-size: var(--text-sm);
   font-weight: 500;
@@ -429,9 +425,16 @@
   min-height: 34px;
 }
 
-.flagBtn:hover:not(:disabled) {
+.footerFlagBtn:hover:not(:disabled) {
   border-color: var(--border-strong);
   color: var(--foreground);
+}
+
+.footerMeta {
+  font-family: var(--font-sans);
+  font-size: var(--text-sm);
+  color: var(--text-muted);
+  line-height: 1.6;
 }
 
 /* ── Mobile ── */
