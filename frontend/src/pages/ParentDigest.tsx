@@ -152,13 +152,6 @@ function parseTimesTableNumber(tip: string): number | null {
   return match ? parseInt(match[1], 10) : null
 }
 
-const DIFFICULTY_LABELS = ['EXPECTED', 'EXPECTED', 'EXPECTED', 'INTERMEDIATE', 'INTERMEDIATE', 'INTERMEDIATE', 'EXCEEDING', 'EXCEEDING', 'EXCEEDING']
-const DIFFICULTY_STYLES: Record<string, string> = {
-  EXPECTED: styles.badgeExpected,
-  INTERMEDIATE: styles.badgeIntermediate,
-  EXCEEDING: styles.badgeExceeding,
-}
-
 interface Props { user: User | null }
 
 export function ParentDigest({ user: _user }: Props) {
@@ -369,11 +362,7 @@ export function ParentDigest({ user: _user }: Props) {
 
           {!isCurrentWeek && (
             <button className={styles.currentWeekBtn} onClick={goToCurrentWeek} type="button">
-              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
-                <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/>
-                <polyline points="9 22 9 12 15 12 15 22"/>
-              </svg>
-              Current Week
+              Jump to current week
             </button>
           )}
         </nav>
@@ -407,33 +396,30 @@ export function ParentDigest({ user: _user }: Props) {
 
             <div className={styles.sections}>
 
-              {/* Learning Objective */}
-              <SectionCard category="Learning Objective" subtitle="In Plain English" icon={<BookIcon />}>
+              {/* Plain English — what they're learning */}
+              <SectionCard subtitle="In Plain English" icon={<BookIcon />}>
                 <p>{digest.plain_english}</p>
               </SectionCard>
 
-              {/* Classroom Practice */}
-              <SectionCard category="Classroom Practice" subtitle="What This Looks Like in School" icon={<SchoolIcon />}>
+              {/* Home Activity — primary call to action, raised to second */}
+              <SectionCard subtitle="Home Activity" icon={<HomeIcon />} accent>
+                <div className={styles.activityCard}>
+                  <span className={styles.activityTitle}>Try This at Home</span>
+                  <p className={styles.activityBody}>{digest.home_activity}</p>
+                </div>
+              </SectionCard>
+
+              {/* Classroom Practice — context */}
+              <SectionCard subtitle="What This Looks Like in School" icon={<SchoolIcon />}>
                 <p>{digest.in_school}</p>
                 <div className={styles.illustrationWrap}>
                   <ConceptIllustration unitTitle={digest.unit_title} />
                 </div>
               </SectionCard>
 
-              {/* Home Support */}
-              <SectionCard category="Home Support" subtitle="Home Activity" icon={<HomeIcon />} accent>
-                <div className={styles.activityCard}>
-                  <div className={styles.activityHeader}>
-                    <span className={styles.activityTitle}>Try This at Home</span>
-                    <span className={`${styles.diffBadge} ${styles.badgeEasy}`}>Easy</span>
-                  </div>
-                  <p className={styles.activityBody}>{digest.home_activity}</p>
-                </div>
-              </SectionCard>
-
               {/* Conversation Starters */}
               {digest.dinner_table_questions.length > 0 && (
-                <SectionCard category="Conversation Starters" subtitle="Dinner Table Questions" icon={<CutleryIcon />}>
+                <SectionCard subtitle="Dinner Table Questions" icon={<CutleryIcon />}>
                   <p className={styles.hint}><em>Try slipping these into natural conversation rather than testing directly.</em></p>
                   <ol className={styles.questionList}>
                     {digest.dinner_table_questions.map((q, i) => (
@@ -446,10 +432,10 @@ export function ParentDigest({ user: _user }: Props) {
                 </SectionCard>
               )}
 
-              {/* Key Terms */}
+              {/* Key Vocabulary */}
               {digest.key_vocabulary.length > 0 && (
-                <SectionCard category="Key Terms" subtitle="Key Vocabulary" icon={<KeyIcon />}>
-                  <p className={styles.hint}>Tap a word to see its definition</p>
+                <SectionCard subtitle="Key Vocabulary" icon={<KeyIcon />}>
+                  <p className={styles.hint}>Tap a word to see what it means.</p>
                   <div className={styles.vocabList}>
                     {digest.key_vocabulary.map((entry, i) => (
                       <VocabularyChip key={i} entry={entry} />
@@ -458,28 +444,24 @@ export function ParentDigest({ user: _user }: Props) {
                 </SectionCard>
               )}
 
-              {/* Practice Questions */}
+              {/* Example Questions */}
               {digest.example_questions.length > 0 && (
-                <SectionCard category="Practice Questions" subtitle="Example Questions" icon={<NumbersIcon />}>
-                  <p className={styles.hint}>Try these with your child — questions are organised by difficulty level.</p>
+                <SectionCard subtitle="Example Questions" icon={<NumbersIcon />}>
+                  <p className={styles.hint}>Try these with your child.</p>
                   <ol className={styles.questionList}>
-                    {digest.example_questions.map((q, i) => {
-                      const difficulty = DIFFICULTY_LABELS[i] ?? 'EXPECTED'
-                      return (
-                        <li key={i} className={styles.questionItem}>
-                          <span className={styles.questionNum}>{i + 1}</span>
-                          <span className={styles.questionText}>{q}</span>
-                          <span className={`${styles.diffBadge} ${DIFFICULTY_STYLES[difficulty]}`}>{difficulty}</span>
-                        </li>
-                      )
-                    })}
+                    {digest.example_questions.map((q, i) => (
+                      <li key={i} className={styles.questionItem}>
+                        <span className={styles.questionNum}>{i + 1}</span>
+                        <span className={styles.questionText}>{q}</span>
+                      </li>
+                    ))}
                   </ol>
                 </SectionCard>
               )}
 
-              {/* Weekly Focus — Times Table */}
+              {/* Times Table tip */}
               {digest.times_table_tip && (
-                <SectionCard category="Weekly Focus" subtitle="Times Table Tip of the Week" icon={<LightbulbIcon />}>
+                <SectionCard subtitle="Times Table Tip of the Week" icon={<LightbulbIcon />}>
                   <div className={styles.tipContent}>
                     <p className={styles.tipText}>{digest.times_table_tip}</p>
                     {ttMultiples.length > 0 && (
@@ -495,24 +477,25 @@ export function ParentDigest({ user: _user }: Props) {
 
               {/* Teacher Note */}
               {digest.teacher_note && (
-                <SectionCard category="A Note from Your Teacher" subtitle="Class Teacher" icon={<ChatIcon />}>
+                <SectionCard subtitle="A Note from Your Teacher" icon={<ChatIcon />}>
                   <p>{digest.teacher_note}</p>
                 </SectionCard>
               )}
             </div>
 
-            {/* Footer */}
+            {/* Footer — meta + feedback in one closing block */}
             <footer className={styles.footer}>
-              <p>Beaumont Primary School · Maths Parent Companion</p>
-              <p>Based on White Rose Maths · {selectedTerm ? TERM_LABELS[selectedTerm] : ''} 2026</p>
+              <div className={styles.footerFlag}>
+                <span className={styles.footerFlagLabel}>Something not right?</span>
+                <button className={styles.footerFlagBtn} onClick={handleFlag} disabled={flagging} type="button">
+                  {flagging ? 'Sending…' : 'Let your teacher know'}
+                </button>
+              </div>
+              <div className={styles.footerMeta}>
+                <p>Beaumont Primary School · Maths Parent Companion</p>
+                <p>Based on White Rose Maths · {selectedTerm ? TERM_LABELS[selectedTerm] : ''} 2026</p>
+              </div>
             </footer>
-
-            <div className={styles.flagArea}>
-              <p className={styles.flagText}>Something not right?</p>
-              <button className={styles.flagBtn} onClick={handleFlag} disabled={flagging} type="button">
-                {flagging ? 'Sending…' : 'Let us know'}
-              </button>
-            </div>
           </>
         )}
       </div>

@@ -27,9 +27,14 @@
   background: var(--border-subtle);
 }
 
-.speakerIcon {
+.chevronIcon {
   flex-shrink: 0;
   color: var(--text-muted);
+  transition: transform 0.2s ease;
+}
+
+.chevronOpen {
+  transform: rotate(180deg);
 }
 
 .definition {
