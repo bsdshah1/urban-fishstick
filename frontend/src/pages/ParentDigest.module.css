@@ -137,6 +137,173 @@
   border-color: var(--primary-hover);
 }
 
+/* ── Article-pattern navigation ── */
+
+.contextBar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-3);
+  flex-wrap: wrap;
+  margin-bottom: var(--space-3);
+}
+
+.contextLink {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  font-family: var(--font-sans);
+  font-size: var(--text-sm);
+  font-weight: 500;
+  color: var(--text-muted);
+  background: transparent;
+  border: none;
+  padding: 4px 0;
+  cursor: pointer;
+  border-radius: var(--radius-sm);
+  transition: color 0.15s;
+  letter-spacing: 0.01em;
+}
+
+.contextLink:hover {
+  color: var(--foreground);
+}
+
+.contextLinkIcon {
+  flex-shrink: 0;
+  color: var(--text-muted);
+}
+
+.contextDialogFields {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+  margin-bottom: var(--space-5);
+}
+
+.contextDialogField {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-1);
+}
+
+.contextDialogLabel {
+  font-family: var(--font-sans);
+  font-size: var(--text-sm);
+  font-weight: 600;
+  color: var(--foreground);
+}
+
+.contextDialogSelect {
+  font-family: var(--font-sans);
+  font-size: var(--text-base);
+  color: var(--foreground);
+  background-color: var(--card);
+  border: 1.5px solid var(--border);
+  border-radius: var(--radius-md);
+  padding: 10px 40px 10px 14px;
+  cursor: pointer;
+  appearance: none;
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%23718096' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><polyline points='6 9 12 15 18 9'/></svg>");
+  background-repeat: no-repeat;
+  background-position: right 14px center;
+  min-height: 42px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.contextDialogSelect:focus {
+  outline: none;
+  border-color: var(--primary);
+  box-shadow: 0 0 0 3px rgba(42, 96, 73, 0.15);
+}
+
+.weekNav {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  gap: var(--space-3);
+  margin: var(--space-5) 0 var(--space-4);
+}
+
+.weekNavBtn {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  padding: var(--space-3) var(--space-4);
+  cursor: pointer;
+  font-family: var(--font-sans);
+  text-align: left;
+  color: var(--foreground);
+  transition: border-color 0.15s, background 0.15s;
+  min-height: 60px;
+  min-width: 0;
+}
+
+.weekNavBtn:hover {
+  border-color: var(--border-strong);
+  background: var(--secondary);
+}
+
+.weekNavBtnRight {
+  text-align: right;
+  flex-direction: row-reverse;
+}
+
+.weekNavArrow {
+  flex-shrink: 0;
+  color: var(--primary);
+  font-size: 22px;
+  font-weight: 600;
+  width: 28px;
+  text-align: center;
+  line-height: 1;
+}
+
+.weekNavBody {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+
+.weekNavLabel {
+  font-size: var(--text-xs);
+  font-weight: 700;
+  color: var(--text-muted);
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  margin-bottom: 2px;
+}
+
+.weekNavTitle {
+  font-size: var(--text-sm);
+  font-weight: 600;
+  color: var(--foreground);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.weekNavSpacer {
+  flex: 1;
+}
+
+@media (max-width: 480px) {
+  .weekNavBtn {
+    min-height: 52px;
+    padding: var(--space-3);
+    gap: var(--space-2);
+  }
+  .weekNavTitle {
+    font-size: var(--text-sm);
+  }
+}
+
 /* ── Navigation bar ── */
 
 .nav {

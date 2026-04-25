@@ -1,6 +1,5 @@
 import { useEffect, useMemo, useState } from 'react'
 import * as Dialog from '@radix-ui/react-dialog'
-import * as Collapsible from '@radix-ui/react-collapsible'
 import { getDigests, flagDigest } from '../api/digests'
 import type { Digest, User } from '../api/types'
 import { SectionCard } from '../components/shared/SectionCard'
@@ -10,16 +9,6 @@ import { ConceptIllustration } from '../components/shared/ConceptIllustration'
 import styles from './ParentDigest.module.css'
 
 const WELCOME_KEY = 'bm_seen_welcome_v1'
-
-const SECTION_IDS = ['overview', 'home', 'classroom', 'talk', 'practise'] as const
-type SectionId = typeof SECTION_IDS[number]
-const SECTION_LABELS: Record<SectionId, string> = {
-  overview: 'This week',
-  home: 'Home',
-  classroom: 'Classroom',
-  talk: 'Talk',
-  practise: 'Practise',
-}
 
 // ── SVG Icons ──────────────────────────────────────────────────────────────
 
@@ -158,7 +147,7 @@ export function ParentDigest({ user: _user }: Props) {
   const [selectedTerm, setSelectedTerm] = useState<string | null>(null)
   const [selectedWeek, setSelectedWeek] = useState<number | null>(null)
 
-  const [navOpen, setNavOpen] = useState(false)
+  const [contextOpen, setContextOpen] = useState(false)
   const [flagOpen, setFlagOpen] = useState(false)
   const [flagNote, setFlagNote] = useState('')
   const [showWelcome, setShowWelcome] = useState(() => {
@@ -169,16 +158,6 @@ export function ParentDigest({ user: _user }: Props) {
   const dismissWelcome = () => {
     setShowWelcome(false)
     try { window.localStorage.setItem(WELCOME_KEY, '1') } catch {}
-  }
-
-  const [activeSection, setActiveSection] = useState<SectionId>('overview')
-
-  const scrollToSection = (id: SectionId) => {
-    const el = document.getElementById(`section-${id}`)
-    if (!el) return
-    const headerOffset = 56 + 56 + 8 // AppShell + sticky chip strip + small gap
-    const top = el.getBoundingClientRect().top + window.pageYOffset - headerOffset
-    window.scrollTo({ top, behavior: 'smooth' })
   }
 
   useEffect(() => {
@@ -248,26 +227,31 @@ export function ParentDigest({ user: _user }: Props) {
     ) ?? null
   }, [allDigests, selectedYearGroup, selectedTerm, selectedWeek])
 
-  // Scroll-spy: highlight the chip for whichever section is currently in view
-  useEffect(() => {
-    if (!digest) return
-    const observer = new IntersectionObserver(
-      entries => {
-        entries.forEach(entry => {
-          if (entry.isIntersecting) {
-            const id = entry.target.id.replace('section-', '') as SectionId
-            if (SECTION_IDS.includes(id)) setActiveSection(id)
-          }
-        })
-      },
-      { rootMargin: '-30% 0px -55% 0px', threshold: 0 }
-    )
-    SECTION_IDS.forEach(id => {
-      const el = document.getElementById(`section-${id}`)
-      if (el) observer.observe(el)
-    })
-    return () => observer.disconnect()
-  }, [digest])
+  // Flat sequence of all weeks within the current year group, ordered by term then week
+  const yearGroupWeeks = useMemo(() => {
+    if (!selectedYearGroup) return [] as Digest[]
+    return [...allDigests]
+      .filter(d => d.year_group === selectedYearGroup)
+      .sort((a, b) => {
+        const td = (TERM_ORDER[a.term] ?? 0) - (TERM_ORDER[b.term] ?? 0)
+        return td !== 0 ? td : a.week_number - b.week_number
+      })
+  }, [allDigests, selectedYearGroup])
+
+  const currentIdx = useMemo(() => {
+    if (!digest) return -1
+    return yearGroupWeeks.findIndex(d => d.id === digest.id)
+  }, [yearGroupWeeks, digest])
+
+  const prevDigest = currentIdx > 0 ? yearGroupWeeks[currentIdx - 1] : null
+  const nextDigest = currentIdx >= 0 && currentIdx < yearGroupWeeks.length - 1 ? yearGroupWeeks[currentIdx + 1] : null
+
+  const goToDigest = (d: Digest) => {
+    setSelectedYearGroup(d.year_group)
+    setSelectedTerm(d.term)
+    setSelectedWeek(d.week_number)
+    window.scrollTo({ top: 0, behavior: 'smooth' })
+  }
 
   // The "current" week is determined from today's calendar date
   const currentCalendarTarget = useMemo(() => {
@@ -380,75 +364,69 @@ export function ParentDigest({ user: _user }: Props) {
           </aside>
         )}
 
-        {/* ── Navigation (collapsed by default; expand to browse other weeks) ── */}
-        <Collapsible.Root open={navOpen} onOpenChange={setNavOpen} asChild>
-          <nav className={styles.nav} aria-label="Digest navigation">
-            <div className={styles.navRow}>
-              <Collapsible.Trigger asChild>
-                <button className={styles.navTrigger} type="button">
-                  <span>{navOpen ? 'Hide' : 'Browse other weeks'}</span>
-                  <svg
-                    className={`${styles.navTriggerIcon} ${navOpen ? styles.navTriggerIconOpen : ''}`}
-                    width="16" height="16" viewBox="0 0 24 24" fill="none"
-                    stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"
-                    aria-hidden="true"
-                  >
-                    <polyline points="6 9 12 15 18 9"/>
-                  </svg>
-                </button>
-              </Collapsible.Trigger>
-
-              {!isCurrentWeek && (
-                <button className={styles.currentWeekBtn} onClick={goToCurrentWeek} type="button">
-                  Jump to current week
-                </button>
-              )}
-            </div>
-
-            <Collapsible.Content className={styles.navContent}>
-              <div className={styles.navPills}>
-                <div className={styles.pillWrap}>
-                  <select
-                    className={`${styles.pill} ${styles.pillDark}`}
-                    value={selectedYearGroup ?? ''}
-                    onChange={e => handleYearGroupChange(e.target.value)}
-                    aria-label="Year group"
-                  >
-                    {yearGroups.map(yg => (
-                      <option key={yg} value={yg}>{formatYearGroup(yg)}</option>
-                    ))}
-                  </select>
+        {/* ── Context bar — breadcrumb-link to a change-context dialog + jump-current ── */}
+        <div className={styles.contextBar}>
+          <Dialog.Root open={contextOpen} onOpenChange={setContextOpen}>
+            <Dialog.Trigger asChild>
+              <button className={styles.contextLink} type="button" aria-label="Change year group, term or week">
+                <span>
+                  {selectedYearGroup ? formatYearGroup(selectedYearGroup) : ''}
+                  {selectedTerm ? ` · ${TERM_LABELS[selectedTerm]}` : ''}
+                  {selectedWeek ? ` · Week ${selectedWeek}` : ''}
+                </span>
+                <svg className={styles.contextLinkIcon} width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                  <polyline points="6 9 12 15 18 9"/>
+                </svg>
+              </button>
+            </Dialog.Trigger>
+            <Dialog.Portal>
+              <Dialog.Overlay className={styles.dialogOverlay} />
+              <Dialog.Content className={styles.dialogContent} aria-describedby="context-description">
+                <Dialog.Title className={styles.dialogTitle}>Change what you're viewing</Dialog.Title>
+                <Dialog.Description id="context-description" className={styles.dialogDescription}>
+                  Pick a year group, term and week.
+                </Dialog.Description>
+                <div className={styles.contextDialogFields}>
+                  <label className={styles.contextDialogField}>
+                    <span className={styles.contextDialogLabel}>Year group</span>
+                    <select className={styles.contextDialogSelect} value={selectedYearGroup ?? ''} onChange={e => handleYearGroupChange(e.target.value)} aria-label="Year group">
+                      {yearGroups.map(yg => (
+                        <option key={yg} value={yg}>{formatYearGroup(yg)}</option>
+                      ))}
+                    </select>
+                  </label>
+                  <label className={styles.contextDialogField}>
+                    <span className={styles.contextDialogLabel}>Term</span>
+                    <select className={styles.contextDialogSelect} value={selectedTerm ?? ''} onChange={e => handleTermChange(e.target.value)} aria-label="Term">
+                      {termsForYear.map(t => (
+                        <option key={t} value={t}>{TERM_LABELS[t] || t}</option>
+                      ))}
+                    </select>
+                  </label>
+                  <label className={styles.contextDialogField}>
+                    <span className={styles.contextDialogLabel}>Week</span>
+                    <select className={styles.contextDialogSelect} value={selectedWeek ?? ''} onChange={e => setSelectedWeek(Number(e.target.value))} aria-label="Week">
+                      {weeksForTermAndYear.map(w => (
+                        <option key={w} value={w}>Week {w}</option>
+                      ))}
+                    </select>
+                  </label>
                 </div>
-
-                <div className={styles.pillWrap}>
-                  <select
-                    className={styles.pill}
-                    value={selectedTerm ?? ''}
-                    onChange={e => handleTermChange(e.target.value)}
-                    aria-label="Term"
-                  >
-                    {termsForYear.map(t => (
-                      <option key={t} value={t}>{TERM_LABELS[t] || t}</option>
-                    ))}
-                  </select>
+                <div className={styles.dialogActions}>
+                  <Dialog.Close asChild>
+                    <button className={styles.dialogPrimary} type="button">Done</button>
+                  </Dialog.Close>
                 </div>
+              </Dialog.Content>
+            </Dialog.Portal>
+          </Dialog.Root>
 
-                <div className={styles.pillWrap}>
-                  <select
-                    className={styles.pill}
-                    value={selectedWeek ?? ''}
-                    onChange={e => setSelectedWeek(Number(e.target.value))}
-                    aria-label="Week"
-                  >
-                    {weeksForTermAndYear.map(w => (
-                      <option key={w} value={w}>Week {w}</option>
-                    ))}
-                  </select>
-                </div>
-              </div>
-            </Collapsible.Content>
-          </nav>
-        </Collapsible.Root>
+          {!isCurrentWeek && (
+            <button className={styles.currentWeekBtn} onClick={goToCurrentWeek} type="button">
+              Jump to current week
+            </button>
+          )}
+        </div>
 
         {/* ── Digest content ── */}
         {!digest ? (
@@ -477,22 +455,29 @@ export function ParentDigest({ user: _user }: Props) {
               <span className={styles.progressText}>Week {digest.week_number} of {totalWeeksInTerm}</span>
             </div>
 
-            {/* Sticky chip strip — section navigation */}
-            <div className={styles.chipStrip} role="navigation" aria-label="Sections">
-              <div className={styles.chipStripInner}>
-                {SECTION_IDS.map(id => (
-                  <button
-                    key={id}
-                    type="button"
-                    onClick={() => scrollToSection(id)}
-                    className={`${styles.sectionChip} ${activeSection === id ? styles.sectionChipActive : ''}`}
-                    aria-current={activeSection === id ? 'true' : undefined}
-                  >
-                    {SECTION_LABELS[id]}
+            {/* Prev / next week — top */}
+            {(prevDigest || nextDigest) && (
+              <nav className={styles.weekNav} aria-label="Week navigation">
+                {prevDigest ? (
+                  <button onClick={() => goToDigest(prevDigest)} className={styles.weekNavBtn} type="button" aria-label={`Previous week: ${prevDigest.unit_title}`}>
+                    <span className={styles.weekNavArrow} aria-hidden="true">←</span>
+                    <span className={styles.weekNavBody}>
+                      <span className={styles.weekNavLabel}>Previous</span>
+                      <span className={styles.weekNavTitle}>{prevDigest.unit_title}</span>
+                    </span>
                   </button>
-                ))}
-              </div>
-            </div>
+                ) : <span className={styles.weekNavSpacer} aria-hidden="true" />}
+                {nextDigest ? (
+                  <button onClick={() => goToDigest(nextDigest)} className={`${styles.weekNavBtn} ${styles.weekNavBtnRight}`} type="button" aria-label={`Next week: ${nextDigest.unit_title}`}>
+                    <span className={styles.weekNavBody}>
+                      <span className={styles.weekNavLabel}>Next</span>
+                      <span className={styles.weekNavTitle}>{nextDigest.unit_title}</span>
+                    </span>
+                    <span className={styles.weekNavArrow} aria-hidden="true">→</span>
+                  </button>
+                ) : <span className={styles.weekNavSpacer} aria-hidden="true" />}
+              </nav>
+            )}
 
             <div className={styles.sections}>
 
@@ -599,6 +584,30 @@ export function ParentDigest({ user: _user }: Props) {
                 </div>
               )}
             </div>
+
+            {/* Prev / next week — bottom (mirror) */}
+            {(prevDigest || nextDigest) && (
+              <nav className={styles.weekNav} aria-label="Week navigation (bottom)">
+                {prevDigest ? (
+                  <button onClick={() => goToDigest(prevDigest)} className={styles.weekNavBtn} type="button" aria-label={`Previous week: ${prevDigest.unit_title}`}>
+                    <span className={styles.weekNavArrow} aria-hidden="true">←</span>
+                    <span className={styles.weekNavBody}>
+                      <span className={styles.weekNavLabel}>Previous</span>
+                      <span className={styles.weekNavTitle}>{prevDigest.unit_title}</span>
+                    </span>
+                  </button>
+                ) : <span className={styles.weekNavSpacer} aria-hidden="true" />}
+                {nextDigest ? (
+                  <button onClick={() => goToDigest(nextDigest)} className={`${styles.weekNavBtn} ${styles.weekNavBtnRight}`} type="button" aria-label={`Next week: ${nextDigest.unit_title}`}>
+                    <span className={styles.weekNavBody}>
+                      <span className={styles.weekNavLabel}>Next</span>
+                      <span className={styles.weekNavTitle}>{nextDigest.unit_title}</span>
+                    </span>
+                    <span className={styles.weekNavArrow} aria-hidden="true">→</span>
+                  </button>
+                ) : <span className={styles.weekNavSpacer} aria-hidden="true" />}
+              </nav>
+            )}
 
             {/* Footer — meta + feedback in one closing block */}
             <footer className={styles.footer}>
