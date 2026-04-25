@@ -7,41 +7,26 @@
   "week_number": 1,
   "unit_title": "Position and direction",
   "content": {
-    "plain_english": "This week in Year 2 maths, your child is working on Position and direction. The learning focuses on: use mathematical vocabulary to describe position, direction and movement, including:; movement in a straight line; and rotation as a turn. These skills build directly on what they have already mastered and prepare them for the next steps in the programme of study.",
-    "in_school": "Children handle, sort, and classify 2-D and 3-D shapes, drawing and describing their properties. They use protractors, mirrors, and squared paper to explore angles, symmetry, and position. Explaining what they notice in precise mathematical language is a key part of every lesson.",
-    "home_activity": "Look for real-life examples around the house — a map showing distances, a measuring jug with ml and pints, a food label in grams and kg. Ask your child to read the measurements and convert between them. Road signs in miles are another good context.",
+    "plain_english": "This week your child is using maths words to describe where things are and how they move — left, right, forwards, backwards, clockwise, anti-clockwise. They are also learning that a quarter turn is a right angle.",
+    "in_school": "Children move themselves and small toys around grids and routes drawn on the floor or paper. They follow and give instructions like 'turn clockwise a quarter turn, then walk three steps forwards'. They draw arrows for direction and use right-angle markers to spot quarter turns in shapes.",
+    "home_activity": "On the walk home one afternoon, take turns giving each other directions: 'turn left at the post box, walk forwards five paces, stop'. At home, give your child a soft toy and ask them to make it do a quarter turn clockwise, then a half turn anti-clockwise. Two minutes is enough.",
     "dinner_table_questions": [
-      "Can you show me how to use mathematical vocabulary to describe position, direction and movement, including:?",
-      "Was it easy or tricky to movement in a straight line? Why?",
-      "How would you explain today's maths to someone who has never seen it before?"
+      "If you face the front door and turn a quarter turn to your right, what are you looking at now?",
+      "How many quarter turns make a full turn?",
+      "What is the difference between clockwise and anti-clockwise?"
     ],
     "key_vocabulary": [
-      {
-        "term": "coordinates",
-        "definition": "A pair of numbers giving the exact position of a point on a grid — e.g. (3, 4)."
-      },
-      {
-        "term": "x-axis",
-        "definition": "The horizontal line on a coordinate grid."
-      },
-      {
-        "term": "y-axis",
-        "definition": "The vertical line on a coordinate grid."
-      },
-      {
-        "term": "translation",
-        "definition": "Sliding a shape to a new position without rotating or flipping it."
-      },
-      {
-        "term": "reflection",
-        "definition": "Flipping a shape over a mirror line."
-      }
+      {"term": "position", "definition": "Where something is. We describe it using words like above, below, next to, in front of, behind."},
+      {"term": "direction", "definition": "Which way something is facing or moving. Words like left, right, forwards, backwards."},
+      {"term": "clockwise", "definition": "Moving in the same direction as the hands of a clock."},
+      {"term": "anti-clockwise", "definition": "Moving in the opposite direction to the hands of a clock."},
+      {"term": "right angle", "definition": "A square corner. A quarter turn is a right angle. Two right angles make a half turn."}
     ],
     "example_questions": [
-      "What is 38 + 45?",
-      "Round 67 to the nearest 10.",
-      "Write three hundred and twelve in numerals."
+      "How many right angles are there in a square?",
+      "If you start facing north and turn a half turn clockwise, which direction are you facing now?",
+      "Describe how to get from your bedroom to the kitchen using only the words left, right and forwards."
     ],
-    "times_table_tip": "Year 2 children learn their 2, 5, 10, and 3 times tables. The 3 times table is the new one this year. Try chanting together: 3, 6, 9, 12, 15 … Clapping a beat as you say the numbers helps the rhythm stick."
+    "times_table_tip": "Four right angles make a full turn. Counting in 4s — 4, 8, 12, 16 — helps your child move smoothly between quarter, half, three-quarter and full turns."
   }
 }

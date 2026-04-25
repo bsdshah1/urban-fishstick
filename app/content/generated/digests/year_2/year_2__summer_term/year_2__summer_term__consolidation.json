@@ -7,41 +7,25 @@
   "week_number": 1,
   "unit_title": "Consolidation",
   "content": {
-    "plain_english": "This week in Year 2 maths, your child is working on Consolidation. The learning focuses on: solve problems with addition and subtraction:; using concrete objects and pictorial representations, including those involving numbers, quantities and measures; and applying increasing knowledge of mental and written methods. These skills build directly on what they have already mastered and prepare them for the next steps in the programme of study.",
-    "in_school": "In lessons, children use practical resources and visual representations to explore consolidation. They work from hands-on activities through to diagrams and then written methods, with class discussion and partner work helping every child understand and apply what they have learned.",
-    "home_activity": "Spend 5 minutes exploring consolidation together. Ask your child to explain what they have been learning in school — teaching someone else is one of the best ways to understand something deeply. Use everyday objects if that helps, and follow your child's lead.",
+    "plain_english": "This week is a recap week. Your child is revisiting the key ideas they have met across the year — place value, addition and subtraction, multiplication tables, fractions and shape — to make sure they feel confident before the summer break.",
+    "in_school": "Lessons are quieter and more varied. Children pick up old favourites — base-ten blocks, fraction strips, shape sets — and use them to solve mixed problems. Teachers spot any small gaps and revisit them gently, not as a test.",
+    "home_activity": "Look back at any maths book or sheet your child has brought home this term. Ask them to pick one page they found tricky earlier in the year and walk you through it now. Ask only one question: what is different about this for you now? Five minutes is plenty.",
     "dinner_table_questions": [
-      "Can you show me how to solve problems with addition and subtraction:?",
-      "Was it easy or tricky to using concrete objects and pictorial representations, including those involving numbers, quantities and measures? Why?",
-      "How would you explain today's maths to someone who has never seen it before?"
+      "What was the trickiest thing in maths this year — and is it still tricky now?",
+      "If you had to teach a Year 1 child one maths thing, what would it be?",
+      "What is one thing you can do in maths now that you couldn't last September?"
     ],
     "key_vocabulary": [
-      {
-        "term": "review",
-        "definition": "Look back over what you have learned to check and strengthen understanding."
-      },
-      {
-        "term": "apply",
-        "definition": "Use your knowledge in a new or different situation."
-      },
-      {
-        "term": "reason",
-        "definition": "Explain why an answer is correct using mathematical language."
-      },
-      {
-        "term": "problem solving",
-        "definition": "Working through a challenge by choosing and using the right maths skills."
-      },
-      {
-        "term": "strategy",
-        "definition": "A planned method used to approach and solve a problem."
-      }
+      {"term": "consolidate", "definition": "To make something stronger by going over it again. In maths, it means revisiting earlier learning."},
+      {"term": "fluent", "definition": "Able to do something quickly, accurately and without much thought. Times-table recall is fluent when it feels automatic."},
+      {"term": "method", "definition": "A way of working out an answer. There can be more than one good method for the same question."},
+      {"term": "reasoning", "definition": "Explaining why an answer is correct, using maths words and ideas."}
     ],
     "example_questions": [
-      "What is 38 + 45?",
-      "Round 67 to the nearest 10.",
-      "Write three hundred and twelve in numerals."
+      "Use any method to work out 56 + 27.",
+      "What fraction of a square is shaded if you split it into 4 equal parts and colour 1?",
+      "What is 5 × 3? How could you check using division?"
     ],
-    "times_table_tip": "Year 2 children learn their 2, 5, 10, and 3 times tables. The 3 times table is the new one this year. Try chanting together: 3, 6, 9, 12, 15 … Clapping a beat as you say the numbers helps the rhythm stick."
+    "times_table_tip": "Consolidation is the perfect week to find the one times-table fact that still doesn't come quickly. Pick one — write it on a sticky note on the fridge for the week."
   }
 }

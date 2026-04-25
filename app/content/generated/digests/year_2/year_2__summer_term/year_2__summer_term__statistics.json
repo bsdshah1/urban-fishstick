@@ -7,41 +7,26 @@
   "week_number": 1,
   "unit_title": "Statistics",
   "content": {
-    "plain_english": "This week in Year 2 maths, your child is working on Statistics. The learning focuses on: solve problems with addition and subtraction:; using concrete objects and pictorial representations, including those involving numbers, quantities and measures; and applying increasing knowledge of mental and written methods. These skills build directly on what they have already mastered and prepare them for the next steps in the programme of study.",
-    "in_school": "Children collect, organise, and interpret data using tallies, tables, and a variety of charts and graphs. They practise reading scales accurately, comparing data sets, and answering questions from the information they gather.",
-    "home_activity": "Create a simple survey together — ask family members their favourite fruit, colour, or TV show. Record answers as a tally chart, then draw a bar chart. Ask: 'Which was most popular? How many more people chose X than Y?' This is exactly what they are doing in class.",
+    "plain_english": "This week your child is collecting and showing information using tally charts, pictograms and block diagrams. They are reading these to answer questions like 'which is the most popular' and 'how many altogether'.",
+    "in_school": "Children gather their own data — favourite colour, type of pet, lunchtime choice — using tally marks, with the fifth mark crossing the previous four. They turn the tallies into pictograms (with one picture standing for one, two, five or ten items) and into block diagrams.",
+    "home_activity": "Over the weekend, ask each family member their favourite biscuit, fruit or breakfast. Help your child make a tally chart on a piece of paper as you go round. At the end, ask: which had the most? Which had the fewest? How many people did we ask in total? Five minutes including the asking.",
     "dinner_table_questions": [
-      "Can you show me how to solve problems with addition and subtraction:?",
-      "Was it easy or tricky to using concrete objects and pictorial representations, including those involving numbers, quantities and measures? Why?",
-      "How would you explain today's maths to someone who has never seen it before?"
+      "If the pictogram shows three smiley faces and each face stands for two votes, how many people voted?",
+      "What is the most popular pudding in our family — how could we find out?",
+      "Why do we use tally marks in groups of five?"
     ],
     "key_vocabulary": [
-      {
-        "term": "data",
-        "definition": "Information collected through counting, measuring, or surveying."
-      },
-      {
-        "term": "tally",
-        "definition": "A way of counting using marks in groups of five."
-      },
-      {
-        "term": "frequency",
-        "definition": "How often something occurs in a set of data."
-      },
-      {
-        "term": "bar chart",
-        "definition": "A graph that uses bars to show and compare amounts."
-      },
-      {
-        "term": "axis",
-        "definition": "The horizontal or vertical line on a graph (plural: axes)."
-      }
+      {"term": "tally chart", "definition": "A way of counting things by drawing lines, with every fifth line crossing the previous four to make a group of 5."},
+      {"term": "pictogram", "definition": "A chart that uses pictures to show how many. A key tells you what each picture stands for."},
+      {"term": "block diagram", "definition": "A chart where each block stands for one thing, stacked into columns to show totals."},
+      {"term": "data", "definition": "Information that has been collected, often by counting or asking questions."},
+      {"term": "key", "definition": "A small note on a chart that tells you what the pictures or blocks stand for."}
     ],
     "example_questions": [
-      "How do you record data using a tally chart?",
-      "Read the bar chart — which category has the most?",
-      "How many more chose cats than dogs?"
+      "On a tally chart, how do you show 7?",
+      "A pictogram uses one apple to mean 2 children. How many children does 4 apples stand for?",
+      "Look at this block diagram: red has 5 blocks, blue has 8, green has 3. How many children chose red or blue?"
     ],
-    "times_table_tip": "Year 2 children learn their 2, 5, 10, and 3 times tables. The 3 times table is the new one this year. Try chanting together: 3, 6, 9, 12, 15 … Clapping a beat as you say the numbers helps the rhythm stick."
+    "times_table_tip": "Pictograms in Year 2 often use one symbol to stand for 2, 5 or 10 items. Knowing the 2, 5 and 10 times tables means your child can read those scales straight away."
   }
 }

@@ -7,41 +7,26 @@
   "week_number": 1,
   "unit_title": "Place value",
   "content": {
-    "plain_english": "This week in Year 2 maths, your child is working on Place value. The learning focuses on: recognise the place value of each digit in a two-digit number (tens, ones) and use place value and number facts to solve problems. These skills build directly on what they have already mastered and prepare them for the next steps in the programme of study.",
-    "in_school": "In lessons, children use base ten blocks, place value charts, and number lines to explore how numbers are built from hundreds, tens, and ones. They represent the same number in different ways before working abstractly. Understanding place value is the foundation for all other maths, so lessons move carefully and thoroughly.",
-    "home_activity": "Take a pack of playing cards (remove picture cards). Draw three or four cards and make as many different numbers as you can with those digits. Which is the biggest? The smallest? Try rounding each number to the nearest 100. No special equipment — just cards and conversation.",
+    "plain_english": "This week your child is getting confident with numbers up to 100. They are reading and writing them in figures and words, and learning that the digits in a two-digit number stand for tens and ones — so 47 is four tens and seven ones.",
+    "in_school": "Children start with practical resources — straws bundled into tens, base-ten blocks, or a long number line on the carpet. They then draw the same numbers as tens-and-ones diagrams, before writing them in figures, in words, and comparing them using <, > and =.",
+    "home_activity": "On the walk to school this week, take turns calling out two-digit numbers you see — door numbers, bus numbers, prices in shop windows. Ask your child to tell you the tens digit and the ones digit. Then pick two of the numbers and ask which is bigger, and how they know. Five minutes is plenty.",
     "dinner_table_questions": [
-      "Can you show me how to recognise the place value of each digit in a two-digit number (tens, ones)?",
-      "Was it easy or tricky to use place value and number facts to solve problems? Why?",
-      "How would you explain today's maths to someone who has never seen it before?"
+      "If I have 32 grapes and you have 47, how would you check who has more?",
+      "What is one more than 89? What is one less than 50?",
+      "Can you count up in fives from 30 until I say stop?"
     ],
     "key_vocabulary": [
-      {
-        "term": "digit",
-        "definition": "One of the symbols 0–9 used to write a number."
-      },
-      {
-        "term": "place value",
-        "definition": "The value of a digit based on its position — units, tens, hundreds, and so on."
-      },
-      {
-        "term": "partition",
-        "definition": "Split a number into its parts — e.g. 347 = 300 + 40 + 7."
-      },
-      {
-        "term": "round",
-        "definition": "Give an approximate value to the nearest 10, 100, etc."
-      },
-      {
-        "term": "estimate",
-        "definition": "Make a sensible guess at an answer before you calculate."
-      }
+      {"term": "tens", "definition": "The first digit in a two-digit number tells you how many groups of ten there are. In 47, there are 4 tens."},
+      {"term": "ones", "definition": "The last digit in a two-digit number tells you how many single units there are. In 47, there are 7 ones."},
+      {"term": "place value", "definition": "The idea that the position of a digit changes its value. The 4 in 47 is worth 40, not 4."},
+      {"term": "greater than (>)", "definition": "The symbol > means the number on the left is larger than the one on the right. 47 > 32."},
+      {"term": "less than (<)", "definition": "The symbol < means the number on the left is smaller than the one on the right. 32 < 47."}
     ],
     "example_questions": [
-      "What is the value of 7 in 73?",
-      "Write 56 as tens and ones.",
-      "Order: 84, 48, 80, 40."
+      "Write the number forty-six in figures.",
+      "Use < or > to compare: 38 ___ 53.",
+      "What is the value of the 7 in 71 — is it 7 or 70?"
     ],
-    "times_table_tip": "Year 2 children learn their 2, 5, 10, and 3 times tables. The 3 times table is the new one this year. Try chanting together: 3, 6, 9, 12, 15 … Clapping a beat as you say the numbers helps the rhythm stick."
+    "times_table_tip": "Year 2 children are working on instant recall of the 2, 5 and 10 times tables. Try counting in 5s on the way upstairs at bedtime — 5, 10, 15, 20."
   }
 }
