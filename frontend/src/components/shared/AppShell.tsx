@@ -17,9 +17,7 @@ export function AppShell({ user, children }: Props) {
     window.location.href = '/login'
   }
 
-  const navLinks = user?.role === 'parent'
-    ? [{ to: '/digest', label: 'This Week' }]
-    : user?.role === 'teacher'
+  const navLinks = user?.role === 'teacher'
     ? [
         { to: '/teacher', label: 'Review' },
         { to: '/history', label: 'History' },
