@@ -414,30 +414,118 @@ function AdditionSubtractionIllustration() {
 function ShapeIllustration() {
   return (
     <svg viewBox="0 0 240 120" aria-hidden="true" style={{ width: '100%', height: 'auto', display: 'block' }}>
-      <text x="4" y="13" fontSize="10" fill={C.textMuted} fontFamily="system-ui" fontWeight="600">2D SHAPES</text>
-      {/* Square */}
-      <rect x="10" y="20" width="44" height="44" rx="2" fill={C.greenLight} stroke={C.green} strokeWidth="2"/>
-      <text x="32" y="78" textAnchor="middle" fontSize="9" fill={C.textMuted} fontFamily="system-ui">square</text>
-      <text x="32" y="89" textAnchor="middle" fontSize="9" fill={C.textMuted} fontFamily="system-ui">4 equal sides</text>
+      <text x="4" y="11" fontSize="9" fill={C.textMuted} fontFamily="system-ui" fontWeight="600">2D &amp; 3D SHAPES</text>
 
-      {/* Rectangle */}
-      <rect x="66" y="28" width="56" height="30" rx="2" fill={C.blueLight} stroke={C.blue} strokeWidth="2"/>
-      <text x="94" y="78" textAnchor="middle" fontSize="9" fill={C.textMuted} fontFamily="system-ui">rectangle</text>
-      <text x="94" y="89" textAnchor="middle" fontSize="9" fill={C.textMuted} fontFamily="system-ui">4 right angles</text>
+      {/* ── 2D row ── */}
+      {/* Square */}
+      <rect x="22" y="18" width="32" height="32" rx="2" fill={C.greenLight} stroke={C.green} strokeWidth="2"/>
+      <polyline points="22,42 30,42 30,50" fill="none" stroke={C.green} strokeWidth="1.5"/>
+      <text x="38" y="62" textAnchor="middle" fontSize="8" fill={C.text} fontFamily="system-ui" fontWeight="700">square</text>
+      <text x="38" y="71" textAnchor="middle" fontSize="8" fill={C.textMuted} fontFamily="system-ui">4 sides</text>
 
       {/* Triangle */}
-      <polygon points="154,20 134,64 174,64" fill={C.amberLight} stroke={C.amber} strokeWidth="2"/>
-      <text x="154" y="78" textAnchor="middle" fontSize="9" fill={C.textMuted} fontFamily="system-ui">triangle</text>
-      <text x="154" y="89" textAnchor="middle" fontSize="9" fill={C.textMuted} fontFamily="system-ui">3 sides</text>
+      <polygon points="120,18 102,50 138,50" fill={C.amberLight} stroke={C.amber} strokeWidth="2"/>
+      <text x="120" y="62" textAnchor="middle" fontSize="8" fill={C.text} fontFamily="system-ui" fontWeight="700">triangle</text>
+      <text x="120" y="71" textAnchor="middle" fontSize="8" fill={C.textMuted} fontFamily="system-ui">3 sides</text>
 
       {/* Circle */}
-      <circle cx="210" cy="42" r="22" fill={C.purpleLight} stroke={C.purple} strokeWidth="2"/>
-      <text x="210" y="78" textAnchor="middle" fontSize="9" fill={C.textMuted} fontFamily="system-ui">circle</text>
-      <text x="210" y="89" textAnchor="middle" fontSize="9" fill={C.textMuted} fontFamily="system-ui">no corners</text>
+      <circle cx="200" cy="34" r="16" fill={C.blueLight} stroke={C.blue} strokeWidth="2"/>
+      <text x="200" y="62" textAnchor="middle" fontSize="8" fill={C.text} fontFamily="system-ui" fontWeight="700">circle</text>
+      <text x="200" y="71" textAnchor="middle" fontSize="8" fill={C.textMuted} fontFamily="system-ui">no corners</text>
 
-      {/* Right angle markers */}
-      <polyline points="10,56 18,56 18,64" fill="none" stroke={C.green} strokeWidth="1.5"/>
-      <polyline points="66,50 74,50 74,58" fill="none" stroke={C.blue} strokeWidth="1.5"/>
+      {/* Divider */}
+      <line x1="14" y1="78" x2="226" y2="78" stroke={C.border} strokeWidth="1" strokeDasharray="2,3"/>
+
+      {/* ── 3D row ── */}
+      {/* Cube (isometric) */}
+      <polygon points="22,90 36,82 56,82 42,90" fill={C.greenMid} stroke={C.green} strokeWidth="1.5"/>
+      <polygon points="42,90 56,82 56,108 42,116" fill={C.green} stroke={C.green} strokeWidth="1.5"/>
+      <rect x="22" y="90" width="20" height="26" fill={C.greenLight} stroke={C.green} strokeWidth="1.5"/>
+      <text x="38" y="118" textAnchor="middle" fontSize="8" fill={C.text} fontFamily="system-ui" fontWeight="700">cube</text>
+
+      {/* Cylinder */}
+      <path d="M 104 86 L 104 110 A 16 5 0 0 0 136 110 L 136 86" fill={C.amberLight} stroke={C.amber} strokeWidth="1.5"/>
+      <ellipse cx="120" cy="86" rx="16" ry="5" fill={C.amber} fillOpacity="0.35" stroke={C.amber} strokeWidth="1.5"/>
+      <text x="120" y="118" textAnchor="middle" fontSize="8" fill={C.text} fontFamily="system-ui" fontWeight="700">cylinder</text>
+
+      {/* Sphere */}
+      <circle cx="200" cy="98" r="16" fill={C.blueLight} stroke={C.blue} strokeWidth="1.5"/>
+      <ellipse cx="194" cy="92" rx="6" ry="3" fill={C.white} opacity="0.6"/>
+      <text x="200" y="118" textAnchor="middle" fontSize="8" fill={C.text} fontFamily="system-ui" fontWeight="700">sphere</text>
+
+      {/* 3D vocab cluster, positioned in the centre gap */}
+      <text x="74" y="92" fontSize="7" fill={C.textMuted} fontFamily="system-ui">faces</text>
+      <text x="74" y="100" fontSize="7" fill={C.textMuted} fontFamily="system-ui">edges</text>
+      <text x="74" y="108" fontSize="7" fill={C.textMuted} fontFamily="system-ui">vertices</text>
+      <text x="156" y="98" fontSize="7" fill={C.textMuted} fontFamily="system-ui" fontStyle="italic">rolls</text>
+      <text x="156" y="108" fontSize="7" fill={C.textMuted} fontFamily="system-ui" fontStyle="italic">no corners</text>
+    </svg>
+  )
+}
+
+function MassCapacityTemperatureIllustration() {
+  return (
+    <svg viewBox="0 0 240 120" aria-hidden="true" style={{ width: '100%', height: 'auto', display: 'block' }}>
+      <text x="4" y="11" fontSize="9" fill={C.textMuted} fontFamily="system-ui" fontWeight="600">MASS · CAPACITY · TEMPERATURE</text>
+
+      {/* ── Mass: balance scale ── */}
+      {/* Pivot */}
+      <line x1="40" y1="62" x2="40" y2="86" stroke={C.text} strokeWidth="1.5"/>
+      <polygon points="32,86 48,86 40,76" fill={C.text}/>
+      {/* Beam (slightly tilted left = heavier left) */}
+      <line x1="14" y1="56" x2="66" y2="50" stroke={C.text} strokeWidth="2" strokeLinecap="round"/>
+      {/* Left pan */}
+      <line x1="20" y1="56" x2="20" y2="68" stroke={C.text} strokeWidth="1"/>
+      <rect x="10" y="68" width="22" height="7" rx="1" fill={C.amber}/>
+      <text x="21" y="74" textAnchor="middle" fontSize="6" fill={C.white} fontFamily="system-ui" fontWeight="700">1 kg</text>
+      {/* Right pan */}
+      <line x1="60" y1="50" x2="60" y2="62" stroke={C.text} strokeWidth="1"/>
+      <rect x="50" y="62" width="22" height="7" rx="1" fill={C.greenLight} stroke={C.green} strokeWidth="1"/>
+      <text x="61" y="68" textAnchor="middle" fontSize="6" fill={C.green} fontFamily="system-ui" fontWeight="700">?</text>
+      <text x="40" y="103" textAnchor="middle" fontSize="9" fill={C.text} fontFamily="system-ui" fontWeight="700">mass</text>
+      <text x="40" y="113" textAnchor="middle" fontSize="8" fill={C.textMuted} fontFamily="system-ui">kg · g</text>
+
+      {/* ── Capacity: measuring jug ── */}
+      <g transform="translate(98, 22)">
+        {/* Jug body */}
+        <path d="M 4 0 L 4 60 L 38 60 L 38 0" fill={C.blueLight} stroke={C.blue} strokeWidth="1.5"/>
+        {/* Spout */}
+        <path d="M 38 8 Q 48 8 48 18" fill="none" stroke={C.blue} strokeWidth="1.5"/>
+        {/* Handle */}
+        <path d="M 4 16 Q -6 16 -6 30 Q -6 44 4 44" fill="none" stroke={C.blue} strokeWidth="1.5"/>
+        {/* Water fill (~half) */}
+        <rect x="5" y="32" width="32" height="27" fill={C.blue} opacity="0.4"/>
+        {/* Surface line */}
+        <line x1="5" y1="32" x2="37" y2="32" stroke={C.blue} strokeWidth="1"/>
+        {/* Scale marks */}
+        <line x1="4" y1="14" x2="10" y2="14" stroke={C.blue} strokeWidth="1"/>
+        <text x="2" y="16.5" textAnchor="end" fontSize="6" fill={C.blue} fontFamily="system-ui" fontWeight="600">1l</text>
+        <line x1="4" y1="32" x2="10" y2="32" stroke={C.blue} strokeWidth="1"/>
+        <text x="2" y="34.5" textAnchor="end" fontSize="6" fill={C.blue} fontFamily="system-ui">500</text>
+        <line x1="4" y1="50" x2="10" y2="50" stroke={C.blue} strokeWidth="1"/>
+        <text x="2" y="52.5" textAnchor="end" fontSize="6" fill={C.blue} fontFamily="system-ui">250</text>
+      </g>
+      <text x="120" y="103" textAnchor="middle" fontSize="9" fill={C.text} fontFamily="system-ui" fontWeight="700">capacity</text>
+      <text x="120" y="113" textAnchor="middle" fontSize="8" fill={C.textMuted} fontFamily="system-ui">litres · ml</text>
+
+      {/* ── Temperature: thermometer ── */}
+      <g transform="translate(180, 18)">
+        {/* Stem */}
+        <rect x="20" y="0" width="10" height="58" rx="5" fill={C.white} stroke={C.text} strokeWidth="1.5"/>
+        {/* Mercury column up to ~60% */}
+        <rect x="22" y="22" width="6" height="38" fill={C.red}/>
+        {/* Bulb */}
+        <circle cx="25" cy="64" r="8" fill={C.red} stroke={C.text} strokeWidth="1.5"/>
+        {/* Tick marks + values (40, 30, 20, 10, 0) */}
+        {[0, 1, 2, 3, 4].map(i => (
+          <g key={i}>
+            <line x1="32" y1={5 + i * 13} x2="36" y2={5 + i * 13} stroke={C.text} strokeWidth="1"/>
+            <text x="38" y={8 + i * 13} fontSize="6" fill={C.textMuted} fontFamily="system-ui">{40 - i * 10}</text>
+          </g>
+        ))}
+      </g>
+      <text x="200" y="103" textAnchor="middle" fontSize="9" fill={C.text} fontFamily="system-ui" fontWeight="700">temperature</text>
+      <text x="200" y="113" textAnchor="middle" fontSize="8" fill={C.textMuted} fontFamily="system-ui">°C</text>
     </svg>
   )
 }
@@ -808,6 +896,13 @@ function getTopicKey(unitTitle: string): string {
   if (t.includes('algebra')) return 'algebra'
   if (t.includes('negative')) return 'negative'
   if (t.includes('perimeter') || t.includes('area') || t.includes('volume')) return 'perimeter'
+  // Compound measurement title (Y2 + Y3 White Rose blocks bundle these together)
+  if (
+    (t.includes('mass') && t.includes('capacity')) ||
+    (t.includes('capacity') && t.includes('temperature')) ||
+    (t.includes('mass') && t.includes('temperature')) ||
+    t.includes('temperature')
+  ) return 'masscapacitytemp'
   if (t.includes('mass') || t.includes('weight')) return 'mass'
   if (t.includes('capacity') || (t.includes('volume') && !t.includes('area'))) return 'capacity'
   if (t.includes('length') || t.includes('height')) return 'length'
@@ -844,6 +939,7 @@ export function ConceptIllustration({ unitTitle }: { unitTitle: string }) {
     perimeter: <PerimeterAreaIllustration />,
     capacity: <VolumeCapacityIllustration />,
     mass: <MassWeightIllustration />,
+    masscapacitytemp: <MassCapacityTemperatureIllustration />,
     length: <LengthHeightIllustration />,
     negative: <NegativeNumbersIllustration />,
     algebra: <AlgebraIllustration />,
