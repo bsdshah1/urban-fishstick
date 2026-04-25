@@ -11,6 +11,16 @@ import styles from './ParentDigest.module.css'
 
 const WELCOME_KEY = 'bm_seen_welcome_v1'
 
+const SECTION_IDS = ['overview', 'home', 'classroom', 'talk', 'practise'] as const
+type SectionId = typeof SECTION_IDS[number]
+const SECTION_LABELS: Record<SectionId, string> = {
+  overview: 'This week',
+  home: 'Home',
+  classroom: 'Classroom',
+  talk: 'Talk',
+  practise: 'Practise',
+}
+
 // ── SVG Icons ──────────────────────────────────────────────────────────────
 
 function BookIcon() {
@@ -50,17 +60,6 @@ function CutleryIcon() {
   )
 }
 
-function KeyIcon() {
-  return (
-    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-      <rect x="3" y="3" width="18" height="18" rx="2" ry="2"/>
-      <line x1="3" y1="9" x2="21" y2="9"/>
-      <line x1="3" y1="15" x2="21" y2="15"/>
-      <line x1="9" y1="9" x2="9" y2="21"/>
-    </svg>
-  )
-}
-
 function NumbersIcon() {
   return (
     <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
@@ -68,16 +67,6 @@ function NumbersIcon() {
       <rect x="13" y="3" width="8" height="8" rx="1"/>
       <rect x="3" y="13" width="8" height="8" rx="1"/>
       <rect x="13" y="13" width="8" height="8" rx="1"/>
-    </svg>
-  )
-}
-
-function LightbulbIcon() {
-  return (
-    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-      <line x1="9" y1="18" x2="15" y2="18"/>
-      <line x1="10" y1="22" x2="14" y2="22"/>
-      <path d="M15.09 14c.18-.98.65-1.74 1.41-2.5A4.65 4.65 0 0 0 18 8 6 6 0 0 0 6 8c0 1 .23 2.23 1.5 3.5A4.61 4.61 0 0 1 8.91 14"/>
     </svg>
   )
 }
@@ -182,6 +171,16 @@ export function ParentDigest({ user: _user }: Props) {
     try { window.localStorage.setItem(WELCOME_KEY, '1') } catch {}
   }
 
+  const [activeSection, setActiveSection] = useState<SectionId>('overview')
+
+  const scrollToSection = (id: SectionId) => {
+    const el = document.getElementById(`section-${id}`)
+    if (!el) return
+    const headerOffset = 56 + 56 + 8 // AppShell + sticky chip strip + small gap
+    const top = el.getBoundingClientRect().top + window.pageYOffset - headerOffset
+    window.scrollTo({ top, behavior: 'smooth' })
+  }
+
   useEffect(() => {
     getDigests()
       .then(list => {
@@ -248,6 +247,27 @@ export function ParentDigest({ user: _user }: Props) {
         && d.week_number === selectedWeek
     ) ?? null
   }, [allDigests, selectedYearGroup, selectedTerm, selectedWeek])
+
+  // Scroll-spy: highlight the chip for whichever section is currently in view
+  useEffect(() => {
+    if (!digest) return
+    const observer = new IntersectionObserver(
+      entries => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            const id = entry.target.id.replace('section-', '') as SectionId
+            if (SECTION_IDS.includes(id)) setActiveSection(id)
+          }
+        })
+      },
+      { rootMargin: '-30% 0px -55% 0px', threshold: 0 }
+    )
+    SECTION_IDS.forEach(id => {
+      const el = document.getElementById(`section-${id}`)
+      if (el) observer.observe(el)
+    })
+    return () => observer.disconnect()
+  }, [digest])
 
   // The "current" week is determined from today's calendar date
   const currentCalendarTarget = useMemo(() => {
@@ -457,92 +477,126 @@ export function ParentDigest({ user: _user }: Props) {
               <span className={styles.progressText}>Week {digest.week_number} of {totalWeeksInTerm}</span>
             </div>
 
+            {/* Sticky chip strip — section navigation */}
+            <div className={styles.chipStrip} role="navigation" aria-label="Sections">
+              <div className={styles.chipStripInner}>
+                {SECTION_IDS.map(id => (
+                  <button
+                    key={id}
+                    type="button"
+                    onClick={() => scrollToSection(id)}
+                    className={`${styles.sectionChip} ${activeSection === id ? styles.sectionChipActive : ''}`}
+                    aria-current={activeSection === id ? 'true' : undefined}
+                  >
+                    {SECTION_LABELS[id]}
+                  </button>
+                ))}
+              </div>
+            </div>
+
             <div className={styles.sections}>
 
-              {/* Plain English — what they're learning */}
-              <SectionCard subtitle="In Plain English" icon={<BookIcon />}>
-                <p>{digest.plain_english}</p>
-              </SectionCard>
-
-              {/* Home Activity — primary call to action, raised to second */}
-              <SectionCard subtitle="Home Activity" icon={<HomeIcon />} accent>
-                <div className={styles.activityCard}>
-                  <span className={styles.activityTitle}>Try This at Home</span>
-                  <p className={styles.activityBody}>{digest.home_activity}</p>
-                </div>
-              </SectionCard>
-
-              {/* Classroom Practice — context */}
-              <SectionCard subtitle="What This Looks Like in School" icon={<SchoolIcon />}>
-                <p>{digest.in_school}</p>
-                <div className={styles.illustrationWrap}>
-                  <ConceptIllustration unitTitle={digest.unit_title} />
-                </div>
-              </SectionCard>
-
-              {/* Conversation Starters */}
-              {digest.dinner_table_questions.length > 0 && (
-                <SectionCard subtitle="Dinner Table Questions" icon={<CutleryIcon />}>
-                  <p className={styles.hint}><em>Try slipping these into natural conversation rather than testing directly.</em></p>
-                  <ol className={styles.questionList}>
-                    {digest.dinner_table_questions.map((q, i) => (
-                      <li key={i} className={styles.questionItem}>
-                        <span className={styles.questionNum}>{i + 1}</span>
-                        <span>{q}</span>
-                      </li>
-                    ))}
-                  </ol>
+              {/* 1. What's happening this week — overview + teacher note */}
+              <div id="section-overview">
+                <SectionCard subtitle="What's happening this week" icon={<BookIcon />}>
+                  {digest.teacher_note && (
+                    <div className={styles.teacherNoteBlock}>
+                      <span className={styles.teacherNoteLabel}>From your teacher</span>
+                      <p>{digest.teacher_note}</p>
+                    </div>
+                  )}
+                  <p>{digest.plain_english}</p>
                 </SectionCard>
-              )}
+              </div>
 
-              {/* Key Vocabulary */}
-              {digest.key_vocabulary.length > 0 && (
-                <SectionCard subtitle="Key Vocabulary" icon={<KeyIcon />}>
-                  <p className={styles.hint}>Tap a word to see what it means.</p>
-                  <div className={styles.vocabList}>
-                    {digest.key_vocabulary.map((entry, i) => (
-                      <VocabularyChip key={i} entry={entry} />
-                    ))}
+              {/* 2. Try this at home — the action */}
+              <div id="section-home">
+                <SectionCard subtitle="Try this at home" icon={<HomeIcon />} accent>
+                  <div className={styles.activityCard}>
+                    <span className={styles.activityTitle}>Five-minute activity</span>
+                    <p className={styles.activityBody}>{digest.home_activity}</p>
                   </div>
                 </SectionCard>
-              )}
+              </div>
 
-              {/* Example Questions */}
-              {digest.example_questions.length > 0 && (
-                <SectionCard subtitle="Example Questions" icon={<NumbersIcon />}>
-                  <p className={styles.hint}>Try these with your child.</p>
-                  <ol className={styles.questionList}>
-                    {digest.example_questions.map((q, i) => (
-                      <li key={i} className={styles.questionItem}>
-                        <span className={styles.questionNum}>{i + 1}</span>
-                        <span className={styles.questionText}>{q}</span>
-                      </li>
-                    ))}
-                  </ol>
+              {/* 3. In the classroom — context + illustration */}
+              <div id="section-classroom">
+                <SectionCard subtitle="In the classroom" icon={<SchoolIcon />}>
+                  <p>{digest.in_school}</p>
+                  <div className={styles.illustrationWrap}>
+                    <ConceptIllustration unitTitle={digest.unit_title} />
+                  </div>
                 </SectionCard>
-              )}
+              </div>
 
-              {/* Times Table tip */}
-              {digest.times_table_tip && (
-                <SectionCard subtitle="Times Table Tip of the Week" icon={<LightbulbIcon />}>
-                  <div className={styles.tipContent}>
-                    <p className={styles.tipText}>{digest.times_table_tip}</p>
-                    {ttMultiples.length > 0 && (
-                      <div className={styles.multiples}>
-                        {ttMultiples.map(n => (
-                          <span key={n} className={styles.multipleChip}>{n}</span>
-                        ))}
+              {/* 4. Talk about it — dinner table + vocabulary */}
+              {(digest.dinner_table_questions.length > 0 || digest.key_vocabulary.length > 0) && (
+                <div id="section-talk">
+                  <SectionCard subtitle="Talk about it" icon={<CutleryIcon />}>
+                    {digest.dinner_table_questions.length > 0 && (
+                      <div className={styles.sectionGroup}>
+                        <h3 className={styles.sectionGroupHeading}>Dinner-table questions</h3>
+                        <p className={styles.hint}><em>Try slipping these into natural conversation rather than testing directly.</em></p>
+                        <ol className={styles.questionList}>
+                          {digest.dinner_table_questions.map((q, i) => (
+                            <li key={i} className={styles.questionItem}>
+                              <span className={styles.questionNum}>{i + 1}</span>
+                              <span>{q}</span>
+                            </li>
+                          ))}
+                        </ol>
                       </div>
                     )}
-                  </div>
-                </SectionCard>
+                    {digest.key_vocabulary.length > 0 && (
+                      <div className={styles.sectionGroup}>
+                        <h3 className={styles.sectionGroupHeading}>Key vocabulary</h3>
+                        <p className={styles.hint}>Tap a word to see what it means.</p>
+                        <div className={styles.vocabList}>
+                          {digest.key_vocabulary.map((entry, i) => (
+                            <VocabularyChip key={i} entry={entry} />
+                          ))}
+                        </div>
+                      </div>
+                    )}
+                  </SectionCard>
+                </div>
               )}
 
-              {/* Teacher Note */}
-              {digest.teacher_note && (
-                <SectionCard subtitle="A Note from Your Teacher" icon={<ChatIcon />}>
-                  <p>{digest.teacher_note}</p>
-                </SectionCard>
+              {/* 5. Practise & stretch — example questions + times table tip */}
+              {(digest.example_questions.length > 0 || digest.times_table_tip) && (
+                <div id="section-practise">
+                  <SectionCard subtitle="Practise & stretch" icon={<NumbersIcon />}>
+                    {digest.example_questions.length > 0 && (
+                      <div className={styles.sectionGroup}>
+                        <h3 className={styles.sectionGroupHeading}>Example questions</h3>
+                        <p className={styles.hint}>Try these with your child.</p>
+                        <ol className={styles.questionList}>
+                          {digest.example_questions.map((q, i) => (
+                            <li key={i} className={styles.questionItem}>
+                              <span className={styles.questionNum}>{i + 1}</span>
+                              <span className={styles.questionText}>{q}</span>
+                            </li>
+                          ))}
+                        </ol>
+                      </div>
+                    )}
+                    {digest.times_table_tip && (
+                      <div className={styles.sectionGroup}>
+                        <h3 className={styles.sectionGroupHeading}>Times-table tip</h3>
+                        <div className={styles.tipContent}>
+                          <p className={styles.tipText}>{digest.times_table_tip}</p>
+                          {ttMultiples.length > 0 && (
+                            <div className={styles.multiples}>
+                              {ttMultiples.map(n => (
+                                <span key={n} className={styles.multipleChip}>{n}</span>
+                              ))}
+                            </div>
+                          )}
+                        </div>
+                      </div>
+                    )}
+                  </SectionCard>
+                </div>
               )}
             </div>
 
