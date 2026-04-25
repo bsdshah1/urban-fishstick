@@ -31,15 +31,178 @@
   font-family: var(--font-sans);
 }
 
+/* ── Welcome card (first-visit only) ── */
+
+.welcomeCard {
+  background: var(--primary-soft);
+  border: 1px solid var(--primary-soft-hover);
+  border-radius: var(--radius-lg);
+  padding: var(--space-5);
+  margin-bottom: var(--space-5);
+}
+
+.welcomeHeader {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--space-3);
+  margin-bottom: var(--space-3);
+}
+
+.welcomeTitle {
+  font-family: var(--font-serif);
+  font-size: var(--text-xl);
+  font-weight: 600;
+  color: var(--foreground);
+  margin: 0;
+  line-height: 1.3;
+}
+
+.welcomeDismiss {
+  flex-shrink: 0;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: var(--text-muted);
+  padding: 4px;
+  border-radius: var(--radius-sm);
+  transition: color 0.15s, background 0.15s;
+  margin: -4px -4px 0 0;
+}
+
+.welcomeDismiss:hover {
+  color: var(--foreground);
+  background: rgba(255, 255, 255, 0.5);
+}
+
+.welcomeBody {
+  font-family: var(--font-sans);
+  font-size: var(--text-sm);
+  color: var(--muted-foreground);
+  line-height: var(--leading-relaxed);
+  margin-bottom: var(--space-3);
+}
+
+.welcomeList {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 var(--space-4);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+
+.welcomeList li {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--space-3);
+  font-family: var(--font-sans);
+  font-size: var(--text-sm);
+  color: var(--foreground);
+  line-height: var(--leading-relaxed);
+}
+
+.welcomeListIcon {
+  flex-shrink: 0;
+  width: 28px;
+  height: 28px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.7);
+  border-radius: var(--radius-sm);
+  color: var(--primary);
+}
+
+.welcomeActions {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.welcomePrimaryBtn {
+  font-family: var(--font-sans);
+  font-size: var(--text-sm);
+  font-weight: 600;
+  color: var(--primary-foreground);
+  background: var(--primary);
+  border: 1px solid var(--primary);
+  padding: 8px 16px;
+  border-radius: var(--radius-md);
+  cursor: pointer;
+  transition: background 0.15s, border-color 0.15s;
+}
+
+.welcomePrimaryBtn:hover {
+  background: var(--primary-hover);
+  border-color: var(--primary-hover);
+}
+
 /* ── Navigation bar ── */
 
 .nav {
+  margin-bottom: var(--space-5);
+}
+
+.navRow {
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: var(--space-3);
-  margin-bottom: var(--space-5);
   flex-wrap: wrap;
+}
+
+.navTrigger {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  font-family: var(--font-sans);
+  font-size: var(--text-sm);
+  font-weight: 500;
+  color: var(--muted-foreground);
+  background: none;
+  border: 1px solid var(--border);
+  padding: 6px 12px;
+  border-radius: var(--radius-md);
+  cursor: pointer;
+  transition: border-color 0.15s, color 0.15s;
+  min-height: 36px;
+}
+
+.navTrigger:hover {
+  border-color: var(--border-strong);
+  color: var(--foreground);
+}
+
+.navTriggerIcon {
+  flex-shrink: 0;
+  transition: transform 0.2s ease;
+}
+
+.navTriggerIconOpen {
+  transform: rotate(180deg);
+}
+
+.navContent {
+  margin-top: var(--space-3);
+  overflow: hidden;
+}
+
+.navContent[data-state='open'] {
+  animation: collapsibleOpen 0.2s ease-out;
+}
+
+.navContent[data-state='closed'] {
+  animation: collapsibleClose 0.2s ease-out;
+}
+
+@keyframes collapsibleOpen {
+  from { height: 0; opacity: 0; }
+  to { height: var(--radix-collapsible-content-height); opacity: 1; }
+}
+
+@keyframes collapsibleClose {
+  from { height: var(--radix-collapsible-content-height); opacity: 1; }
+  to { height: 0; opacity: 0; }
 }
 
 .navPills {
@@ -437,12 +600,143 @@
   line-height: 1.6;
 }
 
+/* ── Confirmation dialog (Radix) ── */
+
+.dialogOverlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(28, 43, 58, 0.45);
+  z-index: 200;
+  animation: fadeIn 0.15s ease-out;
+}
+
+.dialogContent {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: var(--card);
+  border-radius: var(--radius-lg);
+  padding: var(--space-6);
+  box-shadow: var(--elevation-lg);
+  width: 90vw;
+  max-width: 480px;
+  max-height: 90vh;
+  overflow-y: auto;
+  z-index: 201;
+  animation: dialogIn 0.18s ease-out;
+}
+
+.dialogContent:focus {
+  outline: none;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes dialogIn {
+  from { opacity: 0; transform: translate(-50%, -48%) scale(0.96); }
+  to { opacity: 1; transform: translate(-50%, -50%) scale(1); }
+}
+
+.dialogTitle {
+  font-family: var(--font-serif);
+  font-size: var(--text-xl);
+  font-weight: 600;
+  color: var(--foreground);
+  margin: 0 0 var(--space-3);
+  line-height: 1.3;
+}
+
+.dialogDescription {
+  font-family: var(--font-sans);
+  font-size: var(--text-sm);
+  color: var(--muted-foreground);
+  line-height: var(--leading-relaxed);
+  margin: 0 0 var(--space-4);
+}
+
+.dialogTextarea {
+  display: block;
+  width: 100%;
+  font-family: var(--font-sans);
+  font-size: var(--text-sm);
+  color: var(--foreground);
+  background: var(--card);
+  border: 1.5px solid var(--border);
+  border-radius: var(--radius-md);
+  padding: var(--space-3);
+  resize: vertical;
+  margin-bottom: var(--space-5);
+  min-height: 80px;
+  box-sizing: border-box;
+}
+
+.dialogTextarea:focus {
+  outline: none;
+  border-color: var(--primary);
+  box-shadow: 0 0 0 3px rgba(42, 96, 73, 0.15);
+}
+
+.dialogActions {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: var(--space-3);
+  flex-wrap: wrap;
+}
+
+.dialogPrimary {
+  font-family: var(--font-sans);
+  font-size: var(--text-sm);
+  font-weight: 600;
+  color: var(--primary-foreground);
+  background: var(--primary);
+  border: 1px solid var(--primary);
+  padding: 8px 16px;
+  border-radius: var(--radius-md);
+  cursor: pointer;
+  transition: background 0.15s, border-color 0.15s;
+  min-height: 38px;
+}
+
+.dialogPrimary:hover:not(:disabled) {
+  background: var(--primary-hover);
+  border-color: var(--primary-hover);
+}
+
+.dialogPrimary:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.dialogSecondary {
+  font-family: var(--font-sans);
+  font-size: var(--text-sm);
+  font-weight: 500;
+  color: var(--muted-foreground);
+  background: none;
+  border: 1px solid var(--border);
+  padding: 8px 16px;
+  border-radius: var(--radius-md);
+  cursor: pointer;
+  transition: border-color 0.15s, color 0.15s;
+  min-height: 38px;
+}
+
+.dialogSecondary:hover {
+  border-color: var(--border-strong);
+  color: var(--foreground);
+}
+
 /* ── Mobile ── */
 
 @media (max-width: 520px) {
-  .nav {
-    flex-direction: column;
-    align-items: flex-start;
+  .navRow {
+    flex-direction: row;
+    align-items: center;
   }
 
   .progressBar {
@@ -457,5 +751,14 @@
 
   .questionItem {
     flex-wrap: wrap;
+  }
+
+  .dialogContent {
+    width: calc(100vw - 32px);
+    padding: var(--space-5);
+  }
+
+  .welcomeCard {
+    padding: var(--space-4);
   }
 }

@@ -1,4 +1,6 @@
 import { useEffect, useMemo, useState } from 'react'
+import * as Dialog from '@radix-ui/react-dialog'
+import * as Collapsible from '@radix-ui/react-collapsible'
 import { getDigests, flagDigest } from '../api/digests'
 import type { Digest, User } from '../api/types'
 import { SectionCard } from '../components/shared/SectionCard'
@@ -6,6 +8,8 @@ import { VocabularyChip } from '../components/shared/VocabularyChip'
 import { Toast } from '../components/shared/Toast'
 import { ConceptIllustration } from '../components/shared/ConceptIllustration'
 import styles from './ParentDigest.module.css'
+
+const WELCOME_KEY = 'bm_seen_welcome_v1'
 
 // ── SVG Icons ──────────────────────────────────────────────────────────────
 
@@ -165,6 +169,19 @@ export function ParentDigest({ user: _user }: Props) {
   const [selectedTerm, setSelectedTerm] = useState<string | null>(null)
   const [selectedWeek, setSelectedWeek] = useState<number | null>(null)
 
+  const [navOpen, setNavOpen] = useState(false)
+  const [flagOpen, setFlagOpen] = useState(false)
+  const [flagNote, setFlagNote] = useState('')
+  const [showWelcome, setShowWelcome] = useState(() => {
+    if (typeof window === 'undefined') return false
+    return window.localStorage.getItem(WELCOME_KEY) !== '1'
+  })
+
+  const dismissWelcome = () => {
+    setShowWelcome(false)
+    try { window.localStorage.setItem(WELCOME_KEY, '1') } catch {}
+  }
+
   useEffect(() => {
     getDigests()
       .then(list => {
@@ -285,8 +302,10 @@ export function ParentDigest({ user: _user }: Props) {
     if (!digest) return
     setFlagging(true)
     try {
-      await flagDigest(digest.id, 'Flagged by parent')
-      setToast('Thank you — your teacher has been notified.')
+      await flagDigest(digest.id, flagNote.trim() || 'Flagged by parent')
+      setToast('Thanks — your teacher has been notified.')
+      setFlagOpen(false)
+      setFlagNote('')
     } catch {
       setToast('Could not send feedback. Please try again.')
     } finally {
@@ -314,58 +333,102 @@ export function ParentDigest({ user: _user }: Props) {
       {toast && <Toast message={toast} onDismiss={() => setToast(null)} />}
       <div className={styles.content}>
 
-        {/* ── Navigation ── */}
-        <nav className={styles.nav} aria-label="Digest navigation">
-          <div className={styles.navPills}>
-            {/* Year pill — dark */}
-            <div className={styles.pillWrap}>
-              <select
-                className={`${styles.pill} ${styles.pillDark}`}
-                value={selectedYearGroup ?? ''}
-                onChange={e => handleYearGroupChange(e.target.value)}
-                aria-label="Year group"
-              >
-                {yearGroups.map(yg => (
-                  <option key={yg} value={yg}>{formatYearGroup(yg)}</option>
-                ))}
-              </select>
+        {/* ── First-time welcome card ── */}
+        {showWelcome && (
+          <aside className={styles.welcomeCard} aria-label="Welcome">
+            <div className={styles.welcomeHeader}>
+              <h2 className={styles.welcomeTitle}>Welcome to your weekly maths update</h2>
+              <button onClick={dismissWelcome} className={styles.welcomeDismiss} type="button" aria-label="Dismiss welcome">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                  <line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/>
+                </svg>
+              </button>
+            </div>
+            <p className={styles.welcomeBody}>
+              Each week your teacher publishes a short digest of what your child is learning in maths. A few things to look out for:
+            </p>
+            <ul className={styles.welcomeList}>
+              <li><span className={styles.welcomeListIcon} aria-hidden="true"><HomeIcon /></span><span><strong>Try this at home</strong> — a five-minute activity for your evening.</span></li>
+              <li><span className={styles.welcomeListIcon} aria-hidden="true"><CutleryIcon /></span><span><strong>Dinner-table questions</strong> — natural ways to bring maths into chat.</span></li>
+              <li><span className={styles.welcomeListIcon} aria-hidden="true"><ChatIcon /></span><span><strong>A note from your teacher</strong> — anything specific to this week.</span></li>
+            </ul>
+            <div className={styles.welcomeActions}>
+              <button onClick={dismissWelcome} className={styles.welcomePrimaryBtn} type="button">
+                Got it
+              </button>
+            </div>
+          </aside>
+        )}
+
+        {/* ── Navigation (collapsed by default; expand to browse other weeks) ── */}
+        <Collapsible.Root open={navOpen} onOpenChange={setNavOpen} asChild>
+          <nav className={styles.nav} aria-label="Digest navigation">
+            <div className={styles.navRow}>
+              <Collapsible.Trigger asChild>
+                <button className={styles.navTrigger} type="button">
+                  <span>{navOpen ? 'Hide' : 'Browse other weeks'}</span>
+                  <svg
+                    className={`${styles.navTriggerIcon} ${navOpen ? styles.navTriggerIconOpen : ''}`}
+                    width="16" height="16" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"
+                    aria-hidden="true"
+                  >
+                    <polyline points="6 9 12 15 18 9"/>
+                  </svg>
+                </button>
+              </Collapsible.Trigger>
+
+              {!isCurrentWeek && (
+                <button className={styles.currentWeekBtn} onClick={goToCurrentWeek} type="button">
+                  Jump to current week
+                </button>
+              )}
             </div>
 
-            {/* Term pill */}
-            <div className={styles.pillWrap}>
-              <select
-                className={styles.pill}
-                value={selectedTerm ?? ''}
-                onChange={e => handleTermChange(e.target.value)}
-                aria-label="Term"
-              >
-                {termsForYear.map(t => (
-                  <option key={t} value={t}>{TERM_LABELS[t] || t}</option>
-                ))}
-              </select>
-            </div>
+            <Collapsible.Content className={styles.navContent}>
+              <div className={styles.navPills}>
+                <div className={styles.pillWrap}>
+                  <select
+                    className={`${styles.pill} ${styles.pillDark}`}
+                    value={selectedYearGroup ?? ''}
+                    onChange={e => handleYearGroupChange(e.target.value)}
+                    aria-label="Year group"
+                  >
+                    {yearGroups.map(yg => (
+                      <option key={yg} value={yg}>{formatYearGroup(yg)}</option>
+                    ))}
+                  </select>
+                </div>
 
-            {/* Week pill */}
-            <div className={styles.pillWrap}>
-              <select
-                className={styles.pill}
-                value={selectedWeek ?? ''}
-                onChange={e => setSelectedWeek(Number(e.target.value))}
-                aria-label="Week"
-              >
-                {weeksForTermAndYear.map(w => (
-                  <option key={w} value={w}>Week {w}</option>
-                ))}
-              </select>
-            </div>
-          </div>
+                <div className={styles.pillWrap}>
+                  <select
+                    className={styles.pill}
+                    value={selectedTerm ?? ''}
+                    onChange={e => handleTermChange(e.target.value)}
+                    aria-label="Term"
+                  >
+                    {termsForYear.map(t => (
+                      <option key={t} value={t}>{TERM_LABELS[t] || t}</option>
+                    ))}
+                  </select>
+                </div>
 
-          {!isCurrentWeek && (
-            <button className={styles.currentWeekBtn} onClick={goToCurrentWeek} type="button">
-              Jump to current week
-            </button>
-          )}
-        </nav>
+                <div className={styles.pillWrap}>
+                  <select
+                    className={styles.pill}
+                    value={selectedWeek ?? ''}
+                    onChange={e => setSelectedWeek(Number(e.target.value))}
+                    aria-label="Week"
+                  >
+                    {weeksForTermAndYear.map(w => (
+                      <option key={w} value={w}>Week {w}</option>
+                    ))}
+                  </select>
+                </div>
+              </div>
+            </Collapsible.Content>
+          </nav>
+        </Collapsible.Root>
 
         {/* ── Digest content ── */}
         {!digest ? (
@@ -487,9 +550,44 @@ export function ParentDigest({ user: _user }: Props) {
             <footer className={styles.footer}>
               <div className={styles.footerFlag}>
                 <span className={styles.footerFlagLabel}>Something not right?</span>
-                <button className={styles.footerFlagBtn} onClick={handleFlag} disabled={flagging} type="button">
-                  {flagging ? 'Sending…' : 'Let your teacher know'}
-                </button>
+
+                <Dialog.Root open={flagOpen} onOpenChange={setFlagOpen}>
+                  <Dialog.Trigger asChild>
+                    <button className={styles.footerFlagBtn} type="button">Let your teacher know</button>
+                  </Dialog.Trigger>
+                  <Dialog.Portal>
+                    <Dialog.Overlay className={styles.dialogOverlay} />
+                    <Dialog.Content className={styles.dialogContent} aria-describedby="flag-description">
+                      <Dialog.Title className={styles.dialogTitle}>
+                        Tell your teacher about this week's update?
+                      </Dialog.Title>
+                      <Dialog.Description id="flag-description" className={styles.dialogDescription}>
+                        Your teacher will get a note saying you flagged this week's digest. Add a quick reason below if it would help.
+                      </Dialog.Description>
+                      <textarea
+                        className={styles.dialogTextarea}
+                        value={flagNote}
+                        onChange={e => setFlagNote(e.target.value)}
+                        placeholder="e.g. The home activity was too tricky for my child this week (optional)"
+                        rows={3}
+                        aria-label="Optional note for the teacher"
+                      />
+                      <div className={styles.dialogActions}>
+                        <Dialog.Close asChild>
+                          <button className={styles.dialogSecondary} type="button">Cancel</button>
+                        </Dialog.Close>
+                        <button
+                          className={styles.dialogPrimary}
+                          onClick={handleFlag}
+                          disabled={flagging}
+                          type="button"
+                        >
+                          {flagging ? 'Sending…' : 'Send to teacher'}
+                        </button>
+                      </div>
+                    </Dialog.Content>
+                  </Dialog.Portal>
+                </Dialog.Root>
               </div>
               <div className={styles.footerMeta}>
                 <p>Beaumont Primary School · Maths Parent Companion</p>
