@@ -7,41 +7,26 @@
   "week_number": 1,
   "unit_title": "Fractions",
   "content": {
-    "plain_english": "This week in Year 1 maths, your child is working on Fractions. The learning focuses on: solve one-step problems involving addition and subtraction using concrete objects and pictorial representations; solve missing number problems such as `7 = □ - 9`; and measure and begin to record:. These skills build directly on what they have already mastered and prepare them for the next steps in the programme of study.",
-    "in_school": "Children begin by folding paper, using fraction bars, and drawing bar models to see the concept visually before working with numbers and symbols. Discussion in pairs and small groups helps them explain and justify their reasoning using precise mathematical vocabulary.",
-    "home_activity": "Take a piece of paper and fold it into equal parts — halves, then quarters, then eighths. Shade some sections and ask: 'What fraction is shaded? What fraction is not?' A pizza or sandwich works just as well. Keep it visual and practical.",
+    "plain_english": "This week your child is meeting halves and quarters — splitting a shape, an object or a small group of things into equal parts.",
+    "in_school": "Children fold paper to make halves, then quarters, and stick them back together to see they make a whole. They share groups of objects (4 grapes between 2 friends, 8 grapes between 4 friends) to find a half or a quarter of a quantity.",
+    "home_activity": "At lunch, hand your child an apple. Ask them to cut it in half. How many halves make a whole? Then cut a sandwich into quarters. How many quarters in a half? Three minutes, real food.",
     "dinner_table_questions": [
-      "Can you show me how to solve one-step problems involving addition and subtraction using concrete objects and pictorial representations?",
-      "Was it easy or tricky to solve missing number problems such as `7 = □ - 9`? Why?",
-      "How would you explain today's maths to someone who has never seen it before?"
+      "If we cut the pizza into 2 equal slices, what is each slice called?",
+      "Half of 8 is 4. So what is half of 6?",
+      "Can you cut your toast into four equal pieces?"
     ],
     "key_vocabulary": [
-      {
-        "term": "numerator",
-        "definition": "The top number in a fraction — shows how many equal parts we have."
-      },
-      {
-        "term": "denominator",
-        "definition": "The bottom number in a fraction — shows how many equal parts the whole is split into."
-      },
-      {
-        "term": "equivalent fraction",
-        "definition": "Fractions that look different but have the same value — e.g. ½ = 2/4."
-      },
-      {
-        "term": "unit fraction",
-        "definition": "A fraction with 1 as the numerator — such as ½, ⅓, ¼."
-      },
-      {
-        "term": "mixed number",
-        "definition": "A number with a whole number part and a fraction part — e.g. 2½."
-      }
+      {"term": "whole", "definition": "The full thing before it is cut up."},
+      {"term": "half", "definition": "One of two equal parts. Written as 1/2."},
+      {"term": "quarter", "definition": "One of four equal parts. Written as 1/4."},
+      {"term": "equal parts", "definition": "Parts that are exactly the same size."},
+      {"term": "share", "definition": "Split equally between people."}
     ],
     "example_questions": [
-      "Count on from 47 to 52.",
-      "What number is 10 more than 35?",
-      "Put these in order: 26, 62, 16, 61."
+      "What is half of 10?",
+      "If a chocolate bar has 8 squares and you eat a quarter, how many squares?",
+      "Show me a piece of paper folded into 4 equal parts."
     ],
-    "times_table_tip": "Year 1 focuses on the 2, 5, and 10 times tables. Try counting in 2s together on the stairs, or in 10s while counting out coins. Even 2–3 minutes a day builds the familiarity that pays off in Year 2."
+    "times_table_tip": "Year 1 children practise counting in 2s, 5s and 10s. Halves are best friends with counting in 2s — half of 10 is 5, half of 8 is 4. Spot the pattern."
   }
 }

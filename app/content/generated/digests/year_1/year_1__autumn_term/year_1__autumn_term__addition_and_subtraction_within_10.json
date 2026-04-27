@@ -7,41 +7,26 @@
   "week_number": 1,
   "unit_title": "Addition and subtraction (within 10)",
   "content": {
-    "plain_english": "This week in Year 1 maths, your child is working on Addition and subtraction (within 10). The learning focuses on: represent and use number bonds and related subtraction facts within 20; add and subtract one-digit and two-digit numbers to 20, including zero; and read, write and interpret mathematical statements involving addition (`+`), subtraction (`-`) and equals (`=`) signs. These skills build directly on what they have already mastered and prepare them for the next steps in the programme of study.",
-    "in_school": "In lessons, children start with concrete resources — base ten blocks, counters, or number lines — to model calculations physically. They then represent what they have done using drawings and diagrams before practising the formal written method independently. This concrete → pictorial → abstract approach helps the method become secure before moving on.",
-    "home_activity": "Roll two dice twice and use the numbers to make two 2-digit (or 3-digit) numbers. Add them together, then find the difference. Keep a running total over five rounds — who gets the highest? No calculators — the working-out is the fun part.",
+    "plain_english": "This week your child is meeting 'parts' and 'wholes' — that 6 can be made from 4 and 2, or from 5 and 1. They are starting to write number sentences like 4 + 2 = 6 and learning the matching subtraction facts.",
+    "in_school": "Children play with cubes or counters, splitting a small group into two parts. They use a 'part-whole' picture to show how the parts make the whole. They write the same idea four ways: 4 + 2 = 6, 2 + 4 = 6, 6 − 2 = 4, 6 − 4 = 2. This is called a fact family.",
+    "home_activity": "At snack time, give your child 6 grapes. Ask them to split the pile into two parts however they like. How many in each part? Now move some grapes between parts and ask again. Talk about the four sums you can write from each split. Three or four splits is enough.",
     "dinner_table_questions": [
-      "Can you show me how to represent and use number bonds and related subtraction facts within 20?",
-      "Was it easy or tricky to add and subtract one-digit and two-digit numbers to 20, including zero? Why?",
-      "How would you explain today's maths to someone who has never seen it before?"
+      "I have 5 peas left. If I eat 2, how many will be on my plate?",
+      "What's the missing number: 3 + ___ = 7?",
+      "Can you find two numbers that add up to 10?"
     ],
     "key_vocabulary": [
-      {
-        "term": "sum",
-        "definition": "The result of adding two or more numbers together."
-      },
-      {
-        "term": "column addition",
-        "definition": "A written method where numbers are lined up in columns to add."
-      },
-      {
-        "term": "difference",
-        "definition": "The result of subtracting one number from another."
-      },
-      {
-        "term": "column subtraction",
-        "definition": "A written method where numbers are lined up in columns to subtract."
-      },
-      {
-        "term": "inverse",
-        "definition": "The opposite operation — addition and subtraction are inverses of each other."
-      }
+      {"term": "part", "definition": "One of the smaller groups that make up a whole."},
+      {"term": "whole", "definition": "The full amount, made up of all its parts together."},
+      {"term": "add", "definition": "Put two amounts together to find the total. The symbol is +."},
+      {"term": "subtract", "definition": "Take some away from a number. The symbol is −."},
+      {"term": "number bond", "definition": "A pair of numbers that adds to a target — e.g. 3 and 7 are a bond to 10."}
     ],
     "example_questions": [
-      "What is 8 + 5?",
-      "I have 13 apples and eat 6. How many are left?",
-      "Find the missing number: 6 + ? = 14"
+      "What is 4 + 3?",
+      "There are 8 cars. 3 drive away. How many are left?",
+      "Find the missing number: 6 + ___ = 9."
     ],
-    "times_table_tip": "Year 1 focuses on the 2, 5, and 10 times tables. Try counting in 2s together on the stairs, or in 10s while counting out coins. Even 2–3 minutes a day builds the familiarity that pays off in Year 2."
+    "times_table_tip": "Year 1 children practise counting in 2s, 5s and 10s. Try clapping while counting in 2s up to 20 — once a day for a few days, the rhythm sticks."
   }
 }

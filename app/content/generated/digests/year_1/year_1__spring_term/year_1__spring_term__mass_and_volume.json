@@ -7,41 +7,26 @@
   "week_number": 1,
   "unit_title": "Mass and volume",
   "content": {
-    "plain_english": "This week in Year 1 maths, your child is working on Mass and volume. The learning focuses on: compare, describe and solve practical problems for:; lengths and heights; and mass / weight. These skills build directly on what they have already mastered and prepare them for the next steps in the programme of study.",
-    "in_school": "Children use practical measuring equipment — rulers, scales, measuring cylinders, and clocks — to explore measurement in real contexts. They record findings using diagrams and number lines before progressing to written calculations. Problem-solving tasks show how these skills are used every day.",
-    "home_activity": "Collect kitchen items and estimate which is heavier before checking on a kitchen scale. Order them lightest to heaviest. For older children, find the combined mass of two items and work out the difference between them.",
+    "plain_english": "This week your child is comparing how heavy things are and how much liquid containers can hold. They are learning the words heavier, lighter, full and empty.",
+    "in_school": "Children weigh classroom objects on balance scales — a pencil, a book, a small toy. They notice which side goes down (the heavier one). They fill bottles and jars with water to see 'full' and 'empty', and pour water from one container to another to compare volumes.",
+    "home_activity": "At bath time, fill a small cup, a yogurt pot and a jug from the same tap. Ask your child to put them in order from 'holds least' to 'holds most'. Then dry their hands and pick up two toys — which is heavier? Three minutes during a bath is enough.",
     "dinner_table_questions": [
-      "Can you show me how to compare, describe and solve practical problems for:?",
-      "Was it easy or tricky to lengths and heights? Why?",
-      "How would you explain today's maths to someone who has never seen it before?"
+      "Which is heavier — your fork or your plate?",
+      "Is the milk carton full or empty?",
+      "If we pour my glass into yours, will it overflow?"
     ],
     "key_vocabulary": [
-      {
-        "term": "volume",
-        "definition": "The amount of space a 3-D shape takes up, measured in cubic units."
-      },
-      {
-        "term": "capacity",
-        "definition": "The maximum amount a container can hold."
-      },
-      {
-        "term": "cubic centimetre (cm³)",
-        "definition": "A unit for measuring volume — a 1 cm × 1 cm × 1 cm cube."
-      },
-      {
-        "term": "litre (l)",
-        "definition": "A unit of capacity — 1 litre = 1000 millilitres."
-      },
-      {
-        "term": "millilitre (ml)",
-        "definition": "A small unit of capacity — 1000 ml = 1 litre."
-      }
+      {"term": "heavier", "definition": "Has more mass — pulls down more on a scale."},
+      {"term": "lighter", "definition": "Has less mass."},
+      {"term": "full", "definition": "A container with no more space inside."},
+      {"term": "empty", "definition": "A container with nothing in it."},
+      {"term": "volume", "definition": "How much space something takes up, or how much a container holds."}
     ],
     "example_questions": [
-      "Count on from 47 to 52.",
-      "What number is 10 more than 35?",
-      "Put these in order: 26, 62, 16, 61."
+      "Which is heavier — an apple or a marble?",
+      "Order these from lightest to heaviest: book, pencil, shoe.",
+      "If a jug is full, what could you do to make it half full?"
     ],
-    "times_table_tip": "Year 1 focuses on the 2, 5, and 10 times tables. Try counting in 2s together on the stairs, or in 10s while counting out coins. Even 2–3 minutes a day builds the familiarity that pays off in Year 2."
+    "times_table_tip": "Year 1 children practise counting in 2s, 5s and 10s. While filling cups at bath time, count in 2s as you pour — each pour is two more."
   }
 }

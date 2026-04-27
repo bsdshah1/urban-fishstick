@@ -7,41 +7,26 @@
   "week_number": 1,
   "unit_title": "Position and direction",
   "content": {
-    "plain_english": "This week in Year 1 maths, your child is working on Position and direction. The learning focuses on: describe position, direction and movement, including whole, half, quarter and three-quarter turns. These skills build directly on what they have already mastered and prepare them for the next steps in the programme of study.",
-    "in_school": "Children handle, sort, and classify 2-D and 3-D shapes, drawing and describing their properties. They use protractors, mirrors, and squared paper to explore angles, symmetry, and position. Explaining what they notice in precise mathematical language is a key part of every lesson.",
-    "home_activity": "Look for real-life examples around the house — a map showing distances, a measuring jug with ml and pints, a food label in grams and kg. Ask your child to read the measurements and convert between them. Road signs in miles are another good context.",
+    "plain_english": "This week your child is using maths words to describe where things are and how they move — left, right, forwards, backwards, above, below. They are also meeting the idea of a turn.",
+    "in_school": "Children play simple movement games on the carpet — 'stand up, turn around, take three steps forwards, sit down'. They use small toys and arrows to describe routes. They practise the words 'left' and 'right' with their own hands.",
+    "home_activity": "On the walk home, take turns giving each other directions — 'go forwards three steps, now turn left, now stop'. At home, place a soft toy on a table and ask your child to describe where it is using above, below and next to. Two minutes is plenty.",
     "dinner_table_questions": [
-      "Can you show me how to describe position, direction and movement, including whole, half, quarter and three-quarter turns?",
-      "What was the trickiest part of position and direction today?",
-      "How would you explain today's maths to someone who has never seen it before?"
+      "Look at the salt and pepper. Which one is on the left?",
+      "If I face the kitchen door and turn around, what am I looking at now?",
+      "Describe how to get from your bedroom to the bathroom using forwards, left and right."
     ],
     "key_vocabulary": [
-      {
-        "term": "coordinates",
-        "definition": "A pair of numbers giving the exact position of a point on a grid — e.g. (3, 4)."
-      },
-      {
-        "term": "x-axis",
-        "definition": "The horizontal line on a coordinate grid."
-      },
-      {
-        "term": "y-axis",
-        "definition": "The vertical line on a coordinate grid."
-      },
-      {
-        "term": "translation",
-        "definition": "Sliding a shape to a new position without rotating or flipping it."
-      },
-      {
-        "term": "reflection",
-        "definition": "Flipping a shape over a mirror line."
-      }
+      {"term": "left", "definition": "The side of your body where your heart sits."},
+      {"term": "right", "definition": "The side opposite to left."},
+      {"term": "forwards", "definition": "Moving in the direction you are facing."},
+      {"term": "backwards", "definition": "Moving the opposite way."},
+      {"term": "turn", "definition": "A movement that changes the way something is facing."}
     ],
     "example_questions": [
-      "Count on from 47 to 52.",
-      "What number is 10 more than 35?",
-      "Put these in order: 26, 62, 16, 61."
+      "Stand up. Now turn so you face the kitchen. Which way did you turn?",
+      "Is the cup on the left or the right of the plate?",
+      "How would you get from the front door to the kitchen using only 'forwards' and 'turn'?"
     ],
-    "times_table_tip": "Year 1 focuses on the 2, 5, and 10 times tables. Try counting in 2s together on the stairs, or in 10s while counting out coins. Even 2–3 minutes a day builds the familiarity that pays off in Year 2."
+    "times_table_tip": "Year 1 children practise counting in 2s, 5s and 10s. Try counting in 2s as you take steps on the way to school — each footstep is one more two."
   }
 }

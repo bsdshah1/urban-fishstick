@@ -7,41 +7,26 @@
   "week_number": 1,
   "unit_title": "Shape",
   "content": {
-    "plain_english": "This week in Year 1 maths, your child is working on Shape. The learning focuses on: recognise and name common 2d and 3d shapes, including:; 2d shapes, for example rectangles (including squares), circles and triangles; and 3d shapes, for example cuboids (including cubes), pyramids and spheres. These skills build directly on what they have already mastered and prepare them for the next steps in the programme of study.",
-    "in_school": "Children handle, sort, and classify 2-D and 3-D shapes, drawing and describing their properties. They use protractors, mirrors, and squared paper to explore angles, symmetry, and position. Explaining what they notice in precise mathematical language is a key part of every lesson.",
-    "home_activity": "Go on a shape hunt around the house. How many rectangles can you spot? Any cylinders in the kitchen? Count vertices and edges on a cereal box or tin. For angles, look for right angles (corners of doors) and ask whether other angles are acute or obtuse.",
+    "plain_english": "This week your child is meeting solid shapes (3-D — like balls and boxes) and flat shapes (2-D — like circles and squares). They are sorting them, naming them, and starting to spot patterns made from shapes.",
+    "in_school": "Children handle real shapes: a ball, a tube, a cube of cheese, a triangular piece of toast. They sort them by what they look like or what they do — rolls or slides. They press flat shapes onto paper to see the outline, and put shapes in a row to make a pattern: square, circle, square, circle.",
+    "home_activity": "On the next supermarket trip, play 'spot the shape' — find one box (cuboid), one tin (cylinder) and one orange (sphere). At home, lay out three different shapes and start a pattern: square, circle, square. Ask your child to carry it on. Three or four shapes is enough.",
     "dinner_table_questions": [
-      "Can you show me how to recognise and name common 2d and 3d shapes, including:?",
-      "Was it easy or tricky to 2d shapes, for example rectangles (including squares), circles and triangles? Why?",
-      "How would you explain today's maths to someone who has never seen it before?"
+      "Which shape on this table rolls — and which one slides?",
+      "Can you find something that is a circle?",
+      "If I make a pattern triangle-square-triangle-square, what comes next?"
     ],
     "key_vocabulary": [
-      {
-        "term": "2-D shape",
-        "definition": "A flat shape with length and width but no thickness — e.g. triangle, circle."
-      },
-      {
-        "term": "3-D shape",
-        "definition": "A solid shape with length, width, and height — e.g. cube, sphere, cone."
-      },
-      {
-        "term": "symmetry",
-        "definition": "When one half of a shape is a mirror image of the other."
-      },
-      {
-        "term": "right angle",
-        "definition": "An angle of exactly 90° — the same as the corner of a square."
-      },
-      {
-        "term": "perpendicular",
-        "definition": "Lines that meet at a right angle (90°)."
-      }
+      {"term": "2-D shape", "definition": "A flat shape with length and width — like a circle or square."},
+      {"term": "3-D shape", "definition": "A solid shape you can pick up — like a ball or a box."},
+      {"term": "side", "definition": "The straight edge of a 2-D shape."},
+      {"term": "corner", "definition": "The point where two sides of a shape meet."},
+      {"term": "pattern", "definition": "Something repeated in a regular order."}
     ],
     "example_questions": [
-      "Name a 3-D shape with 6 faces.",
-      "How many sides does a pentagon have?",
-      "Draw a shape with 4 equal sides."
+      "How many corners does a triangle have?",
+      "Name a 3-D shape that rolls.",
+      "Continue the pattern: circle, square, circle, square, ___"
     ],
-    "times_table_tip": "Year 1 focuses on the 2, 5, and 10 times tables. Try counting in 2s together on the stairs, or in 10s while counting out coins. Even 2–3 minutes a day builds the familiarity that pays off in Year 2."
+    "times_table_tip": "Year 1 children practise counting in 2s, 5s and 10s. While naming shapes, count their sides — 3, 4, 5 — and chant: three sides, four sides, five sides."
   }
 }

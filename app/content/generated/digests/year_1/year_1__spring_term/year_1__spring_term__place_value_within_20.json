@@ -7,41 +7,26 @@
   "week_number": 1,
   "unit_title": "Place value (within 20)",
   "content": {
-    "plain_english": "This week in Year 1 maths, your child is working on Place value (within 20). The learning focuses on: count to and across 100, forwards and backwards, beginning with 0 or 1, or from any given number; count, read and write numbers to 100 in numerals; and count in multiples of twos, fives and tens. These skills build directly on what they have already mastered and prepare them for the next steps in the programme of study.",
-    "in_school": "In lessons, children use base ten blocks, place value charts, and number lines to explore how numbers are built from hundreds, tens, and ones. They represent the same number in different ways before working abstractly. Understanding place value is the foundation for all other maths, so lessons move carefully and thoroughly.",
-    "home_activity": "Take a pack of playing cards (remove picture cards). Draw three or four cards and make as many different numbers as you can with those digits. Which is the biggest? The smallest? Try rounding each number to the nearest 100. No special equipment — just cards and conversation.",
+    "plain_english": "This week your child is moving up from numbers within 10 to numbers within 20. They are learning that numbers like 14 are made of one ten and four ones.",
+    "in_school": "Children build numbers with ten-frames filled with cubes or counters. They see that 14 is one full ten plus 4 more. They place numbers on a number line from 0 to 20 and find one more, one less.",
+    "home_activity": "Use 20 small items at the kitchen table — pasta shells, raisins or paperclips. Ask your child to count out 14, then make it as a 'ten' pile and a 'four' pile. Then ask them what's one more, what's one less. Two minutes is enough.",
     "dinner_table_questions": [
-      "Can you show me how to count to and across 100, forwards and backwards, beginning with 0 or 1, or from any given number?",
-      "Was it easy or tricky to count, read and write numbers to 100 in numerals? Why?",
-      "How would you explain today's maths to someone who has never seen it before?"
+      "What does the 1 mean in 14? And the 4?",
+      "What is one more than 17? One less than 12?",
+      "Can you show me 19 with your fingers and one toy?"
     ],
     "key_vocabulary": [
-      {
-        "term": "digit",
-        "definition": "One of the symbols 0–9 used to write a number."
-      },
-      {
-        "term": "place value",
-        "definition": "The value of a digit based on its position — units, tens, hundreds, and so on."
-      },
-      {
-        "term": "partition",
-        "definition": "Split a number into its parts — e.g. 347 = 300 + 40 + 7."
-      },
-      {
-        "term": "round",
-        "definition": "Give an approximate value to the nearest 10, 100, etc."
-      },
-      {
-        "term": "estimate",
-        "definition": "Make a sensible guess at an answer before you calculate."
-      }
+      {"term": "ten", "definition": "A group of 10 ones."},
+      {"term": "ones", "definition": "The single units in a number."},
+      {"term": "teen number", "definition": "A number from 13 to 19, made of one ten and some ones."},
+      {"term": "one more", "definition": "The next number when counting up."},
+      {"term": "one less", "definition": "The number just before in counting."}
     ],
     "example_questions": [
-      "What is the tens digit in 47?",
-      "Write the number forty-three.",
-      "Which is greater — 58 or 85?"
+      "Write the number 'fifteen' as a numeral.",
+      "What is one more than 9?",
+      "Order these from smallest to largest: 14, 8, 19."
     ],
-    "times_table_tip": "Year 1 focuses on the 2, 5, and 10 times tables. Try counting in 2s together on the stairs, or in 10s while counting out coins. Even 2–3 minutes a day builds the familiarity that pays off in Year 2."
+    "times_table_tip": "Year 1 children practise counting in 2s, 5s and 10s. Try counting in 2s on the way upstairs — there are about 14 stairs in a typical house, just right."
   }
 }

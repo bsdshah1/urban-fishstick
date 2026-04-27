@@ -7,41 +7,26 @@
   "week_number": 1,
   "unit_title": "Multiplication and division",
   "content": {
-    "plain_english": "This week in Year 1 maths, your child is working on Multiplication and division. The learning focuses on: add and subtract one-digit and two-digit numbers to 20, including zero; read, write and interpret mathematical statements involving addition (`+`), subtraction (`-`) and equals (`=`) signs; and read, write and interpret mathematical statements involving addition (`+`), subtraction (`-`) and equals (`=`) signs. These skills build directly on what they have already mastered and prepare them for the next steps in the programme of study.",
-    "in_school": "In lessons, children start with concrete resources — base ten blocks, counters, or number lines — to model calculations physically. They then represent what they have done using drawings and diagrams before practising the formal written method independently. This concrete → pictorial → abstract approach helps the method become secure before moving on.",
-    "home_activity": "Quiz each other on the times tables your child is focusing on this week. You say a question, they answer, then swap. Try it as a speed challenge: how many can they answer correctly in one minute? Mix up the order so it does not become just a chant — recall is the goal.",
+    "plain_english": "This week your child is meeting the very first ideas of multiplication and division. They are counting in 2s, 5s and 10s, and learning to make 'equal groups' — sets of the same size.",
+    "in_school": "Children make small groups of the same size with cubes or counters — five plates with two grapes each, for example. They start to see 'five lots of two' and notice they can count in 2s to find the total. They share things equally between people: 8 apples between 2 children means 4 each.",
+    "home_activity": "At snack time, share a small handful of grapes (say 10) equally between everyone at the table. How many each? Then arrange biscuits in a tray of 2 rows and 3 columns — count two threes or three twos and see they both make 6.",
     "dinner_table_questions": [
-      "Can you show me how to add and subtract one-digit and two-digit numbers to 20, including zero?",
-      "Was it easy or tricky to read, write and interpret mathematical statements involving addition (`+`), subtraction (`-`) and equals (`=`) signs? Why?",
-      "How would you explain today's maths to someone who has never seen it before?"
+      "If 4 children have 2 sweets each, how many sweets altogether?",
+      "Share these 10 grapes between 2 of us. How many each?",
+      "Count in 5s with me up to 30."
     ],
     "key_vocabulary": [
-      {
-        "term": "product",
-        "definition": "The result of multiplying two numbers together."
-      },
-      {
-        "term": "factor",
-        "definition": "A number that divides exactly into another number."
-      },
-      {
-        "term": "quotient",
-        "definition": "The result when one number is divided by another."
-      },
-      {
-        "term": "divisor",
-        "definition": "The number you are dividing by."
-      },
-      {
-        "term": "formal method",
-        "definition": "A written, columnar way of setting out a calculation."
-      }
+      {"term": "equal groups", "definition": "Groups that all have the same number."},
+      {"term": "share", "definition": "Split a number into equal parts so each person gets the same."},
+      {"term": "count in 2s", "definition": "Skip every other number — 2, 4, 6, 8."},
+      {"term": "double", "definition": "Add a number to itself."},
+      {"term": "array", "definition": "A picture of equal rows and columns — like rows of seats."}
     ],
     "example_questions": [
-      "How many altogether in 3 groups of 2?",
-      "Share 10 equally between 2. How many each?",
-      "Count in 5s to 20."
+      "If I have 3 plates and put 5 grapes on each, how many grapes are there?",
+      "Share these 12 sweets between 4 children. How many each?",
+      "Count in 10s up to 50."
     ],
-    "times_table_tip": "Year 1 focuses on the 2, 5, and 10 times tables. Try counting in 2s together on the stairs, or in 10s while counting out coins. Even 2–3 minutes a day builds the familiarity that pays off in Year 2."
+    "times_table_tip": "Year 1 children practise counting in 2s, 5s and 10s. Try counting in 2s while you walk to the front door — slow steps, slow numbers — then in 5s on the way back."
   }
 }

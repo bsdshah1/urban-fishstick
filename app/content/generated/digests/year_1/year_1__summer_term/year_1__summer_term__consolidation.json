@@ -7,41 +7,26 @@
   "week_number": 1,
   "unit_title": "Consolidation",
   "content": {
-    "plain_english": "This week in Year 1 maths, your child is working on Consolidation. The learning focuses on: solve one-step problems involving addition and subtraction using concrete objects and pictorial representations and solve missing number problems such as `7 = □ - 9`. These skills build directly on what they have already mastered and prepare them for the next steps in the programme of study.",
-    "in_school": "In lessons, children use practical resources and visual representations to explore consolidation. They work from hands-on activities through to diagrams and then written methods, with class discussion and partner work helping every child understand and apply what they have learned.",
-    "home_activity": "Spend 5 minutes exploring consolidation together. Ask your child to explain what they have been learning in school — teaching someone else is one of the best ways to understand something deeply. Use everyday objects if that helps, and follow your child's lead.",
+    "plain_english": "This is a recap week. Your child is going back over the year's main learning — counting to 100, simple addition and subtraction, halves and quarters, shapes — and applying it to mixed problems.",
+    "in_school": "Lessons are gentler. Teachers bring out old favourites: cubes, ten-frames, number lines, shape sets. Children pick up topics from earlier in the year and revisit any they found tricky. There is no testing.",
+    "home_activity": "Look through any maths book or sheet your child has brought home this term. Pick one page and ask them to walk you through it. End by asking: what is one thing you can do in maths now that you couldn't last September? Five minutes.",
     "dinner_table_questions": [
-      "Can you show me how to solve one-step problems involving addition and subtraction using concrete objects and pictorial representations?",
-      "Was it easy or tricky to solve missing number problems such as `7 = □ - 9`? Why?",
-      "How would you explain today's maths to someone who has never seen it before?"
+      "What is one maths thing you found tricky in September that feels easy now?",
+      "If you had to teach one maths trick to a Reception child, what would it be?",
+      "Show me three ways to make 10."
     ],
     "key_vocabulary": [
-      {
-        "term": "review",
-        "definition": "Look back over what you have learned to check and strengthen understanding."
-      },
-      {
-        "term": "apply",
-        "definition": "Use your knowledge in a new or different situation."
-      },
-      {
-        "term": "reason",
-        "definition": "Explain why an answer is correct using mathematical language."
-      },
-      {
-        "term": "problem solving",
-        "definition": "Working through a challenge by choosing and using the right maths skills."
-      },
-      {
-        "term": "strategy",
-        "definition": "A planned method used to approach and solve a problem."
-      }
+      {"term": "review", "definition": "Look back over what you have learned."},
+      {"term": "explain", "definition": "Use words to describe how you worked something out."},
+      {"term": "compare", "definition": "Look at two things to see how they differ."},
+      {"term": "pattern", "definition": "Something that repeats in a regular order."},
+      {"term": "equal", "definition": "The same in value."}
     ],
     "example_questions": [
-      "Count on from 47 to 52.",
-      "What number is 10 more than 35?",
-      "Put these in order: 26, 62, 16, 61."
+      "What is 6 + 7?",
+      "What is half of 12?",
+      "Show 35 as a number of tens and ones."
     ],
-    "times_table_tip": "Year 1 focuses on the 2, 5, and 10 times tables. Try counting in 2s together on the stairs, or in 10s while counting out coins. Even 2–3 minutes a day builds the familiarity that pays off in Year 2."
+    "times_table_tip": "Year 1 children practise counting in 2s, 5s and 10s. Pick the count you find trickiest — say 5s — and chant it once a day for a week."
   }
 }
