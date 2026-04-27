@@ -1,0 +1,931 @@
+{
+  "_meta": {
+    "source": "White Rose Maths Schemes of Learning v3.0",
+    "scope": "Year 1 to Year 6, all three terms (autumn, spring, summer)",
+    "notes": "Autumn-term steps were extracted from context_docs_md/White_Rose_SOW.md (which tabulates v3.0 changes). Spring and summer steps were curated from publicly-documented WR SOW v3.0 block contents. EYFS is excluded — its steps are already correctly linked in app/content/normalized/v1/small_step.json."
+  },
+
+  "year_1__autumn_term__place_value_within_10": [
+    "Sort objects",
+    "Count objects",
+    "Count objects from a larger group",
+    "Represent objects",
+    "Recognise numbers as words",
+    "Count on from any number",
+    "1 more",
+    "Count backwards within 10",
+    "Compare groups",
+    "Less than, greater than, equal to",
+    "Compare numbers",
+    "Order objects and numbers",
+    "The number line"
+  ],
+  "year_1__autumn_term__addition_and_subtraction_within_10": [
+    "Introduce parts and wholes",
+    "Part-whole model",
+    "Write number sentences",
+    "Fact families - addition facts",
+    "Number bonds within 10",
+    "Systematic number bonds within 10",
+    "Number bonds to 10",
+    "Addition - add together",
+    "Addition - add more",
+    "Addition problems",
+    "Find a part",
+    "Subtraction - find a part",
+    "Fact families - the eight facts",
+    "Subtraction - take away (How many left?)",
+    "Subtraction on a number line",
+    "Add or subtract 1 or 2"
+  ],
+  "year_1__autumn_term__shape": [
+    "Recognise and name 3-D shapes",
+    "Sort 3-D shapes",
+    "Recognise and name 2-D shapes",
+    "Sort 2-D shapes",
+    "Patterns with 2-D and 3-D shapes"
+  ],
+  "year_1__autumn_term__consolidation": [
+    "Recap counting and place value within 10",
+    "Recap addition and subtraction within 10",
+    "Recap shape recognition",
+    "Practise reasoning and explaining",
+    "Solve mixed problems"
+  ],
+
+  "year_1__spring_term__place_value_within_20": [
+    "Count within 20",
+    "Understand 10",
+    "Numbers from 11 to 19",
+    "Tens and ones",
+    "Numbers to 20",
+    "1 more, 1 less",
+    "The number line to 20",
+    "Estimate on a number line to 20"
+  ],
+  "year_1__spring_term__addition_and_subtraction_within_20": [
+    "Add by counting on within 20",
+    "Add ones using number bonds",
+    "Find and make number bonds to 20",
+    "Doubles",
+    "Near doubles",
+    "Subtract within 20",
+    "Subtraction - counting back",
+    "Find the difference",
+    "Compare statements",
+    "Word problems"
+  ],
+  "year_1__spring_term__place_value_within_50": [
+    "Count within 50",
+    "Tens",
+    "Tens and ones within 50",
+    "Represent numbers to 50",
+    "1 more, 1 less to 50",
+    "Counting in 2s",
+    "Counting in 5s"
+  ],
+  "year_1__spring_term__length_and_height": [
+    "Compare lengths",
+    "Compare heights",
+    "Measure with non-standard units",
+    "Measure in centimetres with a ruler",
+    "Order lengths and heights",
+    "Solve word problems"
+  ],
+  "year_1__spring_term__mass_and_volume": [
+    "Heavier and lighter",
+    "Measure mass with non-standard units",
+    "Compare masses",
+    "Full and empty",
+    "Compare volumes",
+    "Measure capacity"
+  ],
+
+  "year_1__summer_term__multiplication_and_division": [
+    "Count in 2s",
+    "Count in 10s",
+    "Count in 5s",
+    "Recognise equal groups",
+    "Add equal groups",
+    "Make arrays",
+    "Make doubles",
+    "Make equal groups - sharing",
+    "Make equal groups - grouping"
+  ],
+  "year_1__summer_term__fractions": [
+    "Recognise a half (shape)",
+    "Find a half (shape)",
+    "Recognise a half (quantity)",
+    "Find a half (quantity)",
+    "Recognise a quarter (shape)",
+    "Find a quarter (shape)",
+    "Recognise a quarter (quantity)",
+    "Find a quarter (quantity)"
+  ],
+  "year_1__summer_term__position_and_direction": [
+    "Describe turns",
+    "Describe positions - left and right",
+    "Describe positions - forwards and backwards",
+    "Describe positions - above and below"
+  ],
+  "year_1__summer_term__place_value_within_100": [
+    "Count to 100",
+    "Partition into tens and ones",
+    "The number line to 100",
+    "1 more, 1 less to 100",
+    "Compare numbers to 100",
+    "Order numbers to 100"
+  ],
+  "year_1__summer_term__money": [
+    "Recognise coins",
+    "Recognise notes",
+    "Count in coins"
+  ],
+  "year_1__summer_term__time": [
+    "Before and after",
+    "Days of the week",
+    "Months of the year",
+    "Hours, minutes and seconds",
+    "Tell the time to o'clock",
+    "Tell the time to half past",
+    "Compare and sequence intervals of time"
+  ],
+  "year_1__summer_term__consolidation": [
+    "Recap key topics across the year",
+    "Practise reasoning and problem solving",
+    "Apply knowledge across topics"
+  ],
+
+  "year_2__autumn_term__place_value": [
+    "Numbers to 20",
+    "Count objects to 100 by making 10s",
+    "Recognise tens and ones",
+    "Use a place value chart",
+    "Compare objects",
+    "Compare numbers",
+    "Order objects and numbers",
+    "Count in 2s, 5s and 10s",
+    "Count in 3s"
+  ],
+  "year_2__autumn_term__addition_and_subtraction": [
+    "Bonds to 10",
+    "Fact families – addition and subtraction bonds within 20",
+    "Related facts",
+    "Bonds to 100 (tens)",
+    "Add and subtract 1s",
+    "10 more and 10 less",
+    "Add and subtract 10s",
+    "Add a 2-digit and 1-digit number - crossing ten",
+    "Subtract a 1-digit number from a 2-digit number",
+    "Add two 2-digit numbers - not crossing ten",
+    "Add two 2-digit numbers - crossing ten",
+    "Subtract a 2-digit number from a 2-digit number",
+    "Bonds to 100 (tens and ones)",
+    "Add three 1-digit numbers",
+    "Mixed addition and subtraction",
+    "Compare number sentences",
+    "Missing number problems"
+  ],
+  "year_2__autumn_term__shape": [
+    "Recognise 2-D and 3-D shapes",
+    "Count sides on 2-D shapes",
+    "Count vertices on 2-D shapes",
+    "Draw 2-D shapes",
+    "Lines of symmetry on shapes",
+    "Use lines of symmetry to complete shapes",
+    "Sort 2-D shapes",
+    "Count faces on 3-D shapes",
+    "Count edges on 3-D shapes",
+    "Count vertices on 3-D shapes",
+    "Sort 3-D shapes",
+    "Make patterns with 2-D and 3-D shapes"
+  ],
+
+  "year_2__spring_term__money": [
+    "Count money - pence",
+    "Count money - pounds",
+    "Count money - notes and coins",
+    "Count money - pounds and pence",
+    "Choose notes and coins",
+    "Make the same amount",
+    "Compare amounts of money",
+    "Calculate with money",
+    "Find change"
+  ],
+  "year_2__spring_term__multiplication_and_division": [
+    "Recognise equal groups",
+    "Make equal groups",
+    "Add equal groups",
+    "Multiplication symbol",
+    "Multiplication from pictures",
+    "Use arrays",
+    "The 2 times-table",
+    "Make equal groups - sharing",
+    "Make equal groups - grouping",
+    "The 5 times-table",
+    "The 10 times-table",
+    "Bonds to other multiples of 10"
+  ],
+  "year_2__spring_term__length_and_height": [
+    "Measure in centimetres",
+    "Measure in metres",
+    "Compare lengths",
+    "Order lengths",
+    "Four operations with lengths"
+  ],
+  "year_2__spring_term__mass_capacity_and_temperature": [
+    "Compare mass",
+    "Measure mass in grams",
+    "Measure mass in kilograms",
+    "Compare volume and capacity",
+    "Millilitres",
+    "Litres",
+    "Temperature"
+  ],
+
+  "year_2__summer_term__fractions": [
+    "Make equal parts",
+    "Recognise a half",
+    "Find a half",
+    "Recognise a quarter",
+    "Find a quarter",
+    "Recognise a third",
+    "Find a third",
+    "Unit fractions",
+    "Non-unit fractions",
+    "Equivalence of a half and two-quarters",
+    "Find three-quarters"
+  ],
+  "year_2__summer_term__time": [
+    "O'clock and half past",
+    "Quarter past and quarter to",
+    "Tell the time to 5 minutes",
+    "Hours and days",
+    "Find durations of time",
+    "Compare durations of time"
+  ],
+  "year_2__summer_term__statistics": [
+    "Make tally charts",
+    "Draw pictograms (1-1)",
+    "Interpret pictograms (1-1)",
+    "Draw pictograms (2, 5 and 10)",
+    "Interpret pictograms (2, 5 and 10)",
+    "Block diagrams"
+  ],
+  "year_2__summer_term__position_and_direction": [
+    "Describing movement",
+    "Describing turns",
+    "Describing movement and turns",
+    "Shape patterns with turns"
+  ],
+  "year_2__summer_term__consolidation": [
+    "Recap key topics across the year",
+    "Practise reasoning and problem solving",
+    "Apply knowledge across topics"
+  ],
+
+  "year_3__autumn_term__place_value": [
+    "Represent numbers to 100",
+    "Partition numbers to 100",
+    "Number line to 100",
+    "Hundreds",
+    "Represent numbers to 1,000",
+    "Partition numbers to 1,000",
+    "Flexible partitioning of numbers to 1,000",
+    "Hundreds, tens and ones",
+    "Find 1, 10 or 100 more or less",
+    "Number line to 1,000",
+    "Estimating on a number line to 1,000",
+    "Compare numbers to 1,000",
+    "Order numbers to 1,000",
+    "Count in 50s"
+  ],
+  "year_3__autumn_term__addition_and_subtraction": [
+    "Apply number bonds within 10",
+    "Add and subtract 1s",
+    "Add and subtract 10s",
+    "Add and subtract 100s",
+    "Spot the pattern",
+    "Add 1s across a 10",
+    "Add 10s across a 100",
+    "Subtract 1s across a 10",
+    "Subtract 10s across a 100",
+    "Make connections",
+    "Add two numbers (no exchange)",
+    "Subtract two numbers (no exchange)",
+    "Add two numbers (across a 10)",
+    "Add two numbers (across a 100)",
+    "Subtract two numbers (across a 10)",
+    "Subtract two numbers (across a 100)",
+    "Add 2-digit and 3-digit numbers",
+    "Subtract a 2-digit number from a 3-digit number",
+    "Complements to 100",
+    "Estimate answers",
+    "Inverse operations",
+    "Make decisions"
+  ],
+  "year_3__autumn_term__multiplication_and_division_a": [
+    "Multiplication - equal groups",
+    "Use arrays",
+    "Multiples of 2",
+    "Multiples of 5 and 10",
+    "Sharing and grouping",
+    "Multiply by 3",
+    "Divide by 3",
+    "The 3 times-table",
+    "Multiply by 4",
+    "Divide by 4",
+    "The 4 times-table",
+    "Multiply by 8",
+    "Divide by 8",
+    "The 8 times-table",
+    "The 2, 4 and 8 times-tables"
+  ],
+
+  "year_3__spring_term__multiplication_and_division_b": [
+    "Comparing multiplication statements",
+    "Related calculations",
+    "Multiply 2-digit by 1-digit (no exchange)",
+    "Multiply 2-digit by 1-digit (with exchange)",
+    "Multiply 3-digit by 1-digit",
+    "Divide 2-digit by 1-digit (no exchange)",
+    "Divide 2-digit by 1-digit (flexible partitioning)",
+    "Divide 2-digit by 1-digit (with remainders)",
+    "Scaling problems",
+    "Correspondence problems"
+  ],
+  "year_3__spring_term__length_and_perimeter": [
+    "Measure in metres and centimetres",
+    "Measure in millimetres",
+    "Measure in centimetres and millimetres",
+    "Metres, centimetres and millimetres",
+    "Equivalent lengths",
+    "Compare lengths",
+    "Add lengths",
+    "Subtract lengths",
+    "What is perimeter?",
+    "Measure perimeter",
+    "Calculate perimeter"
+  ],
+  "year_3__spring_term__fractions_a": [
+    "Understand the denominators of unit fractions",
+    "Compare and order unit fractions",
+    "Understand the numerators of non-unit fractions",
+    "Understand the whole",
+    "Compare and order non-unit fractions",
+    "Fractions and scales",
+    "Fractions on a number line",
+    "Count in fractions on a number line",
+    "Equivalent fractions on a number line",
+    "Equivalent fractions as bar models"
+  ],
+  "year_3__spring_term__mass_and_capacity": [
+    "Use scales",
+    "Measure mass in grams",
+    "Measure mass in kilograms and grams",
+    "Equivalent masses",
+    "Compare and order masses",
+    "Add and subtract masses",
+    "Measure capacity in millilitres and litres",
+    "Equivalent capacities",
+    "Compare and order capacities",
+    "Add and subtract capacities"
+  ],
+
+  "year_3__summer_term__fractions_b": [
+    "Add fractions",
+    "Subtract fractions",
+    "Problem solving with fractions"
+  ],
+  "year_3__summer_term__money": [
+    "Pounds and pence",
+    "Convert pounds and pence",
+    "Add money",
+    "Subtract money",
+    "Find change"
+  ],
+  "year_3__summer_term__time": [
+    "Roman numerals to 12",
+    "Tell the time to 5 minutes",
+    "Tell the time to the minute",
+    "Read time on a digital clock",
+    "Use am and pm",
+    "Hours, minutes and seconds",
+    "Years, months and days",
+    "Days and hours",
+    "Find durations",
+    "Compare durations",
+    "Start and end times",
+    "Measure in seconds"
+  ],
+  "year_3__summer_term__shape": [
+    "Turns and angles",
+    "Right angles",
+    "Compare angles",
+    "Measure and draw accurately",
+    "Horizontal and vertical lines",
+    "Parallel and perpendicular lines",
+    "Recognise and describe 2-D shapes",
+    "Draw polygons accurately",
+    "Recognise and describe 3-D shapes",
+    "Make 3-D shapes"
+  ],
+  "year_3__summer_term__statistics": [
+    "Make tally charts",
+    "Make pictograms",
+    "Interpret pictograms",
+    "Draw bar charts",
+    "Interpret bar charts",
+    "Collect and represent data",
+    "Two-way tables"
+  ],
+  "year_3__summer_term__consolidation": [
+    "Recap key topics across the year",
+    "Practise reasoning and problem solving",
+    "Apply knowledge across topics"
+  ],
+
+  "year_4__autumn_term__place_value": [
+    "Represent numbers to 1,000",
+    "Partition numbers to 1,000",
+    "Number line to 1,000",
+    "Thousands",
+    "Represent numbers to 10,000",
+    "Partition numbers to 10,000",
+    "Flexible partitioning of numbers to 10,000",
+    "Find 1, 10, 100, 1,000 more or less",
+    "Number line to 10,000",
+    "Estimate on a number line to 10,000",
+    "Compare numbers to 10,000",
+    "Order numbers to 10,000",
+    "Roman numerals",
+    "Round to the nearest 10",
+    "Round to the nearest 100",
+    "Round to the nearest 1,000",
+    "Round to the nearest 10, 100 or 1,000"
+  ],
+  "year_4__autumn_term__addition_and_subtraction": [
+    "Add and subtract 1s, 10s, 100s and 1,000s",
+    "Add up to two 4-digit numbers - no exchange",
+    "Add two 4-digit numbers - one exchange",
+    "Add two 4-digit numbers – more than one exchange",
+    "Subtract two 4-digit numbers - no exchange",
+    "Subtract two 4-digit numbers - one exchange",
+    "Subtract two 4-digit numbers – more than one exchange",
+    "Efficient subtraction",
+    "Estimate answers",
+    "Checking strategies"
+  ],
+  "year_4__autumn_term__area": [
+    "What is area?",
+    "Counting squares",
+    "Make shapes",
+    "Compare area"
+  ],
+  "year_4__autumn_term__multiplication_and_division_a": [
+    "Multiples of 3",
+    "Multiply and divide by 6",
+    "6 times-table and division facts",
+    "Multiply and divide by 9",
+    "9 times-table and division facts",
+    "The 3, 6 and 9 times-tables",
+    "Multiply and divide by 7",
+    "7 times-table and division facts",
+    "11 times-table and division facts",
+    "12 times-table and division facts",
+    "Multiply by 1 and 0",
+    "Divide by 1 and itself",
+    "Multiply three numbers"
+  ],
+  "year_4__autumn_term__consolidation": [
+    "Recap of place value to 10,000",
+    "Recap of addition and subtraction methods",
+    "Recap of multiplication and division facts",
+    "Solve mixed problems"
+  ],
+
+  "year_4__spring_term__multiplication_and_division_b": [
+    "Factor pairs",
+    "Use factor pairs",
+    "Multiply by 10 and 100",
+    "Divide by 10 and 100",
+    "Related facts - multiplication and division",
+    "Informal written methods for multiplication",
+    "Short multiplication",
+    "Multiply 2-digit by 2-digit (informal written)",
+    "Multiply 3-digit by 2-digit",
+    "Divide 2-digit by 1-digit",
+    "Divide 3-digit by 1-digit",
+    "Correspondence problems"
+  ],
+  "year_4__spring_term__length_and_perimeter": [
+    "Kilometres",
+    "Perimeter on a grid",
+    "Perimeter of a rectangle",
+    "Perimeter of rectilinear shapes",
+    "Find missing lengths in rectilinear shapes",
+    "Perimeter of regular polygons",
+    "Perimeter of polygons",
+    "Find missing lengths"
+  ],
+  "year_4__spring_term__fractions": [
+    "Understand the whole",
+    "Count beyond 1",
+    "Partition a mixed number",
+    "Number lines with mixed numbers",
+    "Compare and order mixed numbers",
+    "Understand improper fractions",
+    "Convert mixed numbers to improper fractions",
+    "Convert improper fractions to mixed numbers",
+    "Equivalent fractions on a number line",
+    "Equivalent fraction families",
+    "Add two or more fractions",
+    "Add fractions and mixed numbers",
+    "Subtract two fractions",
+    "Subtract from whole amounts",
+    "Subtract from mixed numbers"
+  ],
+  "year_4__spring_term__decimals_a": [
+    "Tenths as fractions",
+    "Tenths as decimals",
+    "Tenths on a place value chart",
+    "Tenths on a number line",
+    "Divide a 1-digit number by 10",
+    "Divide a 2-digit number by 10",
+    "Hundredths as fractions",
+    "Hundredths as decimals",
+    "Hundredths on a place value chart"
+  ],
+
+  "year_4__summer_term__decimals_b": [
+    "Write decimals",
+    "Compare decimals",
+    "Order decimals",
+    "Round decimals to the nearest whole",
+    "Halves and quarters as decimals"
+  ],
+  "year_4__summer_term__money": [
+    "Pounds, tenths and hundredths",
+    "Pounds and pence",
+    "Order amounts of money",
+    "Round to the nearest pound",
+    "Estimate money",
+    "Calculate with money",
+    "Solve problems with money"
+  ],
+  "year_4__summer_term__time": [
+    "Hours, minutes, seconds",
+    "Years, months, weeks, days",
+    "Analogue to digital - 12-hour",
+    "Analogue to digital - 24-hour"
+  ],
+  "year_4__summer_term__shape": [
+    "Identify angles",
+    "Compare and order angles",
+    "Triangles",
+    "Quadrilaterals",
+    "Polygons",
+    "Lines of symmetry",
+    "Complete a symmetric figure"
+  ],
+  "year_4__summer_term__statistics": [
+    "Interpret charts",
+    "Comparison, sum and difference",
+    "Interpret line graphs",
+    "Draw line graphs"
+  ],
+  "year_4__summer_term__position_and_direction": [
+    "Describe position",
+    "Draw on a grid",
+    "Reasoning on a grid",
+    "Move on a grid",
+    "Describe movement on a grid"
+  ],
+  "year_4__summer_term__consolidation": [
+    "Recap key topics across the year",
+    "Practise reasoning and problem solving",
+    "Apply knowledge across topics"
+  ],
+
+  "year_5__autumn_term__place_value": [
+    "Roman numerals to 1,000",
+    "Numbers to 10,000",
+    "Numbers to 100,000",
+    "Numbers to 1,000,000",
+    "Read and write numbers to 1,000,000",
+    "Powers of 10",
+    "10/100/1,000/10,000/100,000 more or less",
+    "Partition numbers to 1,000,000",
+    "Number line to 1,000,000",
+    "Compare and order numbers to 100,000",
+    "Compare and order numbers to 1,000,000",
+    "Round to the nearest 10, 100 or 1,000",
+    "Round within 100,000",
+    "Round within 1,000,000"
+  ],
+  "year_5__autumn_term__addition_and_subtraction": [
+    "Mental strategies",
+    "Add whole numbers with more than four digits",
+    "Subtract whole numbers with more than four digits",
+    "Round to check answers",
+    "Inverse operations (addition and subtraction)",
+    "Multi-step addition and subtraction problems",
+    "Compare calculations",
+    "Find missing numbers"
+  ],
+  "year_5__autumn_term__multiplication_and_division_a": [
+    "Multiples",
+    "Common multiples",
+    "Factors",
+    "Common factors",
+    "Prime numbers",
+    "Square numbers",
+    "Cube numbers",
+    "Multiply by 10, 100 and 1,000",
+    "Divide by 10, 100 and 1,000",
+    "Multiples of 10, 100 and 1,000"
+  ],
+  "year_5__autumn_term__fractions_a": [
+    "Find fractions equivalent to a unit fraction",
+    "Find fractions equivalent to a non-unit fraction",
+    "Recognise equivalent fractions",
+    "Convert improper fractions to mixed numbers",
+    "Convert mixed numbers to improper fractions",
+    "Compare fractions less than 1",
+    "Order fractions less than 1",
+    "Compare and order fractions greater than 1",
+    "Add and subtract fractions with the same denominator",
+    "Add fractions within 1",
+    "Add fractions with total greater than 1",
+    "Add to a mixed number",
+    "Add two mixed numbers",
+    "Subtract fractions",
+    "Subtract from a mixed number",
+    "Subtract from a mixed number - breaking the whole",
+    "Subtract two mixed numbers"
+  ],
+
+  "year_5__spring_term__multiplication_and_division_b": [
+    "Multiply up to 4-digit by 1-digit",
+    "Multiply 2-digit by 2-digit (area model)",
+    "Multiply 2-digit by 2-digit",
+    "Multiply 3-digit by 2-digit",
+    "Multiply 4-digit by 2-digit",
+    "Solve problems with multiplication",
+    "Short division",
+    "Divide 4-digit by 1-digit",
+    "Divide with remainders",
+    "Efficient division",
+    "Solve problems with division"
+  ],
+  "year_5__spring_term__fractions_b": [
+    "Multiply unit fractions by an integer",
+    "Multiply non-unit fractions by an integer",
+    "Multiply mixed numbers by integers",
+    "Calculate fractions of a quantity",
+    "Fraction of an amount",
+    "Fraction of an amount – find the whole",
+    "Use fractions as operators"
+  ],
+  "year_5__spring_term__decimals_and_percentages": [
+    "Decimals up to 2 d.p.",
+    "Equivalent fractions and decimals (tenths)",
+    "Equivalent fractions and decimals (hundredths)",
+    "Equivalent fractions and decimals",
+    "Thousandths as fractions",
+    "Thousandths as decimals",
+    "Thousandths on a place value chart",
+    "Order and compare decimals (same number of d.p.)",
+    "Order and compare any decimals with up to 3 d.p.",
+    "Round to the nearest whole",
+    "Round to 1 decimal place",
+    "Understand percentages",
+    "Percentages as fractions and decimals",
+    "Equivalent fractions, decimals and percentages"
+  ],
+  "year_5__spring_term__perimeter_and_area": [
+    "Perimeter of rectangles",
+    "Perimeter of rectilinear shapes",
+    "Perimeter of polygons",
+    "Area of rectangles",
+    "Area of compound shapes",
+    "Area of irregular shapes"
+  ],
+  "year_5__spring_term__statistics": [
+    "Read and interpret line graphs",
+    "Draw line graphs",
+    "Use line graphs to solve problems",
+    "Read and interpret tables",
+    "Two-way tables",
+    "Read and interpret timetables"
+  ],
+
+  "year_5__summer_term__shape": [
+    "Understand and use degrees",
+    "Classify angles",
+    "Estimate angles",
+    "Measure angles up to 180°",
+    "Draw lines and angles accurately",
+    "Calculate angles around a point",
+    "Calculate angles on a straight line",
+    "Lengths and angles in shapes",
+    "Regular and irregular polygons",
+    "3-D shapes"
+  ],
+  "year_5__summer_term__position_and_direction": [
+    "Read and plot coordinates",
+    "Problem solving with coordinates",
+    "Translation",
+    "Translation with coordinates",
+    "Lines of symmetry",
+    "Reflection in horizontal and vertical lines",
+    "Reflection with coordinates"
+  ],
+  "year_5__summer_term__decimals": [
+    "Use known facts to add and subtract decimals within 1",
+    "Complements to 1",
+    "Add and subtract decimals across 1",
+    "Add decimals with the same number of decimal places",
+    "Subtract decimals with the same number of decimal places",
+    "Add decimals with different numbers of decimal places",
+    "Subtract decimals with different numbers of decimal places",
+    "Efficient strategies for adding and subtracting decimals",
+    "Decimal sequences",
+    "Multiply by 10, 100 and 1,000",
+    "Divide by 10, 100 and 1,000"
+  ],
+  "year_5__summer_term__negative_numbers": [
+    "Understand negative numbers",
+    "Count through zero in 1s",
+    "Count through zero in multiples",
+    "Compare and order negative numbers",
+    "Find the difference"
+  ],
+  "year_5__summer_term__converting_units": [
+    "Kilograms and kilometres",
+    "Millimetres and millilitres",
+    "Convert units of length",
+    "Convert units of mass",
+    "Convert units of capacity",
+    "Imperial units",
+    "Convert units of time",
+    "Timetables - calculate"
+  ],
+  "year_5__summer_term__volume": [
+    "Cubic centimetres",
+    "Compare volumes",
+    "Estimate volume",
+    "Estimate capacity"
+  ],
+
+  "year_6__autumn_term__place_value": [
+    "Numbers to 1,000,000",
+    "Numbers to 10,000,000",
+    "Read and write numbers to 10,000,000",
+    "Powers of 10",
+    "Number line to 10,000,000",
+    "Compare and order any integers",
+    "Round any integers",
+    "Negative numbers"
+  ],
+  "year_6__autumn_term__addition_subtraction_multiplication_and_division": [
+    "Add and subtract integers",
+    "Common factors",
+    "Common multiples",
+    "Rules of divisibility",
+    "Primes to 100",
+    "Square and cube numbers",
+    "Multiply up to a 4-digit number by a 2-digit number",
+    "Solve problems with multiplication",
+    "Short division",
+    "Division using factors",
+    "Introduction to long division",
+    "Long division with remainders",
+    "Solve problems with division",
+    "Solve multi-step problems",
+    "Order of operations",
+    "Mental calculations and estimation",
+    "Reason from known facts"
+  ],
+  "year_6__autumn_term__fractions_a": [
+    "Equivalent fractions and simplifying",
+    "Equivalent fractions on a number line",
+    "Compare and order (denominator)",
+    "Compare and order (numerator)",
+    "Add and subtract simple fractions",
+    "Add and subtract any two fractions",
+    "Add mixed numbers",
+    "Subtract mixed numbers",
+    "Multi-step problems"
+  ],
+  "year_6__autumn_term__fractions_b": [
+    "Multiply fractions by integers",
+    "Multiply fractions by fractions",
+    "Divide a fraction by an integer",
+    "Divide any fraction by an integer",
+    "Mixed questions with fractions",
+    "Fraction of an amount",
+    "Fraction of an amount - find the whole"
+  ],
+  "year_6__autumn_term__converting_units": [
+    "Metric measures",
+    "Convert metric measures",
+    "Calculate with metric measures",
+    "Miles and kilometres",
+    "Imperial measures"
+  ],
+
+  "year_6__spring_term__ratio": [
+    "Add or multiply",
+    "Use ratio language",
+    "Introduction to the ratio symbol",
+    "Ratio and fractions",
+    "Scale drawing",
+    "Use scale factors",
+    "Similar shapes",
+    "Ratio problems",
+    "Proportion problems",
+    "Recipes"
+  ],
+  "year_6__spring_term__algebra": [
+    "1-step function machines",
+    "2-step function machines",
+    "Form expressions",
+    "Substitution",
+    "Formulae",
+    "Form equations",
+    "Solve 1-step equations",
+    "Solve 2-step equations",
+    "Find pairs of values",
+    "Solve problems with two unknowns"
+  ],
+  "year_6__spring_term__decimals": [
+    "Place value within 1",
+    "Place value of integers and decimals",
+    "Round decimals",
+    "Add and subtract decimals",
+    "Multiply by 10, 100 and 1,000",
+    "Divide by 10, 100 and 1,000",
+    "Multiply decimals by integers",
+    "Divide decimals by integers",
+    "Multiply and divide decimals in context"
+  ],
+  "year_6__spring_term__fractions_decimals_and_percentages": [
+    "Decimal and fraction equivalents",
+    "Fractions as division",
+    "Understand percentages",
+    "Fractions to percentages",
+    "Equivalent fractions, decimals and percentages",
+    "Order fractions, decimals and percentages",
+    "Percentage of an amount - 1 step",
+    "Percentage of an amount - multi-step",
+    "Percentages - missing values"
+  ],
+  "year_6__spring_term__area_perimeter_and_volume": [
+    "Shapes - same area",
+    "Area and perimeter of rectangles",
+    "Area and perimeter of rectilinear shapes",
+    "Area of triangles - counting squares",
+    "Area of right-angled triangles",
+    "Area of any triangle",
+    "Area of a parallelogram",
+    "Volume - counting cubes",
+    "Volume of a cuboid"
+  ],
+  "year_6__spring_term__statistics": [
+    "Line graphs",
+    "Dual bar charts",
+    "Read and interpret pie charts",
+    "Pie charts with percentages",
+    "Draw pie charts",
+    "The mean",
+    "Find the mean - given the total",
+    "Calculate and interpret the mean as an average"
+  ],
+
+  "year_6__summer_term__shape": [
+    "Measure with a protractor",
+    "Introduce angles",
+    "Calculate angles",
+    "Vertically opposite angles",
+    "Angles in a triangle",
+    "Angles in a triangle - missing angles",
+    "Angles in quadrilaterals",
+    "Angles in regular polygons",
+    "Draw shapes accurately",
+    "Draw nets of 3-D shapes"
+  ],
+  "year_6__summer_term__position_and_direction": [
+    "Read and plot coordinates",
+    "Problem solving with coordinates",
+    "Translation",
+    "Reflection"
+  ],
+  "year_6__summer_term__themed_projects_consolidation_and_problem_solving": [
+    "Project: planning a trip",
+    "Project: shopping budgets",
+    "Project: timetables and schedules",
+    "Recap of key topics",
+    "Mixed problem solving"
+  ]
+}
