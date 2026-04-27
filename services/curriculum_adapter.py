@@ -13,11 +13,56 @@ from pathlib import Path
 from typing import Any
 
 _V1_DIR = Path(__file__).resolve().parent.parent / "app" / "content" / "normalized" / "v1"
+_CURATED_DIR = Path(__file__).resolve().parent.parent / "app" / "content" / "curated"
 
 
 def _load(filename: str) -> list[dict[str, Any]]:
     path = _V1_DIR / filename
     return json.loads(path.read_text(encoding="utf-8")).get("records", [])
+
+
+@lru_cache(maxsize=1)
+def _curated_block_steps() -> dict[str, list[str]]:
+    """Load curated White Rose SOW v3.0 small steps keyed by block_id.
+
+    These are higher-fidelity than the National-Curriculum-derived steps in
+    `small_step.json` because they are linked directly to White Rose blocks.
+    Excludes the `_meta` entry.
+    """
+    path = _CURATED_DIR / "block_steps_v3.json"
+    if not path.exists():
+        return {}
+    data = json.loads(path.read_text(encoding="utf-8"))
+    return {k: v for k, v in data.items() if not k.startswith("_") and isinstance(v, list)}
+
+
+def _curated_steps_for(year_group: str, unit_title: str) -> list[str] | None:
+    """Look up curated SOW v3.0 steps by (year_group, unit_title).
+
+    Returns None if no match. If the same slug appears in multiple terms for
+    the same year group (e.g. Year 1 has "consolidation" in autumn and
+    summer), prefers the autumn-term entry as a deterministic default.
+    """
+    slug = _unit_slug(unit_title)
+    if not slug:
+        return None
+    curated = _curated_block_steps()
+    matches: list[str] = []
+    for block_id in curated.keys():
+        if not block_id.startswith(f"{year_group}__"):
+            continue
+        # block_id format: year_X__TERM_term__slug-with-underscores
+        parts = block_id.split("__")
+        if len(parts) < 3:
+            continue
+        block_slug = "__".join(parts[2:])
+        if block_slug == slug:
+            matches.append(block_id)
+    if not matches:
+        return None
+    term_priority = {"autumn_term": 0, "spring_term": 1, "summer_term": 2}
+    matches.sort(key=lambda bid: term_priority.get(bid.split("__")[1], 9))
+    return list(curated[matches[0]])
 
 
 @lru_cache(maxsize=1)
@@ -89,7 +134,19 @@ _TOPIC_TO_STEP_BLOCKS: dict[str, list[str]] = {
 
 
 def get_small_steps(year_group: str, unit_title: str) -> list[str]:
-    """Return step descriptions for the given year group and unit (fuzzy block name/id match)."""
+    """Return step descriptions for the given year group and unit.
+
+    Resolution order:
+    1. Curated White Rose SOW v3.0 mapping (`block_steps_v3.json`) — highest fidelity.
+    2. Existing slug / fuzzy match against `small_step.json`.
+    3. Topic-keyword mapping to NC step categories.
+    4. Word-overlap fallback.
+    5. First N steps for the year group as a last resort.
+    """
+    curated = _curated_steps_for(year_group, unit_title)
+    if curated:
+        return curated[:8]
+
     unit_lower = unit_title.lower()
     slug = _unit_slug(unit_title)
 
