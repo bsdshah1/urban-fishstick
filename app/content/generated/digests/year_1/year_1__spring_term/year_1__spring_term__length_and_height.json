@@ -7,41 +7,26 @@
   "week_number": 1,
   "unit_title": "Length and height",
   "content": {
-    "plain_english": "This week in Year 1 maths, your child is working on Length and height. The learning focuses on: compare, describe and solve practical problems for:; lengths and heights; and mass / weight. These skills build directly on what they have already mastered and prepare them for the next steps in the programme of study.",
-    "in_school": "Children use practical measuring equipment — rulers, scales, measuring cylinders, and clocks — to explore measurement in real contexts. They record findings using diagrams and number lines before progressing to written calculations. Problem-solving tasks show how these skills are used every day.",
-    "home_activity": "Use a piece of string to measure things around the house — is the sofa longer or shorter than the table? Estimate in centimetres first, then measure to check. For perimeter, measure all four sides of a book or tile and add them up.",
+    "plain_english": "This week your child is measuring how long and how tall things are. They start by comparing two objects, then move on to using a ruler with centimetres.",
+    "in_school": "Children begin by holding two pencils side by side to see which is longer. They measure with hand-spans and cubes, then with a ruler — saying things like 'this pencil is 12 cm long'. They put three or four objects in order of length.",
+    "home_activity": "After bath time, hand your child a ruler or tape measure. Measure their teddy bear in centimetres. Then measure your hand. Whose is longer? By how much? Two minutes — the conversation matters more than precision.",
     "dinner_table_questions": [
-      "Can you show me how to compare, describe and solve practical problems for:?",
-      "Was it easy or tricky to lengths and heights? Why?",
-      "How would you explain today's maths to someone who has never seen it before?"
+      "Is the spoon longer or shorter than the fork?",
+      "Roughly how many hand-spans wide is the table?",
+      "Can you guess how tall a milk carton is in centimetres?"
     ],
     "key_vocabulary": [
-      {
-        "term": "length",
-        "definition": "How long something is from one end to the other."
-      },
-      {
-        "term": "millimetre (mm)",
-        "definition": "A very small unit of length — 10 mm = 1 cm."
-      },
-      {
-        "term": "centimetre (cm)",
-        "definition": "A unit of length — 100 cm = 1 metre."
-      },
-      {
-        "term": "metre (m)",
-        "definition": "A unit of length — 1000 m = 1 kilometre."
-      },
-      {
-        "term": "estimate",
-        "definition": "Make a sensible guess at a measurement before you measure it."
-      }
+      {"term": "length", "definition": "How long something is from end to end."},
+      {"term": "height", "definition": "How tall something is from bottom to top."},
+      {"term": "centimetre (cm)", "definition": "A small unit for measuring shorter things — about the width of a fingernail."},
+      {"term": "ruler", "definition": "A straight tool with cm marks for measuring."},
+      {"term": "compare", "definition": "Look at two things to see which is longer or shorter."}
     ],
     "example_questions": [
-      "Count on from 47 to 52.",
-      "What number is 10 more than 35?",
-      "Put these in order: 26, 62, 16, 61."
+      "Which is taller — a teaspoon or a teapot?",
+      "Use a ruler to measure your pencil in cm.",
+      "Order these from shortest to longest: 8 cm, 14 cm, 3 cm."
     ],
-    "times_table_tip": "Year 1 focuses on the 2, 5, and 10 times tables. Try counting in 2s together on the stairs, or in 10s while counting out coins. Even 2–3 minutes a day builds the familiarity that pays off in Year 2."
+    "times_table_tip": "Year 1 children practise counting in 2s, 5s and 10s. Many longer rulers also show 5s — count up in 5s along the ruler: 5, 10, 15, 20."
   }
 }

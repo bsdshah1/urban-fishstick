@@ -7,41 +7,26 @@
   "week_number": 1,
   "unit_title": "Addition and subtraction (within 20)",
   "content": {
-    "plain_english": "This week in Year 1 maths, your child is working on Addition and subtraction (within 20). The learning focuses on: represent and use number bonds and related subtraction facts within 20; add and subtract one-digit and two-digit numbers to 20, including zero; and read, write and interpret mathematical statements involving addition (`+`), subtraction (`-`) and equals (`=`) signs. These skills build directly on what they have already mastered and prepare them for the next steps in the programme of study.",
-    "in_school": "In lessons, children start with concrete resources — base ten blocks, counters, or number lines — to model calculations physically. They then represent what they have done using drawings and diagrams before practising the formal written method independently. This concrete → pictorial → abstract approach helps the method become secure before moving on.",
-    "home_activity": "Roll two dice twice and use the numbers to make two 2-digit (or 3-digit) numbers. Add them together, then find the difference. Keep a running total over five rounds — who gets the highest? No calculators — the working-out is the fun part.",
+    "plain_english": "This week your child is adding and subtracting with numbers up to 20. They are using doubles (5 + 5) and near doubles (5 + 6 is double 5 plus 1) to work things out faster.",
+    "in_school": "Children use ten-frames to add and subtract, see doubles of small numbers, and count back on a number line for subtraction. They begin to find the difference — for example, how much taller 13 is than 9.",
+    "home_activity": "At dinner, count out two small piles — say 6 grapes and 7 grapes. Ask: how many altogether? Encourage the near-double trick: 6 + 7 is double 6 plus 1. Mix it up with subtraction — if we eat 4, how many are left?",
     "dinner_table_questions": [
-      "Can you show me how to represent and use number bonds and related subtraction facts within 20?",
-      "Was it easy or tricky to add and subtract one-digit and two-digit numbers to 20, including zero? Why?",
-      "How would you explain today's maths to someone who has never seen it before?"
+      "What is double 6?",
+      "If 5 + 5 is 10, what is 5 + 6?",
+      "I have 12 stickers. I gave 5 away. How many do I have now?"
     ],
     "key_vocabulary": [
-      {
-        "term": "sum",
-        "definition": "The result of adding two or more numbers together."
-      },
-      {
-        "term": "column addition",
-        "definition": "A written method where numbers are lined up in columns to add."
-      },
-      {
-        "term": "difference",
-        "definition": "The result of subtracting one number from another."
-      },
-      {
-        "term": "column subtraction",
-        "definition": "A written method where numbers are lined up in columns to subtract."
-      },
-      {
-        "term": "inverse",
-        "definition": "The opposite operation — addition and subtraction are inverses of each other."
-      }
+      {"term": "double", "definition": "Add a number to itself — double 4 is 8."},
+      {"term": "near double", "definition": "An almost-double sum — 4 + 5 is double 4 plus 1."},
+      {"term": "difference", "definition": "How far apart two numbers are."},
+      {"term": "count on", "definition": "Keep counting up from one number to find the total."},
+      {"term": "count back", "definition": "Count down from a number to take some away."}
     ],
     "example_questions": [
-      "What is 8 + 5?",
-      "I have 13 apples and eat 6. How many are left?",
-      "Find the missing number: 6 + ? = 14"
+      "What is 8 + 6?",
+      "What is 17 − 5?",
+      "Find the missing number: 13 + ___ = 20."
     ],
-    "times_table_tip": "Year 1 focuses on the 2, 5, and 10 times tables. Try counting in 2s together on the stairs, or in 10s while counting out coins. Even 2–3 minutes a day builds the familiarity that pays off in Year 2."
+    "times_table_tip": "Year 1 children practise counting in 2s, 5s and 10s. Doubles up to 10 are best friends with the 2 times table — try saying both: 'double 4 is 8; 4 lots of 2 is 8'."
   }
 }

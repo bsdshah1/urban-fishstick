@@ -7,41 +7,26 @@
   "week_number": 1,
   "unit_title": "Place value (within 50)",
   "content": {
-    "plain_english": "This week in Year 1 maths, your child is working on Place value (within 50). The learning focuses on: count to and across 100, forwards and backwards, beginning with 0 or 1, or from any given number; count, read and write numbers to 100 in numerals; and count in multiples of twos, fives and tens. These skills build directly on what they have already mastered and prepare them for the next steps in the programme of study.",
-    "in_school": "In lessons, children use base ten blocks, place value charts, and number lines to explore how numbers are built from hundreds, tens, and ones. They represent the same number in different ways before working abstractly. Understanding place value is the foundation for all other maths, so lessons move carefully and thoroughly.",
-    "home_activity": "Take a pack of playing cards (remove picture cards). Draw three or four cards and make as many different numbers as you can with those digits. Which is the biggest? The smallest? Try rounding each number to the nearest 100. No special equipment — just cards and conversation.",
+    "plain_english": "This week your child is counting and writing numbers up to 50. They are learning to break a number into tens and ones — so 47 is four tens and seven ones.",
+    "in_school": "Children build numbers with bundles of ten straws or base-ten blocks. They count in 2s and 5s up to 50, place numbers on a long number line, and find one more or one less than any number.",
+    "home_activity": "Find any pile of 30-50 small items at home — buttons, pasta, Lego bricks. Ask your child to make piles of ten until they run out. How many tens? How many left over? That's the number. Two minutes — keep it playful.",
     "dinner_table_questions": [
-      "Can you show me how to count to and across 100, forwards and backwards, beginning with 0 or 1, or from any given number?",
-      "Was it easy or tricky to count, read and write numbers to 100 in numerals? Why?",
-      "How would you explain today's maths to someone who has never seen it before?"
+      "Can you count in 2s from 20 to 50?",
+      "What number is one less than 30?",
+      "How many tens are in 42?"
     ],
     "key_vocabulary": [
-      {
-        "term": "digit",
-        "definition": "One of the symbols 0–9 used to write a number."
-      },
-      {
-        "term": "place value",
-        "definition": "The value of a digit based on its position — units, tens, hundreds, and so on."
-      },
-      {
-        "term": "partition",
-        "definition": "Split a number into its parts — e.g. 347 = 300 + 40 + 7."
-      },
-      {
-        "term": "round",
-        "definition": "Give an approximate value to the nearest 10, 100, etc."
-      },
-      {
-        "term": "estimate",
-        "definition": "Make a sensible guess at an answer before you calculate."
-      }
+      {"term": "tens", "definition": "Groups of 10."},
+      {"term": "ones", "definition": "Single items left after making tens."},
+      {"term": "count in 2s", "definition": "Skip every other number — 2, 4, 6, 8, 10."},
+      {"term": "count in 5s", "definition": "Step up by five each time — 5, 10, 15, 20."},
+      {"term": "place value", "definition": "What each digit stands for, depending on its position."}
     ],
     "example_questions": [
-      "What is the tens digit in 47?",
-      "Write the number forty-three.",
-      "Which is greater — 58 or 85?"
+      "Write the number 'forty-three' in numerals.",
+      "What is 1 more than 49?",
+      "How many tens are in 38? How many ones?"
     ],
-    "times_table_tip": "Year 1 focuses on the 2, 5, and 10 times tables. Try counting in 2s together on the stairs, or in 10s while counting out coins. Even 2–3 minutes a day builds the familiarity that pays off in Year 2."
+    "times_table_tip": "Year 1 children practise counting in 2s, 5s and 10s. Count in 5s while drying hands — by 'twenty-five' you've counted to where five fingers (twice) would take you."
   }
 }

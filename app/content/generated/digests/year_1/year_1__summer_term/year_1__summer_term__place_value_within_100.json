@@ -7,41 +7,26 @@
   "week_number": 1,
   "unit_title": "Place value (within 100)",
   "content": {
-    "plain_english": "This week in Year 1 maths, your child is working on Place value (within 100). The learning focuses on: count to and across 100, forwards and backwards, beginning with 0 or 1, or from any given number; count, read and write numbers to 100 in numerals; and count in multiples of twos, fives and tens. These skills build directly on what they have already mastered and prepare them for the next steps in the programme of study.",
-    "in_school": "In lessons, children use base ten blocks, place value charts, and number lines to explore how numbers are built from hundreds, tens, and ones. They represent the same number in different ways before working abstractly. Understanding place value is the foundation for all other maths, so lessons move carefully and thoroughly.",
-    "home_activity": "Take a pack of playing cards (remove picture cards). Draw three or four cards and make as many different numbers as you can with those digits. Which is the biggest? The smallest? Try rounding each number to the nearest 100. No special equipment — just cards and conversation.",
+    "plain_english": "This week your child is counting all the way to 100 and writing two-digit numbers. They are getting more confident saying which is bigger and which is smaller.",
+    "in_school": "Children build numbers with bundles of ten and single ones. They count in 1s, 2s, 5s and 10s. They place numbers on a long number line from 0 to 100 and find one more, one less, ten more and ten less.",
+    "home_activity": "On the walk to school, take turns calling out two-digit numbers you see — door numbers, bus numbers, prices in shop windows. Ask your child to say the number of tens and ones. Then pick two numbers and ask which is bigger.",
     "dinner_table_questions": [
-      "Can you show me how to count to and across 100, forwards and backwards, beginning with 0 or 1, or from any given number?",
-      "Was it easy or tricky to count, read and write numbers to 100 in numerals? Why?",
-      "How would you explain today's maths to someone who has never seen it before?"
+      "Can you count from 50 to 100 with me?",
+      "What number is ten more than 67?",
+      "Which is bigger — 84 or 48?"
     ],
     "key_vocabulary": [
-      {
-        "term": "digit",
-        "definition": "One of the symbols 0–9 used to write a number."
-      },
-      {
-        "term": "place value",
-        "definition": "The value of a digit based on its position — units, tens, hundreds, and so on."
-      },
-      {
-        "term": "partition",
-        "definition": "Split a number into its parts — e.g. 347 = 300 + 40 + 7."
-      },
-      {
-        "term": "round",
-        "definition": "Give an approximate value to the nearest 10, 100, etc."
-      },
-      {
-        "term": "estimate",
-        "definition": "Make a sensible guess at an answer before you calculate."
-      }
+      {"term": "tens", "definition": "Groups of 10."},
+      {"term": "ones", "definition": "Single units left over."},
+      {"term": "two-digit number", "definition": "A number written with two digits — like 47."},
+      {"term": "compare", "definition": "Look at two numbers to see which is bigger or smaller."},
+      {"term": "number line", "definition": "A line with numbers in order, used for counting and comparing."}
     ],
     "example_questions": [
-      "What is the tens digit in 47?",
-      "Write the number forty-three.",
-      "Which is greater — 58 or 85?"
+      "Write 'eighty-six' as a numeral.",
+      "What is one more than 79?",
+      "Order these from smallest to largest: 35, 53, 13, 31."
     ],
-    "times_table_tip": "Year 1 focuses on the 2, 5, and 10 times tables. Try counting in 2s together on the stairs, or in 10s while counting out coins. Even 2–3 minutes a day builds the familiarity that pays off in Year 2."
+    "times_table_tip": "Year 1 children practise counting in 2s, 5s and 10s. Counting in 10s from 0 to 100 takes 10 steps — count them on your fingers."
   }
 }
